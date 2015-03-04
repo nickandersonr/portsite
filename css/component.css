@@ -15,6 +15,7 @@ body {
 	padding: 0;
     margin: 0 auto;
     width: 1162px;
+    height: 460px;
 }
 
 /*************************************
@@ -113,23 +114,22 @@ Movie information
 **************************************/
 
 .info header {
-	color: #FFF;
+	color: #434345;
 	padding: 7px 10px;
 	font-weight: bold;
 	height: 195px;
 	background-size: contain;
 	background-repeat: no-repeat;
-	text-shadow: 0px 1px 1px rgba(0,0,0,1);
 }
 
 .info header h1 {
 	margin: 0 0 2px;
 	font-size: 1.4em;
-    color: #FFF;
+    color: #434345;
 }
 
 .info header .rating {
-	border: 1px solid #FFF;
+	border: 1px solid #434345;
 	padding: 0px 3px;
 }
 
@@ -137,7 +137,7 @@ Movie information
 	padding: 1.2em 1.4em;
 	margin: 2px 0 0;
 	font-weight: 700;
-	color: #666;
+	color: #434345;
 	line-height: 1.4em;
 	/* border-top: 10px solid #555; */
     font-size: 12px;
@@ -166,6 +166,7 @@ Generate "lighting" using box shadows
 .csstransforms3d .movie .info, 
 .csstransforms3d .movie .info header {
 	box-shadow: inset -300px 0px 40px rgba(0,0,0,0.5);
+    background: #d8d8d8;
 }
 
 .csstransforms3d .movie:hover .info, 
@@ -194,18 +195,22 @@ Posters and still images
 }
 
 .scene:nth-child(1) .info header {
-	background-image: url(../img/Sarah_back.jpg);
+	background-image: url(../img/Booj_back.jpg);
+    background-size: contain;
 }
 
 .scene:nth-child(2) .info header {
-	background-image: url(../img/Alyssa_back.jpg);
+	background-image: url(../img/zerista_back.jpg);
+    background-size: contain;
 }
 
 .scene:nth-child(3) .info header {
-	background-image: url(../img/Kim_back.jpg);
+	background-image: url(../img/ocm_back.jpg);
+    background-size: contain;
 }
 .scene:nth-child(4) .info header {
-	background-image: url(../img/Robyn_back.jpg);
+	background-image: url(../img/bm_back.jpg);
+    background-size: contain;
 }
 
 
