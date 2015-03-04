@@ -151,7 +151,7 @@ p.callout {
 }
 
 #work {
-    margin-top: 426px;
+    margin-top: 510px;
 }
 #work h3 {
     text-align: center;
@@ -166,7 +166,59 @@ p.callout {
       font-size: 14px;
       text-align: center;
       color: #7e7e83;
+      position: relative;
+      top: 1px;
 }
+
+
+.achievements {
+  font-size: 11px;
+  margin: 14px 10px 0;
+  background: #434345;
+  border-radius: 6px;
+  color: #f5f5f5;
+  padding: 10px;
+  width: 303px;
+  z-index: 200;
+  position: relative;
+  left: 0;
+}
+.achievements h3 {
+  font-size: 12px;
+  line-height: 1;
+  margin-top: 0;
+  margin-bottom: 0.7rem;
+  font-family: 'Merriweather', serif;
+  font-weight: 300;
+  color: #f5f5f5;
+}
+.achievements ul {
+    list-style: none;
+    margin: 0;
+}
+.achievements ul li {
+    margin-bottom: 18px;
+}
+.achievements h5 {
+  font-size: .75rem;
+  font-style: normal;
+  font-family: 'Merriweather', serif;
+  font-weight: 300;
+  margin-bottom: 0;
+  margin-top: 0;
+  color: #f5f5f5;
+}
+.achievements span {
+  font-style: normal;
+  font-size: 11px;
+}
+.achievements ul li i {
+    float: left;
+    margin-right: 8px;
+    margin-top: 3px;
+      height: 50px;
+}
+
 
 
 .seperator div {
@@ -183,7 +235,7 @@ p.callout {
 #skills li {
     width: 290px;
     overflow: hidden;
-    padding-top: 60px;
+    padding-top: 110px;
 }
 #skills li hr {
     -ms-transform: rotate(-90deg); /* IE 9 */
@@ -202,75 +254,75 @@ p.callout {
     color: #fff;
     background: none;
     position: absolute;
-}
-.pie-chart .label {
     color: #fff;
     background: none;
     position: absolute;
+    font-weight: bold;
 }
 .pie-chart .label.design_label {
-      top: 174px;
+      top: 224px;
       left: 182px;
       color: #434345;
 }
 .pie-chart .label.dev_label {
-      top: 276px;
+      top: 326px;
       left: 149px;
+      color: #434351;
 }
 .pie-chart .label.management_label {
-      top: 205px;
+      top: 255px;
      left: 42px;
 }
 
 #pieChart-active.pie-chart .label.design_label {
-  top: 246px;
+  top: 296px;
   left: 172px;
 }
 #pieChart-active.pie-chart .label.dev_label {
-  top: 205px;
+  top: 255px;
   left: 23px;
 }
 #pieChart-active.pie-chart .label.management_label {
-  top: 145px;
+  top: 195px;
   left: 60px;
 }
 
 #pieChart-zerista.pie-chart .label.design_label {
-  top: 203px;
+  top: 253px;
   left: 188px;
 }
 #pieChart-zerista.pie-chart .label.dev_label {
-  top: 265px;
+  top: 315px;
   left: 56px;
 }
 #pieChart-zerista.pie-chart .label.management_label {
-  top: 145px;
+  top: 195px;
   left: 60px;
 }
 
 #pieChart-ocm.pie-chart .label.design_label {
-  top: 161px;
+  top: 211px;
   left: 173px;
 }
 #pieChart-ocm.pie-chart .label.dev_label {
-  top: 279px;
+  top: 329px;
   left: 123px;
 }
 #pieChart-ocm.pie-chart .label.management_label {
-  top: 175px;
+  top: 225px;
   left: 48px;
 }
 
 #pieChart-bm.pie-chart .label.design_label {
-  top: 138px;
+  top: 188px;
   left: 154px;
 }
 #pieChart-bm.pie-chart .label.dev_label {
-  top: 265px;
+  top: 315px;
   left: 147px;
 }
 #pieChart-bm.pie-chart .label.management_label {
-  top: 175px;
+  top: 225px;
   left: 48px;
 }
 
@@ -285,7 +337,13 @@ p.callout {
   font-family: Garamond;
   color: #777;
   line-height: 0.12;
-  margin-top: 40px;
+  margin-top: 0;
+  float: left;
+  padding-right: 10px;
+  height: 50px;
+  position: relative;
+  top: 24px;
+  left: -10px;
 }
 
 .move-right {
@@ -308,7 +366,7 @@ p.callout {
 }
 
 .student {
-  margin-left: 25px;
+  margin-left: 0px;
   margin-bottom: 25px;
 }
 .student .photo {
@@ -350,6 +408,30 @@ p.callout {
 .testimonial-wrap {
   float: left;
   max-width: 350px;
-}              
+}  
+. testimonial {
+    padding: 0 20px;
+}
 
+#closing h3 {
+    text-align: center;
+}
+#closing p.callout {
+  width: 515px;
+}
+.dark_options {
+    padding-top: 20px;
+}
+
+footer {
+  background: #434345;
+  color: #f5f5f5;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 15px 10px;
+  font-size: 11px;
+  text-align: center;
+}
 
