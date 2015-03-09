@@ -3,6 +3,7 @@ body {
 	font-weight: 300;
 	font-size: 20px;
     color: #434345;
+    background: #f5f5f5;
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Playfair Display', serif;
@@ -448,7 +449,17 @@ footer {
   font-size: 11px;
   text-align: center;
 }
-
+footer.footer_alt {
+  background: #434345;
+  color: #f5f5f5;
+  width: 100%;
+  position: inherit;
+  bottom: 0;
+  left: 0;
+  padding: 15px 10px;
+  font-size: 11px;
+  text-align: center;
+}
 
 /*************************************
 Media Queries
@@ -599,9 +610,6 @@ Media Queries
 /*************************************
 Protected Work
 **************************************/
-#protected body {
-    background: #f5f5f5;
-}
 #protected h1 {
       background: rgba(243, 243, 23, .6);
       font-family: 'Playfair Display', serif;
@@ -626,5 +634,4 @@ figure.effect-duke h2 {
     -webkit-transform: rotate(-20deg); /* Chrome, Safari, Opera */
     transform: rotate(-20deg);
 }
-
 
