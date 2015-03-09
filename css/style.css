@@ -38,6 +38,7 @@ p.callout {
     display: none;
 }
 
+
 .parallax-background {
     background: url('https://unsplash.imgix.net/photo-1418479631014-8cbf89db3431?q=75&fm=jpg&s=478a9a2196033db7c0bf3c8ba3707f4d');
 	/* background-color: #0078A0; */
@@ -329,6 +330,18 @@ p.callout {
 }
 
 
+#ProtectedLink {
+    display: block;
+    font-size: 2rem;
+    text-align: center;
+    clear: both;
+    margin: 20px auto 0;
+    border-radius: 6px;
+    text-decoration: underline;
+}
+
+
+
 #testimonials h3 {
   text-align: center;
   margin-bottom: 20px;
@@ -582,5 +595,31 @@ Media Queries
 }
 
 
-
+/*************************************
+Protected Work
+**************************************/
+#protected h1 {
+      background: rgba(243, 243, 23, .6);
+      font-family: 'Playfair Display', serif;
+      font-weight: 700;
+      font-style: normal;
+      color: #434345;
+      padding-left: 20px;
+      margin: 20px 0;
+}
+#protected p {
+    text-align: inherit;
+    padding: 0 30px;
+}
+figure.effect-duke h2 {
+      font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  font-style: normal;
+  color: #FFF;
+  text-transform: none;
+  background: rgba(243, 243, 23, .6);
+-ms-transform: rotate(-20deg); /* IE 9 */
+    -webkit-transform: rotate(-20deg); /* Chrome, Safari, Opera */
+    transform: rotate(-20deg);
+}
 

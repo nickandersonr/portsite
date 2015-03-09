@@ -1,0 +1,130 @@
+/* Overlay style */
+.overlay {
+	position: fixed;
+	width: 1024px;
+    height: 768px;
+	top: 0;
+	left: 0;
+	background: rgba(176,185,142,0.85);
+    z-index: 100;
+}
+
+/* Overlay closing cross */
+.overlay .overlay-close {
+	width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 12px;
+    top: 75px;
+    overflow: hidden;
+    border: none;
+    background: url(../img/cross.png) no-repeat center center;
+    background-size: 26px 26px;
+    text-indent: 200%;
+    color: transparent;
+    outline: none;
+    z-index: 100;
+}
+
+/* Menu style */
+.overlay nav {
+	text-align: center;
+	position: relative;
+	top: 50%;
+	height: 60%;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+.overlay ul {
+	list-style: none;
+	padding: 0;
+	margin: 160px auto 0;
+	display: inline-block;
+	height: 100%;
+    width: 100%;
+	position: relative;
+    text-align: center;
+}
+
+.overlay ul li {
+	display: block;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.overlay ul li a {
+    margin: 0 auto;
+    width: 510px;
+    font-family: GillSans-Light, Calibri, Arial, sans-serif;
+	font-size: 54px;
+	font-weight: 300;
+	display: block;
+	color: #006b7a;
+	-webkit-transition: color 0.2s;
+	transition: color 0.2s;
+    border-bottom: 2px solid #FFF;
+    display: inline;
+    padding: 30px 0;
+}
+
+.overlay ul li a:hover,
+.overlay ul li a:focus {
+	color: #f0f0f0;
+}
+
+/* Effects */
+.overlay-boxes {
+	background: transparent;
+	visibility: hidden;
+	-webkit-transition: visibility 0s 0.8s;
+	transition: visibility 0s 0.8s;
+}
+
+.overlay-boxes.open {
+	visibility: visible;
+	-webkit-transition: none;
+	transition: none;
+}
+
+.overlay-boxes svg {
+	position: absolute;
+	top: 0;
+	left: 0;
+    opacity: .96;
+}
+
+.overlay-boxes svg path {
+	fill: rgba(176,185,142, 1);
+	display: none;
+}
+
+.overlay-boxes nav,
+.overlay-boxes .overlay-close {
+	opacity: 0;
+	-webkit-transition: opacity 0.5s 0.8s;
+	transition: opacity 0.5s 0.8s;
+}
+
+.overlay-boxes.open nav,
+.overlay-boxes.open .overlay-close {
+	opacity: 1;
+	-webkit-transition-delay: 0.8s;
+	transition-delay: 0.8s;
+}
+
+.overlay-boxes.close nav,
+.overlay-boxes.close .overlay-close {
+	-webkit-transition-delay: 0s;
+	transition-delay: 0s;
+}
+
+@media screen and (max-height: 30.5em) {
+	.overlay nav {
+		height: 70%;
+		font-size: 34px;
+	}
+	.overlay ul li {
+		min-height: 34px;
+	}
+}
