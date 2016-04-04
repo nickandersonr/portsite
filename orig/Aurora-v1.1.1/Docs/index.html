@@ -1,0 +1,231 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<title>Docs</title>
+
+	<!-- CSS -->
+	<!-- Bootstrap core CSS -->
+	<link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+
+	<link href="assets/css/prettify.css" rel="stylesheet">
+
+	<!-- Custom styles CSS -->
+	<link href="assets/css/style.css" rel="stylesheet" media="screen">
+
+</head>
+<body>
+
+	<div class="container main">
+		<div class="row">
+
+			<div class="col-md-3">
+
+				<div class="sidebar hidden-print my_affix" role="complementary" data-spy="affix" data-offset-top="10" data-offset-bottom="200">
+					<ul class="nav sidenav">
+						<li class="active"><a href="#introduction">Introduction</a></li>
+						<li class="">
+							<a href="#customization">Customization</a>
+							<ul class="nav">
+								<li class=""><a href="#preloader">Preloader</a></li>
+								<li class=""><a href="#change-the-background">Change the background</a></li>
+								<li class=""><a href="#wow-animation">Wow-animation</a></li>
+								<li class=""><a href="#twitter">Twitter</a></li>
+								<li class=""><a href="#map">Map</a></li>
+								<li class=""><a href="#contact">Configuring Contact form</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+
+			</div>
+
+			<div class="col-md-9">
+
+				<section class="header">
+					<h1>Docs.</h1>
+				</section>
+
+				<section class="section">
+
+					<h2 id="introduction">Introduction</h2>
+					<h4>Hi customer!</h4>
+					<p>Thank you for choosing this template. If you have any questions please feel free to email <a href="mailto:web-master72@yandex.ru">here</a>.</p>
+
+					<!-- Customization -->
+
+					<h2 id="customization">Customization</h2>
+
+					<h3 id="preloader">Preloader</h3>
+
+					<p>You can change preloader image (<code>style.css</code>):</p>
+<pre class="prettyprint lang-css">
+#status, .status-mes {
+	background-image: url(../images/488.GIF);
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 200px;
+	left: 50%;
+	margin: -100px 0 0 -100px;
+	position: absolute;
+	top: 50%;
+	width: 200px;
+}
+</pre>
+					<p>Change <code>background-image</code>.</p>
+
+					<!-- Change the background -->
+
+					<h3 id="change-the-background">Change the background</h3>
+
+					<h4>If you use parallax or static image:</h4>
+					<p>To change the background image: in the file <code>assets/css/style.css</code> change background image.</p>
+
+
+<pre class="prettyprint lang-css">
+#home {<br /> background: url(../images/home2.jpg);<br /> ...<br />}
+</pre>
+
+					<h4>If you use slideshow:</h4>
+					<p>To change the background images: in the file <code>assets/js/custom.js</code> change or add images.</p>
+
+<pre class="prettyprint lang-js">
+<code> $('#home').backstretch([</code><br /><code> 'assets/images/home1.jpg',</code><br /><code> 'assets/images/home2.jpg',</code><br /><code> ], {duration: 3000, fade: 750});</code>
+</pre>
+
+					<h4>Change about image:</h4>
+					<p>To change the about image: in the file <code>assets/css/style.css</code> change background image.</p>
+<pre class="prettyprint lang-css">
+<code>.side-image {
+ position: absolute;
+ background: url(../images/about.jpg) scroll center no-repeat; <br /> ... <br/>}</code>
+</pre>
+					<!-- WOW Animation -->
+
+					<h3 id="wow-animation">WOW Animation</h2>
+
+					<p>Animations When You Scroll. Add class to any element <code>wow</code>, then add class of <a href="http://daneden.github.io/animate.css/">animations</a>.</p>
+
+					<p><b>Example #1: </b></p>
+
+<pre class="prettyprint lang-html">
+&lt;p class="wow fadeInUp"&gt;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove.&lt;/p&gt;
+</pre>
+
+					<p><b>Example #2: </b></p>
+
+<pre class="prettyprint lang-html">
+&lt;div class="col-md-4 col-sm-4 wow fadeInRight"&gt;
+	...
+&lt;/div&gt;
+</pre>
+					<p><b>Example #3: </b></p>
+<pre class="prettyprint lang-html">
+&lt;div class="col-md-4 col-sm-4 wow fadeInRight" data-wow-delay=".6s" &gt;
+	...
+&lt;/div&gt;
+</pre>
+				<p>Use <code>data-wow-delay</code> for delay.</p>
+				<p>More info: <a href="http://daneden.github.io/animate.css/">animate.css</a>.</p>
+
+				<!-- Twitter portfolio -->
+				<h3 id="twitter">Twitter</h3>
+				<p>How to use:</p>
+				<ul>
+					<li>Create an ID:</li>
+					<li>Go to www.twitter.com and sign in as normal, go to your settings page.</li>
+					<li>Go to "Widgets" on the left hand side.</li>
+					<li>Create a new widget for "user timeline". Feel free to check "exclude replies"</li>
+					<li>if you dont want replies in results.</li>
+					<li>Now go back to settings page, and then go back to widgets page, you should see the widget you just created. Click edit.</li>
+					<li>Now look at the URL in your web browser, you will see a long number like this: 345735908357048478</li>
+					<li>Use this as your ID below instead! <code>(assets/js/custom.js)</code><br/></li>
+				</ul>
+
+				<p><b>Example: </b></p>
+<pre class="prettyprint lang-js">
+<code>var twitterConfig = {<br /> id: '345170787868762112',<br /> domId: '',<br /> maxTweets: 3,<br /> enableLinks: true,<br /> showUser: false,<br /> customCallback: handleTweets<br /> };</code>
+</pre>
+
+
+
+<!-- Map -->
+
+<h3 id="map">Map</h3>
+<p>Open the file <code>assets/js/custom.js</code> and replace it with your coordinates:</p>
+<p><b>Example: </b></p>
+
+<pre class="prettyprint lang-js">
+<code>var mapLocation = new google.maps.LatLng(34.031428,-118.2071542,17);</code>
+</pre>
+
+
+				<!-- Configuring Contact form -->
+
+				<h3 id="contact">Configuring Contact form</h3>
+
+				<p>Open the file <code>assets/php/contactForm.php</code> and enter your data:</p>
+
+				<p><b>Example: </b></p>
+
+<pre class="prettyprint lang-basic">
+// Contact
+$to = 'web-master72@yandex.ru';
+$subject = 'Subject here...';
+</pre>
+				<h4>If Contact form not working</h4>
+				<p>You need to check is PHP mail() function working.</p>
+
+<pre class="prettyprint lang-php">
+<code>&lt;?php</code>
+  <code>mail('you@yourmail.com','Test mail','The mail function is working!');</code>
+  <code>echo 'Mail sent!';</code>
+<code>?&gt;</code>
+</pre>
+
+				<ul>
+					<li>save this code as mailtest.php</li>
+					<li>change you@yourmail.com to your e-mail address</li>
+					<li>upload mailtest.php to your server</li>
+					<li>open mailtest.php in your browser (http://yourwebsite.com/mailtest.php)</li>
+					<li>check your inbox to see if a test message arrived.</li>
+				</ul>
+
+				<p>If it works:</p>
+
+				<ul>
+					<li>double-check your form script for errors (like e-mail address misspelling)</li>
+					<li>use the same e-mail address as your form recipient</li>
+					<li>double-check your SPAM filters and SPAM/Junk/Bulk mailboxes</li>
+				</ul>
+
+				<p>If it not</p>
+
+				<ul>
+					<li>Contact your host and ask them to check PHP mail() setting.</li>
+				</ul>
+
+				<p>If you have any questions please feel free to email <a href="mailto:web-master72@yandex.ru">here</a>.</p>
+
+				</section>
+
+			</div>
+		</div>
+	</div>
+
+	<!-- Javascript files -->
+	<!-- jQuery -->
+	<script src="assets/js/jquery-1.11.0.min.js"></script>
+	<!-- Bootstrap JS -->
+	<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+	<!--HL -->
+	<script src="assets/js/prettify/prettify.js"></script>
+	<!-- Custom scripts -->
+	<script src="assets/js/custom.js"></script>
+
+</body>
+</html>
