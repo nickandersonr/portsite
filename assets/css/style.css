@@ -1268,9 +1268,9 @@ font-size: 14px;
 }
 
 .timeline>li .timeline-image h4 {
-    font-size: 10px;
-    margin-top: 12px;
-    line-height: 14px
+    font-size: 20px;
+    margin-top: 26px;
+    line-height: 14px;
 }
 
 .timeline>li.timeline-inverted>.timeline-panel {
@@ -1332,9 +1332,9 @@ font-size: 14px;
         margin-left: -50px
     }
     .timeline>li .timeline-image h4 {
-        font-size: 13px;
-        margin-top: 16px;
-        line-height: 18px
+        font-size: 27px;
+        margin-top: 34px;
+        line-height: 18px;
     }
     .timeline>li.timeline-inverted>.timeline-panel {
         float: right;
@@ -1356,9 +1356,9 @@ font-size: 14px;
         margin-left: -75px
     }
     .timeline>li .timeline-image h4 {
-        font-size: 30px;
-        margin-top: 30px;
-        line-height: 26px
+        font-size: 42px;
+        margin-top: 54px;
+        line-height: 26px;
     }
     .timeline>li.timeline-inverted>.timeline-panel {
         padding: 0 20px 20px
@@ -1398,4 +1398,44 @@ font-size: 14px;
 
 .module-alt {
     background: #ddeae9;
+}
+
+.timeline h5 {
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    color: #666;
+    font-style: italic;
+    text-transform: none;
+}
+
+
+
+
+#testimonies .iconbox-title {
+    margin-bottom: 0;
+}
+#testimonies .iconbox-desc {
+    margin-top: 15px;
+}
+.photo {
+    background-color: #ccc;
+    border-radius: 100px;
+    width: 160px;
+    height: 160px;
+    display: block;
+    margin: 0 auto;
+    border: 7px solid #f1f1f1;
+}
+.Tony {
+    background: url('../images/testimonies/Tony.jpg');
+    background-size: contain;
+}
+.Robyn {
+    background: url('../images/testimonies/Robyn.jpg');
+    background-size: contain;
+}
+.Jason {
+    background: url('../images/testimonies/Jason.png');
+    background-size: contain;
 }
