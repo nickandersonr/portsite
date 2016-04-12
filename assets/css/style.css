@@ -1417,6 +1417,7 @@ font-size: 14px;
 }
 #testimonies .iconbox-desc {
     margin-top: 15px;
+    text-align: left;
 }
 .photo {
     background-color: #ccc;
