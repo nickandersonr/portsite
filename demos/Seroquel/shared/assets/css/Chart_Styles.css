@@ -1,0 +1,457 @@
+
+
+/*--------------------------STEP 0------------------------------------*/
+
+
+
+
+.weeks {
+    position: absolute;
+    top: 412px;
+    left: 445px;
+    color: #e4028c;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#step0 .baseline{
+	font-size: 11px;
+	position: absolute;
+	text-align: right;
+	font-weight: bold;
+	top: 396px;
+	left: 185px;
+}
+
+#step0  #slideGraphLabels,
+#step0  #slideGraphLabels.on-graph{
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	top: 295px;
+	left: 835px;
+	list-style-type: none;
+	width: 154px;
+	font-size: 12px;
+	height: 60px;
+	z-index: 50;
+}
+
+#step0  #slideGraphLabels.on-graph{
+	top:194px;
+	left:587px;
+	display:none;
+    font-family: 'DIN-Bold';
+}
+
+#step0 #slideGraphLabel1 {padding:6px 0 0 26px; font-family: Arial, Helvetica, sans-serif; background-image:url(../img/chart_animate/dot-black.png); background-position:10px 8px; background-repeat:no-repeat; background-size:10px 10px;}
+
+#step1 .slideGraphLabel1,
+#step2 .slideGraphLabel1,
+#step4 .slideGraphLabel1 {
+    background-position: 0px 8px;
+    background-repeat: no-repeat;
+    background-size: 10px 10px;
+    margin-left: 6px !important;
+    padding-left: 20px !important;
+}
+
+
+#chart_grid {
+    width: 466px;
+    height: 257px;
+}
+
+#step0 #slideGraphBg{
+	background-color: transparent;
+	border: none;
+
+	width: 466px;
+    height: 257px;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+
+	overflow:hidden;
+
+}
+
+#step0 .vertical-line-cover{
+	background:rgba(255,255,255,0.6) url("../img/chart_animate/vertical-line@2x.png") 0 0 no-repeat;
+	background-size:3px 348px;
+
+	width: 570px;
+	height: 270px;
+
+	position:absolute;
+	top: 0;
+	left: -12px;
+
+
+	z-index:3;
+
+	-webkit-transition:left .5s ease-out;
+}
+
+#step0 .vertical-line-cover.week1{
+	left:93px;
+}
+
+#step0 .vertical-line-cover.complete{
+	-webkit-transition:left 2s ease-out;
+	left:560px;
+}
+
+
+#step0 .vertical-line-cover .flag-box-on-line {
+	-webkit-transition:all 3 ease-out;
+	-transition:all 3 ease-out;
+	width: 300px;
+	display: none;
+	position: absolute;
+    top: 37px;
+    left: 36px;
+	overflow: hidden;
+	z-index: 3;
+    color: #a54773;
+    font-family: 'AvenirNextCondensed-DemiBold';
+    font-size: 15px;
+    text-align: left;
+}
+#step0 .vertical-line-cover .flag-box-on-line b {
+    color: #a54773;
+    font-family: 'AvenirNextCondensed-Bold';
+}
+
+#step0 .flag-box b {
+	
+}
+
+.white-cover{
+	background:white;
+
+	width:560px;
+	height:45px;
+
+	display:none;
+
+	position:absolute;
+	top: 23px;
+	left:11px;
+
+	z-index:1;
+
+		-webkit-transition:width .5s ease-out;
+}
+
+#step0 .vertical-line-cover.week1 .white-cover,
+#step0 .vertical-line-cover.complete .white-cover{
+	opacity:1;
+}
+
+#step0 .vertical-line-cover .pink-circle{
+	background:transparent url("../img/chart_animate/pink_dot.png") 0 0 no-repeat;
+	background-size:11px 11px;
+
+	width:11px;
+	height:11px;
+
+	position:absolute;
+	top: 125px;
+    left: -4px;
+
+	display:none;
+}
+
+#step0 .vertical-line-cover .black-square{
+	background:transparent url("../img/chart_animate/grey_circle.png") 0 0 no-repeat;
+	background-size:11px 11px;
+
+	width:11px;
+	height:11px;
+
+	position:absolute;
+	top: 82px;
+    left: -4px;
+
+	display:none;
+}
+
+#step0 #slideGraphHead{
+	position: absolute;
+    font-family: 'DIN-Regular';
+    font-size: 26px;
+    color: #706d70;
+    width: 526px;
+    top: 77px;
+    left: 196px;
+}
+
+#step0 #madrsLabel{
+	position: absolute;
+	top: 235px;
+	font-size: 12px;
+	color: #e3569e;
+	text-align: center;
+	-webkit-transform: rotate(-90deg);
+	left: 36px;
+	width: 241px;
+}
+
+#step0 .slideFootnotes{
+	position: absolute;
+    top: 490px;
+    left: 196px;
+    font-size: 10px;
+    width: 562px;
+    z-index: 100;
+}
+#step0 .slideFootnotes#slideFootnotesP {
+    top: 404px;
+    left: 187px;
+    font-size: 11px;
+    font-family: "DIN-Regular";
+}
+
+#step0 #slideFootnotesList {
+    display: none;
+	position: absolute;
+	bottom: -19px;
+	font-size: 12px;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	left: 139px;
+	word-spacing: 2px;
+	}
+#step0 #slideFootnotesList li{ margin-bottom:10px;  background-image:url(../img/chart_animate/dot-violet.png); background-position:0px 2px; background-repeat:no-repeat; padding-left:14px; background-size:8px 8px;}
+
+#step0 #graphValue1{position: absolute; top: 264px; left: 756px;font-family: 'DIN-Medium'; font-size:18px;}
+
+#step0 #graphValue2{
+	position: absolute;
+	top: 343px;
+	left: 756px;
+	font-family: 'DIN-Medium';
+	font-size: 18px;
+	color: #df4294;
+}
+/*--------------------------END OF STEP 4------------------------------------*/
+
+
+/*
+ * styles updated at 2014-03-12
+ */
+
+#step0  .slideGraphLabel0,
+#step1  .slideGraphLabel0,
+#step2  .slideGraphLabel0,
+#step4  .slideGraphLabel0,
+#step1 .slideGraphLabel1,
+#step2 .slideGraphLabel1,
+#step4 .slideGraphLabel1{
+	color: #323232;
+	position:relative;
+	margin:0 0 0 1.625rem;
+	padding:.375rem 0 0 0;
+}
+
+#step0  .slideGraphLabel0,
+#step1  .slideGraphLabel0,
+#step2  .slideGraphLabel0,
+#step4  .slideGraphLabel0{
+	color: #df4294;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+#step0 .slideGraphLabel0:before {
+    left: -1.2rem !important;
+}
+
+#step0  .slideGraphLabel0:before,
+#step1  .slideGraphLabel0:before,
+#step2  .slideGraphLabel0:before,
+#step4  .slideGraphLabel0:before
+
+{
+	content: '\2022';
+    font-size: 2.25rem;
+    position: absolute;
+    top: -0.4rem;
+    left: -1.4rem;
+}
+
+
+
+
+
+/* template overrides */
+
+/*--------------------------STEP 0------------------------------------*/
+#step0 header h1{ letter-spacing: -0.03em;word-spacing: 0.7px;margin: 26px 0 0 81px;}
+#step0 header h1 span { color:#e4028c; }
+#step0 header p {
+    margin-left:84px;
+    margin-top:12px;
+    word-spacing:2px;
+    color:#414042;
+    font-family: 'DIN-Light';
+    font-size: 17px;
+    line-height: 21px;
+}
+/*--------------------------END OF STEP 0------------------------------------*/
+
+/*
+ * 2014-03-25 - Animations
+ */
+/* Step 0 */
+#step0 .flag-box {
+    -webkit-transition: all .5 ease-out;
+    -transition: all .5 ease-out;
+    color: #a54773;
+    font-family: 'AvenirNextCondensed-DemiBold';
+    font-size: 15px;
+    word-spacing: 2px;
+    text-align: left;
+    width: 526px;
+    display: none;
+    position: absolute;
+    top: 37px;
+    left: 102px;
+}
+#step0 .flag-box b {
+	color: #a54773;
+    font-family: 'AvenirNextCondensed-Bold';
+}
+
+#step0 .callout-wrapper{
+	width:300px;
+	height:300px;
+
+	position:absolute;
+	left: 0;
+	top: 0;
+
+	z-index:999;
+}
+
+#step0 .callout-dial-wrapper,
+#step0 .callout-dial-wrapper-two{
+	width:290px;
+	height:290px;
+
+	position:absolute;
+	left: 0;
+	top: -12px;
+
+	z-index:9;
+}
+
+#step0 .callout-dial-wrapper-two{
+	width:256px;
+	height:256px;
+
+	top: -3px;
+	left: 10px;
+}
+
+#step0 .callout{
+	background: white;
+	border-radius: 50%;
+	box-sizing: border-box;
+	border: 15px solid #ddd;
+
+	width:224px;
+	height:224px;
+
+	overflow:hidden;
+
+	position: absolute;
+	left: 8px;
+	top: -4px;
+
+	padding: 45px 0 0 0;
+}
+
+#step0 .callout-text{
+    box-sizing: border-box;
+    background:white;
+    border-radius:50%;
+
+    width:204px;
+    height:204px;
+
+    text-align:center;
+    font-family: 'DIN-Bold';
+    line-height:15px;
+
+    position:absolute;
+    top:7px;
+    left:19px;
+
+    z-index:10;
+
+    padding: 25px 0 0 0;
+}
+
+#step0 .circle{
+	-webkit-transition: all 1.7s ease-in-out;
+
+	-webkit-transform: scale(0.94);
+
+	/* -webkit-transform: scale(0.5); */
+
+	width: 300px;
+	height: 300px;
+
+	opacity:0;
+
+	position: absolute;
+	left: 477px;
+	/* top: 0px; */
+	top:100px;
+
+	z-index: 264;
+}
+
+#step0 .circle.show{
+	-webkit-transform: scale(1);
+
+	opacity:1;
+}
+#step0 .callout-text {
+    font-family: 'DINAlternate-Bold';
+}
+
+#step0 .callout-text .big-text{
+	font-size:43px;
+}
+
+#step0 .callout-text .big-text sup,
+#step0 .callout-text .medium-text sup{
+    font-family: 'DINAlternate-Bold';
+    font-size: 25px;
+}
+
+#step0 .callout-text .medium-text{
+	font-size:26px;
+
+	position: relative;
+	top: 5px;
+}
+
+#step0 .callout-text .color-text{
+	color:#e4028c;
+}
+
+#step0 {
+    display: block;
+    width: 600px;
+    height: 340px;
+    position: relative;
+    top: -296px;
+    left: 65px;
+}
+

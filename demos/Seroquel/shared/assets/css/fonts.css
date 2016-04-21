@@ -1,0 +1,29 @@
+@font-face {
+    font-family: StateFont;
+    src: url('../shared/assets/fonts/StateFace-Regular.otf');
+}
+/*
+font-family: 'AvenirNext-Medium';
+
+font-family: 'AvenirNext-Bold';
+
+font-family: "AvenirNextCondensed-Regular";
+
+font-family: 'AvenirNextCondensed-Heavy';
+
+font-family: "AvenirNextCondensed-DemiBold";
+
+font-family: 'AvenirNextCondensed-Medium';
+*/
+@font-face {
+    font-family: DINAlternate-Bold;
+    src: url('../shared/assets/fonts/DIN_Alternate_Bold.ttf');
+}
+
+@font-face {
+    font-family: DINCondensed-Bold;
+    src: url('../shared/assets/fonts/DIN_Condensed_Bold.ttf');
+}
+/*
+font-family: 'HelveticaNeue-Bold';
+*/

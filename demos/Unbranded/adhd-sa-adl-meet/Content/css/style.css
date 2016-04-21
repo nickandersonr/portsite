@@ -1,0 +1,2989 @@
+/*------------------------------------------------------------------------------------------------------------------------------------------------//
+
+table of contents:
+------------------
+	01. html5 display definitions
+	02. base (typopgraphy, lists, embedded content, figures, forms, tables)
+	03. links
+	---------------------
+	04. theme definitions
+	---------------------
+		04a. webfonts
+		04b. main menu
+		04c. content
+	---------------------
+	05. Pages
+	---------------------
+        1. Landing
+        2. Ped Home
+    ---------------------
+	06. non-semantic helper classes
+
+//------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------//
+
+01. html5 display definitions
+
+//------------------------------------------------------------------------------------------------------------------------------------------------*/
+*, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+* {
+    -webkit-user-select: none;
+}
+input {
+    -webkit-user-select: auto;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary { display: block;}
+audio, canvas, video { display: inline-block;}
+audio:not([controls]) { display: none; height: 0;}
+[hidden] { display: none;}
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------//
+
+02. base (typopgraphy, embedded content, figures, forms, tables, selections)
+
+//------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+html { font-family: GillSans, Calibri, Arial, sans-serif; -webkit-text-size-adjust: 100%;}
+body { margin: 0; font-size: 18px; overflow:hidden; line-height: 1;}
+
+h1, h2, h3, h4, h5 { margin: 0; padding: 0; font-weight: normal; }
+
+td { margin: 0; padding: 0; }
+ul, li { margin: 0; padding: 0; }
+
+abbr[title] { border-bottom: 1px dotted;}
+b, strong { font-weight: bold;}
+dfn { font-style: italic;}
+mark { background: #ff0; color: #000;}
+code, kbd, pre, samp { font-family: monospace, serif; font-size: 1em;}
+pre { white-space: pre; white-space: pre-wrap; word-wrap: break-word;}
+q { quotes: "\201C" "\201D" "\2018" "\2019";}
+small { font-size: 80%;}
+sub, sup { position: relative; font-size: 65%; line-height: 0; vertical-align: baseline;}
+sup { font-size: 56%; top: -9px; }
+sub { bottom: -0.25em;}
+
+img { border: 0; vertical-align: middle;}
+svg:not(:root) { overflow: hidden;}
+
+figure { margin: 0;}
+
+fieldset { margin: 0; padding: 0; border: 0;}
+legend { padding: 0; border: 0;}
+button, input, select, textarea { margin: 0; font-family: inherit; font-size: 100%;}
+button, input { line-height: normal;}
+button, html input[type="button"], input[type="reset"], input[type="submit"] { cursor: pointer; -webkit-appearance: button;}
+button[disabled], html input[disabled] { cursor: default;}
+input[type="checkbox"], input[type="radio"] { padding: 0; box-sizing: border-box;}
+input[type="search"] { -webkit-appearance: textfield; box-sizing: content-box; -webkit-box-sizing: content-box;}
+input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration { -webkit-appearance: none;}
+textarea { overflow: auto; resize: vertical; vertical-align: top;}
+
+table { border-collapse: collapse; border-spacing: 0;}
+
+::selection { background: #b3d4fc; text-shadow: none;}
+
+.opacity0 { opacity: 0; }
+.opacity20 { opacity: 0.2; }
+
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------//
+
+03. links
+
+//------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+a { -webkit-tap-highlight-color: transparent; text-decoration: none;}
+a:focus { outline: thin dotted;}
+a:active, a:hover { outline: 0;}
+
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------//
+04. theme definitions
+//------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+.layout {
+	position: relative;
+	width: 1024px;
+	height: 768px;
+	background-size: contain;
+}
+
+#functional-overlay-confirmation {
+	display: none;
+	border: 1px solid #ccc;
+	border-radius: 8px;
+  background-image: -webkit-linear-gradient(top, rgb(255,255,255), rgb(167,196,211));
+	position: absolute;	
+	left: 380px;
+	top: 295px;
+	z-index:501; /*make sure we are on top!*/
+	width: 260px;
+	height: 100px;
+}
+
+#functional-overlay-confirmation p {
+	text-align: center;
+	line-height: 50px;
+	padding: 0;
+	margin: 0;
+	font-size: 18px;
+	color: #005581;
+}
+
+#functional-overlay-confirmation .btn {
+	color: #fff;
+	font-size: 16px;
+	line-height: 37px;
+	text-align: center;
+}
+
+#continue-button {
+	position: absolute;	
+	left: 28px;
+	top: 45px;
+	width: 87px;
+	height: 37px;
+	background: url(../img/btn-continue.png) no-repeat 0 0;
+	background-size: 87px 37px;
+}
+
+#cancel-button {
+	position: absolute;	
+	left: 145px;
+	top: 45px;
+	width: 87px;
+	height: 37px;
+	background: url(../img/btn-cancel.png) no-repeat 0 0;
+	background-size: 87px 37px;
+}
+
+.functional-overlay {
+	position: absolute;
+	top:0;
+	left:0;
+	display:none;
+	z-index:10000; /*make sure we are on top!*/
+	width: 1024px;
+	height: 768px;
+}
+
+.versioninfo {
+    position: absolute;
+    display: none;    
+    top: 35px;
+    left: 985px;
+    font-size: 12px;
+    font-family: ArialRoundedMTBold, Helvetica, Arial, sans-serif;
+}
+
+.logobutton {
+    top: 0;
+    right: 0px;
+    position: absolute;
+    z-index: 100000;
+    height: 40px;
+    width: 110px;
+}
+
+.cmlr-code {
+    position: absolute;
+    top: 179px;
+    left: -21px;
+    color: #616d72;
+    font-size: 8px;
+    -webkit-transform: rotate(90deg);
+    letter-spacing: 0px !important;
+}
+
+.cmlr-code.nofooter {
+    position: absolute;
+    top: 724px;
+    left: -29px;
+    color: #616d72;
+    font-size: 9px;
+    -webkit-transform: rotate(90deg);
+}
+
+.hang {
+    position: relative;
+    top: 15px;
+    left: -8px;
+}
+
+@keyframes arrowbounce {
+  0% {
+    left: 0px;
+  }
+  25% {
+    left: -20px;
+  }
+  50% {
+    left: 0px;
+  }
+  75% {
+    left: -20px;
+  }
+  100% {
+    left: 0px;
+  }
+}
+@-webkit-keyframes arrowbounce {
+  0% {
+    left: 0px;
+  }
+  25% {
+    left: -20px;
+  }
+  50% {
+    left: 0px;
+  }
+  75% {
+    left: -20px;
+  }
+  100% {
+    left: 0px;
+  }
+}
+
+
+.arrow_object {
+    width: 88px;
+    height: 88px;
+    background: rgba(249, 195, 50, 1);
+    position: absolute;
+    z-index: 10;
+}
+.arrow_animate {
+    position: relative;
+    animation: arrowbounce 2s 1;
+    -webkit-animation: arrowbounce 2s 1;
+}
+.arrow_object:after {
+    content: "";
+    position: absolute;
+    left: 100%;
+    top: 0;
+    width: 0;
+    height: 0;
+    border-top: 44px solid transparent;
+    border-left: 44px solid #f9c332;
+    border-bottom: 44px solid transparent;
+    opacity: 1;
+}
+.arrow_text {
+    z-index: 30;
+    position: absolute;
+    padding: 18px 0 0 21px;
+    width: 88px;
+    height: 88px;
+}
+
+/*------------------------------------------------------------------------//
+	04a. webfonts
+//------------------------------------------------------------------------*/
+
+/*  n/a  */
+
+/*------------------------------------------------------------------------//
+	04b. main menu
+//------------------------------------------------------------------------*/
+
+.menu .handle
+{
+	position: absolute;
+    top: 63px;
+    left: 0px;
+    z-index: 98;
+    width: 64px;
+    height: 64px;
+	background: url(../img/menu_handle.png) no-repeat 0 0;
+	background-size: 64px 64px;
+}
+
+#nav_accent {
+    position: absolute;
+    left: 0;
+    bottom:0;
+    width: 98px;
+    height: 117px;
+}
+
+#menu-items {
+    opacity: 0;
+}
+
+.menu li a.ped-active, .menu li a.tween-active, .menu li a.adl-active {
+display: none;
+}
+.menu .ped .ped-active, .menu .tween .tween-active, .menu .adl .adl-active {
+display: block;
+}
+.menu li .day_navBox {
+    margin: 0 auto;
+    width: 510px;
+}
+.menu .day_navBox_li {
+    height: 106px;
+}
+.menu li .day_navBox a {
+    float: left;
+    width: 25%;
+    font-size: 23px;
+}
+.menu li.summary_nav a {
+    clear: both;
+    border-bottom: none;
+}
+
+.ped_page_nav .adl-active {
+    display:none;
+}
+
+.adl_page_nav .ped-active {
+    display:none;
+}
+
+
+/*------------------------------------------------------------------------//
+	04c. content
+//------------------------------------------------------------------------*/
+
+#logo_shire {
+    position: absolute;
+    top: 7px;
+    right: 11px;
+    width: 86px;
+    height: 26px;
+    z-index: 101;
+}
+/*------------------------------------------------------------------------------------------------------------------------------------------------//
+
+02. base (typopgraphy, embedded content, figures, forms, tables, selections)
+
+//------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------------//
+	03.1. Landing
+//------------------------------------------------------------------------*/
+
+#landing .layout {
+    position: relative;
+    width: 1024px;
+    height: 768px;
+    overflow: hidden;
+}
+
+#landing #btn_pediatric {
+    position: absolute;
+    top: 358px;
+    left: 38px;
+}
+#landing #btn_pediatric img {
+    width: 253px;
+    height: 87px;
+}
+#landing #btn_tw {
+    position: absolute;
+    top: 358px;
+    left: 387px;
+}
+#landing #btn_tw img {
+    width: 253px;
+    height: 87px;
+}
+#landing #btn_adult {
+    position: absolute;
+    top: 392px;
+    left: 748px;
+}
+#landing #btn_adult img {
+    width: 173px;
+    height: 87px;
+}
+
+#landing #title_landing {
+    position: absolute;
+    top: 249px;
+    left: 383px;
+    width: 273px;
+    height: 275px;
+}
+
+#landing_slider {
+    width: 1024px;
+    /*width: 2048px;
+    position:absolute;
+    left: -512px;*/
+}
+#ped_home, #tw_home, #adl_home {
+    float:left;
+    width: 341px;
+    background-size: 1024px 768px !important;
+    position: absolute;
+}
+#center_nav {
+    position: absolute;
+    top: 492px;
+    z-index: 30;
+    font-family: GillSans, Calibri, Arial, sans-serif;
+    font-size: 57px;
+    color: #1b6775;
+    background: rgba(249, 195, 50, .8);
+    height: 140px;
+    width: 100%;
+    text-align: center;
+    pointer-events: none;
+}
+#center_nav h1 {
+    font-size: 40px;
+}
+#center_nav p {
+    font-size: 20px;
+}
+
+#button_frame {
+    position: absolute;
+    width: 1024px;
+    height: 760px;
+}
+
+.landingbox {
+    float: left;
+    position: relative;
+    width: 9px;
+    height: 49px;
+    background: rgba(249, 195, 50, 1);
+}
+.double.landingbox {
+    float: left;
+    position: relative;
+    width: 9px;
+    top: 34px;
+    background: rgba(249, 195, 50, 1);
+}
+.buttontext {
+    float: left;
+    height: 108px;
+    width: auto;
+    padding: 0 20px;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.84);
+    text-align: center;
+}
+#btn_pediatric, #btn_tw, #btn_adult {
+    cursor: pointer;
+    z-index: 30;
+    font-family: GillSans, Calibri, Arial, sans-serif;
+    font-size: 57px;
+    color: #FFF;
+}
+
+@keyframes boxbounce_left {
+  0% {
+    left: 0px;
+  }
+  50% {
+    left: 10px;
+  }
+  100% {
+    left: 0px;
+  }
+}
+@-webkit-keyframes boxbounce_left {
+  0% {
+    left: 0px;
+  }
+  50% {
+    left: 10px;
+  }
+  100% {
+    left: 0px;
+  }
+}
+
+@keyframes boxbounce_right {
+  0% {
+    left: 0px;
+  }
+  50% {
+    left: -10px;
+  }
+  100% {
+    left: 0px;
+  }
+}
+@-webkit-keyframes boxbounce_right {
+  0% {
+    left: 0px;
+  }
+  50% {
+    left: -10px;
+  }
+  100% {
+    left: 0px;
+  }
+}
+
+.leftbox {
+    animation: boxbounce_left 2s 1;
+    -webkit-animation: boxbounce_left 2s 1;
+}
+
+.rightbox {
+    animation: boxbounce_right 2s 1;
+    -webkit-animation: boxbounce_right 2s 1;
+}
+
+
+.fadebox {
+    opacity: 0;
+}
+
+#landing .arrow_object {
+    width: 108px;
+    height: 108px;
+}
+#landing .arrow_object:after {
+    border-top: 54px solid transparent;
+    border-left: 54px solid #f9c332;
+    border-bottom: 54px solid transparent;
+    opacity: 1;
+}
+#landing .arrow_text { 
+    width: 134px;
+    height: 108px;
+    padding-top: 35px;
+}
+#landing #ped_home .arrow_text {
+    padding: 22px 0 0 25px;
+}
+#landing #tw_home .arrow_text {
+    padding: 22px 0 0 25px;
+}
+
+
+/*------------------------------------------------------------------------//
+	03.2. Ped Home
+//------------------------------------------------------------------------*/
+
+#ped_home {
+    height: 768px;
+    background: url(../../SlideContent/adhd-sa-landing/img/ped_bg.jpg) no-repeat 0 0;
+    background-position: -548px 0px;
+}
+#ped_home #accent {
+    position: absolute;
+    top: 36px;
+    left:125px;
+    width: 280px;
+    height: 280px;
+}
+#ped_home #title {
+    position: absolute;
+    top: 353px;
+    left:125px;
+    opacity: 0.51;
+    color: #FFF;
+    font-family: GillSans, Calibri, Arial, sans-serif;
+    font-size: 57px;
+    margin: 0;
+}
+#ped_home #subtitle {
+    position: absolute;
+    top: 447px;
+    left:236px;
+    color: #393939;
+    font-family: GillSans, Calibri, Arial, sans-serif;
+    font-size: 30px;
+    margin: 0;
+    text-align: left;
+}
+#ped_home #buttonpretext {
+    position: absolute;
+    top: 568px;
+    left:236px;
+    color: #006b79;
+    font-family: GillSans-Italic, Calibri, Arial, sans-serif;
+    font-size: 55px;
+    margin: 0;
+    text-align: left;
+}
+#ped_home #arrow {
+    position: absolute;
+    top: 543px;
+    left: 503px;
+    color: #006b79;
+    font-family: GillSans-Italic, Calibri, Arial, sans-serif;
+    font-size: 32px;
+    margin: 0;
+    text-align: left;
+    width: 162px;
+    height: 107px;
+    vertical-align: middle;
+    line-height: 32px;
+}
+#ped_home #foottext {
+    position: absolute;
+    bottom: 25px;
+    left:236px;
+    color: #393939;
+    font-family: GillSans, Calibri, Arial, sans-serif;
+    font-size: 21px;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    opacity: 0.81;
+    line-height: 1.10;
+}
+
+/*------------------------------------------------------------------------//
+	03.2.05 Tween Home
+//------------------------------------------------------------------------*/
+
+#tw_home {
+    left: 342px;
+    height: 768px;
+    background: url(../../SlideContent/adhd-sa-landing/img/tw_bg.jpg) no-repeat top left fixed;
+} 
+#tw_home #accent {
+    position: absolute;
+    top: 36px;
+    left:125px; 
+    width: 280px;
+    height: 280px;
+}
+#tw_home #title {
+    position: absolute;
+    top: 353px;
+    left:125px;
+    opacity: 0.51;
+    color: #FFF;
+    font-family: GillSans, Calibri, Arial, sans-serif;
+    font-size: 57px;
+    margin: 0;
+}
+#tw_home #subtitle {
+    position: absolute;
+    top: 160px;
+    left: 606px;
+    color: #393939;
+    font-family: GillSans, Calibri, Arial, sans-serif;
+    font-size: 30px;
+    margin: 0;
+    text-align: left;
+}
+#tw_home #buttonpretext {
+    position: absolute;
+    top: 274px;
+    left: 620px;
+    color: #006b79;
+    font-family: GillSans-Italic, Calibri, Arial, sans-serif;
+    font-size: 27px;
+    margin: 0;
+    text-align: left;
+}
+#tw_home #arrow {
+    position: absolute;
+    top: 248px;
+    left: 844px;
+    color: #006b79;
+    font-family: GillSans-Italic, Calibri, Arial, sans-serif;
+    font-size: 32px;
+    margin: 0;
+    text-align: left;
+    width: 162px;
+    height: 107px;
+    vertical-align: middle;
+    line-height: 32px;
+}
+#tw_home #foottext {
+    position: absolute;
+    bottom: 80px;
+    left: 76px;
+    color: #393939;
+    font-family: GillSans, Calibri, Arial, sans-serif;
+    font-size: 21px;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    opacity: 0.81;
+    line-height: 1.10;
+}
+
+/*------------------------------------------------------------------------//
+	03.2.1 Adl Home
+//------------------------------------------------------------------------*/
+
+#adl_home {
+    left: 683px;
+    height: 768px;
+    background: url(../../SlideContent/adhd-sa-landing/img/adl_bg.jpg) no-repeat 0 0;
+    background-position: 0px 0px;
+}
+#adl_home #accent {
+    position: absolute;
+    top: 197px;
+    left: 336px;
+    width: 250px;
+    height: 250px;
+}
+#adl_home #title {
+    position: absolute;
+    top: 362px;
+    right: 133px;
+    opacity: 0.51;
+    color: #474c55;
+    font-family: GillSans, Calibri, Arial, sans-serif;
+    font-size: 57px;
+    margin: 0;
+}
+#adl_home #subtitle {
+    position: absolute;
+    top: 107px;
+    right: 120px;
+    color: #393939;
+    font-family: GillSans, Calibri, Arial, sans-serif;
+    font-size: 30px;
+    margin: 0;
+    text-align: left;
+}
+#adl_home #buttonpretext {
+    position: absolute;
+    bottom: 140px;
+    right: 238px;
+    color: #006b79;
+    font-family: GillSans-Italic, Calibri, Arial, sans-serif;
+    font-size: 36px;
+    margin: 0;
+    text-align: left;
+}
+#adl_home #arrow {
+    position: absolute;
+    bottom: 123px;
+    right: 60px;
+    color: #006b79;
+    font-family: GillSans-Italic, Calibri, Arial, sans-serif;
+    font-size: 32px;
+    margin: 0;
+    text-align: left;
+    width: 162px;
+    height: 107px;
+    vertical-align: middle;
+    line-height: 32px;
+}
+#adl_home #foottext {
+    position: absolute;
+    bottom: 34px;
+    right: 141px;
+    color: #393939;
+    font-family: GillSans, Calibri, Arial, sans-serif;
+    font-size: 21px;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    opacity: 0.81;
+    line-height: 1.10;
+}
+
+/*------------------------------------------------------------------------//
+	03.3. Ped Meet
+//------------------------------------------------------------------------*/
+
+#ped_meet .layout {
+    position: relative;
+    width: 1024px;
+    height: 768px;
+    background: url(../../SlideContent/adhd-sa-ped-meet/img/bg_ped_meet.jpg) no-repeat 0 0;
+    background-size: contain;
+}
+#ped_meet #mom {
+    position: absolute;
+    top: 64px;
+    right: 0;
+    color: #FFF;
+    font-family: GillSans-Italic, Calibri, Arial, sans-serif;
+    font-size: 24px;
+    margin: 0;
+    text-align: left;
+    background: url(../../SlideContent/adhd-sa-ped-meet/img/ped_meet_mom.png) no-repeat 0 0;
+    background-size: contain;
+    width: 256px;
+    height: 160px;
+    line-height: 27px;
+    padding: 39px 0 0 5px;
+    z-index: 2;
+}
+#ped_meet #mom p {
+    text-align: center;
+    width: 122px;
+    margin: 0;
+    padding: 0;
+}
+#ped_meet #accent {
+    position: absolute;
+    top: 146px;
+    right: 223px;
+    width: 159px;
+    height: 143px;
+}
+#ped_meet #title {
+    position: absolute;
+    top: 248px;
+    left:34px;
+    color: #FFF;
+    font-family: GillSans-Italic, Calibri, Arial, sans-serif;
+    font-size: 45px;
+    margin: 0;
+}
+#ped_meet #subtitle {
+    position: absolute;
+    top: 307px;
+    left:52px;
+    color: #323131;
+    font-family: GillSans-Italic, Calibri, Arial, sans-serif;
+    font-size: 26px;
+    margin: 0;
+    text-align: left;
+}
+#ped_meet #story {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 384px;
+    height: 387px;
+    background: rgba(249, 195, 50, 1); 
+    color: #1b6775;
+    text-align: left;
+    padding: 39px 0 0 43px;
+}
+#ped_meet #story h2 {
+    font-family: GillSans-Italic, Calibri, Arial, sans-serif;
+    font-size: 28px;
+}
+#ped_meet #story li {
+    font-size: 20px;
+    list-style-type:square;
+    margin: 16px 0 16px 16px;
+}
+#ped_meet #footnote_hang {
+    position: relative;
+    top: 36px;
+}
+#ped_meet #story_footnote {
+    font-size: 15px;
+    padding: 0px;
+    margin: 0px;
+}
+#ped_meet #callout {
+    font-family: GillSans-Italic, Calibri, Arial, sans-serif;
+    position: absolute;
+    top: 225px;
+    left: 543px;
+    width: 225px;
+    height: 225px;
+    background: rgba(249, 195, 50, 1); 
+    color: #1b6775;
+    font-size: 25px;
+    text-align: left;
+    padding: 64px 0 0 25px;
+}
+#ped_meet #body_text {
+    position: absolute;
+    bottom: 20px;
+    left: 406px;
+    color: #5b5c5f;
+    text-align: left;
+    margin-bottom: 18px;
+}
+#ped_meet #body_text h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+#ped_meet .bodytext_column {
+    float: left;
+    width: 316px;
+    margin-right: -38px;
+}
+#ped_meet #body_text h5 {
+    font-family: GillSans-Italic, Calibri, Arial, sans-serif;
+    font-size: 18px;
+    margin-bottom: 4px;
+}
+#ped_meet #body_text li {
+    font-family: AvenirNextCondensed-Regular, Calibri, Arial, sans-serif;
+    font-size: 15px;
+    list-style: none;
+    margin-bottom: 2px;
+}
+#ped_meet #body_text ul li:before{ 
+    content:"-"; 
+    position:relative; 
+    left:-5px;
+}
+#ped_meet #bodytext_footer {
+    font-family: AvenirNextCondensed-Bold, Calibri, Arial, sans-serif;
+    clear: both;
+    padding: 12px 0 0 0;
+    font-size: 15px;
+}
+#ped_meet #arrow {
+    position: absolute;
+    bottom: 32px;
+    width: 130px;
+    height: 87px;
+    background-size: contain;
+    color: #1b6775;
+    font-size: 24px;
+}
+
+/*------------------------------------------------------------------------//
+	03.3. Tween Meet
+//------------------------------------------------------------------------*/
+
+#tw_meet .layout {
+    position: relative;
+    width: 1024px;
+    height: 768px;
+    background: url(../../SlideContent/adhd-sa-tween-meet/img/bg_tw_meet.jpg) no-repeat 0 0;
+    background-size: contain;
+}
+#tw_meet #mom {
+    position: absolute;
+    top: 64px;
+    right: 0;
+    color: #FFF;
+    font-family: GillSans-Italic, Calibri, Arial, sans-serif;
+    font-size: 24px;
+    margin: 0;
+    text-align: left;
+    background: url(../../SlideContent/adhd-sa-tween-meet/img/tw_meet_mom.png) no-repeat 0 0;
+    background-size: contain;
+    width: 256px;
+    height: 160px;
+    line-height: 27px;
+    padding: 39px 0 0 5px;
+    z-index: 2;
+}
+#tw_meet #mom p {
+    text-align: center;
+    width: 122px;
+    margin: 0;
+    padding: 0;
+}
+#tw_meet #accent {
+    position: absolute;
+    top: 18px;
+    right: 138px;
+    width: 144px;
+    height: 284px;
+}
+#tw_meet #title {
+    position: absolute;
+    top: 140px;
+    left: 99px;
+    color: #FFF;
+    font-family: GillSans-Italic, Calibri, Arial, sans-serif;
+    font-size: 38px;
+    margin: 0;
+}
+#tw_meet #subtitle {
+    position: absolute;
+    top: 230px;
+    left: 99px;
+    color: #FFF;
+    font-family: GillSans-Italic, Calibri, Arial, sans-serif;
+    font-size: 28px;
+    margin: 0;
+    text-align: left;
+}
+#tw_meet #story {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 384px;
+    height: 387px;
+    background: rgba(249, 195, 50, .8); 
+    color: #1b6775;
+    text-align: left;
+    padding: 39px 0 0 43px;
+}
+#tw_meet #story h2 {
+    font-family: GillSans-Italic, Calibri, Arial, sans-serif;
+    font-size: 28px;
+}
+#tw_meet #story li {
+    font-size: 20px;
+    list-style-type:square;
+    margin: 16px 0 16px 16px;
+}
+#tw_meet #footnote_hang {
+    position: relative;
+    top: 0;
+}
+#tw_meet #story_footnote {
+    font-size: 15px;
+    padding: 0px;
+    margin: 0px;
+}
+#tw_meet #callout {
+    font-family: GillSans-Italic, Calibri, Arial, sans-serif;
+    position: absolute;
+    top: -30px;
+    left: 74px;
+    width: 458px;
+    height: 225px;
+    /* background: rgba(249, 195, 50, 1); */
+    color: #ffeab6;
+    font-size: 25px;
+    text-align: left;
+    padding: 64px 0 0 25px;
+}
+#tw_meet #body_text {
+    position: absolute;
+    bottom: 20px;
+    left: 406px;
+    color: #000;
+    text-align: left;
+    margin-bottom: 18px;
+}
+#tw_meet #body_text h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+#tw_meet .bodytext_column {
+    float: left;
+    width: 316px;
+    margin-right: -38px;
+}
+#tw_meet #body_text h5 {
+    font-family: GillSans-Italic, Calibri, Arial, sans-serif;
+    font-size: 18px;
+    margin-bottom: 4px;
+}
+#tw_meet #body_text li {
+    font-family: AvenirNextCondensed-Regular, Calibri, Arial, sans-serif;
+    font-size: 15px;
+    list-style: none;
+    margin-bottom: 2px;
+}
+#tw_meet #body_text ul li:before{ 
+    content:"-"; 
+    position:relative; 
+    left:-5px;
+}
+#tw_meet #bodytext_footer {
+    font-family: AvenirNextCondensed-Bold, Calibri, Arial, sans-serif;
+    clear: both;
+    padding: 12px 0 0 0;
+    font-size: 15px;
+}
+#tw_meet #arrow {
+    position: absolute;
+    bottom: 32px;
+    width: 130px;
+    height: 87px;
+    background-size: contain;
+    color: #1b6775;
+    font-size: 24px;
+}
+
+/*------------------------------------------------------------------------//
+	03.4. Ped Meet Mom
+//------------------------------------------------------------------------*/
+
+#ped_meet_mom .layout {
+    position: relative;
+    width: 1024px;
+    height: 768px;
+    background: url(../../SlideContent/adhd-sa-ped-meet-mom/img/bg_ped_meet_mom.jpg) no-repeat 0 0;
+    background-size: contain;
+}
+#ped_meet_mom #kid {
+    position: absolute;
+    top: 64px;
+    right: 0;
+    color: #FFF;
+    font-family: GillSans-Italic, Calibri, Arial, sans-serif;
+    font-size: 24px;
+    margin: 0;
+    text-align: left;
+    background: url(../../SlideContent/adhd-sa-ped-meet-mom/img/ped_meet_mom_kid.png) no-repeat 0 0;
+    background-size: contain;
+    width: 256px;
+    height: 160px;
+    line-height: 27px;
+    padding: 39px 0 0 5px;
+    z-index: 2;
+}
+#ped_meet_mom #kid p {
+    text-align: center;
+    width: 122px;
+    margin: 0;
+    padding: 16px 0 0 0;
+}
+#ped_meet_mom #accent {
+    position: absolute;
+    top: 513px;
+    right: 178px;
+    width: 159px;
+    height: 143px;
+}
+#ped_meet_mom #title {
+    position: absolute;
+    top: 248px;
+    left: 34px;
+    color: #1b6775;
+    font-family: GillSans-Italic, Calibri, Arial, sans-serif;
+    font-size: 45px;
+    margin: 0;
+}
+#ped_meet_mom #subtitle {
+    position: absolute;
+    top: 307px;
+    left:52px;
+    color: #323131;
+    font-family: GillSans-Italic, Calibri, Arial, sans-serif;
+    font-size: 26px;
+    margin: 0;
+    text-align: left;
+}
+#ped_meet_mom #story {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 384px;
+    height: 387px;
+    background: rgba(27, 103, 117, 1); 
+    color: #FFF;
+    text-align: left;
+    padding: 39px 0 0 40px;
+}
+#ped_meet_mom #story h2 {
+    font-family: GillSans-Italic, Calibri, Arial, sans-serif;
+    font-size: 28px;
+}
+#ped_meet_mom #story li {
+    font-size: 20px;
+    list-style-type:square;
+    margin: 16px 0 16px 16px;
+}
+#ped_meet_mom #footnote_hang {
+    position: relative;
+    top: 53px;
+}
+#ped_meet_mom #story_footnote {
+    font-size: 15px;
+    padding: 0px;
+    margin: 0px;
+}
+#ped_meet_mom #callout {
+    font-family: GillSans-Italic, Calibri, Arial, sans-serif;
+    position: absolute;
+    top: 351px;
+    right: 0;
+    width: 256px;
+    height: 226px;
+    background: rgba(27, 103, 117, 1);
+    color: #FFF;
+    font-size: 24px;
+    text-align: left;
+    line-height: 27px;
+    padding: 34px 0 0 25px;
+}
+#ped_meet_mom #arrow {
+    position: absolute;
+    bottom: 32px;
+    width: 130px;
+    height: 87px;
+    color: #1b6775;
+    font-size: 24px;
+}
+
+/*------------------------------------------------------------------------//
+	03.4. Tween Meet Mom
+//------------------------------------------------------------------------*/
+
+#tw_meet_mom .layout {
+    position: relative;
+    width: 1024px;
+    height: 768px;
+    background: url(../../SlideContent/adhd-sa-tween-meet-mom/img/bg_tw_meet_mom.jpg) no-repeat 0 0;
+    background-size: contain;
+}
+#tw_meet_mom #kid {
+    position: absolute;
+    top: 64px;
+    right: 0;
+    color: #FFF;
+    font-family: GillSans-Italic, Calibri, Arial, sans-serif;
+    font-size: 24px;
+    margin: 0;
+    text-align: left;
+    background: url(../../SlideContent/adhd-sa-tween-meet-mom/img/tw_meet_mom_kid.png) no-repeat 0 0;
+    background-size: contain;
+    width: 256px;
+    height: 160px;
+    line-height: 27px;
+    padding: 39px 0 0 5px;
+    z-index: 2;
+}
+#tw_meet_mom #kid p {
+    text-align: center;
+    width: 122px;
+    margin: 0;
+    padding: 16px 0 0 0;
+}
+#tw_meet_mom #accent {
+    position: absolute;
+    top: 481px;
+    right: 176px;
+    width: 159px;
+    height: 143px;
+}
+#tw_meet_mom #title {
+    position: absolute;
+    top: 248px;
+    left: 34px;
+    color: #ffffff;
+    font-family: GillSans-Italic, Calibri, Arial, sans-serif;
+    font-size: 45px;
+    margin: 0;
+}
+#tw_meet_mom #subtitle {
+    position: absolute;
+    top: 307px;
+    left:52px;
+    color: #323131;
+    font-family: GillSans-Italic, Calibri, Arial, sans-serif;
+    font-size: 26px;
+    margin: 0;
+    text-align: left;
+}
+#tw_meet_mom #story {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 384px;
+    height: 387px;
+    background: rgba(27, 103, 117, .8); 
+    color: #FFF;
+    text-align: left;
+    padding: 39px 0 0 40px;
+}
+#tw_meet_mom #story h2 {
+    font-family: GillSans-Italic, Calibri, Arial, sans-serif;
+    font-size: 28px;
+}
+#tw_meet_mom #story li {
+    font-size: 20px;
+    list-style-type:square;
+    margin: 16px 0 16px 16px;
+}
+#tw_meet_mom #footnote_hang {
+    position: relative;
+    top: 0;
+}
+#tw_meet_mom #story_footnote {
+    font-size: 15px;
+    padding: 0px;
+    margin: 0px;
+}
+#tw_meet_mom #callout {
+    font-family: GillSans-Italic, Calibri, Arial, sans-serif;
+    position: absolute;
+    top: 351px;
+    right: 0;
+    width: 256px;
+    height: 226px;
+    background: rgba(27, 103, 117, .8);
+    color: #FFF;
+    font-size: 24px;
+    text-align: left;
+    line-height: 27px;
+    padding: 34px 0 0 25px;
+}
+#tw_meet_mom #arrow {
+    position: absolute;
+    bottom: 32px;
+    width: 130px;
+    height: 87px;
+    color: #1b6775;
+    font-size: 24px;
+}
+
+/*------------------------------------------------------------------------//
+	03.5. Ped Day
+//------------------------------------------------------------------------*/
+
+#ped_day .layout {
+    position: relative;
+    width: 1024px;
+    height: 768px;
+}
+#ped_day .mom {
+    position: absolute;
+    top: 64px;
+    right: 0;
+    color: #FFF;
+    font-family: GillSans-Italic, Calibri, Arial, sans-serif;
+    font-size: 24px;
+    margin: 0;
+    text-align: left;
+    width: 256px;
+    height: 160px;
+    line-height: 27px;
+    z-index: 2;
+}
+#ped_day .mom_expander {
+    position: absolute;
+    top: 0;
+    width: 128px;
+    height: 160px;
+    background: rgba(4, 82, 96, 1);
+}
+#ped_day .mom .mom_title {
+    padding-top: 38px;
+}
+#ped_day .mom .mom_text {
+    font-size: 19px;
+    opacity: 0;
+    text-align: left;
+    padding-left: 24px;
+    position: relative;
+    top: -72px;
+    height: 0;
+}
+#ped_day .mom_arrow {
+    float: right;
+    width: 128px;
+    height: 160px;
+}
+#ped_day .mom_arrow img {
+     width: 128px;
+    height: 160px;
+}
+#ped_day .mom p {
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+#ped_day .mom_x {
+    position: absolute;
+    top: 64px;
+    right: 128px;
+    opacity: 0;
+    width: 0px;
+    height: 0px;
+    z-index: 23;
+}
+#ped_day .mom_x img {
+    float: right;
+    width: 17px;
+    height: 17px;
+    margin: 7px 7px 0 0;
+}
+#ped_day .accent {
+    position: absolute;
+    top: 383px;
+    right: 256px;
+    width: 159px;
+    height: 143px;
+}
+#ped_day .accent .accent_state{
+    position: absolute;
+    width: 159px;
+    height: 143px;
+    display: none;
+}
+#ped_day .text_callout {
+    position: absolute;
+    top: 33px;
+    left: 378px;
+    color: #1b6775;
+    font-family: GillSans-Italic, Calibri, Arial, sans-serif;
+    font-size: 27px;
+    margin: 0;
+}
+#ped_day .deal {
+    display: block;
+    position: absolute;
+    top: 236px;
+    width: 128px;
+    height: 128px;
+
+}
+#ped_day .deal_arrow {
+    float: left;
+    width: 17px;
+    height: 128px;
+    background: rgba(250, 196, 19, 1);
+    background-size: contain;
+}
+#ped_day .deal_arrow img {
+    width: 17px;
+    height: 128px;
+}
+#ped_day .deal_expander {
+    position: absolute;
+    left: 17px;
+    width: 111px;
+    height: 128px;
+    font-size: 22px;
+    background: rgba(250, 196, 19, 1);
+    padding: 0 21px;
+    cursor: pointer;
+}
+#ped_day .deal .deal_text {
+    margin: 0;
+    opacity: 0;
+    height: 0;
+}
+#ped_day .deal .deal_x {
+    position: absolute;
+    top: 0px;
+    right: -114px;
+    opacity: 0;
+    width: 0px;
+    height: 0px;
+}
+#ped_day .deal .deal_x img {
+    float: right;
+    width: 17px;
+    height: 17px;
+    margin: 7px 7px 0 0;
+}
+#ped_day .deal p {
+    font-family: GillSans-Italic, Calibri, Arial, sans-serif;
+    font-size: 22px;
+    color: #1b6775;
+    margin: 37px 0 0 0;
+    width: 128px;
+    text-align: center; 
+    width: 100% 
+}
+#ped_day .deal .deal_title {
+    font-size: 28px;
+}
+
+#ped_day .callout {
+    font-family: GillSans-Italic, Calibri, Arial, sans-serif;
+    position: absolute;
+    bottom: 127px;
+    right: 0;
+    width: 256px;
+    height: 226px;
+    background: rgba(249, 195, 50, 1);
+    color: #1b6775;
+    font-size: 24px;
+    line-height: 27px;
+    text-align: left;
+}
+.ped-1 {padding: 45px 0 0 25px;}
+.ped-2 {padding: 32px 0 0 25px;}
+.ped-3 {padding: 32px 0 0 25px;}
+.ped-4 {padding: 31px 0 0 25px;}
+.day-thumbs {
+    position: absolute;
+    top: 287px;
+    left: 640px;
+    width: 128px;
+    height: 128px;
+    z-index: 1;
+}
+.ped-day-thumb-1 {
+    background: url(../../SlideContent/adhd-sa-ped-day/img/ped-day-thumb-1.jpg) no-repeat 0 0;
+    background-size: contain;
+}  
+.ped-day-thumb-2 {
+    background: url(../../SlideContent/adhd-sa-ped-day/img/ped-day-thumb-2.jpg) no-repeat 0 0;
+    background-size: contain;
+}  
+.ped-day-thumb-3 {
+    background: url(../../SlideContent/adhd-sa-ped-day/img/ped-day-thumb-3.jpg) no-repeat 0 0;
+    background-size: contain;
+}  
+.ped-day-thumb-4 {
+    background: url(../../SlideContent/adhd-sa-ped-day/img/ped-day-thumb-4.jpg) no-repeat 0 0;
+    background-size: contain;
+}  
+.adl-day-thumb-1 {
+    background: url(../../SlideContent/adhd-sa-adl-day/img/adl-day-thumb-1.jpg) no-repeat 0 0;
+    background-size: contain;
+}  
+.adl-day-thumb-2 {
+    background: url(../../SlideContent/adhd-sa-adl-day/img/adl-day-thumb-2.jpg) no-repeat 0 0;
+    background-size: contain;
+}  
+.adl-day-thumb-3 {
+    background: url(../../SlideContent/adhd-sa-adl-day/img/adl-day-thumb-3.jpg) no-repeat 0 0;
+    background-size: contain;
+}  
+.adl-day-thumb-4 {
+    background: url(../../SlideContent/adhd-sa-adl-day/img/adl-day-thumb-4.jpg) no-repeat 0 0;
+    background-size: contain;
+}  
+#ped_day .body_text {
+    position: absolute;
+    bottom: 155px;
+    left: 127px;
+    color: #5b5c5f;
+    text-align: left;
+}
+#ped_day .body_text h4 {
+    font-size: 22px;
+    margin-bottom: 11px;
+}
+#ped_day .body_text p {
+    font-family: AvenirNextCondensed-Regular, Calibri, Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.15;
+    margin: 0;
+}
+
+/* Day Nav*/
+
+#ped_day #day_nav {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 143px;
+    width: 100%;
+}
+#ped_day #day_nav .nav_block {
+    float:left;
+    width: 25%;
+}
+#ped_day #day_nav .nav_block a {
+    display: block;
+    height: 128px;
+    font-family: GillSans-Light, Calibri, Arial, sans-serif;
+    font-size: 28px;
+    text-align: right;
+}
+#ped_day #day_nav .nav_block a span {
+    position: relative;
+    top: 36px;
+    right: 34px;
+    text-align: right;
+    display: block;
+    width: 94px;
+    float: right;
+}
+#ped_day #day_nav .active_arrow {
+    height: 16px;
+}
+#ped_day #day_nav .arrow_up {
+    width: 0;
+    height: 0;
+    border-left: 16px solid transparent;
+    border-right: 16px solid transparent;
+    border-bottom: 16px solid transparent;
+    margin: 0 auto;
+
+}
+#ped_day #day_nav a img {
+    position: relative;
+    left: -98px;
+    top: 42px;
+    width: 45px;
+    height: 45px;
+}
+#ped_day #day_nav #start a {
+    background-color: #f5cd5a;
+    color: #fff;
+}
+#ped_day #day_nav #start a img {
+    width: 49px;
+    height: 48px;
+}
+#ped_day #day_nav #start .arrow_up {
+    border-bottom-color: #f5cd5a;
+}
+#ped_day #day_nav #school a {
+    background-color: #f7e1a2;
+    color: #cab371;
+}
+#ped_day #day_nav #school a img {
+    width: 47px;
+    height: 45px;
+    top: 46px;
+}
+#ped_day #day_nav #school .arrow_up {
+    border-bottom-color: #f7e1a2;
+}
+#ped_day #day_nav #after a {
+    background-color: #96b687;
+    color: #617a55;
+}
+#ped_day #day_nav #after a img {
+    width: 78px;
+    height: 69px;
+    left: -66px;
+    top: 30px;
+}
+#ped_day #day_nav #after .arrow_up {
+    border-bottom-color: #96b687;
+}
+#ped_day #day_nav #end a {
+    background-color: #32545a;
+    color: #698e95;
+}
+#ped_day #day_nav #end a img {
+    width: 46px;
+    height: 38px;
+    top: 50px;
+}
+#ped_day #day_nav #end .arrow_up {
+    border-bottom-color: #32545a;
+}
+
+#ped_day #day_nav #school .active_arrow,
+#ped_day #day_nav #after .active_arrow,
+#ped_day #day_nav #end .active_arrow,
+#ped_day #school_page,
+#ped_day #after_page,
+#ped_day #end_page {
+    opacity: 0;
+}
+
+.day_page {
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 1024px;
+    height: 768px;
+}
+
+/* Ped Day - START */
+#ped_day #start_page .bg {
+    position: relative;
+    width: 1024px;
+    height: 768px;
+    background: url(../../SlideContent/adhd-sa-ped-day/img/bg_start.jpg) no-repeat 0 0;
+    background-size: contain;
+}
+
+/* Ped Day - SCHOOL */
+#ped_day #school_page .bg {
+    position: relative;
+    width: 1024px;
+    height: 768px;
+    background: url(../../SlideContent/adhd-sa-ped-day/img/bg_school.jpg) no-repeat 0 0;
+    background-size: contain;
+}
+#ped_day #school_page .text_callout {
+    top: 454px;
+    left: 127px;
+}
+#ped_day #school_page .accent {
+    top: 304px;
+    right: -16px;
+}
+#ped_day #school_page .mom .mom_text {
+    font-size: 22px;
+    padding-left: 35px;
+}
+#ped_day .deal p {
+    font-size: 18px;
+}
+#ped_day #school_page .deal .deal_text {
+    font-size: 18px;
+    text-align: left;
+}
+
+
+/* Ped Day - AFTER */
+#ped_day #after_page .bg {
+    position: relative;
+    width: 1024px;
+    height: 768px;
+    background: url(../../SlideContent/adhd-sa-ped-day/img/bg_after.jpg) no-repeat 0 0;
+    background-size: contain;
+}
+#ped_day #after_page .accent {
+    top: 224px;
+    right: 289px;
+}
+#ped_day #after_page .text_callout {
+    top: 63px;
+    left: 125px;
+    color: #FFF;
+    font-size: 32px;
+}
+#ped_day #after_page .mom .mom_text {
+    font-size: 22px;
+    padding-left: 35px;
+}
+#ped_day #after_page .deal .deal_text {
+    text-align: left;
+}
+#ped_day #after_page .deal .deal_text {
+    font-size: 18px;
+    text-align: left;
+}
+
+
+/* Ped Day - END */
+#ped_day #end_page .bg {
+    position: relative;
+    width: 1024px;
+    height: 768px;
+    background: url(../../SlideContent/adhd-sa-ped-day/img/bg_end.jpg) no-repeat 0 0;
+    background-size: contain;
+}
+#ped_day #end_page .accent {
+    top: 383px;
+    right: 290px;
+}
+#ped_day #end_page .text_callout {
+    top: 33px;
+    left: 385px;
+    font-size: 33px;
+}
+#ped_day #end_page .mom .mom_text {
+    font-size: 25px;
+    top: -40px;
+}
+#ped_day #end_page .deal .deal_text {
+    font-size: 20px;
+    text-align: left;
+}
+#ped_day #end_page .body_text {
+    bottom: 145px;
+}
+
+
+/*------------------------------------------------------------------------//
+	03.5. Tween Day
+//------------------------------------------------------------------------*/
+
+#tw_day .layout {
+    position: relative;
+    width: 1024px;
+    height: 768px;
+}
+#tw_day .mom {
+    position: absolute;
+    top: 64px;
+    right: 0;
+    color: #FFF;
+    font-family: GillSans-Italic, Calibri, Arial, sans-serif;
+    font-size: 24px;
+    margin: 0;
+    text-align: left;
+    width: 256px;
+    height: 160px;
+    line-height: 27px;
+    z-index: 2;
+}
+#tw_day .mom_expander {
+    position: absolute;
+    top: 0;
+    width: 128px;
+    height: 160px;
+    background: rgba(4, 82, 96, 1);
+}
+#tw_day .mom .mom_title {
+    padding-top: 38px;
+}
+#tw_day .mom .mom_text {
+    font-size: 25px;
+    opacity: 0;
+    text-align: left;
+    padding-left: 24px;
+    position: relative;
+    top: -88px;
+    height: 0;
+}
+#tw_day .mom_arrow {
+    float: right;
+    width: 128px;
+    height: 160px;
+}
+#tw_day .mom_arrow img {
+     width: 128px;
+    height: 160px;
+}
+#tw_day .mom p {
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+#tw_day .mom_x {
+    position: absolute;
+    top: 64px;
+    right: 128px;
+    opacity: 0;
+    width: 0px;
+    height: 0px;
+    z-index: 23;
+}
+#tw_day .mom_x img {
+    float: right;
+    width: 17px;
+    height: 17px;
+    margin: 7px 7px 0 0;
+}
+#tw_day .accent {
+    position: absolute;
+    top: 287px;
+    right: 193px;
+    width: 159px;
+    height: 143px;
+}
+#tw_day .accent .accent_state{
+    position: absolute;
+    width: 159px;
+    height: 143px;
+    display: none;
+}
+#tw_day .text_callout {
+    position: absolute;
+    top: 33px;
+    left: 352px;
+    color: #1b6775;
+    font-family: GillSans-Italic, Calibri, Arial, sans-serif;
+    font-size: 27px;
+    margin: 0;
+}
+#tw_day .deal {
+    display: block;
+    position: absolute;
+    top: 236px;
+    width: 128px;
+    height: 128px;
+
+}
+#tw_day .deal_arrow {
+    float: left;
+    width: 17px;
+    height: 128px;
+    background: rgba(250, 196, 19, 1);
+    background-size: contain;
+}
+#tw_day .deal_arrow img {
+    width: 17px;
+    height: 128px;
+}
+#tw_day .deal_expander {
+    position: absolute;
+    left: 17px;
+    width: 111px;
+    height: 128px;
+    font-size: 22px;
+    background: rgba(250, 196, 19, 1);
+    padding: 0 11px;
+    cursor: pointer;
+}
+#tw_day .deal .deal_text {
+    margin: 0;
+    opacity: 0;
+    height: 0;
+    padding: 0 11px;
+}
+#tw_day .deal .deal_x {
+    position: absolute;
+    top: 0px;
+    right: -114px;
+    opacity: 0;
+    width: 0px;
+    height: 0px;
+}
+#tw_day .deal .deal_x img {
+    float: right;
+    width: 17px;
+    height: 17px;
+    margin: 7px 7px 0 0;
+}
+#tw_day .deal p {
+    font-family: GillSans-Italic, Calibri, Arial, sans-serif;
+    font-size: 22px;
+    color: #1b6775;
+    margin: 37px 0 0 0;
+    width: 128px;
+    text-align: center; 
+    width: 100% 
+}
+#tw_day .deal .deal_title {
+    font-size: 28px;
+}
+
+#tw_day .callout {
+    font-family: GillSans-Italic, Calibri, Arial, sans-serif;
+    position: absolute;
+    bottom: 127px;
+    right: 0;
+    width: 256px;
+    height: 226px;
+    background: rgba(249, 195, 50, 1);
+    color: #1b6775;
+    font-size: 24px;
+    line-height: 27px;
+    text-align: left;
+}
+.tw-1 {padding: 45px 0 0 25px;}
+.tw-2 {padding: 32px 0 0 25px;}
+.tw-3 {padding: 32px 0 0 25px;}
+.tw-4 {padding: 31px 0 0 25px;}
+.day-thumbs {
+    position: absolute;
+    top: 287px;
+    left: 640px;
+    width: 128px;
+    height: 128px;
+    z-index: 1;
+}
+.tw-day-thumb-1 {
+    background: url(../../SlideContent/adhd-sa-tween-day/img/tw-day-thumb-1.jpg) no-repeat 0 0;
+    background-size: contain;
+}  
+.tw-day-thumb-2 {
+    background: url(../../SlideContent/adhd-sa-tween-day/img/tw-day-thumb-2.jpg) no-repeat 0 0;
+    background-size: contain;
+}  
+.tw-day-thumb-3 {
+    background: url(../../SlideContent/adhd-sa-tween-day/img/tw-day-thumb-3.jpg) no-repeat 0 0;
+    background-size: contain;
+}  
+.tw-day-thumb-4 {
+    background: url(../../SlideContent/adhd-sa-tween-day/img/tw-day-thumb-4.jpg) no-repeat 0 0;
+    background-size: contain;
+}  
+#tw_day .body_text {
+    position: absolute;
+    bottom: 155px;
+    left: 127px;
+    color: #5b5c5f;
+    text-align: left;
+}
+#tw_day .body_text h4 {
+    font-size: 22px;
+    margin-bottom: 11px;
+}
+#tw_day .body_text p {
+    font-family: AvenirNextCondensed-Regular, Calibri, Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.15;
+    margin: 0;
+}
+
+/* Day Nav*/
+
+#tw_day #day_nav {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 143px;
+    width: 100%;
+}
+#tw_day #day_nav .nav_block {
+    float:left;
+    width: 25%;
+}
+#tw_day #day_nav .nav_block a {
+    display: block;
+    height: 128px;
+    font-family: GillSans-Light, Calibri, Arial, sans-serif;
+    font-size: 28px;
+    text-align: right;
+}
+#tw_day #day_nav .nav_block a span {
+    position: relative;
+    top: 36px;
+    right: 34px;
+    text-align: right;
+    display: block;
+    width: 94px;
+    float: right;
+}
+#tw_day #day_nav .active_arrow {
+    height: 16px;
+}
+#tw_day #day_nav .arrow_up {
+    width: 0;
+    height: 0;
+    border-left: 16px solid transparent;
+    border-right: 16px solid transparent;
+    border-bottom: 16px solid transparent;
+    margin: 0 auto;
+
+}
+#tw_day #day_nav a img {
+    position: relative;
+    left: -88px;
+    top: 38px;
+    width: 58px;
+    height: 54px;
+}
+#tw_day #day_nav #school a img {
+    position: relative;
+    left: -70px;
+    top: 38px;
+    width: 70px;
+    height: 65px;
+}
+#tw_day #day_nav #after a img {
+    position: relative;
+    left: -88px;
+    top: 38px;
+    width: 70px;
+    height: 65px;
+}
+#tw_day #day_nav #start a {
+    background-color: #f5cd5a;
+    color: #fff;
+}
+#tw_day #day_nav #start .arrow_up {
+    border-bottom-color: #f5cd5a;
+}
+#tw_day #day_nav #school a {
+    background-color: #f7e1a2;
+    color: #cab371;
+}
+#tw_day #day_nav #school a img {
+    top: 30px;
+}
+#tw_day #day_nav #school .arrow_up {
+    border-bottom-color: #f7e1a2;
+}
+#tw_day #day_nav #after a {
+    background-color: #96b687;
+    color: #617a55;
+}
+#tw_day #day_nav #after a img {
+    left: -66px;
+    top: 30px;
+}
+#tw_day #day_nav #after .arrow_up {
+    border-bottom-color: #96b687;
+}
+#tw_day #day_nav #end a {
+    background-color: #32545a;
+    color: #698e95;
+}
+#tw_day #day_nav #end a img {
+    width: 46px;
+    height: 38px;
+    top: 50px;
+}
+#tw_day #day_nav #end .arrow_up {
+    border-bottom-color: #32545a;
+}
+
+#tw_day #day_nav #school .active_arrow,
+#tw_day #day_nav #after .active_arrow,
+#tw_day #day_nav #end .active_arrow,
+#tw_day #school_page,
+#tw_day #after_page,
+#tw_day #end_page {
+    opacity: 0;
+}
+
+.day_page {
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 1024px;
+    height: 768px;
+}
+
+/* Tween Day - START */
+#tw_day #start_page .bg {
+    position: relative;
+    width: 1024px;
+    height: 768px;
+    background: url(../../SlideContent/adhd-sa-tween-day/img/bg_start.jpg) no-repeat 0 0;
+    background-size: contain;
+}
+
+#tw_day #start_page .callout {
+    font-size: 20px;
+    padding-top: 28px;
+}
+
+#tw_day #start_page .mom .mom_text {
+    top: -69px;
+}
+#tw_day #school_page .mom .mom_text {
+    top: -74px;
+}
+
+#tw_day #start_page .deal .deal_text {
+    font-size: 21px;
+}
+
+/* Tween Day - SCHOOL */
+#tw_day #school_page .bg {
+    position: relative;
+    width: 1024px;
+    height: 768px;
+    background: url(../../SlideContent/adhd-sa-tween-day/img/bg_school.jpg) no-repeat 0 0;
+    background-size: contain;
+}
+#tw_day #school_page .text_callout {
+    top: 94px;
+    left: 137px;
+}
+#tw_day #school_page .accent {
+    top: 368px;
+    right: 273px;
+}
+#tw_day #school_page .mom .mom_text {
+    font-size: 22px;
+    padding-left: 35px;
+}
+#tw_day .deal p {
+    font-size: 18px;
+}
+#tw_day #school_page .deal .deal_text {
+    font-size: 23px;
+    text-align: left;
+}
+#tw_day #school_page .callout {
+    font-size: 22px;
+    padding-top: 20px;
+    line-height: 24px;
+}
+
+/* Tween Day - AFTER */
+#tw_day #after_page .bg {
+    position: relative;
+    width: 1024px;
+    height: 768px;
+    background: url(../../SlideContent/adhd-sa-tween-day/img/bg_after.jpg) no-repeat 0 0;
+    background-size: contain;
+}
+#tw_day #after_page .accent {
+    top: 334px;
+    right: 256px;
+}
+#tw_day #after_page .text_callout {
+    top: 34px;
+    left: 414px;
+    color: #045260;
+    font-size: 27px;
+}
+#tw_day #after_page .mom .mom_text {
+    font-size: 22px;
+    padding-left: 35px;
+}
+#tw_day #after_page .deal .deal_text {
+    text-align: left;
+}
+#tw_day #after_page .deal .deal_text {
+    font-size: 21px;
+    text-align: left;
+}
+#tw_day #after_page .callout {
+    font-size: 20px;
+    padding-top: 48px;
+    line-height: 25px;
+}
+
+
+/* Tween Day - END */
+#tw_day #end_page .bg {
+    position: relative;
+    width: 1024px;
+    height: 768px;
+    background: url(../../SlideContent/adhd-sa-tween-day/img/bg_end.jpg) no-repeat 0 0;
+    background-size: contain;
+}
+#tw_day #end_page .accent {
+    top: 381px;
+    right: 290px;  
+}
+#tw_day #end_page .text_callout {
+    top: 16px;
+    left: 94px;
+    font-size: 27px;
+    line-height: 34px;
+}
+#tw_day #end_page .mom .mom_text {
+    font-size: 25px;
+    top: -40px;
+}
+#tw_day #end_page .deal .deal_text {
+    font-size: 20px;
+    text-align: left;
+}
+#tw_day #end_page .body_text {
+    bottom: 145px;
+}
+#tw_day #end_page .mom .mom_text {
+    top: -72px;
+}
+#tw_day #end_page .callout {
+    font-size: 22px;
+    padding-top: 40px;
+}
+/*------------------------------------------------------------------------//
+	03.6. Ped Summary
+//------------------------------------------------------------------------*/
+#ped_summary {
+    color: #006b79;
+}
+#ped_summary .layout {
+    position: relative;
+    width: 1024px;
+    height: 768px;
+    background: url(../../SlideContent/adhd-sa-ped-summary/img/bg.jpg) no-repeat 0 0;
+    background-size: contain;
+}
+#ped_summary #accent {
+    position: absolute;
+    bottom: -80px;
+    left: 453px;
+    width: 159px;
+    height: 143px;
+}
+#ped_summary #pretitle {
+    position: absolute;
+    top: 33px;
+    left: 386px;
+    font-size: 22px;
+}
+#ped_summary #title {
+    font-family: GillSans-Italic, Calibri, Arial, sans-serif;
+    text-align: left;
+    position: absolute;
+    top: 78px;
+    left: 386px;
+    font-size: 55px;
+}
+#ped_summary #summary_questions {
+    position: absolute;
+    top: 268px;
+    left: 386px;
+}
+#ped_summary #subtitle {
+    font-family: GillSans, Calibri, Arial, sans-serif;
+    text-align: left;
+    font-size: 26px;
+    color: #393939;
+}
+#ped_summary #summary_questions ul {
+    margin: 44px 0 0 127px;
+}
+#ped_summary #summary_questions ul li {
+    list-style: none;
+    font-size: 26px;
+    margin-bottom: 32px;
+}
+#ped_summary #summary_listend {
+    font-family: AvenirNextCondensed-Regular, Calibri, Arial, sans-serif;
+    font-size: 20px;
+    margin: 0 0 0 127px;
+    line-height: 26px;
+    color: #000;
+}
+#ped_summary #summary_reference {
+    position: absolute;
+    bottom: 43px;
+    left: 65px;
+    width: 386px;
+    padding-top: 24px;
+    border-top: 5px solid #f9c332;
+    color: #FFF;
+    font-size: 15px;
+    line-height: 22px;
+}
+#ped_summary #summary_reference p {
+    margin: 0;
+    padding: 0;
+}
+#ped_summary #summary_reference span {
+    font-family: GillSans-Bold, Calibri, Arial, sans-serif;
+}
+
+
+/*------------------------------------------------------------------------//
+	03.6. Tween Summary
+//------------------------------------------------------------------------*/
+#tw_summary {
+    color: #006b79;
+}
+#tw_summary .layout {
+    position: relative;
+    width: 1024px;
+    height: 768px;
+    background: url(../../SlideContent/adhd-sa-tween-summary/img/bg.jpg) no-repeat 0 0;
+    background-size: contain;
+}
+#tw_summary #accent {
+    position: absolute;
+    bottom: 0px;
+    left: 453px;
+    width: 159px;
+    height: 62px;
+}
+#tw_summary #pretitle {
+    position: absolute;
+    top: 54px;
+    left: 386px;
+    font-size: 22px;
+}
+#tw_summary #title {
+    font-family: GillSans-Italic, Calibri, Arial, sans-serif;
+    text-align: left;
+    position: absolute;
+    top: 78px;
+    left: 386px;
+    font-size: 55px;
+}
+#tw_summary #summary_questions {
+    position: absolute;
+    top: 268px;
+    left: 386px;
+}
+#tw_summary #subtitle {
+    font-family: GillSans, Calibri, Arial, sans-serif;
+    text-align: left;
+    font-size: 26px;
+    color: #393939;
+}
+#tw_summary #summary_questions ul {
+    margin: 44px 0 0 127px;
+}
+#tw_summary #summary_questions ul li {
+    list-style: none;
+    font-size: 26px;
+    margin-bottom: 32px;
+}
+#tw_summary #summary_listend {
+    font-family: AvenirNextCondensed-Regular, Calibri, Arial, sans-serif;
+    font-size: 20px;
+    margin: 0 0 0 127px;
+    line-height: 26px;
+    color: #000;
+}
+#tw_summary #summary_reference {
+    position: absolute;
+    bottom: 43px;
+    left: 65px;
+    width: 386px;
+    padding-top: 24px;
+    border-top: 5px solid #f9c332;
+    color: #FFF;
+    font-size: 15px;
+    line-height: 22px;
+}
+#tw_summary #summary_notation {
+    position: absolute;
+    right: 139px;
+    bottom: 12px;
+    font-size: 11px;
+}
+#tw_summary #summary_reference p {
+    margin: 0;
+    padding: 0;
+    color: #5b5c5f;
+}
+#tw_summary #summary_reference span {
+    font-family: GillSans-Bold, Calibri, Arial, sans-serif;
+}
+
+
+
+/*------------------------------------------------------------------------//
+	03.7. Adl Meet
+//------------------------------------------------------------------------*/
+
+#adl_meet .layout {
+    position: relative;
+    width: 1024px;
+    height: 768px;
+    background: url(../../SlideContent/adhd-sa-adl-meet/img/bg.jpg) no-repeat 0 0;
+    background-size: contain;
+}
+#adl_meet #accent {
+    position: absolute;
+    top: 201px;
+    right: 0px;
+    width: 79px;
+    height: 127px;
+}
+#adl_meet #title {
+    position: absolute;
+    top: 158px;
+    left: 34px;
+    color: #f9c332;
+    font-family: GillSans-Italic, Calibri, Arial, sans-serif;
+    font-size: 45px;
+    margin: 0;
+}
+#adl_meet #subtitle {
+    position: absolute;
+    top: 307px;
+    left: 34px;
+    color: #FFF;
+    font-family: GillSans-Italic, Calibri, Arial, sans-serif;
+    font-size: 25px;
+    margin: 0;
+    text-align: left;
+}
+#adl_meet #story {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 384px;
+    height: 387px;
+    background: rgba(4, 82, 96, 1); 
+    color: #f9c332;
+    text-align: left;
+    padding: 39px 0 0 43px;
+}
+#adl_meet #story h2 {
+    font-family: GillSans-Italic, Calibri, Arial, sans-serif;
+    font-size: 28px;
+}
+#adl_meet #story li {
+    font-size: 20px;
+    list-style-type:square;
+    margin: 16px 0 16px 16px;
+}
+#adl_meet #story_footnote {
+    font-size: 13px;
+    padding: 0px;
+    margin: 0px;
+    line-height: 1.4;
+}
+#adl_meet .hang {
+    position: relative;
+    top: 23px;
+    left: -8px;
+}
+#adl_meet #callout {
+    font-family: GillSans-Italic, Calibri, Arial, sans-serif;
+    position: absolute;
+    top: 280px;
+    right: 0;
+    width: 321px;
+    height: 162px;
+    background: rgba(249, 195, 50, 1);
+    color: #1b6775;
+    font-size: 25px;
+    text-align: left;
+    padding: 30px 0 0 25px;
+}
+#adl_meet #body_text {
+    position: absolute;
+    bottom: 20px;
+    left: 406px;
+    color: #5b5c5f;
+    text-align: left;
+    margin-bottom: 18px;
+}
+#adl_meet #body_text h4 {
+    font-size: 19px;
+    margin-bottom: 10px;
+}
+#adl_meet .bodytext_column {
+    float: left;
+    width: 316px;
+    margin-right: -38px;
+}
+#adl_meet #body_text h5 {
+    font-family: GillSans-Italic, Calibri, Arial, sans-serif;
+    font-size: 18px;
+    margin-bottom: 4px;
+}
+#adl_meet #body_text li {
+    font-family: AvenirNextCondensed-Regular, Calibri, Arial, sans-serif;
+    font-size: 15px;
+    list-style: none;
+    margin-bottom: 2px;
+}
+#adl_meet #body_text ul li:before{ 
+    content:"-"; 
+    position:relative; 
+    left:-5px;
+}
+#adl_meet #bodytext_footer {
+    font-family: AvenirNextCondensed-Bold, Calibri, Arial, sans-serif;
+    clear: both;
+    padding: 12px 0 0 0;
+    font-size: 15px;
+}
+#arrow {
+    position: absolute;
+    bottom: 32px;
+    right: 8px;
+    width: 131px;
+    height: 88px;
+    color: #f9c332;
+    font-size: 24px; 
+}
+#adl_meet .arrow_object {
+    background: rgba(4, 82, 96, 1);
+}
+#adl_meet .arrow_object:after {
+    border-left: 44px solid #045260;
+}
+#adl_meet .arrow_text {
+    padding: 17px 0 0 15px;
+}
+
+/*------------------------------------------------------------------------//
+	03.8. Adl Day
+//------------------------------------------------------------------------*/
+
+#adl_day .layout {
+    position: relative;
+    width: 1024px;
+    height: 768px;
+}
+#adl_day .accent {
+    position: absolute;
+}
+#adl_day .accent .accent_state{
+    position: absolute;
+    width: 159px;
+    height: 143px;
+    display: none;
+}
+#adl_day .text_callout {
+    position: absolute;
+    color: #1b6775;
+    font-family: GillSans-Italic, Calibri, Arial, sans-serif;
+    margin: 0;
+}
+#adl_day .deal {
+    display: block;
+    position: absolute;
+    top: 263px;
+    width: 128px;
+    height: 128px;
+
+}
+#adl_day .deal_arrow {
+    float: left;
+    width: 17px;
+    height: 128px;
+    background: rgba(250, 196, 19, 1);
+    background-size: contain;
+}
+#adl_day .deal_arrow img {
+    width: 17px;
+    height: 128px;
+}
+#adl_day .deal_expander {
+    position: absolute;
+    left: 17px;
+    width: 111px;
+    height: 128px;
+    font-size: 22px;
+    background: rgba(250, 196, 19, 1);
+    padding: 0 21px;
+    cursor: pointer;
+    text-align: left;
+}
+#adl_day .deal .deal_text {
+    margin: 0;
+    opacity: 0;
+    height: 0;
+    line-height: 22px;
+}
+#adl_day .deal .deal_x {
+    position: absolute;
+    top: 0px;
+    right: -114px;
+    opacity: 0;
+    width: 0px;
+    height: 0px;
+}
+#adl_day .deal .deal_x img {
+    float: right;
+    width: 17px;
+    height: 17px;
+    margin: 7px 7px 0 0;
+}
+#adl_day .deal p {
+    font-family: GillSans-Italic, Calibri, Arial, sans-serif;
+    font-size: 22px;
+    color: #1b6775;
+    margin: 37px 0 0 0;
+    width: 128px;
+    text-align: left; 
+    width: 100% 
+}
+#adl_day .deal .deal_title {
+    font-size: 28px;
+    text-align: center;
+}
+
+#adl_day .callout {
+    font-family: GillSans-Italic,  Calibri, Arial, sans-serif;
+    position: absolute;
+    bottom: 127px;
+    right: 0;
+    width: 256px;
+    height: 226px;
+    background: rgba(249, 195, 50, 1);
+    color: #1b6775;
+    font-size: 24px;
+    line-height: 27px;
+    text-align: left;
+}
+.adl-1 {padding: 45px 0 0 25px;}
+.adl-2 {padding: 21px 0 0 25px;}
+.adl-3 {padding: 32px 0 0 25px;}
+.adl-4 {padding: 31px 0 0 25px;}
+#adl_day .body_text {
+    position: absolute;
+    bottom: 155px;
+    left: 127px;
+    color: #5b5c5f;
+    text-align: left;
+}
+#adl_day .body_text h4 {
+    font-size: 22px;
+    margin-bottom: 11px;
+}
+#adl_day .body_text p {
+    font-family: AvenirNextCondensed-Regular, Calibri, Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.15;
+    margin: 0;
+}
+
+/* Day Nav*/
+
+#adl_day #day_nav {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 143px;
+    width: 100%;
+}
+#adl_day #day_nav .nav_block {
+    float:left;
+    width: 25%;
+}
+#adl_day #day_nav .nav_block a {
+    display: block;
+    height: 128px;
+    font-family: GillSans-Light, Calibri, Arial, sans-serif;
+    font-size: 28px;
+    text-align: right;
+}
+#adl_day #day_nav .nav_block a span {
+    position: relative;
+    top: 36px;
+    right: 34px;
+    text-align: right;
+    display: block;
+    width: 104px;
+    float: right;
+}
+#adl_day #day_nav .active_arrow {
+    height: 16px;
+}
+#adl_day #day_nav .arrow_up {
+    width: 0;
+    height: 0;
+    border-left: 16px solid transparent;
+    border-right: 16px solid transparent;
+    border-bottom: 16px solid transparent;
+    margin: 0 auto;
+
+}
+#adl_day #day_nav a img {
+    position: relative;
+    left: -88px;
+    top: 42px;
+    width: 45px;
+    height: 45px;
+}
+#adl_day #day_nav #start a {
+    background-color: #f5cd5a;
+    color: #fff;
+}
+#adl_day #day_nav #start a img {
+    width: 49px;
+    height: 48px;
+}
+#adl_day #day_nav #start .arrow_up {
+    border-bottom-color: #f5cd5a;
+}
+#adl_day #day_nav #leaving a {
+    background-color: #f7e1a2;
+    color: #cab371;
+}
+#adl_day #day_nav #leaving a img {
+    width: 42px;
+    height: 48px;
+}
+#adl_day #day_nav #leaving .arrow_up {
+    border-bottom-color: #f7e1a2;
+}
+#adl_day #day_nav #work a {
+    background-color: #96b687;
+    color: #617a55;
+}
+#adl_day #day_nav #work a img {
+    width: 51px;
+    height: 42px;
+    left: -68px;
+    top: 43px;
+}
+#adl_day #day_nav #work .arrow_up {
+    border-bottom-color: #96b687;
+}
+#adl_day #day_nav #evening a {
+    background-color: #32545a;
+    color: #698e95;
+}
+#adl_day #day_nav #evening a img {
+    width: 58px;
+    height: 54px;
+    top: 40px;
+    left:-70px;
+}
+#adl_day #day_nav #evening .arrow_up {
+    border-bottom-color: #32545a;
+}
+
+#adl_day #day_nav #leaving .active_arrow,
+#adl_day #day_nav #work .active_arrow,
+#adl_day #day_nav #evening .active_arrow,
+#adl_day #leaving_page,
+#adl_day #work_page,
+#adl_day #evening_page {
+    opacity: 0;
+}
+
+.day_page {
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 1024px;
+    height: 768px;
+}
+
+/* Adl Day - START */
+#adl_day #start_page .bg {
+    position: relative;
+    width: 1024px;
+    height: 768px;
+    background: url(../../SlideContent/adhd-sa-adl-day/img/bg_start.jpg) no-repeat 0 0;
+    background-size: contain;
+}
+#adl_day #start_page .accent {
+    position: absolute;
+    top: 304px;
+    right: -97px;
+    width: 256px;
+    height: 194px;
+}
+#adl_day #start_page .text_callout {
+    top: 104px;
+    right: 34px;
+    font-size: 27px;
+    text-align: right;
+}
+#adl_day #start_page .callout {
+    padding: 34px 0 0 25px;
+}
+#adl_day #start_page .deal .deal_text {
+    text-align: left;
+}
+
+/* Adl Day - LEAVING */
+#adl_day #leaving_page .bg {
+    position: relative;
+    width: 1024px;
+    height: 768px;
+    background: url(../../SlideContent/adhd-sa-adl-day/img/bg_leaving.jpg) no-repeat 0 0;
+    background-size: contain;
+}
+#adl_day #leaving_page .text_callout {
+    top: 67px;
+    left: 580px;
+    font-size: 30px;
+}
+#adl_day #leaving_page .body_text {
+    left: 127px;
+}
+#adl_day #leaving_page .accent {
+    top: 383px;
+    right: 256px;
+    width: 207px;
+    height: 192px;
+}
+#adl_day .deal p {
+    font-size: 18px;
+}
+#adl_day #leaving_page .deal .deal_text {
+    font-size: 18px;
+    text-align: left;
+}
+
+
+/* Adl Day - WORK */
+#adl_day #work_page .bg {
+    position: relative;
+    width: 1024px;
+    height: 768px;
+    background: url(../../SlideContent/adhd-sa-adl-day/img/bg_work.jpg) no-repeat 0 0;
+    background-size: contain;
+}
+#adl_day #work_page .accent {
+    top: 208px;
+    right: 304px;
+    width: 176px;
+    height: 239px;
+}
+#adl_day #work_page .text_callout {
+    top: 70px;
+    left: 388px;
+    font-size: 30px;
+}
+#adl_day #work_page .body_text {
+    left: 127px;
+}
+#adl_day #work_page .deal .deal_text {
+    text-align: left;
+}
+#adl_day #work_page .deal .deal_text {
+    font-size: 18px;
+    text-align: left;
+    margin-top:20px!important;
+}
+
+
+/* Adl Day - EVENING */
+#adl_day #evening_page .bg {
+    position: relative;
+    width: 1024px;
+    height: 768px;
+    background: url(../../SlideContent/adhd-sa-adl-day/img/bg_evening.jpg) no-repeat 0 0;
+    background-size: contain;
+}
+#adl_day #evening_page .body_text {
+    left: 127px;
+}
+#adl_day #evening_page .accent {
+    top: 351px;
+    right: 304px;
+    width: 176px;
+    height: 192px;
+}
+#adl_day #evening_page .text_callout {
+    top: 14px;
+    left: 159px;
+    font-size: 32px;
+    color: #FFF;
+}
+#adl_day #evening_page .deal .deal_text {
+    font-size: 18px;
+    text-align: left;
+    margin-top:20px!important;
+}
+#adl_day #evening_page .body_text {
+    position: absolute;
+    bottom: 155px;
+    left: 127px;
+    color: #FFF;
+    text-align: left;
+}
+
+/*------------------------------------------------------------------------//
+	03.9. Adl Summary
+//------------------------------------------------------------------------*/
+#adl_summary {
+    color: #006b79;
+}
+#adl_summary .layout {
+    position: relative;
+    width: 1024px;
+    height: 768px;
+    background: url(../../SlideContent/adhd-sa-adl-summary/img/bg.jpg) no-repeat 0 0;
+    background-size: contain;
+}
+#adl_summary #accent {
+    position: absolute;
+    bottom: -80px;
+    left: 453px;
+    width: 159px;
+    height: 143px;
+}
+#adl_summary #pretitle {
+    position: absolute;
+    top: 62px;
+    left: 91px;
+    font-size: 22px;
+}
+#adl_summary #title {
+    font-family: GillSans-Italic, Calibri, Arial, sans-serif;
+    text-align: left;
+    position: absolute;
+    top: 104px;
+    left: 91px;
+    font-size: 55px;
+}
+#adl_summary #summary_questions {
+    position: absolute;
+    top: 268px;
+    left: 91px;
+}
+#adl_summary #subtitle {
+    font-family: GillSans, Calibri, Arial, sans-serif;
+    text-align: left;
+    font-size: 26px;
+    color: #393939;
+}
+#adl_summary #summary_questions ul {
+    margin: 28px 0 0 0;
+}
+#adl_summary #summary_questions ul li {
+    list-style: none;
+    font-size: 26px;
+    margin-bottom: 32px;
+}
+#adl_summary #summary_listend {
+    font-family: AvenirNextCondensed-Regular, Calibri, Arial, sans-serif;
+    font-size: 20px;
+    line-height: 26px;
+    color: #000;
+}
+#adl_summary #summary_reference {
+    position: absolute;
+    bottom: 43px;
+    left: 91px;
+    width: 532px;
+    padding-top: 24px;
+    border-top: 5px solid #f9c332;
+    color: #393939;
+    font-size: 15px;
+    line-height: 22px;
+}
+#adl_summary #summary_reference p {
+    margin: 0;
+    padding: 0;
+}
+#adl_summary #summary_reference span {
+    font-family: GillSans-Bold, Calibri, Arial, sans-serif;
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------//
+05. non-semantic helper classes
+//------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.ir { background-color: transparent; border: 0; overflow: hidden; text-indent: -999em;}
+.ir:before { display: none; width: 0; height: 100%; content: "";}
+
+.hidden { display: none !important; visibility: hidden;}
+
+.visuallyhidden { position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0; clip: rect(0 0 0 0); overflow: hidden;}
+.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus { position: static; width: auto; height: auto; margin: 0; clip: auto; overflow: visible;}
+
+.invisible { visibility: hidden;}
+
+.clear:before, .clear:after { content: ""; display: table;}
+.clear:after { clear: both;}
