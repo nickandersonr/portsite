@@ -14,7 +14,8 @@ h2 {
 
 .title {
 	margin-top: 2em;
-	text-align: center;
+    text-align: center;
+    height: 80vh;
 }
 .horns {
 	text-align: center;
@@ -22,8 +23,18 @@ h2 {
 .horns svg {
 	max-width: 30%
 }
-.container.contact {
+.campfire {
+	text-align: center;
+	margin-top: 4em;
+}
+.campfire img {
+	max-width: 30%
+}
+.container-fluid.contact {
 	margin-top: 3em;
+    background: #EC7970;
+    padding: 4em;
+    height: 100vh;
 }
 #contact-form {
 	    max-width: 60%;
@@ -36,11 +47,20 @@ h2 {
 .form-control {
 	background: #FEF3E7;
 }
+.ajax-response {
+	font-family: 'Creepster', cursive;
+	font-size: 2em;
+	color: #032430;
+}
 .btn {
 	font-family: 'Creepster', cursive;
 	font-size: 3em;
-	background: #EC7970;
+	background: #032430;
+	color: #FECD98;
 	padding: 8px;
+}
+.btn:hover {
+	color: #EC7970;
 }
 
 /* ------ Media Queries ------ */
@@ -48,6 +68,12 @@ h2 {
 @media only screen and (max-width: 1000px) {
   h1 {
     font-size: 4em;
+  }
+  #contact-form {
+  	max-width: 100%;
+  }
+  .horns svg, .campfire img {
+	max-width: 45%
   }
 }
 @media only screen and (max-width: 400px) {
@@ -59,5 +85,8 @@ h2 {
   }
   .horns svg {
 	max-width: 60%
-}
+  }
+  .campfire img {
+  	max-width: 100%;
+  }
 }
