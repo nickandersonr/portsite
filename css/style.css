@@ -1,0 +1,46 @@
+body {
+	background: #FECD98;
+	font-family: 'Work Sans', sans-serif;
+}
+h1 {
+	font-family: 'Creepster', cursive;
+	color: #032430;
+	font-size: 8em;
+}
+h2 {
+	font-family: 'Creepster', cursive;
+	color: #EC7970;
+}
+
+.title {
+	margin-top: 2em;
+	text-align: center;
+}
+.horns {
+	text-align: center;
+}
+.horns svg {
+	max-width: 30%
+}
+.contact {
+	text-align: center;
+}
+
+/* ------ Media Queries ------ */
+
+@media only screen and (max-width: 1000px) {
+  h1 {
+    font-size: 4em;
+  }
+}
+@media only screen and (max-width: 400px) {
+  h1 {
+    font-size: 3em;
+  }
+  h2 {
+  	font-size: 1em;
+  }
+  .horns svg {
+	max-width: 60%
+}
+}
