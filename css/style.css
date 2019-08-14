@@ -22,8 +22,25 @@ h2 {
 .horns svg {
 	max-width: 30%
 }
+.container.contact {
+	margin-top: 3em;
+}
+#contact-form {
+	    max-width: 60%;
+    text-align: center;
+    margin: 0 auto;
+}
 .contact {
 	text-align: center;
+}
+.form-control {
+	background: #FEF3E7;
+}
+.btn {
+	font-family: 'Creepster', cursive;
+	font-size: 3em;
+	background: #EC7970;
+	padding: 8px;
 }
 
 /* ------ Media Queries ------ */
