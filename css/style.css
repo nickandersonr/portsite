@@ -5,11 +5,14 @@ body {
 h1 {
 	font-family: 'Creepster', cursive;
 	color: #032430;
-	font-size: 8em;
+	font-size: 6em;
 }
 h2 {
 	font-family: 'Creepster', cursive;
 	color: #EC7970;
+}
+h3 {
+	margin-bottom: 2em;
 }
 
 .title {
@@ -76,15 +79,18 @@ h2 {
 	max-width: 45%
   }
 }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 500px) {
   h1 {
     font-size: 3em;
   }
   h2 {
   	font-size: 1em;
   }
+  .horns {
+  	margin-top: 3em;
+  }
   .horns svg {
-	max-width: 60%
+	max-width: 80%
   }
   .campfire img {
   	max-width: 100%;
