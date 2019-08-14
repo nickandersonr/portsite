@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Blue Presentation | Home</title>
+<link rel="stylesheet" href="css/style.css" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<script src="js/jquery-1.10.2.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+	$(document).ready(function() {	
+		setTimeout(function () {
+		    jQuery("#legal").animate({ opacity: 1 }, 500);
+		}, 1000);
+	});
+</script>
+</head>
+<body id="blue" oncontextmenu="return false;">
+        <div class="layout">
+		
+		<div id="attract">
+			<div id="leave_attract">
+			    <video id="video_attract" class="video_fullscreen" width="1920" height="1080" loop autoplay>
+				<source src="video/03-Attract-A.mp4" type="video/mp4">
+				Please open me in Chrome.  I don't work in this browser!
+			    </video>
+			</div>
+			<video id="animation_in" class="video_fullscreen" width="1920" height="1080">
+			    <source src="video/03-Attract-B.mp4" type="video/mp4">
+			    Please open me in Chrome.  I don't work in this browser!
+			</video>  
+			<script type="text/javascript">
+				
+				var attractVideo=document.getElementById("video_attract");
+		
+				function playAttract()
+				  {
+				  attractVideo.play(); 
+				  } 
+				function pauseAttract()
+				  { 
+				  attractVideo.pause(); 
+				  }
+				
+				playAttract();
+				
+				$leave_attract = jQuery( "#leave_attract" );
+				$animation_in = jQuery( "#animation_in" );
+				$attract = jQuery( "#attract" );
+				
+			    $leave_attract.click(function() {
+				jQuery( "#video_attract" ).animate({ opacity: 0 }, 1000);
+				$leave_attract.css('pointer-events', 'none');
+				$animation_in.css('pointer-events', 'none');
+				var video = $animation_in.get(0);
+				video.play();
+				pauseAttract();
+
+                                    $animation_in.css('pointer-events', 'auto');
+				    $animation_in.click(function() {
+                                        $attract.animate({ opacity: 0 }, 1000);
+                                        $attract.css('pointer-events', 'none');
+					$animation_in.css('pointer-events', 'none');
+					jQuery( "#pane_nav" ).css('pointer-events', 'auto');
+                                    });
+                                    setTimeout(function() {
+                                        $attract.animate({ opacity: 0 }, 1000);
+                                        $attract.css('pointer-events', 'none');
+					$animation_in.css('pointer-events', 'none');
+					jQuery( "#pane_nav" ).css('pointer-events', 'auto');
+                                    }, 2000);
+
+				});
+				
+			    var idleSeconds = 120;
+    
+			    $(function(){
+			      var idleTimer;
+			      
+			      function resetTimer(){
+				clearTimeout(idleTimer);
+				idleTimer = setTimeout(whenUserIdle, idleSeconds*1000);
+				    console.log("timer reset");
+			      }
+			      $(document.body).click(function(){
+				    console.log(Date.now());
+				    resetTimer();
+			      });
+			    });
+			    
+			    function whenUserIdle(){
+				    playAttract();
+				    console.log("presentation reset");
+				    jQuery( "#pane_nav" ).css('pointer-events', 'none');
+				    jQuery( "#video_attract" ).animate({ opacity: 1 }, 1000);
+				    $leave_attract.css('pointer-events', 'auto');
+				    jQuery("#video_attract").get(0);
+				    $animation_in.get(0);
+				    $attract.animate({ opacity: 1 }, 1000);
+				    $attract.css('pointer-events', 'auto');
+				    $animation_in.css('pointer-events', 'none');
+				    
+				    jQuery( "#presentation" ).animate({ opacity: 1 }, 500);
+				    jQuery( "#presentation" ).css( "pointer-events", "auto" );
+				    jQuery( ".pane" ).animate({ bottom: '-830px' }, { duration: 250, queue: false });
+				    jQuery( "#pane_nav" ).animate({ opacity: '1' }, { duration: 400, queue: false });
+			    }
+			</script>
+		</div>
+		
+		<div id="legal">
+		    <img id="logo_edwards" src="img/logo_edwards.png" />
+		    <div id="red_line">&nbsp;</div>
+		    <div id="legal_text">
+			<p class="HelveticaNeueLTStdBd">For professional use. See instructions for use for full prescribing information, including indications, contraindications, warnings, precautions, and adverse events.</p>
+			<p>Edwards Lifesciences devices placed on the European market meeting the essential requirements referred to in Article 3 of the Medical Device Directive 93/42/EEC bear the CE marking of conformity.</p>
+			<p>Edwards, Edwards Lifesciences, the stylized E logo, Carpentier-Edwards, Edwards SAPIEN, Edwards SAPIEN 3, SAPIEN, SAPIEN 3, and ThermaFix are trademarks of Edwards Lifesciences Corporation.</p>
+			<p>� 2014 Edwards Lifesciences Corporation. All rights reserved. E4673/03-14/THV</p>
+		    </div>
+		    <img id="btn_close" src="img/btn_close.png" />
+		</div>
+		
+		<video id="bg_video" class="video_fullscreen" width="1920" height="1080" loop autoplay >
+		    <source src="video/Looping_BG.mp4" type="video/mp4">
+		    Please open me in Chrome.  I don't work in this browser!
+		</video>
+		
+		<div id="presentation">
+                    <div class="top_title">
+                        <h3><span>Edwards SAPIEN 3</span> Transcatheter Heart Valve</h3>
+                        <h1>Designed to achieve the principles of aortic valve replacement</h1>
+                    </div>
+                    <div id="pane_holder">
+			<!-- Each child div in #showcase represents a slide -->
+			<div id="pane_wrapper">
+				
+			    <div id="pane_1" class="pane">
+				<div class="pane_content">
+					<div class="pane_bg"></div>
+					<video id="video_1" class="pane_video" src="video/03-Fluro1.mp4" loop ></video>
+				       <div class="pane_text">
+					   <h1>Predictable procedure</h1>
+					   <ul>
+						<li>
+							<span>&bull;</span>
+							<p>Balloon-expandable design</p>
+						</li>
+						<li>
+							<span>&bull;</span>
+							<p>Fine control of valve positioning</p>
+						</li>
+					   </ul>
+					   <div class="btn_pane_close">
+						<img src="img/btn_pane_close.png" />
+					   </div>
+				       </div>
+				</div>  
+			    </div>
+			    
+			    <div id="pane_2" class="pane">
+				<div class="pane_content">
+					<div class="pane_bg"></div>
+					<video id="video_2" class="pane_video" src="video/03-Commander2.mp4" loop ></video>
+				       <div class="pane_text">
+					   <h1>low rate of complications</h1>
+					   <ul>
+						<li>
+							<span>&bull;</span>
+							<p>Outer skirt designed to minimize paravalvular (PV) leak</p>
+						</li>
+						<li>
+							<span>&bull;</span>
+							<p>High radial strength frame designed to promote full <br/>expansion and apposition at the annulus to minimize PV leak</p>
+						</li>
+						<li>
+							<span>&bull;</span>
+							<p>Ultra-low delivery profile designed to reduce vascular <br/>and bleeding complications</p>
+						</li>
+						<li>
+							<span>&bull;</span>
+							<p>Low frame height for reduced conduction disturbances</p>
+						</li>
+					   </ul>
+					  <div class="btn_pane_close">
+						<img src="img/btn_pane_close.png" />
+					   </div>
+				       </div>
+				</div> 
+			    </div>
+				
+			    <div id="pane_3" class="pane">
+				<div class="pane_content">
+					<div class="pane_bg"></div>
+					<video id="video_3" class="pane_video" src="video/03-OptimalHemo3.webm" loop ></video>
+				       <div class="pane_text">
+					   <h1>Optimal hemodynamics</h1>
+					   <ul>
+						<li>
+							<span>&bull;</span>
+							<p>Circularity at the annulus promotes laminar flow</p>
+						</li>
+					   </ul>
+					   <div class="btn_pane_close">
+						<img src="img/btn_pane_close.png" />
+					   </div>
+				       </div>
+				</div> 
+			    </div>
+			    
+			    <div id="pane_4" class="pane">
+				<div class="pane_content">
+					<div class="pane_bg"></div>
+					<video id="video_4" class="pane_video" src="video/03-Leaflets4.webm" loop ></video>
+				       <div class="pane_text">
+					   <h1>DURABILITY</h1>
+					   <ul>
+						<li>
+							<span>&bull;</span>
+							<p>Circularity for uniform leaflet coaptation</p>
+						</li>
+						<li>
+							<span>&bull;</span>
+							<p>Edwards proven bovine pericardial tissue<sup>*</sup></p>
+						</li>
+						<li>
+							<span>&bull;</span>
+							<p>Carpentier-Edwards ThermaFix process is intended <br/>to reduce the risk of calcification<sup>&dagger;</sup></p>
+						</li>
+					   </ul>
+					   <span class="note">
+						<sup class="hang">*</sup>Rahimtoola SH. Choice of prosthetic heart valve in adults: an update.
+						<br/><i>J Am Coll Cardiol</i>. 2010;55:2413-2426.
+						<br/><sup>&dagger;</sup>No clinical data are available with which to evaluate the long-term impact of the
+						<br/>Carpentier-Edwards ThermaFix tissue process in patients.
+					   </span>
+					   <div class="btn_pane_close">
+						<img src="img/btn_pane_close.png" />
+					   </div>
+				       </div>
+				</div> 
+			    </div>
+			</div>
+			<div id="pane_nav">
+			    <ul>
+				    <li id="btn_pane_1">
+					    <img src="img/pane_1.png" />
+					    <span>PREDICTABLE<br/>PROCEDURE<img src="img/arrow.png" /></span>
+				    </li>
+				    <li id="btn_pane_2">
+					    <img src="img/pane_2.png" />
+					    <span>LOW RATE OF<br/>COMPLICATIONS<img src="img/arrow.png" /></span>
+				    </li>
+				    <li id="btn_pane_3">
+					    <img src="img/pane_3.png" />
+					    <span>OPTIMAL<br/>HEMODYNAMICS<img src="img/arrow.png" /></span>
+				    </li>
+				    <li id="btn_pane_4">
+					    <img src="img/pane_4.png" />
+					    <span>DURABILITY<img src="img/arrow.png" /></span>
+				    </li>
+			    </ul>
+			</div>
+			
+                    </div>
+                </div>
+
+		<div id="btn_legal"><img src="img/btn_legal.png" /></div>
+                    
+		
+	</div>
+        
+        <script type="text/javascript">
+		
+		var myVideo1=document.getElementById("video_1");
+		var myVideo2=document.getElementById("video_2");
+		var myVideo3=document.getElementById("video_3");
+		var myVideo4=document.getElementById("video_4");
+		
+		function playVid1()
+		  {
+		  myVideo1.play(); 
+		  } 
+		function pauseVid1()
+		  { 
+		  myVideo1.pause(); 
+		  }
+		function playVid2()
+		  { 
+		  myVideo2.play(); 
+		  } 
+		function pauseVid2()
+		  { 
+		  myVideo2.pause(); 
+		  }
+		  
+		function playVid3()
+		  { 
+		  myVideo3.play(); 
+		  } 
+		function pauseVid3()
+		  { 
+		  myVideo3.pause(); 
+		  }
+		  
+		function playVid4()
+		  { 
+		  myVideo4.play(); 
+		  } 
+		function pauseVid4()
+		  { 
+		  myVideo4.pause(); 
+		  }
+		  
+		$pane_nav = jQuery( "#pane_nav" );
+		$pane = jQuery( ".pane" );
+		$btn_legal = jQuery( "#btn_legal" );
+		$presentation = jQuery( "#presentation" );
+		$bg_video = jQuery( "#bg_video" );
+		  
+		  
+		jQuery( "#btn_pane_1" ).click(function() {
+			$pane_nav.css( "pointer-events", "none" );
+			$pane_nav.animate({ opacity: '0' }, { duration: 400, queue: false });
+			$pane.animate({ bottom: '-830px' }, { duration: 250, queue: false });
+			jQuery( "#pane_1" ).animate({ bottom: '-0' }, { duration: 250, queue: false });
+			myVideo1.currentTime = 0;
+			playVid1();
+			pauseVid2();
+			pauseVid3();
+			pauseVid4();
+		});
+		jQuery( "#btn_pane_2" ).click(function() {
+			$pane_nav.css( "pointer-events", "none" );
+			$pane_nav.animate({ opacity: '0' }, { duration: 400, queue: false });
+			$pane.animate({ bottom: '-830px' }, { duration: 250, queue: false });
+			jQuery( "#pane_2" ).animate({ bottom: '-0' }, { duration: 250, queue: false });
+			myVideo2.currentTime = 0;
+			pauseVid1();
+			playVid2();
+			pauseVid3();
+			pauseVid4();
+		});
+		jQuery( "#btn_pane_3" ).click(function() {
+			$pane_nav.css( "pointer-events", "none" );
+			$pane_nav.animate({ opacity: '0' }, { duration: 400, queue: false });
+			$pane.animate({ bottom: '-830px' }, { duration: 250, queue: false });
+			jQuery( "#pane_3" ).animate({ bottom: '-0' }, { duration: 250, queue: false });
+			myVideo3.currentTime = 0;
+			pauseVid1();
+			pauseVid2();
+			playVid3();
+			pauseVid4();
+		});
+		jQuery( "#btn_pane_4" ).click(function() {
+			$pane_nav.css( "pointer-events", "none" );
+			$pane_nav.animate({ opacity: '0' }, { duration: 400, queue: false });
+			$pane.animate({ bottom: '-830px' }, { duration: 250, queue: false });
+			jQuery( "#pane_4" ).animate({ bottom: '-0' }, { duration: 250, queue: false });
+			myVideo4.currentTime = 0;
+			pauseVid1();
+			pauseVid2();
+			pauseVid3();
+			playVid4();
+		});
+		jQuery( ".btn_pane_close" ).click(function() {
+			$pane_nav.css( "pointer-events", "auto" );
+			$pane.animate({ bottom: '-830px' }, { duration: 250, queue: false });
+			$pane_nav.animate({ opacity: '1' }, { duration: 400, queue: false });
+			pauseVid1();
+			pauseVid2();
+			pauseVid3();
+			pauseVid4();
+		});
+		
+		
+            $btn_legal.click(function() {
+                $presentation.animate({ opacity: 0 }, 500);
+		setTimeout(function () {
+                    $presentation.css( "display", "none" );
+                }, 500);
+		$bg_video.animate({ opacity: 0 }, 500);
+		$btn_legal.animate({ opacity: 0 }, 500);
+		
+            });
+            jQuery( "#btn_close" ).click(function() {
+                $presentation.css( "display", "block" );
+		setTimeout(function () {
+                    $presentation.animate({ opacity: 1 }, 500);
+                }, 100);
+		$bg_video.animate({ opacity: 1 }, 500);
+		$btn_legal.animate({ opacity: 1 }, 500);
+            });
+
+
+	$.fn.animatecss = function(anim, time, cb) {
+		if (time) this.css('-webkit-transition', time / 1000 + 's');
+		this.addClass(anim);
+		if ($.isFunction(cb)) {
+		    setTimeout(function() {
+			// Ensure that the element is available inside the callback.
+			$(this).each(cb);
+		    }, (time) ? time : 250);
+		}
+		return this;
+	};
+	
+	
+
+	    
+        </script>    
+    <script>
+    $(document).ready(function () {  
+        alert('This site was deisgned for giant TV screens.  Please zoom out to 70% to see the full page.');
+     });
+    </script>
+            
+</body>
+</html>

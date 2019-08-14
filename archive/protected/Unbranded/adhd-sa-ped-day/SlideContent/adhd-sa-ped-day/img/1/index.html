@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<title>1</title>
+  
+<script type='text/javascript' src='http://code.jquery.com/jquery-1.9.1.js'></script>
+  
+<style type='text/css'>
+  div {display:none;position:absolute;width:317px;height:286px;}
+  #one {background:url(beige.png);}
+  #two {background:url(blue.png);}
+  #three {background:url(green.png);}
+</style>
+<script type='text/javascript'>
+  $(window).load(function(){
+    $(document).ready(function() { 
+      $('#one, #two, #three').each(function(fadeInDiv){
+        $(this).delay(fadeInDiv * 300).fadeIn(500);
+      });
+    });
+  });
+</script>
+</head>
+<body>
+  <div id="one"></div>
+  <div id="two"></div>
+  <div id="three"></div>
+</body>
+</html>

@@ -1,0 +1,21 @@
+    <a id="switch" href="#" title="" class="btn-switch"><span class="bpd switch_title">BP DISORDER</span><span class="mdd switch_title">MDD</span></a>
+    <ul>
+        <li><a id='so-0' href='#' data-nav="true"><span class='clock'></span></a></li>
+        <li><a id='so-1' href='#' data-nav="true" data-presentation="#" title='' ><span class='weight'></span></a></li>
+        <li><a id='so-2' href='#' data-nav="true" data-presentation="#" title='' ><span class='chart'></span></a></li>
+        <li><a id='so-3' href='#' data-nav="true" data-presentation="#" title='' ><span class='pill'></span></a></li>
+        <li><a id='so-4' href='#' data-nav="true" data-presentation="#" title='' ><span class='isi'></span></a></li>
+        <li><a id='so-5' href='#' data-nav="true" data-presentation="#" title='' ><span class='briefcase'></span></a></li>
+        <li><a id='so-6' href='#' data-nav="true" data-presentation="#" title='' ><span class='wallet'></span></a></li>
+        <li><a id='so-7' href='#' data-nav="true" data-presentation="#" title='' ><span class='ind'></span></a></li>
+        <li><a id='so-8' href='#' data-nav="true" data-presentation="#" title='' ><span class='envelope'></span></a></li>
+    </ul>
+<script type="text/javascript">
+    $(document).ready(function(e) {
+        $('.s-navbar ul li a').on('click', function(e) {
+            e.preventDefault();
+            window.location.href = $(this).attr('href');
+        });
+        setURLs();
+    });
+</script>

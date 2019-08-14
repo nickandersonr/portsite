@@ -1,0 +1,237 @@
+<style>
+    #toolkit_body {
+        top: -128px;
+        left: 128px;
+    }
+
+    /* iPads (portrait) ----------- */
+    @media only screen
+    and (min-device-width : 768px)
+    and (max-device-width : 1024px)
+    and (orientation : portrait) {
+
+    /*
+        html, body, .st-container, .st-pusher {
+            height: 1024px !important;
+        }
+    */
+
+    /*
+        #toolkit_body {
+            display: block;
+        }
+    */
+
+    }
+</style>
+
+    <div id="toolkit_body">
+        <div id="toolkit">
+            <div id="tool_head">
+                <a id="tool_go" href="#" data-nav="true"><img src="../shared/assets/img/chevron.png" /><p>GO</p></a>
+                <div id="tool_title">Toolkit</div>
+                <ul class="tool_button_row">
+                    <li id="toolkit_patient_profiles" class="tool_button_single"><p>Patient Profiles</p></li>
+                    <li id="toolkit_BPD" ><p>Bipolar I & <br />Bipolar II Disorders</p></li>
+                    <li id="toolkit_Receptor_Affinity"><p>Receptor <br />Affinity</p></li>
+                    <li id="toolkit_Access"><p>Access & <br />Affordability</p></li>
+                </ul>
+            </div>
+            <div id="tool_body">
+                <div class="tool_section">
+                    <ul class="tool_button_row">
+                        <li class="tool_blank"><p>&nbsp;</p></li>
+                        <li id="toolkit_Versatility" class="tool_button_single"><p>Versatility</p></li>
+                        <li id="toolkit_Indication"><p>Indication <br />Comparison Chart</p></li>
+                        <li class="tool_blank"><p>&nbsp;</p></li>
+                    </ul>
+                </div>
+                <div class="tool_section">
+                    <div class="tool_section_title">Efficacy</div>
+                    <ul class="tool_button_row">
+                        <li class="tool_blank"><p>&nbsp;</p></li>
+                        <li id="toolkit_Efficacy_MDD" class="tool_button_single"><p>Efficacy in MDD</p></li>
+                        <li id="toolkit_MADRS" class="tool_button_single"><p>MDD: MADRS</p></li>
+                        <li id="toolkit_HAM_D"class="tool_button_single"><p>MDD: HAM-D</p></li>
+                    </ul>
+                    <ul class="tool_button_row tool_row_2">
+                        <li id="toolkit_Efficacy_BPD"><p>Efficacy in <br />Bipolar Disorder </p></li>
+                        <li id="toolkit_Bipolar_MADRS"><p>Bipolar Disorder: <br />MADRS</p></li>
+                        <li id="toolkit_Bipolar_CGI_BP_S"><p>Bipolar Disorder: <br />CGI-BP-S</p></li>
+                        <li id="toolkit_Bipolar_Subgroup_Data"><p>Bipolar Disorder: <br />Subgroup Data</p></li>
+                    </ul>
+                </div>
+                <div class="tool_section">
+                    <div class="tool_section_title">Dosing</div>
+                    <ul class="tool_button_row">
+                        <li class="tool_blank"><p>&nbsp;</p></li>
+                        <li id="toolkit_Dosing_Titration_MDD"><p>Dosing & Titration <br />in MDD</p></li>
+                        <li id="toolkit_Dosing_Titration_BPD"><p>Dosing & Titration <br />in Bipolar Disorder</p></li>
+                        <li class="tool_blank"><p>&nbsp;</p></li>
+                    </ul>
+                    <ul class="tool_button_row tool_row_2">
+                        <li id="toolkit_PK_Profile" class="tool_button_single"><p>PK Profile</p></li>
+                        <li id="toolkit_Visual_Analog_Scale"><p>Visual Analog <br />Scale</p></li>
+                        <li id="toolkit_Starter_Kit" class="tool_button_single"><p>Starter Kit</p></li>
+                        <li class="tool_blank"><p>&nbsp;</p></li>
+                    </ul>
+                </div>
+                <div class="tool_section">
+                    <div class="tool_section_title no_drop">Tolerability</div>
+                    <ul class="tool_button_row">
+                        <li id="toolkit_Tolerability_MDD"><p>Tolerability <br />in MDD</p></li>
+                        <li id="toolkit_Tolerability_BPD"><p>Tolerability in <br />Bipolar Disorder</p></li>
+                        <li id="toolkit_Somnolence"><p>Somnolence Profile, <br />Bipolar Disorder</p></li>
+                        <li id="toolkit_Lipids"><p>Lipids, <br />Bipolar Disorder</p></li>
+                    </ul>
+                    <ul class="tool_button_row tool_row_2">
+                        <li id="toolkit_Glucose"><p>Glucose, <br />Bipolar Disorder</p></li>
+                        <li id="toolkit_BPD_Weight_Gain"><p>Weight Gain, <br />Bipolar Disorder</p></li>
+                        <li id="toolkit_BPD_EPS"><p>EPS, <br />Bipolar Disorder</p></li>
+                        <li id="toolkit_Schizophrenia"><p>Weight Gain, <br />Schizophrenia</p></li>
+                    </ul>
+                </div>
+                <div id="tool_safety" class="tool_section">
+                    <div class="tool_section_title">Safety</div>
+                    <ul class="tool_button_row">
+                        <li class="tool_blank"><p>&nbsp;</p></li>
+                        <li id="toolkit_ISI"><p>Important Safety <br />Information</p></li>
+                        <li id="toolkit_PI"><p>Prescribing <br />Information</p></li>
+                        <li class="tool_blank"><p>&nbsp;</p></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <script>
+
+            $('.tool_button_row li').on('click', function (e) {
+                $('.tool_button_row li').css("border", "2px solid #6a6a6a");
+                $( this ).css("border", "2px solid #FFF");
+            });
+            $('#toolkit_patient_profiles').on('click', function (e) {
+                $("#tool_go").attr('href', 'US-SXR-CNS-Patient-Selection');
+                $("#tool_go").attr('data-presentation', 'US-SXR-CNS');
+            });
+            $('#toolkit_BPD').on('click', function (e) {
+                $("#tool_go").attr('href', 'US-SXR-CNS-DSM-5');
+                $("#tool_go").attr('data-presentation', 'US-SXR-CNS-DSM-5');
+            });
+            $('#toolkit_Receptor_Affinity').on('click', function (e) {
+                $("#tool_go").attr('href', 'US-SXR-CNS-Receptor-Affinity');
+                $("#tool_go").attr('data-presentation', 'US-SXR-CNS-Receptor-Affinity');
+            });
+            $('#toolkit_Access').on('click', function (e) {
+                $("#tool_go").attr('href', 'US-SXR-CNS-Patient-Type-Selection');
+                $("#tool_go").attr('data-presentation', 'US-SXR-CNS-Access');
+            });
+            $('#toolkit_Versatility').on('click', function (e) {
+                $("#tool_go").attr('href', 'US-SXR-CNS-Versatility');
+                $("#tool_go").attr('data-presentation', 'US-SXR-CNS-Patient-Profile-Bipolar-I-and-II');
+            });
+            $('#toolkit_Indication').on('click', function (e) {
+                $("#tool_go").attr('href', 'US-SXR-CNS-Indication-Comparison');
+                $("#tool_go").attr('data-presentation', 'US-SXR-CNS-Patient-Profile-Bipolar-I-and-II');
+            });
+            $('#toolkit_Efficacy_MDD').on('click', function (e) {
+                $("#tool_go").attr('href', 'US-SXR-CNS-Efficacy-in-MDD');
+                $("#tool_go").attr('data-presentation', 'US-SXR-CNS-Patient-Profile-MDD');
+            });
+            $('#toolkit_MADRS').on('click', function (e) {
+                $("#tool_go").attr('href', 'US-SXR-CNS-Efficacy-in-MDD');
+                $("#tool_go").attr('data-presentation', 'US-SXR-CNS-Patient-Profile-MDD');
+                $("#tool_go").attr('data-deeplink', 'madrs_set');
+            });
+            $('#toolkit_HAM_D').on('click', function (e) {
+                $("#tool_go").attr('href', 'US-SXR-CNS-Efficacy-in-MDD');
+                $("#tool_go").attr('data-presentation', 'US-SXR-CNS-Patient-Profile-MDD');
+                $("#tool_go").attr('data-deeplink', 'hamd_set');
+            });
+            $('#toolkit_Efficacy_BPD').on('click', function (e) {
+                $("#tool_go").attr('href', 'US-SXR-CNS-Efficacy-in-BPD');
+                $("#tool_go").attr('data-presentation', 'US-SXR-CNS-Patient-Profile-Bipolar-I-and-II');
+            });
+            $('#toolkit_Bipolar_MADRS').on('click', function (e) {
+                $("#tool_go").attr('href', 'US-SXR-CNS-Efficacy-in-BPD');
+                $("#tool_go").attr('data-presentation', 'US-SXR-CNS-Patient-Profile-Bipolar-I-and-II');
+                $("#tool_go").attr('data-deeplink', 'bpd_madrs_set');
+            });
+            $('#toolkit_Bipolar_CGI_BP_S').on('click', function (e) {
+                $("#tool_go").attr('href', 'US-SXR-CNS-Efficacy-in-BPD');
+                $("#tool_go").attr('data-presentation', 'US-SXR-CNS-Patient-Profile-Bipolar-I-and-II');
+                $("#tool_go").attr('data-deeplink', 'bpd_cgi_set');
+            });
+            $('#toolkit_Bipolar_Subgroup_Data').on('click', function (e) {
+                $("#tool_go").attr('href', 'US-SXR-CNS-Efficacy-in-BPD');
+                $("#tool_go").attr('data-presentation', 'US-SXR-CNS-Patient-Profile-Bipolar-I-and-II');
+                $("#tool_go").attr('data-deeplink', 'bpd_subgroup_set');
+            });
+            $('#toolkit_Dosing_Titration_MDD').on('click', function (e) {
+                $("#tool_go").attr('href', 'US-SXR-CNS-Dosing-in-MDD');
+                $("#tool_go").attr('data-presentation', 'US-SXR-CNS-Patient-Profile-MDD');
+            });
+            $('#toolkit_Dosing_Titration_BPD').on('click', function (e) {
+                $("#tool_go").attr('href', 'US-SXR-CNS-Dosing-in-BPD');
+                $("#tool_go").attr('data-presentation', 'US-SXR-CNS-Patient-Profile-Bipolar-I-and-II');
+            });
+            $('#toolkit_PK_Profile').on('click', function (e) {
+                $("#tool_go").attr('href', 'US-SXR-CNS-Dosing-in-MDD');
+                $("#tool_go").attr('data-presentation', 'US-SXR-CNS-Patient-Profile-MDD');
+                $("#tool_go").attr('data-deeplink', 'pk_set');
+            });
+            $('#toolkit_Visual_Analog_Scale').on('click', function (e) {
+                $("#tool_go").attr('href', 'US-SXR-CNS-Dosing-in-MDD');
+                $("#tool_go").attr('data-presentation', 'US-SXR-CNS-Patient-Profile-MDD');
+                $("#tool_go").attr('data-deeplink', 'vas_set');
+            });
+            $('#toolkit_Starter_Kit').on('click', function (e) {
+                $("#tool_go").attr('href', 'US-SXR-CNS-Sample-Kit');
+                $("#tool_go").attr('data-presentation', 'US-SXR-CNS-Tolerability');
+            });
+            $('#toolkit_Tolerability_MDD').on('click', function (e) {
+                $("#tool_go").attr('href', 'US-SXR-CNS-Tolerability');
+                $("#tool_go").attr('data-presentation', 'US-SXR-CNS-Tolerability');
+                $("#tool_go").attr('data-deeplink', 'tol_mdd_set');
+            });
+            $('#toolkit_Tolerability_BPD').on('click', function (e) {
+                $("#tool_go").attr('href', 'US-SXR-CNS-Tolerability');
+                $("#tool_go").attr('data-presentation', 'US-SXR-CNS-Tolerability');
+            });
+            $('#toolkit_Somnolence').on('click', function (e) {
+                $("#tool_go").attr('href', 'US-SXR-CNS-Tolerability');
+                $("#tool_go").attr('data-presentation', 'US-SXR-CNS-Tolerability');
+            });
+            $('#toolkit_Lipids').on('click', function (e) {
+                $("#tool_go").attr('href', 'US-SXR-CNS-Tolerability-Lipids');
+                $("#tool_go").attr('data-presentation', 'US-SXR-CNS-Tolerability');
+            });
+            $('#toolkit_Glucose').on('click', function (e) {
+                $("#tool_go").attr('href', 'US-SXR-CNS-Tolerability-Glucose');
+                $("#tool_go").attr('data-presentation', 'US-SXR-CNS-Tolerability');
+            });
+            $('#toolkit_BPD_Weight_Gain').on('click', function (e) {
+                $("#tool_go").attr('href', 'US-SXR-CNS-Tolerability');
+                $("#tool_go").attr('data-presentation', 'US-SXR-CNS-Tolerability');
+                $("#tool_go").attr('data-deeplink', 'tol_weight_set');
+            });
+            $('#toolkit_BPD_EPS').on('click', function (e) {
+                $("#tool_go").attr('href', 'US-SXR-CNS-Tolerability');
+                $("#tool_go").attr('data-presentation', 'US-SXR-CNS-Tolerability');
+                $("#tool_go").attr('data-deeplink', 'tol_eps_set');
+            });
+            $('#toolkit_Schizophrenia').on('click', function (e) {
+                $("#tool_go").attr('href', 'US-SXR-CNS-Tolerability-Schizophrenia');
+                $("#tool_go").attr('data-presentation', 'US-SXR-CNS-Tolerability');
+            });
+            $('#toolkit_ISI').on('click', function (e) {
+                $("#tool_go").attr('href', 'US-SXR-CNS-Safety');
+                $("#tool_go").attr('data-presentation', 'US-SXR-CNS-Patient-Profile-Bipolar-I-and-II');
+            });
+            $('#toolkit_PI').on('click', function (e) {
+                $("#tool_go").attr('href', 'US-SXR-CNS-PI');
+            });
+        </script>
+    </div>
+/* Paste into console for toolkit -
+$('#toolkit_body').css('display', 'block');
+$('#toolkit_body').css('top', '0px');
+*/
