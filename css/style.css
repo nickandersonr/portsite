@@ -72,6 +72,26 @@ h3 {
 	transition: all 3s;
 }
 
+/* ------ Resources ------ */
+
+.resources {
+	max-width: 800px;
+	margin-top: 4em;
+}
+.resources .row {
+	margin-bottom: 2em;
+}
+.resources h3 {
+	margin-bottom: .5em;
+	text-align: right;
+}
+.resources a {
+	color: #EC7970;
+}
+.resources li {
+	font-size: 1.1em;
+}
+
 /* ------ Media Queries ------ */
 
 @media only screen and (max-width: 1000px) {
