@@ -107,11 +107,16 @@ h3 {
 	max-height: 100%;
   }
 }
+@media only screen and (max-width: 800px) {
+	.resources h3 {
+		text-align: left;
+	}
+}
 @media only screen and (max-width: 500px) {
-  h1 {
+  .title h1 {
     font-size: 3em;
   }
-  h2 {
+  .title h2 {
   	font-size: 1em;
   }
   .horns {
