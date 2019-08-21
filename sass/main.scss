@@ -8,26 +8,71 @@ $peach: #FECD98;
 $purple: #AF7D94;
 $red: #EC7970;
 
+/* ------ Color Schemes ------ */
+
+@mixin color ($background, $color) {
+  background: $background;
+  color: $color;
+}
+
+.peachPallete {
+    @include color($peach, $darkblue);
+    h2 {
+    	color: $red;
+    }
+    a {
+    	color: $red;
+   		:hover {
+   			color: $peach;
+   		}
+    }
+    .btn {
+    	background: $darkblue;	
+    }
+    .btn:hover {
+		color: $peach;
+	}
+}
+
+.redPallete {
+    @include color($red, $darkblue);
+    h2 {
+    	color: $lightblue;
+    }
+    a {
+    	color: $peach;
+   		:hover {
+   			color: $purple;
+   		}
+    }
+    .btn {
+    	background: $darkblue;	
+    }
+    .btn:hover {
+		color: $red;
+	}
+}
+
 /* ------ Basic Globals ------ */
 body {
-	background: $peach;
+	background: $darkblue; 
 	font-family: $WorkSans;
 }
 h1 {
 	font-family: $Creepster;
-	color: $darkblue;
 	font-size: 6em;
 }
 h2 {
 	font-family: $Creepster;
-	color: $red;
 }
 h3 {
 	margin-bottom: 2em;
 }
 
+/* ------ Temp Home ------ */
+
 .title {
-	margin-top: 2em;
+	padding-top: 2em;
     text-align: center;
     height: 100vh;
 }
@@ -45,20 +90,15 @@ h3 {
 	max-width: 30%
 }
 .container-fluid.contact {
-	margin-top: 3em;
-    background: $red;
     padding: 4em;
 }
 #contact-form {
-	    max-width: 60%;
+	max-width: 60%;
     text-align: center;
     margin: 0 auto;
 }
 .contact {
 	text-align: center;
-}
-.form-control {
-	background: $peach;
 }
 .ajax-response {
 	font-family: $Creepster;
@@ -68,12 +108,9 @@ h3 {
 .btn {
 	font-family: 'Creepster', cursive;
 	font-size: 3em;
-	background: $darkblue;
+
 	color: #FECD98;
 	padding: 8px;
-}
-.btn:hover {
-	color: $peach;
 }
 .horns .cls-1 {
 	transition: all 3s;
@@ -84,9 +121,7 @@ h3 {
 }
 
 /* ------ Resources ------ */
-#resources a {
-	color: $red;
-}
+
 .resources {
 	max-width: 800px;
 	margin-top: 4em;
@@ -97,9 +132,6 @@ h3 {
 .resources h3 {
 	margin-bottom: .5em;
 	text-align: right;
-}
-.resources a {
-	color: $red;
 }
 .resources li {
 	font-size: 1.1em;

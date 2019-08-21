@@ -1,23 +1,51 @@
 /* ------ SASS Globals ------ */
+/* ------ Color Schemes ------ */
+.peachPallete {
+  background: #FECD98;
+  color: #032430; }
+  .peachPallete h2 {
+    color: #EC7970; }
+  .peachPallete a {
+    color: #EC7970; }
+    .peachPallete a :hover {
+      color: #FECD98; }
+  .peachPallete .btn {
+    background: #032430; }
+  .peachPallete .btn:hover {
+    color: #FECD98; }
+
+.redPallete {
+  background: #EC7970;
+  color: #032430; }
+  .redPallete h2 {
+    color: #A1D6C5; }
+  .redPallete a {
+    color: #FECD98; }
+    .redPallete a :hover {
+      color: #AF7D94; }
+  .redPallete .btn {
+    background: #032430; }
+  .redPallete .btn:hover {
+    color: #EC7970; }
+
 /* ------ Basic Globals ------ */
 body {
-  background: #FECD98;
+  background: #032430;
   font-family: "Work Sans", sans-serif; }
 
 h1 {
   font-family: "Creepster", cursive;
-  color: #032430;
   font-size: 6em; }
 
 h2 {
-  font-family: "Creepster", cursive;
-  color: #EC7970; }
+  font-family: "Creepster", cursive; }
 
 h3 {
   margin-bottom: 2em; }
 
+/* ------ Temp Home ------ */
 .title {
-  margin-top: 2em;
+  padding-top: 2em;
   text-align: center;
   height: 100vh; }
 
@@ -35,8 +63,6 @@ h3 {
   max-width: 30%; }
 
 .container-fluid.contact {
-  margin-top: 3em;
-  background: #EC7970;
   padding: 4em; }
 
 #contact-form {
@@ -47,9 +73,6 @@ h3 {
 .contact {
   text-align: center; }
 
-.form-control {
-  background: #FECD98; }
-
 .ajax-response {
   font-family: "Creepster", cursive;
   font-size: 2em;
@@ -58,12 +81,8 @@ h3 {
 .btn {
   font-family: 'Creepster', cursive;
   font-size: 3em;
-  background: #032430;
   color: #FECD98;
   padding: 8px; }
-
-.btn:hover {
-  color: #FECD98; }
 
 .horns .cls-1 {
   transition: all 3s; }
@@ -73,9 +92,6 @@ h3 {
   transition: all 3s; }
 
 /* ------ Resources ------ */
-#resources a {
-  color: #EC7970; }
-
 .resources {
   max-width: 800px;
   margin-top: 4em; }
@@ -86,9 +102,6 @@ h3 {
 .resources h3 {
   margin-bottom: .5em;
   text-align: right; }
-
-.resources a {
-  color: #EC7970; }
 
 .resources li {
   font-size: 1.1em; }
