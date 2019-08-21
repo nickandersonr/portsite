@@ -73,7 +73,9 @@ h3 {
 }
 
 /* ------ Resources ------ */
-
+#resources a {
+	color: #EC7970;
+}
 .resources {
 	max-width: 800px;
 	margin-top: 4em;
