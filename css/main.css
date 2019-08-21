@@ -1,0 +1,121 @@
+/* ------ SASS Globals ------ */
+/* ------ Basic Globals ------ */
+body {
+  background: #FECD98;
+  font-family: "Work Sans", sans-serif; }
+
+h1 {
+  font-family: "Creepster", cursive;
+  color: #032430;
+  font-size: 6em; }
+
+h2 {
+  font-family: "Creepster", cursive;
+  color: #EC7970; }
+
+h3 {
+  margin-bottom: 2em; }
+
+.title {
+  margin-top: 2em;
+  text-align: center;
+  height: 100vh; }
+
+.horns {
+  text-align: center; }
+
+.horns svg {
+  max-width: 30%; }
+
+.campfire {
+  text-align: center;
+  margin-top: 4em; }
+
+.campfire img {
+  max-width: 30%; }
+
+.container-fluid.contact {
+  margin-top: 3em;
+  background: #EC7970;
+  padding: 4em; }
+
+#contact-form {
+  max-width: 60%;
+  text-align: center;
+  margin: 0 auto; }
+
+.contact {
+  text-align: center; }
+
+.form-control {
+  background: #FECD98; }
+
+.ajax-response {
+  font-family: "Creepster", cursive;
+  font-size: 2em;
+  color: #032430; }
+
+.btn {
+  font-family: 'Creepster', cursive;
+  font-size: 3em;
+  background: #032430;
+  color: #FECD98;
+  padding: 8px; }
+
+.btn:hover {
+  color: #FECD98; }
+
+.horns .cls-1 {
+  transition: all 3s; }
+
+.horns:hover .cls-1 {
+  fill: #EC7970;
+  transition: all 3s; }
+
+/* ------ Resources ------ */
+#resources a {
+  color: #EC7970; }
+
+.resources {
+  max-width: 800px;
+  margin-top: 4em; }
+
+.resources .row {
+  margin-bottom: 2em; }
+
+.resources h3 {
+  margin-bottom: .5em;
+  text-align: right; }
+
+.resources a {
+  color: #EC7970; }
+
+.resources li {
+  font-size: 1.1em; }
+
+/* ------ Media Queries ------ */
+@media only screen and (max-width: 1000px) {
+  h1 {
+    font-size: 4em; }
+  #contact-form {
+    max-width: 100%; }
+  .horns svg, .campfire img {
+    max-height: 100%; } }
+
+@media only screen and (max-width: 800px) {
+  .resources h3 {
+    text-align: left; }
+  .resources ul {
+    padding-left: 1.6em; } }
+
+@media only screen and (max-width: 500px) {
+  .title h1 {
+    font-size: 3em; }
+  .title h2 {
+    font-size: 1em; }
+  .horns {
+    margin-top: 3em; }
+  .horns svg {
+    max-width: 80%; }
+  .campfire img {
+    max-width: 100%; } }
