@@ -32,6 +32,7 @@ $red: #EC7970;
     .btn:hover {
 		color: $peach;
 	}
+	transition: all 3s;
 }
 
 .redPallete {
@@ -51,6 +52,7 @@ $red: #EC7970;
     .btn:hover {
 		color: $red;
 	}
+	transition: all 3s;
 }
 
 /* ------ Basic Globals ------ */
