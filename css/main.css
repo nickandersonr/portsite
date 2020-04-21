@@ -2,7 +2,8 @@
 /* ------ Color Schemes ------ */
 .peachPallete {
   background: #FECD98;
-  color: #032430; }
+  color: #032430;
+  transition: all 3s; }
   .peachPallete h2 {
     color: #EC7970; }
   .peachPallete a {
@@ -16,7 +17,8 @@
 
 .redPallete {
   background: #EC7970;
-  color: #032430; }
+  color: #032430;
+  transition: all 3s; }
   .redPallete h2 {
     color: #A1D6C5; }
   .redPallete a {
@@ -106,29 +108,49 @@ h3 {
 .resources li {
   font-size: 1.1em; }
 
-/* ------ Media Queries ------ */
+/* ------ Semplice Overrides ------ */
+.blog .title-meta-date {
+  display: none; }
+
+.blog .post-heading h2 {
+  font-family: "Work Sans", sans-serif; }
+
+/* ------ Media Queries ------ 
+
 @media only screen and (max-width: 1000px) {
   h1 {
-    font-size: 4em; }
+    font-size: 4em;
+  }
   #contact-form {
-    max-width: 100%; }
+  	max-width: 100%;
+  }
   .horns svg, .campfire img {
-    max-height: 100%; } }
-
+	max-height: 100%;
+  }
+}
 @media only screen and (max-width: 800px) {
-  .resources h3 {
-    text-align: left; }
-  .resources ul {
-    padding-left: 1.6em; } }
-
+	.resources h3 {
+		text-align: left;
+	}
+	.resources ul {
+		padding-left: 1.6em;
+	}
+}
 @media only screen and (max-width: 500px) {
   .title h1 {
-    font-size: 3em; }
+    font-size: 3em;
+  }
   .title h2 {
-    font-size: 1em; }
+  	font-size: 1em;
+  }
   .horns {
-    margin-top: 3em; }
+  	margin-top: 3em;
+  }
   .horns svg {
-    max-width: 80%; }
+	max-width: 80%
+  }
   .campfire img {
-    max-width: 100%; } }
+  	max-width: 100%;
+  }
+}
+*/

@@ -139,7 +139,18 @@ h3 {
 	font-size: 1.1em;
 }
 
-/* ------ Media Queries ------ */
+/* ------ Semplice Overrides ------ */
+
+
+.blog .title-meta-date {
+  display: none;
+}
+
+.blog  .post-heading h2 {
+  font-family: $WorkSans;
+} 
+
+/* ------ Media Queries ------ 
 
 @media only screen and (max-width: 1000px) {
   h1 {
@@ -177,3 +188,4 @@ h3 {
   	max-width: 100%;
   }
 }
+*/
