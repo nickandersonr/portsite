@@ -112,8 +112,14 @@ h3 {
 .blog .title-meta-date {
   display: none; }
 
-.blog .post-heading h2 {
-  font-family: "Work Sans", sans-serif; }
+.blog .post-heading h4 a {
+  pointer-events: none;
+  cursor: default;
+  text-decoration: none; }
+
+.blog #wpsp-26:nth-child(1) {
+  color: #EC7970;
+  background: #032430; }
 
 /* ------ Media Queries ------ 
 
