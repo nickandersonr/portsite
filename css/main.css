@@ -109,10 +109,7 @@ h3 {
   font-size: 1.1em; }
 
 /* ------ Semplice Overrides ------ */
-.blog .title-meta-date {
-  display: none; }
-
-.blog .post-heading h4 a {
+.page-id-18 #wpsp-26 .post h4 a {
   pointer-events: none;
   cursor: default;
   text-decoration: none; }
