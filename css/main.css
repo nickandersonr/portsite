@@ -109,6 +109,13 @@ h3 {
   font-size: 1.1em; }
 
 /* ------ Semplice Overrides ------ */
+#content-18 #section_lfjrzabwg .container {
+  max-width: 1230px;
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  padding: 0 0 0 37px; }
+
 #content-18 #section_2083d9742 {
   background-color: #032430; }
 
