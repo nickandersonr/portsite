@@ -180,6 +180,13 @@ h3 {
 .page-id-18 #wpsp-26 .post:nth-child(6n) p {
   color: #FECD98; }
 
+.page-id-18 #wpsp-26 .post:nth-child(7n) {
+  background: #FECD98; }
+
+.page-id-18 #wpsp-26 .post:nth-child(7n) h4 a,
+.page-id-18 #wpsp-26 .post:nth-child(7n) p {
+  color: #032430; }
+
 /* ------ Media Queries ------ 
 
 @media only screen and (max-width: 1000px) {
