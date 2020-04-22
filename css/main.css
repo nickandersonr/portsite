@@ -114,6 +114,14 @@ h3 {
   cursor: default;
   text-decoration: none; }
 
+.page-id-18 #wpsp-26 .post .wp-show-posts-inner {
+  padding: 2em; }
+
+.page-id-18 #wpsp-26 .post h4 a {
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.8rem; }
+
 .page-id-18 #wpsp-26 .post:nth-child(-n+1) {
   background: #FECD98; }
 
