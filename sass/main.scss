@@ -152,40 +152,40 @@ h3 {
   text-decoration: none;
 } 
 
-.page-id-18 #wpsp-26 .post:nth-child(3n+1) {
+.page-id-18 #wpsp-26 .post:nth-child(-n+1) {
     background: $peach;
 }
-.page-id-18 #wpsp-26 .post h4 a:nth-child(3n+1) {
+.page-id-18 #wpsp-26 .post h4 a:nth-child(-n+1) {
     color: $darkblue;
 }
-.page-id-18 #wpsp-26 .post:nth-child(3n+2) {
+.page-id-18 #wpsp-26 .post:nth-child(2n) {
     background: $lightblue;
 }
-.page-id-18 #wpsp-26 .post h4 a:nth-child(3n+1) {
+.page-id-18 #wpsp-26 .post h4 a:nth-child(2n) {
     color: $darkblue;
 }
-.page-id-18 #wpsp-26 .post:nth-child(3n+3) {
+.page-id-18 #wpsp-26 .post:nth-child(3n) {
     background: $lightblue;
 } 
-.page-id-18 #wpsp-26 .post h4 a:nth-child(3n+1) {
+.page-id-18 #wpsp-26 .post h4 a:nth-child(3n) {
     color: $darkblue;
 }
-.page-id-18 #wpsp-26 .post:nth-child(3n+4) {
+.page-id-18 #wpsp-26 .post:nth-child(4n) {
     background: $darkblue;
 } 
-.page-id-18 #wpsp-26 .post h4 a:nth-child(3n+1) {
+.page-id-18 #wpsp-26 .post h4 a:nth-child(4n) {
     color: $red;
 }
-.page-id-18 #wpsp-26 .post:nth-child(3n+5) {
+.page-id-18 #wpsp-26 .post:nth-child(5n) {
     background: $peach;
 } 
-.page-id-18 #wpsp-26 .post h4 a:nth-child(3n+1) {
+.page-id-18 #wpsp-26 .post h4 a:nth-child(5n) {
     color: $purple;
 }
-.page-id-18 #wpsp-26 .post:nth-child(3n+6) {
+.page-id-18 #wpsp-26 .post:nth-child(6n) {
     background: $purple;
 } 
-.page-id-18 #wpsp-26 .post h4 a:nth-child(3n+1) {
+.page-id-18 #wpsp-26 .post h4 a:nth-child(6n) {
     color: $peach;
 }
 

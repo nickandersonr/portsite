@@ -117,40 +117,40 @@ h3 {
   cursor: default;
   text-decoration: none; }
 
-.page-id-18 #wpsp-26 .post:nth-child(3n+1) {
+.page-id-18 #wpsp-26 .post:nth-child(-n+1) {
   background: #FECD98; }
 
-.page-id-18 #wpsp-26 .post h4 a:nth-child(3n+1) {
+.page-id-18 #wpsp-26 .post h4 a:nth-child(-n+1) {
   color: #032430; }
 
-.page-id-18 #wpsp-26 .post:nth-child(3n+2) {
+.page-id-18 #wpsp-26 .post:nth-child(2n) {
   background: #A1D6C5; }
 
-.page-id-18 #wpsp-26 .post h4 a:nth-child(3n+1) {
+.page-id-18 #wpsp-26 .post h4 a:nth-child(2n) {
   color: #032430; }
 
-.page-id-18 #wpsp-26 .post:nth-child(3n+3) {
+.page-id-18 #wpsp-26 .post:nth-child(3n) {
   background: #A1D6C5; }
 
-.page-id-18 #wpsp-26 .post h4 a:nth-child(3n+1) {
+.page-id-18 #wpsp-26 .post h4 a:nth-child(3n) {
   color: #032430; }
 
-.page-id-18 #wpsp-26 .post:nth-child(3n+4) {
+.page-id-18 #wpsp-26 .post:nth-child(4n) {
   background: #032430; }
 
-.page-id-18 #wpsp-26 .post h4 a:nth-child(3n+1) {
+.page-id-18 #wpsp-26 .post h4 a:nth-child(4n) {
   color: #EC7970; }
 
-.page-id-18 #wpsp-26 .post:nth-child(3n+5) {
+.page-id-18 #wpsp-26 .post:nth-child(5n) {
   background: #FECD98; }
 
-.page-id-18 #wpsp-26 .post h4 a:nth-child(3n+1) {
+.page-id-18 #wpsp-26 .post h4 a:nth-child(5n) {
   color: #AF7D94; }
 
-.page-id-18 #wpsp-26 .post:nth-child(3n+6) {
+.page-id-18 #wpsp-26 .post:nth-child(6n) {
   background: #AF7D94; }
 
-.page-id-18 #wpsp-26 .post h4 a:nth-child(3n+1) {
+.page-id-18 #wpsp-26 .post h4 a:nth-child(6n) {
   color: #FECD98; }
 
 /* ------ Media Queries ------ 
