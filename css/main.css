@@ -117,9 +117,29 @@ h3 {
   cursor: default;
   text-decoration: none; }
 
-.blog #wpsp-26:nth-child(1) {
+.blog #wpsp-26 .post:nth-child(1) {
+  color: #032430;
+  background: #FECD98; }
+
+.blog #wpsp-26 .post:nth-child(2) {
+  color: #032430;
+  background: #A1D6C5; }
+
+.blog #wpsp-26 .post:nth-child(3) {
+  color: #032430;
+  background: #A1D6C5; }
+
+.blog #wpsp-26 .post:nth-child(4) {
   color: #EC7970;
   background: #032430; }
+
+.blog #wpsp-26 .post:nth-child(5) {
+  color: #AF7D94;
+  background: #FECD98; }
+
+.blog #wpsp-26 .post:nth-child(6) {
+  color: #FECD98;
+  background: #AF7D94; }
 
 /* ------ Media Queries ------ 
 
