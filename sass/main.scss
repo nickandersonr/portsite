@@ -174,13 +174,16 @@ h3 {
   line-height: 1.8rem;
 }
 
+.page-id-18 #wpsp-26 .post:nth-child(-n+1) {
+    background: $purple;
+}
 .page-id-18 #wpsp-26 .post h4 a,
 .page-id-18 #wpsp-26 .post p {
-    color: $purple;
-}
+    color: $midblue;
+} 
 
 .page-id-18 #wpsp-26 .post:nth-child(-n+1) {
-    background: $red;
+    background: $peach;
 }
 .page-id-18 #wpsp-26 .post:nth-child(-n+1) h4 a,
 .page-id-18 #wpsp-26 .post:nth-child(-n+1) p {
