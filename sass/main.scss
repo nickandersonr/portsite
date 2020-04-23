@@ -221,12 +221,21 @@ h3 {
 .page-id-18 #wpsp-26 .post:nth-child(6n) p {
     color: $peach;
 }
+
 .page-id-18 #wpsp-26 .post:nth-child(7n) {
     background: $peach;
 } 
 .page-id-18 #wpsp-26 .post:nth-child(7n) h4 a,
 .page-id-18 #wpsp-26 .post:nth-child(7n) p {
     color: $darkblue;
+}
+
+.page-id-18 #wpsp-26 .post:nth-child(11n) {
+    background: $peach;
+} 
+.page-id-18 #wpsp-26 .post:nth-child(11n) h4 a,
+.page-id-18 #wpsp-26 .post:nth-child(11n) p {
+    color: $purple;
 }
 
 /* ------ Media Queries ------*/
