@@ -168,6 +168,16 @@ h3 {
   margin: 2em;
 }
 
+
+.page-id-18 #wpsp-26 .post:nth-child(2n) {
+    background: $red;
+}
+.page-id-18 #wpsp-26 .post:nth-child(2n) h4 a,
+.page-id-18 #wpsp-26 .post:nth-child(2n) p {
+    color: $peach;
+}
+
+
 .page-id-18 #wpsp-26 .post h4 a {
   font-size: 1.2rem;
   font-weight: 600;
@@ -180,15 +190,6 @@ h3 {
 .page-id-18 #wpsp-26 .post:nth-child(11n) h4 a,
 .page-id-18 #wpsp-26 .post:nth-child(11n) p {
     color: $purple;
-}
-
-
-.page-id-18 #wpsp-26 .post:nth-child(2n) {
-    background: $red;
-}
-.page-id-18 #wpsp-26 .post:nth-child(2n) h4 a,
-.page-id-18 #wpsp-26 .post:nth-child(2n) p {
-    color: $peach;
 }
 
 
