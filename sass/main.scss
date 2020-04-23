@@ -174,61 +174,14 @@ h3 {
   line-height: 1.8rem;
 }
 
-.page-id-18 #wpsp-26 .post {
-    background: $purple;
-}
-.page-id-18 #wpsp-26 .post h4 a,
-.page-id-18 #wpsp-26 .post p {
-    color: $midblue;
-} 
-
-.page-id-18 #wpsp-26 .post:nth-child(-n+1) {
+.page-id-18 #wpsp-26 .post:nth-child(11n) {
     background: $peach;
-}
-.page-id-18 #wpsp-26 .post:nth-child(-n+1) h4 a,
-.page-id-18 #wpsp-26 .post:nth-child(-n+1) p {
-    color: $darkblue;
-}
-
-.page-id-18 #wpsp-26 .post:nth-child(2n) {
-    background: $red;
-}
-.page-id-18 #wpsp-26 .post:nth-child(2n) h4 a,
-.page-id-18 #wpsp-26 .post:nth-child(2n) p {
-    color: $peach;
-}
-
-.page-id-18 #wpsp-26 .post:nth-child(3n) {
-    background: $lightblue;
 } 
-.page-id-18 #wpsp-26 .post:nth-child(3n) h4 a,
-.page-id-18 #wpsp-26 .post:nth-child(3n) p {
-    color: $darkblue;
+.page-id-18 #wpsp-26 .post:nth-child(11n) h4 a,
+.page-id-18 #wpsp-26 .post:nth-child(11n) p {
+    color: $purple;
 }
 
-.page-id-18 #wpsp-26 .post:nth-child(4n) {
-    background: $darkblue;
-} 
-.page-id-18 #wpsp-26 .post:nth-child(4n) h4 a,
-.page-id-18 #wpsp-26 .post:nth-child(4n) p {
-    color: $red;
-}
-
-.page-id-18 #wpsp-26 .post:nth-child(5n) {
-    background: $midblue;
-} 
-.page-id-18 #wpsp-26 .post:nth-child(5n) h4 a,
-.page-id-18 #wpsp-26 .post:nth-child(5n) p {
-    color: $red;
-}
-
-.page-id-18 #wpsp-26 .post:nth-child(6n) {
-    background: $purple;
-} 
-.page-id-18 #wpsp-26 .post:nth-child(6n) h4 a,
-.page-id-18 #wpsp-26 .post:nth-child(6n) p {
-    color: $peach;
-}
 
 .page-id-18 #wpsp-26 .post:nth-child(7n) {
     background: $peach;
@@ -238,13 +191,71 @@ h3 {
     color: $darkblue;
 }
 
-.page-id-18 #wpsp-26 .post:nth-child(11n) {
-    background: $peach;
+
+.page-id-18 #wpsp-26 .post:nth-child(6n) {
+    background: $purple;
 } 
-.page-id-18 #wpsp-26 .post:nth-child(11n) h4 a,
-.page-id-18 #wpsp-26 .post:nth-child(11n) p {
-    color: $purple;
+.page-id-18 #wpsp-26 .post:nth-child(6n) h4 a,
+.page-id-18 #wpsp-26 .post:nth-child(6n) p {
+    color: $peach;
 }
+
+
+.page-id-18 #wpsp-26 .post:nth-child(5n) {
+    background: $midblue;
+} 
+.page-id-18 #wpsp-26 .post:nth-child(5n) h4 a,
+.page-id-18 #wpsp-26 .post:nth-child(5n) p {
+    color: $red;
+}
+
+
+.page-id-18 #wpsp-26 .post:nth-child(4n) {
+    background: $darkblue;
+} 
+.page-id-18 #wpsp-26 .post:nth-child(4n) h4 a,
+.page-id-18 #wpsp-26 .post:nth-child(4n) p {
+    color: $red;
+}
+
+
+.page-id-18 #wpsp-26 .post:nth-child(3n) {
+    background: $lightblue;
+} 
+.page-id-18 #wpsp-26 .post:nth-child(3n) h4 a,
+.page-id-18 #wpsp-26 .post:nth-child(3n) p {
+    color: $darkblue;
+}
+
+
+.page-id-18 #wpsp-26 .post:nth-child(2n) {
+    background: $red;
+}
+.page-id-18 #wpsp-26 .post:nth-child(2n) h4 a,
+.page-id-18 #wpsp-26 .post:nth-child(2n) p {
+    color: $peach;
+}
+
+
+.page-id-18 #wpsp-26 .post {
+    background: $purple;
+}
+.page-id-18 #wpsp-26 .post h4 a,
+.page-id-18 #wpsp-26 .post p {
+    color: $midblue;
+} 
+
+
+.page-id-18 #wpsp-26 .post:nth-child(-n+1) {
+    background: $peach;
+}
+.page-id-18 #wpsp-26 .post:nth-child(-n+1) h4 a,
+.page-id-18 #wpsp-26 .post:nth-child(-n+1) p {
+    color: $darkblue;
+}
+
+
+
 
 /* ------ Media Queries ------*/
 
