@@ -229,7 +229,19 @@ h3 {
     color: $darkblue;
 }
 
-/* ------ Media Queries ------ 
+/* ------ Media Queries ------*/
+
+@media only screen and (max-width: 600px) {
+  #content-18 #section_lfjrzabwg .container {
+    padding: 0;
+  }
+  .page-id-18 #wpsp-26 .post {
+    padding: 0 1.2rem;
+  }
+}
+
+
+/*
 
 @media only screen and (max-width: 1000px) {
   h1 {
