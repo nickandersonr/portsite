@@ -140,6 +140,13 @@ h3 {
 .page-id-18 #wpsp-26 .post:nth-child(2n) p {
   color: #FECD98; }
 
+.page-id-18 #wpsp-26 .post:nth-child(3n) {
+  background: #A1D6C5; }
+
+.page-id-18 #wpsp-26 .post:nth-child(3n) h4 a,
+.page-id-18 #wpsp-26 .post:nth-child(3n) p {
+  color: #032430; }
+
 .page-id-18 #wpsp-26 .post h4 a {
   font-size: 1.2rem;
   font-weight: 600;
@@ -179,13 +186,6 @@ h3 {
 .page-id-18 #wpsp-26 .post:nth-child(4n) h4 a,
 .page-id-18 #wpsp-26 .post:nth-child(4n) p {
   color: #EC7970; }
-
-.page-id-18 #wpsp-26 .post:nth-child(3n) {
-  background: #A1D6C5; }
-
-.page-id-18 #wpsp-26 .post:nth-child(3n) h4 a,
-.page-id-18 #wpsp-26 .post:nth-child(3n) p {
-  color: #032430; }
 
 .page-id-18 #wpsp-26 .post {
   background: #AF7D94; }

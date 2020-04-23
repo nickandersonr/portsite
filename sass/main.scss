@@ -177,6 +177,14 @@ h3 {
     color: $peach;
 }
 
+.page-id-18 #wpsp-26 .post:nth-child(3n) {
+    background: $lightblue;
+} 
+.page-id-18 #wpsp-26 .post:nth-child(3n) h4 a,
+.page-id-18 #wpsp-26 .post:nth-child(3n) p {
+    color: $darkblue;
+}
+
 
 .page-id-18 #wpsp-26 .post h4 a {
   font-size: 1.2rem;
@@ -229,13 +237,7 @@ h3 {
 }
 
 
-.page-id-18 #wpsp-26 .post:nth-child(3n) {
-    background: $lightblue;
-} 
-.page-id-18 #wpsp-26 .post:nth-child(3n) h4 a,
-.page-id-18 #wpsp-26 .post:nth-child(3n) p {
-    color: $darkblue;
-}
+
 
 
 
