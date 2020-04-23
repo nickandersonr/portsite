@@ -138,8 +138,12 @@ h3 {
   font-weight: 600;
   line-height: 1.8rem; }
 
+.page-id-18 #wpsp-26 .post h4 a,
+.page-id-18 #wpsp-26 .post p {
+  color: #AF7D94; }
+
 .page-id-18 #wpsp-26 .post:nth-child(-n+1) {
-  background: #FECD98; }
+  background: #EC7970; }
 
 .page-id-18 #wpsp-26 .post:nth-child(-n+1) h4 a,
 .page-id-18 #wpsp-26 .post:nth-child(-n+1) p {
