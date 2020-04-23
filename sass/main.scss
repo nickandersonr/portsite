@@ -183,6 +183,15 @@ h3 {
 }
 
 
+.page-id-18 #wpsp-26 .post:nth-child(2n) {
+    background: $red;
+}
+.page-id-18 #wpsp-26 .post:nth-child(2n) h4 a,
+.page-id-18 #wpsp-26 .post:nth-child(2n) p {
+    color: $peach;
+}
+
+
 .page-id-18 #wpsp-26 .post:nth-child(7n) {
     background: $peach;
 } 
@@ -228,13 +237,7 @@ h3 {
 }
 
 
-.page-id-18 #wpsp-26 .post:nth-child(2n) {
-    background: $red;
-}
-.page-id-18 #wpsp-26 .post:nth-child(2n) h4 a,
-.page-id-18 #wpsp-26 .post:nth-child(2n) p {
-    color: $peach;
-}
+
 
 
 .page-id-18 #wpsp-26 .post {
