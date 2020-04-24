@@ -201,6 +201,38 @@ h3 {
 .page-id-18 #wpsp-26 .post:nth-child(-n+1) p {
   color: #032430; }
 
+/* ------ Home ------ */
+#row_e2adbd2cc span.inter_bold {
+  font-family: "Creepster", cursive; }
+
+/* ------ Cover ------
+
+.cover {
+  text-align: left;
+  height: 100vh;
+}
+.brand h1 {
+  font-size: 8em;
+}
+.brandStatement {
+  position: absolute;
+  bottom: 32vh;
+}
+.brandStatement p {
+  font-size: 1.4em;
+  max-width: 50vw;
+}
+
+.coverCampfire {
+  max-width: 30%;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 40vh;
+  right: 0;
+
+}
+*/
 /* ------ Media Queries ------*/
 @media only screen and (max-width: 600px) {
   #content-18 #section_lfjrzabwg .container {
