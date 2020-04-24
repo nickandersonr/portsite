@@ -202,8 +202,13 @@ h3 {
   color: #032430; }
 
 /* ------ Home ------ */
+#content-7 #section_db85fe234 {
+  background-color: #032430;
+  padding: 2em 0; }
+
 #row_e2adbd2cc span.inter_bold {
-  font-family: "Creepster", cursive; }
+  font-family: "Creepster", cursive;
+  letter-spacing: 0; }
 
 /* ------ Cover ------
 
