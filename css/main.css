@@ -210,6 +210,10 @@ h3 {
   font-family: "Creepster", cursive;
   letter-spacing: 0 !important; }
 
+/* ------ Home Testimonials ------ */
+#content_8777b8310 .is-content p a span span {
+  font-family: "Creepster", cursive; }
+
 /* ------ Cover ------
 
 .cover {
