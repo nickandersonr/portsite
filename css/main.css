@@ -30,6 +30,21 @@
   .redPallete .btn:hover {
     color: #EC7970; }
 
+.purplePallete {
+  background: #AF7D94;
+  color: #032430;
+  transition: all 3s; }
+  .purplePallete h2 {
+    color: #A1D6C5; }
+  .purplePallete a {
+    color: #FECD98; }
+    .purplePallete a :hover {
+      color: #A1D6C5; }
+  .purplePallete .btn {
+    background: #032430; }
+  .purplePallete .btn:hover {
+    color: #A1D6C5; }
+
 /* ------ Basic Globals ------ */
 body {
   background: #032430;
@@ -213,6 +228,25 @@ h3 {
 /* ------ Home Testimonials ------ */
 #content_8777b8310 .is-content p a span span {
   font-family: "Creepster", cursive; }
+
+/* ------ Footer ------ */
+#content-7 #section_7d0579f0b {
+  background: #AF7D94;
+  color: #032430;
+  transition: all 3s; }
+  #content-7 #section_7d0579f0b h2 {
+    color: #A1D6C5; }
+  #content-7 #section_7d0579f0b a {
+    color: #FECD98; }
+    #content-7 #section_7d0579f0b a :hover {
+      color: #A1D6C5; }
+  #content-7 #section_7d0579f0b .btn {
+    background: #032430; }
+  #content-7 #section_7d0579f0b .btn:hover {
+    color: #A1D6C5; }
+
+#content-7 #section_7d0579f0b {
+  background-color: #AF7D94; }
 
 /* ------ Cover ------
 

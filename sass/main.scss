@@ -55,6 +55,26 @@ $red: #EC7970;
 	transition: all 3s;
 }
 
+.purplePallete {
+    @include color($purple, $darkblue);
+    h2 {
+      color: $lightblue;
+    }
+    a {
+      color: $peach;
+      :hover {
+        color: $lightblue;
+      }
+    }
+    .btn {
+      background: $darkblue;  
+    }
+    .btn:hover {
+    color: $lightblue;
+  }
+  transition: all 3s;
+}
+
 /* ------ Basic Globals ------ */
 body {
 	background: $darkblue; 
@@ -271,6 +291,31 @@ h3 {
 
 #content_8777b8310 .is-content p a span span {
   font-family: $Creepster;
+}
+
+/* ------ Footer ------ */
+
+#content-7 #section_7d0579f0b {
+    @include color($purple, $darkblue);
+    h2 {
+      color: $lightblue;
+    }
+    a {
+      color: $peach;
+      :hover {
+        color: $lightblue;
+      }
+    }
+    .btn {
+      background: $darkblue;  
+    }
+    .btn:hover {
+    color: $lightblue;
+  }
+  transition: all 3s;
+}
+#content-7 #section_7d0579f0b {
+  background-color: $purple;
 }
 
 /* ------ Cover ------
