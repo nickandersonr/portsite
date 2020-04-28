@@ -304,18 +304,20 @@ h3 {
 }
 
 .nf-form-content button, .nf-form-content input[type=button], .nf-form-content input[type=submit] {
-    background: $darkblue;
+    background: $peach;
     border: 0;
-    color: $peach;
+    color: $darkblue;
     transition: all .5s;
     float: right;
+    font-family: Creepster;
+    font-size: 2em;
+    height: auto;
+    padding: .4em .6em;
+    border-radius: 8px;
 }
 .nf-form-content button:hover, .nf-form-content input[type=button]:hover, .nf-form-content input[type=submit]:hover {
     background: $red;
-    border: 0;
-    color: $lightblue;
-    transition: all .5s;
-    float: right;
+    color: $darkblue;
 }
 
 /* ------ Cover ------

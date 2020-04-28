@@ -237,18 +237,20 @@ h3 {
   color: #FECD98; }
 
 .nf-form-content button, .nf-form-content input[type=button], .nf-form-content input[type=submit] {
-  background: #032430;
+  background: #FECD98;
   border: 0;
-  color: #FECD98;
+  color: #032430;
   transition: all .5s;
-  float: right; }
+  float: right;
+  font-family: Creepster;
+  font-size: 2em;
+  height: auto;
+  padding: .4em .6em;
+  border-radius: 8px; }
 
 .nf-form-content button:hover, .nf-form-content input[type=button]:hover, .nf-form-content input[type=submit]:hover {
   background: #EC7970;
-  border: 0;
-  color: #A1D6C5;
-  transition: all .5s;
-  float: right; }
+  color: #032430; }
 
 /* ------ Cover ------
 
