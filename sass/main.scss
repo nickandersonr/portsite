@@ -295,27 +295,27 @@ h3 {
 
 /* ------ Footer ------ */
 
-#content-7 #section_78257d6fe {
-    @include color($purple, $darkblue);
-    h2 {
-      color: $lightblue;
-    }
-    a {
-      color: $peach;
-      :hover {
-        color: $lightblue;
-      }
-    }
-    .btn {
-      background: $darkblue;  
-    }
-    .btn:hover {
-    color: $lightblue;
-  }
-  transition: all 3s;
+
+.nf-form-fields-required {
+  display: none;
 }
-#content-7 #section_78257d6fe {
-  background-color: $purple;
+.nf-error-msg, .ninja-forms-req-symbol {
+    color: $peach;
+}
+
+.nf-form-content button, .nf-form-content input[type=button], .nf-form-content input[type=submit] {
+    background: $darkblue;
+    border: 0;
+    color: $peach;
+    transition: all .5s;
+    float: right;
+}
+.nf-form-content button:hover, .nf-form-content input[type=button]:hover, .nf-form-content input[type=submit]:hover {
+    background: $red;
+    border: 0;
+    color: $lightblue;
+    transition: all .5s;
+    float: right;
 }
 
 /* ------ Cover ------
