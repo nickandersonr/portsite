@@ -244,7 +244,8 @@ h3 {
   border: none; }
 
 .contact_subtext {
-  max-width: 60%; }
+  max-width: 60%;
+  margin: 0 auto; }
 
 /* ------ Cover ------
 
