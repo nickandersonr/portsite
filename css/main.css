@@ -230,27 +230,18 @@ h3 {
   font-family: "Creepster", cursive; }
 
 /* ------ Footer ------ */
-.nf-form-fields-required {
-  display: none; }
+.contact .form-control {
+  font-size: 1.4em;
+  min-height: 2.4em; }
 
-.nf-error-msg, .ninja-forms-req-symbol {
-  color: #FECD98; }
-
-.nf-form-content button, .nf-form-content input[type=button], .nf-form-content input[type=submit] {
-  background: #FECD98;
-  border: 0;
-  color: #032430;
-  transition: all .5s;
-  float: right;
+.contact label {
+  float: left;
   font-family: Creepster;
-  font-size: 2em;
-  height: auto;
-  padding: .4em .6em;
-  border-radius: 8px; }
+  font-size: 2em; }
 
-.nf-form-content button:hover, .nf-form-content input[type=button]:hover, .nf-form-content input[type=submit]:hover {
-  background: #EC7970;
-  color: #032430; }
+.contact button {
+  width: 100%;
+  border: none; }
 
 /* ------ Cover ------
 

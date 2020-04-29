@@ -8,13 +8,13 @@
 		 * Naming Sections
 		/* ---------------------------------------------- */
 
-		console.log("I'm here!");
-		var i = 1;
-		$('div.sections section').each(function(){
-			console.log("I work!");
-		    $(this).addClass('section_'+i);
-		    i++;
-		});
+		// console.log("I'm here!");
+		// var i = 1;
+		// $('div.sections section').each(function(){
+		// 	console.log("I work!");
+		//     $(this).addClass('section_'+i);
+		//     i++;
+		// });
 
 		/* ---------------------------------------------- /*
 		 * E-mail validation
@@ -46,7 +46,7 @@
 			else {
 				$.ajax({
 					type: 'POST',
-					url: 'assets/php/contactForm.php',
+					url: '../assets/php/contactForm.php',
 					dataType: 'json',
 					data: {
 						c_email: c_email,

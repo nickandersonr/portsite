@@ -295,29 +295,18 @@ h3 {
 
 /* ------ Footer ------ */
 
-
-.nf-form-fields-required {
-  display: none;
+.contact .form-control {
+    font-size: 1.4em;
+    min-height: 2.4em;
 }
-.nf-error-msg, .ninja-forms-req-symbol {
-    color: $peach;
-}
-
-.nf-form-content button, .nf-form-content input[type=button], .nf-form-content input[type=submit] {
-    background: $peach;
-    border: 0;
-    color: $darkblue;
-    transition: all .5s;
-    float: right;
+.contact label {
+    float: left;
     font-family: Creepster;
     font-size: 2em;
-    height: auto;
-    padding: .4em .6em;
-    border-radius: 8px;
 }
-.nf-form-content button:hover, .nf-form-content input[type=button]:hover, .nf-form-content input[type=submit]:hover {
-    background: $red;
-    color: $darkblue;
+.contact button {
+    width: 100%;
+    border: none;
 }
 
 /* ------ Cover ------
