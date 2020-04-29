@@ -75,6 +75,26 @@ $red: #EC7970;
   transition: all 3s;
 }
 
+.lightBluePallete {
+    @include color($lightblue, $darkblue);
+    h2 {
+      color: $darkblue;
+    }
+    a {
+      color: $peach;
+      :hover {
+        color: $red;
+      }
+    }
+    .btn {
+      background: $peach;  
+    }
+    .btn:hover {
+    color: $red;
+  }
+  transition: all 3s;
+}
+
 /* ------ Basic Globals ------ */
 body {
 	background: $darkblue; 

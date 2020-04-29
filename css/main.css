@@ -45,6 +45,21 @@
   .purplePallete .btn:hover {
     color: #A1D6C5; }
 
+.lightBluePallete {
+  background: #A1D6C5;
+  color: #032430;
+  transition: all 3s; }
+  .lightBluePallete h2 {
+    color: #032430; }
+  .lightBluePallete a {
+    color: #FECD98; }
+    .lightBluePallete a :hover {
+      color: #EC7970; }
+  .lightBluePallete .btn {
+    background: #FECD98; }
+  .lightBluePallete .btn:hover {
+    color: #EC7970; }
+
 /* ------ Basic Globals ------ */
 body {
   background: #032430;
