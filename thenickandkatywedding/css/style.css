@@ -1,0 +1,303 @@
+body {
+    font-family: "Nunito";
+}
+
+a {
+    font-family: 'Playball', cursive;
+    color: #FFF;
+}
+
+
+#nav {
+    background: transparent;
+}
+#nav.fixed {
+    background: #FFF;
+    height: 76px;
+}
+#nav li {
+    margin-left: .45rem;
+}
+#nav li::after { 
+    content: "|";
+    padding-left: 10px;
+    color: #4d4d4d;
+}
+#nav li:last-child:after {
+  content: '';
+}
+.sub-nav dt.active a, .sub-nav dd.active a, .sub-nav li.active a {
+    border-radius: 0px;
+    font-weight: normal;
+    background: transparent;
+    padding: inherit;
+    cursor: default;
+    color: inherit;
+    text-decoration: underline;
+}
+#nav a {
+    font-family: 'Playball', cursive;
+    font-size: 20px;
+    padding: 0;
+    color: #4d4d4d;
+}
+.sub-nav {
+    width: 456px;
+    margin: 0 auto;
+    margin-top: 4px;
+}
+#nav.fixed #logo_small {
+    display: block;
+}
+#logo_small {
+    display: none;
+    height: 58px;
+    position: absolute;
+}
+.big {
+    position: relative;
+}
+
+/* ----------- Home ----------- */
+
+#Home {
+    background: url('../img/Home.jpg') no-repeat center center fixed;
+    background-size: cover;
+    min-height: 800px;
+    width: 100%;
+}
+#Home #logo {
+    margin-top: 152px;
+}
+.white_gradient {
+    width: 100%;
+    height: 500px;
+    background: -moz-linear-gradient(top,  rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0)), color-stop(100%,rgba(255,255,255,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+}   
+
+
+/* ----------- Details ----------- */
+
+
+#Details {
+    background-image: url('../img/Details.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
+}
+#Details #info {
+    height: 800px;
+    position: relative;
+    bottom: 509px;
+    left: -200px;
+}
+.black_gradient_up {
+    width: 100%;
+    height: 500px;
+    background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+}
+#Details .black_gradient_up {
+    height: 500px;
+    position: relative;
+    top: 300px;
+}
+
+#TheDetails {
+    color: #d3c883;
+    position: relative;
+    top: -938px;
+    width: 300px;
+    float: right;
+    text-align: center;
+    margin-right: 78px;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+#TheDetails p {
+    line-height: 1;
+}
+#TheDetails a {
+    font-size: 1.5rem;
+    margin: 10px 0;
+    display: block;
+    text-decoration: underline;
+}
+
+
+/* ----------- Story ----------- */
+
+
+#Story {
+    background: url('../img/Story.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 900px;
+}
+.black_gradient {
+    width: 100%;
+    height: 100%;
+    background: -moz-linear-gradient(top,  rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,1)), color-stop(100%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(0,0,0,1) 0%,rgba(0,0,0,0) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(0,0,0,1) 0%,rgba(0,0,0,0) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(0,0,0,1) 0%,rgba(0,0,0,0) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(0,0,0,1) 0%,rgba(0,0,0,0) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+}
+#Our_Story {
+    position: relative;
+    top: -760px;
+    width: 800px;
+    margin: 0 auto;
+    color: #d4c984;
+    font-family: "Nunito";
+}
+#Our_Story h1 {
+    font-family: 'Playball', cursive;
+    color: #d4c984;
+}
+#Ind_Story_Holder {
+    display: none;
+    position: relative;
+    top: -460px;
+    width: 800px;
+}
+.story_click {
+ 
+}
+.story_click span {
+    font-family: 'Playball', cursive;
+    color: #d4c984;
+    float: left;
+}
+.story_click .arrow {
+    width: 30px;
+    float: left;
+    clear: both;
+}
+#His_Story {
+
+}
+#Her_Story {
+
+}
+#Her_Story .arrow {
+
+}
+
+/* ----------- Wedding Party ----------- */
+
+#WeddingParty {
+    background: rgb(178,25,89); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(178,25,89,1) 0%, rgba(119,17,60,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(178,25,89,1)), color-stop(100%,rgba(119,17,60,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(178,25,89,1) 0%,rgba(119,17,60,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(178,25,89,1) 0%,rgba(119,17,60,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(178,25,89,1) 0%,rgba(119,17,60,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(178,25,89,1) 0%,rgba(119,17,60,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b21959', endColorstr='#77113c',GradientType=0 ); /* IE6-9 */
+height: 1500px;
+}
+
+#WeddingParty h1 {
+    font-family: 'Playball', cursive;
+    color: #FFEF57;
+    text-align: center;
+    font-size: 5rem;
+    padding-top: 62px;
+    margin: 0;
+}
+
+#party_people {
+    position: relative;
+    top: -450px;
+}
+
+#WeddingParty h3 {
+    font-family: 'Playball', cursive;
+    color: #FFEF57;
+    font-size: 3rem;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0 0 0;
+}
+
+.purple_gradient {
+    
+    position: relative;
+    top:-674px;
+    
+    width: 100%;
+    height: 500px;
+    
+    background: -moz-linear-gradient(top,  rgba(178,25,89,0) 0%, rgba(178,25,89,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(178,25,89,0)), color-stop(100%,rgba(178,25,89,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(178,25,89,0) 0%,rgba(178,25,89,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(178,25,89,0) 0%,rgba(178,25,89,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(178,25,89,0) 0%,rgba(178,25,89,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(178,25,89,0) 0%,rgba(178,25,89,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00b21959', endColorstr='#b21959',GradientType=0 ); /* IE6-9 */
+}
+
+.stage {
+    margin: 0 auto;
+    width: 1300px;
+}
+
+#girls_holder {
+    /*background: #FF3D8E;*/
+}
+#boys_holder {
+    /*background: #6EBCCC;
+    position: relative;
+    top: -3px;*/
+}
+
+#WeddingParty .movie h1 {
+    font-family: 'Playball', cursive;
+    color: #FFEF57;
+    font-size: 2rem;
+    padding-top: 0;
+    text-align: left;
+    position: relative;
+    top: 147px;
+}
+.info header span {
+    position: relative;
+    top: 46px;
+}
+
+
+
+footer {
+    background: #232323;
+    color: #fff;
+    padding: 15px 10px;
+    text-align: center;
+    clear: both;
+    float: left;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
