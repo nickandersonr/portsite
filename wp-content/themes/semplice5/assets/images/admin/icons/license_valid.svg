@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="34" height="24" viewBox="0 0 34 24">
+  <defs>
+    <style>
+      .valid-license-icon {
+        fill: #38c725;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="Form_1" data-name="Form 1" class="valid-license-icon" d="M9.5,16a0.5,0.5,0,0,1-.354-0.146l-2.5-2.5a0.5,0.5,0,0,1,.707-0.707L9.512,14.8l7.147-6.67a0.5,0.5,0,0,1,.683.731l-7.5,7A0.5,0.5,0,0,1,9.5,16ZM12,24A12,12,0,1,1,24,12,12.014,12.014,0,0,1,12,24ZM12,1A11,11,0,1,0,23,12,11.012,11.012,0,0,0,12,1Z"/>
+</svg>

@@ -1,0 +1,103 @@
+{
+	"order": {
+		"section_wy72z9f5a": {
+			"row_icuf2sg8n": {
+				"columns": {
+					"column_tkkwi6ruy": ["content_o7oz3wtml", "content_ggxd3uiar"]
+				}
+			}
+		}
+	},
+	"section_wy72z9f5a": {
+		"options": {},
+		"layout": {
+			"data-column-mode-sm": "single",
+			"data-column-mode-xs": "single",
+			"data-height": "fullscreen",
+			"data-valign": "center",
+			"data-justify": "center"
+		},
+		"customHeight": {
+			"xl": {
+				"height": "15rem"
+			}
+		},
+		"styles": {
+			"xl": {
+				"background_type": "img",
+				"background-size": "cover",
+				"background-position": "50% 50%",
+				"background-image": "semplice_comingsoon_3.jpg"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"column_tkkwi6ruy": {
+		"width": {
+			"xl": "10",
+			"md": "12"
+		},
+		"options": {},
+		"layout": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_o7oz3wtml": {
+		"content": {
+			"xl": "<p style=\"font-size: 4rem; line-height: 4rem; text-align: center;\" data-mce-style=\"font-size: 4rem; line-height: 4rem; text-align: center;\" data-font-size-xl=\"8.000rem\" data-line-height-xl=\"8.000rem\" data-font-size-xs=\"4.000rem\" data-line-height-xs=\"4.000rem\" data-font-size-sm=\"5.444rem\" data-line-height-sm=\"5.444rem\"><span class=\"inter_bold\" style=\"letter-spacing: -0.222rem; color: rgb(2, 2, 2);\" data-mce-style=\"letter-spacing: -0.222rem; color: rgb(2, 2, 2);\" data-letter-spacing-xl=\"-0.222rem\">New site coming soon.</span></p>"
+		},
+		"module": "text",
+		"options": {},
+		"styles": {
+			"xl": {
+				"padding-top": "0rem"
+			},
+			"sm": {
+				"padding-bottom": "0rem",
+				"padding-top": "6.666666666666667rem"
+			},
+			"xs": {
+				"padding-bottom": "0rem",
+				"padding-top": "6.666666666666667rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_ggxd3uiar": {
+		"content": {
+			"xl": "<p style=\"text-align: center; line-height: 1.667rem;\" data-mce-style=\"text-align: center; line-height: 1.667rem;\" data-line-height-xl=\"1.667rem\"><span class=\"inter_regular\" style=\"color: rgb(0, 0, 0);\" data-mce-style=\"color: rgb(0, 0, 0);\">Meanwhile, you can reach me at:<br></span><span class=\"inter_regular\" style=\"color: rgb(0, 0, 0);\" data-mce-style=\"color: rgb(0, 0, 0);\">yourname@email.com</span></p>"
+		},
+		"module": "text",
+		"options": {},
+		"styles": {
+			"xl": {
+				"padding-top": "3.3333333333333335rem"
+			},
+			"xs": {
+				"padding-bottom": "6.666666666666667rem"
+			},
+			"sm": {
+				"padding-bottom": "6.666666666666667rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	}
+}

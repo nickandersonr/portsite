@@ -1,0 +1,149 @@
+{
+	"order": {
+		"section_a6hua36f9": {
+			"row_x6iensm71": {
+				"columns": {
+					"column_9sp6c5yzn": ["content_xjp9s4ujh"]
+				}
+			},
+			"row_kgkuodzv3": {
+				"columns": {
+					"column_08nj1ouww": ["content_lw0d3qcvx"]
+				}
+			},
+			"row_czpkan1lt": {
+				"columns": {
+					"column_ov4mlmmln": ["content_6hgp4anuf"]
+				}
+			}
+		}
+	},
+	"section_a6hua36f9": {
+		"options": {},
+		"layout": {
+			"data-column-mode-sm": "single",
+			"data-column-mode-xs": "single",
+			"data-justify": "center"
+		},
+		"customHeight": {
+			"xl": {
+				"height": "15rem"
+			}
+		},
+		"styles": {
+			"xl": {
+				"background-color": "#000000"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"column_9sp6c5yzn": {
+		"width": {
+			"xl": 12
+		},
+		"options": {},
+		"layout": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_xjp9s4ujh": {
+		"content": {
+			"xl": "<p style=\"text-align: center; font-size: 5.333rem; line-height: 5.333rem;\" data-mce-style=\"text-align: center; font-size: 5.333rem; line-height: 5.333rem;\" data-font-size-xl=\"10.333rem\" data-line-height-xl=\"10.389rem\" data-font-size-sm=\"8.000rem\" data-line-height-sm=\"8.000rem\" data-font-size-xs=\"5.333rem\" data-line-height-xs=\"5.333rem\"><span style=\"color: rgb(255, 255, 255); letter-spacing: -0.222rem;\" data-mce-style=\"color: rgb(255, 255, 255); letter-spacing: -0.222rem;\" class=\"inter_bold\" data-letter-spacing-xl=\"-0.222rem\">Colors</span></p>"
+		},
+		"module": "text",
+		"options": {},
+		"styles": {
+			"xl": {
+				"padding-top": "4.444444444444445rem",
+				"padding-bottom": "0rem",
+				"z-index": "2"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"column_08nj1ouww": {
+		"width": {
+			"xl": 12
+		},
+		"options": {},
+		"layout": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_lw0d3qcvx": {
+		"content": {
+			"xl": "semplice_overlap_2.jpg"
+		},
+		"module": "image",
+		"options": {},
+		"styles": {
+			"xl": {
+				"margin-top": "-4.166666666666667rem"
+			},
+			"sm": {
+				"margin-top": "-3.3333333333333335rem"
+			},
+			"xs": {
+				"margin-top": "-2.2222222222222223rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"column_ov4mlmmln": {
+		"width": {
+			"xl": "7"
+		},
+		"options": {},
+		"layout": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_6hgp4anuf": {
+		"content": {
+			"xl": "<p style=\"text-align: center;\" data-mce-style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: #ffffff;\" class=\"inter_regular\">Hey there, this is the default text for a new paragraph. Feel free to edit this paragraph by clicking on the yellow edit icon. After you are done just click on the yellow checkmark button on the top right. Have Fun!</span></p>"
+		},
+		"module": "text",
+		"options": {},
+		"styles": {
+			"xl": {
+				"padding-top": "3.3333333333333335rem",
+				"padding-bottom": "3.3333333333333335rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	}
+}

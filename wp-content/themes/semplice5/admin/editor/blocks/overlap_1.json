@@ -1,0 +1,200 @@
+{
+	"order": {
+		"section_pal82b75j": {
+			"row_ioisgcfdi": {
+				"columns": {
+					"column_xjzgukmey": ["content_3yadf5lfe", "content_rlt7kp8bq", "content_vejal1g7e"],
+					"column_66ns59bsl": ["content_n8z72c5xf"]
+				}
+			}
+		}
+	},
+	"section_pal82b75j": {
+		"options": {},
+		"layout": {
+			"data-column-mode-sm": "single",
+			"data-column-mode-xs": "single",
+			"data-valign": "center"
+		},
+		"customHeight": {
+			"xl": {
+				"height": "15rem"
+			}
+		},
+		"styles": {
+			"xl": {
+				"background-color": "#a4acb1"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"column_xjzgukmey": {
+		"width": {
+			"xl": "6"
+		},
+		"options": {},
+		"layout": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_3yadf5lfe": {
+		"content": {
+			"xl": "<p style=\"font-size: 6rem; line-height: 6rem;\" data-mce-style=\"font-size: 6rem; line-height: 6rem;\" data-font-size-xl=\"6.333rem\" data-line-height-xl=\"6.333rem\" data-font-size-md=\"4.333rem\" data-line-height-md=\"4.333rem\" data-font-size-xs=\"3.556rem\" data-line-height-xs=\"3.556rem\" data-font-size-lg=\"5.778rem\" data-line-height-lg=\"5.778rem\" data-font-size-sm=\"6.000rem\" data-line-height-sm=\"6.000rem\"><span class=\"inter_bold\" style=\"letter-spacing: -0.167rem; color: rgb(255, 255, 255);\" data-mce-style=\"letter-spacing: -0.167rem; color: rgb(255, 255, 255);\" data-letter-spacing-xl=\"-0.167rem\">Grocery shopping</span></p>"
+		},
+		"module": "text",
+		"options": {},
+		"styles": {
+			"xl": {
+				"margin-left": "7.777777777777778rem",
+				"z-index": "3"
+			},
+			"lg": {
+				"margin-left": "6.666666666666667rem"
+			},
+			"md": {
+				"margin-left": "5.555555555555555rem"
+			},
+			"sm": {
+				"margin-left": "0rem",
+				"padding-top": "3.3333333333333335rem"
+			},
+			"xs": {
+				"margin-left": "0rem",
+				"padding-top": "3.3333333333333335rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_rlt7kp8bq": {
+		"content": {
+			"xl": "<p><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: #ffffff;\">Hey there, this is the default text for a new paragraph. Feel free to edit this paragraph by clicking on the yellow edit icon. After you are done just click on the yellow checkmark button on the top right. Have Fun!</span></p>"
+		},
+		"module": "text",
+		"options": {},
+		"styles": {
+			"xl": {
+				"margin-left": "7.777777777777778rem",
+				"z-index": "3",
+				"padding-right": "8.88888888888889rem",
+				"padding-top": "1.6666666666666667rem"
+			},
+			"lg": {
+				"padding-right": "7.777777777777778rem",
+				"margin-left": "6.666666666666667rem"
+			},
+			"md": {
+				"margin-left": "5.555555555555555rem",
+				"padding-right": "5.555555555555555rem"
+			},
+			"sm": {
+				"margin-left": "0rem",
+				"padding-right": "3.3333333333333335rem"
+			},
+			"xs": {
+				"margin-left": "0rem",
+				"padding-right": "0rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_vejal1g7e": {
+		"content": {
+			"xl": ""
+		},
+		"module": "button",
+		"options": {
+			"align": "left",
+			"label": "LET'S GO!",
+			"width": "auto",
+			"padding-right": "2.7777777777777777rem",
+			"padding-left": "2.7777777777777777rem",
+			"padding-top": "0.8888888888888888rem",
+			"padding-bottom": "0.8888888888888888rem",
+			"border-width": "0.1111111111111111rem",
+			"border-color": "#ffffff",
+			"background-color": "transparent",
+			"color": "#ffffff",
+			"font_family": "inter_bold",
+			"font-size": "0.7777777777777778rem",
+			"letter-spacing": "0.16666666666666666rem"
+		},
+		"styles": {
+			"xl": {
+				"margin-left": "7.777777777777778rem",
+				"padding-top": "1.6666666666666667rem"
+			},
+			"lg": {
+				"margin-left": "6.666666666666667rem"
+			},
+			"md": {
+				"margin-left": "5.555555555555555rem"
+			},
+			"sm": {
+				"margin-left": "0rem"
+			},
+			"xs": {
+				"margin-left": "0rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"column_66ns59bsl": {
+		"width": {
+			"xl": "6"
+		},
+		"options": {},
+		"layout": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_n8z72c5xf": {
+		"content": {
+			"xl": "semplice_overlap_1.jpg"
+		},
+		"module": "image",
+		"options": {},
+		"styles": {
+			"xl": {
+				"padding-top": "1.6666666666666667rem",
+				"padding-bottom": "1.6666666666666667rem",
+				"margin-left": "0rem"
+			},
+			"xs": {
+				"padding-bottom": "1.6666666666666667rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	}
+}

@@ -1,0 +1,181 @@
+{
+	"order": {
+		"section_hfzmncff6": {
+			"row_dzxvvr538": {
+				"columns": {
+					"column_ccw62ysyg": ["content_f26wuknkw"],
+					"column_fmjqn64n8": ["content_8z69htm2b", "content_8gc9qyb4u", "content_papucybgq"]
+				}
+			}
+		}
+	},
+	"section_hfzmncff6": {
+		"options": {},
+		"layout": {
+			"data-column-mode-sm": "single",
+			"data-column-mode-xs": "single",
+			"data-valign": "center"
+		},
+		"customHeight": {
+			"xl": {
+				"height": "15rem"
+			}
+		},
+		"styles": {
+			"xl": {
+				"padding-top": "4.444444444444445rem",
+				"padding-bottom": "4.444444444444445rem",
+				"background-color": "#000000"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"column_ccw62ysyg": {
+		"width": {
+			"xl": "6"
+		},
+		"options": {},
+		"layout": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_f26wuknkw": {
+		"content": {
+			"xl": "semplice_editorial_2.jpg"
+		},
+		"module": "image",
+		"options": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"column_fmjqn64n8": {
+		"width": {
+			"xl": "6"
+		},
+		"options": {},
+		"layout": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_8z69htm2b": {
+		"content": {
+			"xl": "<p style=\"font-size: 5.667rem; line-height: 6rem;\" data-mce-style=\"font-size: 5.667rem; line-height: 6rem;\" data-font-size-xl=\"6.556rem\" data-line-height-xl=\"6.556rem\" data-font-size-lg=\"5.667rem\" data-line-height-lg=\"6.000rem\" data-font-size-md=\"4.556rem\" data-line-height-md=\"4.556rem\" data-font-size-xs=\"4.222rem\" data-line-height-xs=\"4.222rem\"><span class=\"inter_bold\" style=\"letter-spacing: -0.139rem; color: rgb(255, 255, 255);\" data-mce-style=\"letter-spacing: -0.139rem; color: rgb(255, 255, 255);\" data-letter-spacing-xl=\"-0.139rem\">Editorial layout</span></p>"
+		},
+		"module": "text",
+		"options": {},
+		"styles": {
+			"xl": {
+				"padding-left": "3.3333333333333335rem"
+			},
+			"sm": {
+				"padding-top": "3.3333333333333335rem",
+				"padding-left": "0rem"
+			},
+			"xs": {
+				"padding-top": "3.3333333333333335rem",
+				"padding-left": "0rem"
+			},
+			"md": {
+				"padding-left": "2.2222222222222223rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_8gc9qyb4u": {
+		"content": {
+			"xl": "<p><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: #ffffff;\">Hey there, this is the default text for a new paragraph. Feel free to edit this paragraph by clicking on the yellow edit icon. After you are done just click on the yellow checkmark button on the top right. Have Fun!</span></p>"
+		},
+		"module": "text",
+		"options": {},
+		"styles": {
+			"xl": {
+				"padding-top": "1.6666666666666667rem",
+				"padding-right": "3.3333333333333335rem",
+				"padding-left": "3.3333333333333335rem"
+			},
+			"xs": {
+				"padding-right": "0rem",
+				"padding-left": "0rem"
+			},
+			"md": {
+				"padding-right": "1.6666666666666667rem",
+				"padding-left": "2.2222222222222223rem"
+			},
+			"sm": {
+				"padding-left": "0.3333333333333333rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_papucybgq": {
+		"content": {
+			"xl": ""
+		},
+		"module": "button",
+		"options": {
+			"width": "auto",
+			"align": "left",
+			"background-color": "#fcbd84",
+			"font_family": "inter_bold",
+			"color": "#000000",
+			"padding-right": "2.2222222222222223rem",
+			"padding-bottom": "0.6666666666666666rem",
+			"padding-left": "2.2222222222222223rem",
+			"padding-top": "0.6666666666666666rem",
+			"hover-color": "#000000",
+			"hover-background-color": "#ffd300"
+		},
+		"styles": {
+			"xl": {
+				"padding-top": "1.6666666666666667rem",
+				"padding-left": "3.3333333333333335rem"
+			},
+			"sm": {
+				"padding-bottom": "3.3333333333333335rem",
+				"padding-left": "0rem"
+			},
+			"xs": {
+				"padding-bottom": "3.3333333333333335rem",
+				"padding-left": "0rem"
+			},
+			"md": {
+				"padding-left": "2.2222222222222223rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	}
+}

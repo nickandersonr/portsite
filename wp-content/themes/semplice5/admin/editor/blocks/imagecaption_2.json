@@ -1,0 +1,111 @@
+{
+	"order": {
+		"section_k0k3ewnpb": {
+			"row_qhxykq0ck": {
+				"columns": {
+					"column_395kj070o": ["content_5de13pp51"],
+					"column_cqck0fniw": ["content_5oh2sbp5o"]
+				}
+			}
+		}
+	},
+	"section_k0k3ewnpb": {
+		"options": {},
+		"layout": {
+			"data-column-mode-sm": "single",
+			"data-column-mode-xs": "single",
+			"data-valign": "center"
+		},
+		"customHeight": {
+			"xl": {
+				"height": "15rem"
+			}
+		},
+		"styles": {
+			"xl": {
+				"background-color": "#ffffff",
+				"padding-top": "6.666666666666667rem",
+				"padding-bottom": "6.666666666666667rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"column_395kj070o": {
+		"width": {
+			"xl": "8"
+		},
+		"options": {},
+		"layout": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_5de13pp51": {
+		"content": {
+			"xl": "semplice_imagecaption_2.jpg"
+		},
+		"module": "image",
+		"options": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"column_cqck0fniw": {
+		"width": {
+			"xl": "4"
+		},
+		"options": {},
+		"layout": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_5oh2sbp5o": {
+		"content": {
+			"xl": "<p>Hey there, this is the default text for a new paragraph. Feel free to edit this paragraph by clicking on the yellow edit icon. After you are done just click on the yellow checkmark button on the top right. Have Fun!</p>"
+		},
+		"module": "text",
+		"options": {},
+		"styles": {
+			"xl": {
+				"margin-bottom": "0rem",
+				"padding-left": "3.3333333333333335rem"
+			},
+			"md": {
+				"padding-left": "1.6666666666666667rem"
+			},
+			"sm": {
+				"padding-left": "0rem",
+				"padding-top": "1.6666666666666667rem"
+			},
+			"xs": {
+				"padding-left": "0rem",
+				"padding-top": "1.6666666666666667rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	}
+}

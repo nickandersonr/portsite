@@ -1,0 +1,174 @@
+{
+	"order": {
+		"section_otu2mq7hn": {
+			"row_2ldfyh3ku": {
+				"columns": {
+					"column_y5f2uqkrm": ["content_d9hwcuxbj"],
+					"column_kuft9oeb0": ["content_tss4fh4jr"]
+				}
+			},
+			"row_r8k03v8h8": {
+				"columns": {
+					"column_w1ad19b8q": ["content_3earewgjm"],
+					"column_3d1rrtkar": ["content_78ngijzvn"]
+				}
+			}
+		}
+	},
+	"section_otu2mq7hn": {
+		"options": {},
+		"layout": {
+			"data-column-mode-sm": "single",
+			"data-column-mode-xs": "single"
+		},
+		"customHeight": {
+			"xl": {
+				"height": "15rem"
+			}
+		},
+		"styles": {
+			"xl": {
+				"background-color": "#020202",
+				"padding-top": "3.3333333333333335rem",
+				"padding-bottom": "3.3333333333333335rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"column_y5f2uqkrm": {
+		"width": {
+			"xl": "6"
+		},
+		"options": {},
+		"layout": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_d9hwcuxbj": {
+		"content": {
+			"xl": "<p style=\"font-size: 2.333rem; line-height: 2.667rem; text-align: left;\" data-mce-style=\"font-size: 2.333rem; line-height: 2.667rem; text-align: left;\" data-font-size-xl=\"2.333rem\" data-line-height-xl=\"2.667rem\"><span class=\"inter_bold\" style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">Contact</span></p>"
+		},
+		"module": "text",
+		"options": {},
+		"styles": {
+			"xl": {
+				"padding-top": "1.6666666666666667rem",
+				"padding-bottom": "5rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"column_kuft9oeb0": {
+		"width": {
+			"xl": "6"
+		},
+		"options": {},
+		"layout": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_tss4fh4jr": {
+		"content": {
+			"xl": "<p style=\"font-size: 1.333rem; text-align: left;\" data-mce-style=\"font-size: 1.333rem; text-align: left;\" data-font-size-xl=\"1.333rem\" data-font-size-md=\"1.000rem\"><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: #ffffff;\" class=\"inter_regular\">8970 N. Brown St. <br>Brooklyn, NY 11207<br><span style=\"color: rgb(119, 119, 119);\" data-mce-style=\"color: #777777;\">Phone:</span> +01 123 45 678<br><span style=\"color: rgb(119, 119, 119);\" data-mce-style=\"color: #777777;\">Email:</span> hello@email.com<br><span style=\"color: rgb(119, 119, 119);\" data-mce-style=\"color: #777777;\">Twitter:</span> @semplicelabs</span></p>"
+		},
+		"module": "text",
+		"options": {},
+		"styles": {
+			"xl": {
+				"padding-top": "1.6666666666666667rem",
+				"padding-bottom": "1.6666666666666667rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"column_w1ad19b8q": {
+		"width": {
+			"xl": "6"
+		},
+		"options": {},
+		"layout": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_3earewgjm": {
+		"content": {
+			"xl": "<p style=\"font-size: 1.333rem; text-align: left; line-height: 1.667rem;\" data-mce-style=\"font-size: 1.333rem; text-align: left; line-height: 1.667rem;\" data-font-size-xl=\"1.333rem\" data-font-size-md=\"1.000rem\" data-line-height-xl=\"1.667rem\"><span style=\"color: rgb(119, 119, 119);\" data-mce-style=\"color: #777777;\" class=\"inter_regular\">© Your name 2019<br>Graphic designer</span></p>"
+		},
+		"module": "text",
+		"options": {},
+		"styles": {
+			"xl": {
+				"padding-top": "4.444444444444445rem",
+				"padding-bottom": "1.6666666666666667rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"column_3d1rrtkar": {
+		"width": {
+			"xl": "6"
+		},
+		"options": {},
+		"layout": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_78ngijzvn": {
+		"content": {
+			"xl": "<p style=\"font-size: 1.333rem; text-align: left; line-height: 1.667rem;\" data-mce-style=\"font-size: 1.333rem; text-align: left; line-height: 1.667rem;\" data-font-size-xl=\"1.333rem\" data-font-size-md=\"1.000rem\" data-line-height-xl=\"1.667rem\"><span style=\"color: rgb(119, 119, 119);\" data-mce-style=\"color: #777777;\" class=\"inter_regular\">Website built with Semplice</span></p>"
+		},
+		"module": "text",
+		"options": {},
+		"styles": {
+			"xl": {
+				"padding-top": "4.444444444444445rem",
+				"padding-bottom": "1.6666666666666667rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	}
+}

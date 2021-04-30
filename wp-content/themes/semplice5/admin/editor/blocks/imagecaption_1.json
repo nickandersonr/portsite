@@ -1,0 +1,107 @@
+{
+	"order": {
+		"section_rviytv8jm": {
+			"row_u67amyk0c": {
+				"columns": {
+					"column_6kmryuvan": ["content_e31ymfbi8"],
+					"column_m2wdzbc9u": ["content_gbmp5cyif"]
+				}
+			}
+		}
+	},
+	"section_rviytv8jm": {
+		"options": {},
+		"layout": {
+			"data-column-mode-sm": "single",
+			"data-column-mode-xs": "single",
+			"data-valign": "bottom"
+		},
+		"customHeight": {
+			"xl": {
+				"height": "15rem"
+			}
+		},
+		"styles": {
+			"xl": {
+				"background-color": "#d3d3d3",
+				"padding-top": "6.666666666666667rem",
+				"padding-bottom": "6.666666666666667rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"column_6kmryuvan": {
+		"width": {
+			"xl": "4"
+		},
+		"options": {},
+		"layout": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_e31ymfbi8": {
+		"content": {
+			"xl": "<p><span class=\"inter_regular\">Hey there, this is the default text for a new paragraph. Feel free to edit this paragraph by clicking on the yellow edit icon.</span></p>"
+		},
+		"module": "text",
+		"options": {},
+		"styles": {
+			"xl": {
+				"margin-bottom": "-0.3888888888888889rem"
+			},
+			"sm": {
+				"padding-bottom": "1.6666666666666667rem",
+				"margin-bottom": "0rem"
+			},
+			"xs": {
+				"margin-bottom": "0rem",
+				"padding-bottom": "1.6666666666666667rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"column_m2wdzbc9u": {
+		"width": {
+			"xl": "8"
+		},
+		"options": {},
+		"layout": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_gbmp5cyif": {
+		"content": {
+			"xl": "semplice_imagecaption_1.jpg"
+		},
+		"module": "image",
+		"options": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	}
+}

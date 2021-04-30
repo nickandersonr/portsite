@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <defs>
+    <style>
+      .edit-meta-icon-dark {
+        fill: #000000;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <circle cx="10" cy="10" r="10" fill="white" />
+  <path id="Form_1" data-name="Form 1" class="edit-meta-icon-dark" d="M5,13.125V15H6.875l5.532-5.532L10.532,7.593Zm8.852-5.81L12.685,6.148a0.5,0.5,0,0,0-.707,0l-0.915.915,1.875,1.875,0.915-.915A0.5,0.5,0,0,0,13.852,7.316Z"/>
+</svg>

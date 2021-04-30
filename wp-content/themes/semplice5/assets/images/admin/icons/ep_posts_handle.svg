@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="44" viewBox="0 0 48 44">
+<defs>
+    <style>
+      .projects-handle-icon {
+        fill: #000000;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="Form_1" data-name="Form 1" class="projects-handle-icon" d="M15,17H33v1H15V17Zm0,5H33v1H15V22Zm0,5H33v1H15V27Z"/>
+</svg>

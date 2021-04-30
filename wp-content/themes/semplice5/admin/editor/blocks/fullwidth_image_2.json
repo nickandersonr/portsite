@@ -1,0 +1,159 @@
+{
+	"order": {
+		"section_x82owj04j": {
+			"row_jq227qjto": {
+				"columns": {
+					"column_01om3xwi8": ["content_gmj2f2nad"]
+				}
+			},
+			"row_lm88sf1qe": {
+				"columns": {
+					"column_uc8v1c7i9": ["content_p7nhgp6j0"]
+				}
+			},
+			"row_dhmoben9l": {
+				"columns": {
+					"column_08amy865o": ["content_rb0ub2bau"]
+				}
+			}
+		}
+	},
+	"section_x82owj04j": {
+		"options": {},
+		"layout": {
+			"data-column-mode-sm": "single",
+			"data-column-mode-xs": "single",
+			"data-layout": "fluid",
+			"data-gutter": "no",
+			"data-justify": "center"
+		},
+		"customHeight": {
+			"xl": {
+				"height": "15rem"
+			}
+		},
+		"styles": {
+			"xl": {
+				"padding-top": "5rem",
+				"background-color": "#000000"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"column_01om3xwi8": {
+		"width": {
+			"xl": "5",
+			"lg": "11",
+			"md": "11"
+		},
+		"options": {},
+		"layout": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_gmj2f2nad": {
+		"content": {
+			"xl": "<p style=\"text-align: center; font-size: 6rem; line-height: 6rem;\" data-mce-style=\"text-align: center; font-size: 6rem; line-height: 6rem;\" data-font-size-xl=\"8.000rem\" data-line-height-xl=\"8.000rem\" data-font-size-xs=\"4.000rem\" data-line-height-xs=\"4.000rem\" data-font-size-sm=\"6.000rem\" data-line-height-sm=\"6.000rem\"><span class=\"inter_bold\" style=\"letter-spacing: -0.167rem; color: rgb(255, 255, 255);\" data-mce-style=\"letter-spacing: -0.167rem; color: rgb(255, 255, 255);\" data-letter-spacing-xl=\"-0.167rem\">Star Dust</span></p>"
+		},
+		"module": "text",
+		"options": {},
+		"styles": {
+			"xl": {
+				"padding-bottom": "5rem"
+			},
+			"xs": {
+				"padding-bottom": "1.6666666666666667rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"column_uc8v1c7i9": {
+		"width": {
+			"xl": 12
+		},
+		"options": {},
+		"layout": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_p7nhgp6j0": {
+		"content": {
+			"xl": "semplice_fullwidth_image_2.jpg"
+		},
+		"module": "image",
+		"options": {},
+		"styles": {
+			"xl": {
+				"padding-top": "0rem",
+				"padding-bottom": "3.3333333333333335rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"column_08amy865o": {
+		"width": {
+			"xl": "4",
+			"lg": "6",
+			"md": "7"
+		},
+		"options": {},
+		"layout": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_rb0ub2bau": {
+		"content": {
+			"xl": "<p style=\"text-align: center;\" data-mce-style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: #ffffff;\" class=\"inter_regular\">Hey there, this is the default text for a new paragraph. Feel free to edit this paragraph by clicking on the yellow edit icon. After you are done just click on the yellow checkmark button on the top right. Have Fun!</span></p>"
+		},
+		"module": "text",
+		"options": {},
+		"styles": {
+			"xl": {
+				"padding-bottom": "4.444444444444445rem"
+			},
+			"sm": {
+				"padding-right": "3.3333333333333335rem",
+				"padding-left": "3.3333333333333335rem"
+			},
+			"xs": {
+				"padding-right": "1.6666666666666667rem",
+				"padding-left": "1.6666666666666667rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	}
+}

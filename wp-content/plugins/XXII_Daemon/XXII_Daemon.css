@@ -1,0 +1,28 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 4040613, 2021-04-16T21:20:53-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: XXIIDaemon-Regular by Doubletwo Studios
+ * URL: https://www.myfonts.com/fonts/doubletwo/xxii-daemon/regular/
+ * Copyright: Copyright &amp;#x00A9; 2012 by Doubletwo Studios. All rights reserved.
+ * 
+ * 
+ * 
+ * © 2021 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/3da7a5");
+  
+@font-face {
+  font-family: "XXIIDaemon-Regular";
+  src: url('webFonts/XXIIDaemonRegular/font.woff2') format('woff2'), url('webFonts/XXIIDaemonRegular/font.woff') format('woff');
+}
+

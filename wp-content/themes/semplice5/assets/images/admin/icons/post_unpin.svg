@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="23" height="22" viewBox="0 0 23 22">
+  <defs>
+    <style>
+      .sempice-pinned-icon {
+        fill: #ffd300;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="Form_2" data-name="Form 2" class="sempice-pinned-icon" d="M11.5,0.011l3.3,7.588,8.2,0.806-6.161,5.5L18.6,21.986l-7.1-4.192L4.4,21.986,6.167,13.9,0.006,8.4,8.2,7.6Z"/>
+</svg>

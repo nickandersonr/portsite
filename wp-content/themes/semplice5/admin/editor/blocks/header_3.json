@@ -1,0 +1,177 @@
+{
+	"order": {
+		"section_8a33c8159": {
+			"row_49dz8dees": {
+				"columns": {
+					"column_994a64ced": ["content_f4f141757"]
+				}
+			},
+			"row_wp6o4rhk2": {
+				"columns": {
+					"column_rmxvansv0": ["content_24a764644", "content_63d291a5a"]
+				}
+			}
+		}
+	},
+	"section_8a33c8159": {
+		"options": {},
+		"layout": {
+			"data-column-mode-sm": "single",
+			"data-column-mode-xs": "single",
+			"data-valign": "center",
+			"data-height": "dynamic"
+		},
+		"customHeight": {
+			"xl": {
+				"height": "15rem"
+			}
+		},
+		"styles": {
+			"xl": {
+				"padding-top": "4.444444444444445rem",
+				"padding-bottom": "4.444444444444445rem",
+				"background-color": "#000000",
+				"background_type": "img",
+				"background-image": "semplice_header_3.jpg",
+				"background-position": "0% 50%",
+				"background-size": "cover"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"column_994a64ced": {
+		"width": {
+			"xl": "6"
+		},
+		"options": {},
+		"layout": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_f4f141757": {
+		"content": {
+			"xl": "<p style=\"font-size: 6.556rem; line-height: 6.556rem;\" data-mce-style=\"font-size: 6.556rem; line-height: 6.556rem;\" data-font-size-xl=\"6.556rem\" data-line-height-xl=\"6.556rem\" data-font-size-lg=\"5.667rem\" data-line-height-lg=\"6.000rem\" data-font-size-md=\"4.556rem\" data-line-height-md=\"4.556rem\" data-font-size-xs=\"4.222rem\" data-line-height-xs=\"4.222rem\"><span class=\"inter_bold\" style=\"letter-spacing: -0.139rem; color: rgb(255, 255, 255);\" data-mce-style=\"letter-spacing: -0.139rem; color: rgb(255, 255, 255);\" data-letter-spacing-xl=\"-0.139rem\">Landing page</span></p>"
+		},
+		"module": "text",
+		"options": {},
+		"styles": {
+			"xl": {
+				"padding-left": "0rem",
+				"padding-top": "6.666666666666667rem"
+			},
+			"sm": {
+				"padding-top": "3.3333333333333335rem",
+				"padding-left": "0rem"
+			},
+			"xs": {
+				"padding-top": "3.3333333333333335rem",
+				"padding-left": "0rem"
+			},
+			"md": {
+				"padding-left": "2.2222222222222223rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"column_rmxvansv0": {
+		"width": {
+			"xl": "5"
+		},
+		"options": {},
+		"layout": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_24a764644": {
+		"content": {
+			"xl": "<p><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">Hey there, this is the default text for a new paragraph. Feel free to edit this paragraph by clicking on the yellow edit icon. After you are done just click on the yellow checkmark button on the top right. Have Fun!</span></p>"
+		},
+		"module": "text",
+		"options": {},
+		"styles": {
+			"xl": {
+				"padding-top": "1.6666666666666667rem",
+				"padding-right": "3.3333333333333335rem",
+				"padding-left": "0rem"
+			},
+			"xs": {
+				"padding-right": "0rem",
+				"padding-left": "0rem"
+			},
+			"md": {
+				"padding-right": "1.6666666666666667rem",
+				"padding-left": "2.2222222222222223rem"
+			},
+			"sm": {
+				"padding-left": "0.3333333333333333rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_63d291a5a": {
+		"content": {
+			"xl": ""
+		},
+		"module": "button",
+		"options": {
+			"width": "auto",
+			"align": "left",
+			"background-color": "#ffffff",
+			"font_family": "inter_bold",
+			"color": "#000000",
+			"padding-right": "2.2222222222222223rem",
+			"padding-bottom": "0.6666666666666666rem",
+			"padding-left": "2.2222222222222223rem",
+			"padding-top": "0.6666666666666666rem",
+			"hover-color": "#000000",
+			"hover-background-color": "#ffd300"
+		},
+		"styles": {
+			"xl": {
+				"padding-top": "1.6666666666666667rem",
+				"padding-left": "0rem",
+				"padding-bottom": "6.666666666666667rem"
+			},
+			"sm": {
+				"padding-bottom": "3.3333333333333335rem",
+				"padding-left": "0rem"
+			},
+			"xs": {
+				"padding-bottom": "3.3333333333333335rem",
+				"padding-left": "0rem"
+			},
+			"md": {
+				"padding-left": "2.2222222222222223rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	}
+}

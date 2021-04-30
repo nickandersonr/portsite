@@ -1,0 +1,27 @@
+<svg id="Gruppe_1" data-name="Gruppe 1" xmlns="http://www.w3.org/2000/svg" width="48" height="24" viewBox="0 0 48 24">
+  <defs>
+    <style>
+      .transitions-icon-one {
+        fill: #575756;
+      }
+
+     .transitions-icon-one, .transitions-icon-two, .transitions-icon-three {
+        fill-rule: evenodd;
+      }
+
+      .transitions-icon-two {
+        fill: #9d9d9c;
+      }
+
+      .transitions-icon-three {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <circle id="Ellipse_1_Kopie" data-name="Ellipse 1 Kopie" cx="12" cy="12" r="12"/>
+  <path id="Form_1_Kopie_2" data-name="Form 1 Kopie 2" class="transitions-icon-one" d="M12,2A10,10,0,1,1,2,12,10.011,10.011,0,0,1,12,2m0-2A12,12,0,1,0,24,12,12,12,0,0,0,12,0h0Z"/>
+  <circle cx="24" cy="12" r="12"/>
+  <path id="Form_1_Kopie" data-name="Form 1 Kopie" class="transitions-icon-two" d="M24,2A10,10,0,1,1,14,12,10.011,10.011,0,0,1,24,2m0-2A12,12,0,1,0,36,12,12,12,0,0,0,24,0h0Z"/>
+  <circle id="Ellipse_1_Kopie_2" data-name="Ellipse 1 Kopie 2" cx="36" cy="12" r="12"/>
+  <path id="Form_1" data-name="Form 1" class="transitions-icon-three" d="M36,2A10,10,0,1,1,26,12,10.011,10.011,0,0,1,36,2m0-2A12,12,0,1,0,48,12,12,12,0,0,0,36,0h0Z"/>
+</svg>

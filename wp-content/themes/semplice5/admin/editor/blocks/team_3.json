@@ -1,0 +1,311 @@
+{
+	"order": {
+		"section_88nu0p0mp": {
+			"row_v7edye2rv": {
+				"columns": {
+					"column_pze7971xj": ["content_mw1vai1uq"]
+				}
+			},
+			"row_g0r7dsbyp": {
+				"columns": {
+					"column_84cikcme3": ["content_uoq4wm07c"],
+					"column_twc6euuo3": ["content_bh75qzveu", "content_o3dahsr2d", "content_dols6cipy", "content_5geav4d4v"]
+				}
+			},
+			"row_bul0qry06": {
+				"columns": {
+					"column_cg3lweaez": ["content_pghmbprch"],
+					"column_defmcnwe0": ["content_bovy61q5l", "content_ifjk768nh", "content_wo7cuj6ea", "content_epbowxkzw"]
+				}
+			}
+		}
+	},
+	"section_88nu0p0mp": {
+		"options": {},
+		"layout": {
+			"data-column-mode-sm": "single",
+			"data-column-mode-xs": "single",
+			"data-valign": "center",
+			"data-justify": "space-between"
+		},
+		"customHeight": {
+			"xl": {
+				"height": "15rem"
+			}
+		},
+		"styles": {
+			"xl": {
+				"padding-top": "4.444444444444445rem",
+				"padding-bottom": "4.444444444444445rem",
+				"background-color": "#ffffff"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"column_pze7971xj": {
+		"width": {
+			"xl": 12
+		},
+		"options": {},
+		"layout": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_mw1vai1uq": {
+		"content": {
+			"xl": "<p style=\"font-size: 4.778rem; line-height: 4.778rem;\" data-mce-style=\"font-size: 4.778rem; line-height: 4.778rem;\" data-font-size-xl=\"4.778rem\" data-line-height-xl=\"4.778rem\" data-font-size-xs=\"3.778rem\" data-line-height-xs=\"3.778rem\"><span class=\"inter_bold\" style=\"letter-spacing: -0.139rem;\" data-mce-style=\"letter-spacing: -0.139rem;\" data-letter-spacing-xl=\"-0.139rem\">Meet the creators</span></p>"
+		},
+		"module": "text",
+		"options": {},
+		"styles": {
+			"xl": {
+				"padding-bottom": "3.3333333333333335rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"column_84cikcme3": {
+		"width": {
+			"xl": "5"
+		},
+		"options": {},
+		"layout": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_uoq4wm07c": {
+		"content": {
+			"xl": "semplice_team_8.jpg"
+		},
+		"module": "image",
+		"options": {},
+		"styles": {
+			"xl": {
+				"padding-top": "0rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"column_twc6euuo3": {
+		"width": {
+			"xl": "6"
+		},
+		"options": {},
+		"layout": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_bh75qzveu": {
+		"content": {
+			"xl": "<p style=\"font-size: 1.333rem; line-height: 1.667rem;\" data-mce-style=\"font-size: 1.333rem; line-height: 1.667rem;\" data-font-size-xl=\"2.333rem\" data-line-height-xl=\"2.778rem\" data-font-size-xs=\"1.333rem\" data-font-size-md=\"2.000rem\" data-line-height-xs=\"1.667rem\"><span class=\"inter_bold\">Jonathan Danielsen</span></p>"
+		},
+		"module": "text",
+		"options": {},
+		"styles": {
+			"xl": {
+				"padding-top": "0.5555555555555556rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_o3dahsr2d": {
+		"content": {
+			"xl": "<p style=\"font-size: 1.333rem; line-height: 1.667rem;\" data-mce-style=\"font-size: 1.333rem; line-height: 1.667rem;\" data-font-size-xl=\"2.333rem\" data-line-height-xl=\"2.778rem\" data-font-size-xs=\"1.333rem\" data-font-size-md=\"2.000rem\" data-line-height-xs=\"1.667rem\"><span class=\"inter_regular\">Creative director</span></p>"
+		},
+		"module": "text",
+		"options": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_dols6cipy": {
+		"content": {
+			"xl": "<p style=\"font-size: 1.111rem;\" data-mce-style=\"font-size: 1.111rem;\" data-font-size-xl=\"1.111rem\"><span class=\"inter_regular\" style=\"color: rgb(153, 153, 153);\" data-mce-style=\"color: rgb(153, 153, 153);\">Hey there, this is the default text for a new paragraph. Feel free to edit this paragraph by clicking on the yellow edit icon. After you are done just click on the yellow checkmark button on the top right. Have Fun!</span></p>"
+		},
+		"module": "text",
+		"options": {},
+		"styles": {
+			"xl": {
+				"padding-top": "1.6666666666666667rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_5geav4d4v": {
+		"content": {
+			"xl": "<p style=\"font-size: 0.778rem;\" data-mce-style=\"font-size: 0.778rem;\" data-font-size-xl=\"0.778rem\"><span class=\"inter_bold\" style=\"letter-spacing: 0.083rem;\" data-mce-style=\"letter-spacing: 0.083rem;\" data-letter-spacing-xl=\"0.083rem\">LINKEDIN&nbsp; |&nbsp; TWITTER&nbsp; |&nbsp; FACEBOOK</span></p>"
+		},
+		"module": "text",
+		"options": {},
+		"styles": {
+			"xl": {
+				"padding-top": "1.6666666666666667rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"column_cg3lweaez": {
+		"width": {
+			"xl": "5"
+		},
+		"options": {},
+		"layout": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_pghmbprch": {
+		"content": {
+			"xl": "semplice_team_9.jpg"
+		},
+		"module": "image",
+		"options": {},
+		"styles": {
+			"xl": {
+				"padding-right": "0rem",
+				"padding-top": "1.6666666666666667rem"
+			},
+			"sm": {
+				"padding-top": "3.3333333333333335rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"column_defmcnwe0": {
+		"width": {
+			"xl": "6"
+		},
+		"options": {},
+		"layout": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_bovy61q5l": {
+		"content": {
+			"xl": "<p style=\"font-size: 1.333rem; line-height: 1.667rem;\" data-mce-style=\"font-size: 1.333rem; line-height: 1.667rem;\" data-font-size-xl=\"2.333rem\" data-line-height-xl=\"2.778rem\" data-font-size-xs=\"1.333rem\" data-font-size-md=\"2.000rem\" data-line-height-xs=\"1.667rem\"><span class=\"inter_bold\">Patrick Jeppesen</span></p>"
+		},
+		"module": "text",
+		"options": {},
+		"styles": {
+			"xl": {
+				"padding-top": "0.5555555555555556rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_ifjk768nh": {
+		"content": {
+			"xl": "<p style=\"font-size: 1.333rem; line-height: 1.667rem;\" data-mce-style=\"font-size: 1.333rem; line-height: 1.667rem;\" data-font-size-xl=\"2.333rem\" data-line-height-xl=\"2.778rem\" data-font-size-xs=\"1.333rem\" data-font-size-md=\"2.000rem\" data-line-height-xs=\"1.667rem\"><span class=\"inter_regular\">Designer</span></p>"
+		},
+		"module": "text",
+		"options": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_wo7cuj6ea": {
+		"content": {
+			"xl": "<p style=\"font-size: 1.111rem;\" data-mce-style=\"font-size: 1.111rem;\" data-font-size-xl=\"1.111rem\"><span class=\"inter_regular\" style=\"color: rgb(153, 153, 153);\" data-mce-style=\"color: rgb(153, 153, 153);\">Hey there, this is the default text for a new paragraph. Feel free to edit this paragraph by clicking on the yellow edit icon. After you are done just click on the yellow checkmark button on the top right. Have Fun!</span></p>"
+		},
+		"module": "text",
+		"options": {},
+		"styles": {
+			"xl": {
+				"padding-top": "1.6666666666666667rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_epbowxkzw": {
+		"content": {
+			"xl": "<p style=\"font-size: 0.778rem;\" data-mce-style=\"font-size: 0.778rem;\" data-font-size-xl=\"0.778rem\"><span class=\"inter_bold\" style=\"letter-spacing: 0.083rem;\" data-mce-style=\"letter-spacing: 0.083rem;\" data-letter-spacing-xl=\"0.083rem\">LINKEDIN&nbsp; |&nbsp; TWITTER&nbsp; |&nbsp; FACEBOOK</span></p>"
+		},
+		"module": "text",
+		"options": {},
+		"styles": {
+			"xl": {
+				"padding-top": "1.6666666666666667rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	}
+}

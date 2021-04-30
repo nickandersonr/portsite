@@ -1,0 +1,16 @@
+<svg id="Gruppe_1" data-name="Gruppe 1" xmlns="http://www.w3.org/2000/svg" width="434" height="280" viewBox="0 0 434 280">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #bbb;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <rect id="Rectangle_4_copy_10" data-name="Rectangle 4 copy 10" class="cls-1" width="434" height="280" rx="2" ry="2"/>
+  <path id="Ellipse_1_copy_3" data-name="Ellipse 1 copy 3" class="cls-2" d="M200.494,131.988l47.5,52.017H153Zm55-4L281,156H230ZM179,96a14,14,0,1,1-14,14A14,14,0,0,1,179,96Z"/>
+</svg>

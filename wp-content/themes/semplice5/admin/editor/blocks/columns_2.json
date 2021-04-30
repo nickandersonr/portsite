@@ -1,0 +1,140 @@
+{
+	"order": {
+		"section_ynxyl50fe": {
+			"row_cf0gzxqu1": {
+				"columns": {
+					"column_5xmmn4vcg": ["content_cbx2qnajo", "content_ibwp08b34"],
+					"column_z9b00lz2w": ["content_bmeoty7l4", "content_uagf1t0y2"]
+				}
+			}
+		}
+	},
+	"section_ynxyl50fe": {
+		"options": {},
+		"layout": {
+			"data-column-mode-sm": "single",
+			"data-column-mode-xs": "single"
+		},
+		"customHeight": {
+			"xl": {
+				"height": "15rem"
+			}
+		},
+		"styles": {
+			"xl": {
+				"background-color": "#d3d3d3",
+				"padding-top": "6.666666666666667rem",
+				"padding-bottom": "6.666666666666667rem"
+			},
+			"xs": {
+				"padding-top": "4.444444444444445rem",
+				"padding-bottom": "4.444444444444445rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"column_5xmmn4vcg": {
+		"width": {
+			"xl": 6
+		},
+		"options": {},
+		"layout": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_cbx2qnajo": {
+		"content": {
+			"xl": "semplice_columns_5.jpg"
+		},
+		"module": "image",
+		"options": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_ibwp08b34": {
+		"content": {
+			"xl": "<p><span class=\"inter_regular\">Hey there, this is the default text for a new paragraph. Feel free to edit this paragraph by clicking on the yellow edit icon. After you are done just click on the yellow checkmark button on the top right. Have Fun!</span></p>"
+		},
+		"module": "text",
+		"options": {},
+		"styles": {
+			"xl": {
+				"padding-top": "1.6666666666666667rem"
+			},
+			"sm": {
+				"padding-bottom": "3.3333333333333335rem"
+			},
+			"xs": {
+				"padding-bottom": "3.3333333333333335rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"column_z9b00lz2w": {
+		"width": {
+			"xl": 6
+		},
+		"options": {},
+		"layout": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_bmeoty7l4": {
+		"content": {
+			"xl": "semplice_columns_6.jpg"
+		},
+		"module": "image",
+		"options": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_uagf1t0y2": {
+		"content": {
+			"xl": "<p><span class=\"inter_regular\">Hey there, this is the default text for a new paragraph. Feel free to edit this paragraph by clicking on the yellow edit icon. After you are done just click on the yellow checkmark button on the top right. Have Fun!</span></p>"
+		},
+		"module": "text",
+		"options": {},
+		"styles": {
+			"xl": {
+				"padding-top": "1.6666666666666667rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	}
+}

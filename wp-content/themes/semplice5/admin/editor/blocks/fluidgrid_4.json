@@ -1,0 +1,255 @@
+{
+	"order": {
+		"section_smzfzn3z3": {
+			"row_2cob7is2n": {
+				"columns": {
+					"column_yklft3ls7": ["content_cjvkcwt1e", "content_jh30wtpi4"]
+				}
+			},
+			"row_61emi359u": {
+				"columns": {
+					"column_y5h3y2ltu": ["content_2n29ni205", "content_nina8ig5z"],
+					"column_nl0e31hym": ["content_wrzhsuqcu", "content_9w42qx6fq"],
+					"column_driio2wth": ["content_vlqkmb1we", "content_0ur626ns9"]
+				}
+			}
+		}
+	},
+	"section_smzfzn3z3": {
+		"options": {},
+		"layout": {
+			"data-column-mode-sm": "single",
+			"data-column-mode-xs": "single",
+			"data-layout": "fluid",
+			"data-gutter": "no",
+			"data-justify": "center"
+		},
+		"customHeight": {
+			"xl": {
+				"height": "15rem"
+			}
+		},
+		"styles": {
+			"xl": {
+				"padding-top": "4.444444444444445rem",
+				"padding-bottom": "4.444444444444445rem",
+				"background-color": "#ffffff"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"column_yklft3ls7": {
+		"width": {
+			"xl": "5",
+			"lg": "9",
+			"md": "10"
+		},
+		"options": {},
+		"layout": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_cjvkcwt1e": {
+		"content": {
+			"xl": "<p style=\"font-size: 4.667rem; text-align: center; line-height: 4.778rem;\" data-mce-style=\"font-size: 4.667rem; text-align: center; line-height: 4.778rem;\" data-font-size-xl=\"8.000rem\" data-line-height-xl=\"8.000rem\" data-font-size-xs=\"4.667rem\" data-line-height-xs=\"4.778rem\"><span class=\"inter_bold\" style=\"letter-spacing: -0.194rem;\" data-mce-style=\"letter-spacing: -0.194rem;\" data-letter-spacing-xl=\"-0.194rem\">Space</span></p>"
+		},
+		"module": "text",
+		"options": {},
+		"styles": {
+			"xl": {
+				"padding-bottom": "1.6666666666666667rem"
+			},
+			"sm": {
+				"padding-right": "1.6666666666666667rem",
+				"padding-left": "1.6666666666666667rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_jh30wtpi4": {
+		"content": {
+			"xl": "<p style=\"text-align: center;\" data-mce-style=\"text-align: center;\"><span style=\"color: rgb(135, 135, 135);\" data-mce-style=\"color: #878787;\">Hey there, this is the default text for a new paragraph. Feel free to edit this paragraph by clicking on the yellow edit icon. After you are done just click on the yellow checkmark button on the top right. Have Fun!</span></p>"
+		},
+		"module": "text",
+		"options": {},
+		"styles": {
+			"xl": {
+				"padding-bottom": "4.444444444444445rem"
+			},
+			"sm": {
+				"padding-right": "1.6666666666666667rem",
+				"padding-left": "1.6666666666666667rem"
+			},
+			"xs": {
+				"padding-right": "1.6666666666666667rem",
+				"padding-left": "1.6666666666666667rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"column_y5h3y2ltu": {
+		"width": {
+			"xl": 4
+		},
+		"options": {},
+		"layout": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_2n29ni205": {
+		"content": {
+			"xl": "semplice_fluidgrid_13.jpg"
+		},
+		"module": "image",
+		"options": {
+			"width": "grid-width"
+		},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_nina8ig5z": {
+		"content": {
+			"xl": "semplice_fluidgrid_16.jpg"
+		},
+		"module": "image",
+		"options": {
+			"width": "grid-width"
+		},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"column_nl0e31hym": {
+		"width": {
+			"xl": 4
+		},
+		"options": {},
+		"layout": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_wrzhsuqcu": {
+		"content": {
+			"xl": "semplice_fluidgrid_14.jpg"
+		},
+		"module": "image",
+		"options": {
+			"width": "grid-width"
+		},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_9w42qx6fq": {
+		"content": {
+			"xl": "semplice_fluidgrid_17.jpg"
+		},
+		"module": "image",
+		"options": {
+			"width": "grid-width"
+		},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"column_driio2wth": {
+		"width": {
+			"xl": 4
+		},
+		"options": {},
+		"layout": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_vlqkmb1we": {
+		"content": {
+			"xl": "semplice_fluidgrid_15.jpg"
+		},
+		"module": "image",
+		"options": {
+			"width": "grid-width"
+		},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_0ur626ns9": {
+		"content": {
+			"xl": "semplice_fluidgrid_18.jpg"
+		},
+		"module": "image",
+		"options": {
+			"width": "grid-width"
+		},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	}
+}

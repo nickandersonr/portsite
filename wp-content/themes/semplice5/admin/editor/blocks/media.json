@@ -1,0 +1,440 @@
+{
+	"images": {
+		"semplice_columns_1.jpg": {
+			"width": 540,
+			"height": 700
+		},
+		"semplice_columns_2.jpg": {
+			"width": 540,
+			"height": 700
+		},
+		"semplice_columns_3.jpg": {
+			"width": 540,
+			"height": 700
+		},
+		"semplice_columns_4.jpg": {
+			"width": 540,
+			"height": 700
+		},
+		"semplice_columns_5.jpg": {
+			"width": 1140,
+			"height": 806
+		},
+		"semplice_columns_6.jpg": {
+			"width": 1140,
+			"height": 806
+		},
+		"semplice_columns_7.jpg": {
+			"width": 740,
+			"height": 1000
+		},
+		"semplice_columns_8.jpg": {
+			"width": 740,
+			"height": 1000
+		},
+		"semplice_columns_9.jpg": {
+			"width": 740,
+			"height": 1000
+		},
+		"semplice_comingsoon_1.jpg": {
+			"width": 2880,
+			"height": 1896
+		},
+		"semplice_comingsoon_2.png": {
+			"width": 2880,
+			"height": 1896
+		},
+		"semplice_comingsoon_3.jpg": {
+			"width": 2880,
+			"height": 1896
+		},
+		"semplice_editorial_1.jpg": {
+			"width": 1140,
+			"height": 1444
+		},
+		"semplice_editorial_2.jpg": {
+			"width": 940,
+			"height": 1410
+		},
+		"semplice_fiftyfifty_1.jpg": {
+			"width": 1444,
+			"height": 1896
+		},
+		"semplice_fiftyfifty_2.jpg": {
+			"width": 1440,
+			"height": 1896
+		},
+		"semplice_fiftyfifty_3.jpg": {
+			"width": 1440,
+			"height": 1896
+		},
+		"semplice_fiftyfifty_4.jpg": {
+			"width": 1440,
+			"height": 1896
+		},
+		"semplice_fiftyfifty_5.svg": {
+			"width": 1,
+			"height": 140
+		},
+		"semplice_fluidgrid_1.jpg": {
+			"width": 1440,
+			"height": 1680
+		},
+		"semplice_fluidgrid_10.jpg": {
+			"width": 1680,
+			"height": 1680
+		},
+		"semplice_fluidgrid_11.jpg": {
+			"width": 1200,
+			"height": 1800
+		},
+		"semplice_fluidgrid_12.jpg": {
+			"width": 1200,
+			"height": 1800
+		},
+		"semplice_fluidgrid_13.jpg": {
+			"width": 960,
+			"height": 1206
+		},
+		"semplice_fluidgrid_14.jpg": {
+			"width": 960,
+			"height": 619
+		},
+		"semplice_fluidgrid_15.jpg": {
+			"width": 960,
+			"height": 1199
+		},
+		"semplice_fluidgrid_16.jpg": {
+			"width": 960,
+			"height": 1320
+		},
+		"semplice_fluidgrid_17.jpg": {
+			"width": 960,
+			"height": 1570
+		},
+		"semplice_fluidgrid_18.jpg": {
+			"width": 960,
+			"height": 1320
+		},
+		"semplice_fluidgrid_19.jpg": {
+			"width": 1920,
+			"height": 1672
+		},
+		"semplice_fluidgrid_2.jpg": {
+			"width": 1440,
+			"height": 1680
+		},
+		"semplice_fluidgrid_20.jpg": {
+			"width": 1928,
+			"height": 1672
+		},
+		"semplice_fluidgrid_3.jpg": {
+			"width": 1440,
+			"height": 2160
+		},
+		"semplice_fluidgrid_4.jpg": {
+			"width": 960,
+			"height": 1440
+		},
+		"semplice_fluidgrid_5.jpg": {
+			"width": 1200,
+			"height": 1256
+		},
+		"semplice_fluidgrid_6.jpg": {
+			"width": 1440,
+			"height": 1440
+		},
+		"semplice_fluidgrid_7.jpg": {
+			"width": 1198,
+			"height": 1797
+		},
+		"semplice_fluidgrid_8.jpg": {
+			"width": 1200,
+			"height": 1800
+		},
+		"semplice_fluidgrid_9.jpg": {
+			"width": 2400,
+			"height": 1800
+		},
+		"semplice_fullscreen_image_1.jpg": {
+			"width": 2880,
+			"height": 1600
+		},
+		"semplice_fullscreen_image_2.jpg": {
+			"width": 2880,
+			"height": 1600
+		},
+		"semplice_fullscreen_image_3.jpg": {
+			"width": 2880,
+			"height": 1600
+		},
+		"semplice_fullwidth_image_1.jpg": {
+			"width": 2880,
+			"height": 1922
+		},
+		"semplice_fullwidth_image_2.jpg": {
+			"width": 2880,
+			"height": 1620
+		},
+		"semplice_footer_1.svg": {
+			"width": 68,
+			"height": 68
+		},
+		"semplice_header_1.jpg": {
+			"width": 2880,
+			"height": 1896
+		},
+		"semplice_header_2.jpg": {
+			"width": 2880,
+			"height": 1896
+		},
+		"semplice_header_3.jpg": {
+			"width": 2880,
+			"height": 1896
+		},
+		"semplice_imagecaption_1.jpg": {
+			"width": 1740,
+			"height": 1120
+		},
+		"semplice_imagecaption_2.jpg": {
+			"width": 1540,
+			"height": 1540
+		},
+		"semplice_imagecaption_3.jpg": {
+			"width": 2340,
+			"height": 1248
+		},
+		"semplice_imagecaption_4.jpg": {
+			"width": 940,
+			"height": 940
+		},
+		"semplice_imagecaption_5.jpg": {
+			"width": 940,
+			"height": 940
+		},
+		"semplice_imagegrid_1.jpg": {
+			"width": 1140,
+			"height": 1344
+		},
+		"semplice_imagegrid_10.jpg": {
+			"width": 1540,
+			"height": 1040
+		},
+		"semplice_imagegrid_11.jpg": {
+			"width": 740,
+			"height": 1040
+		},
+		"semplice_imagegrid_12.jpg": {
+			"width": 740,
+			"height": 1040
+		},
+		"semplice_imagegrid_13.jpg": {
+			"width": 1540,
+			"height": 1040
+		},
+		"semplice_imagegrid_14.jpg": {
+			"width": 2340,
+			"height": 1040
+		},
+		"semplice_imagegrid_15.jpg": {
+			"width": 2340,
+			"height": 1360
+		},
+		"semplice_imagegrid_16.jpg": {
+			"width": 2340,
+			"height": 1360
+		},
+		"semplice_imagegrid_17.jpg": {
+			"width": 540,
+			"height": 810
+		},
+		"semplice_imagegrid_18.jpg": {
+			"width": 540,
+			"height": 361
+		},
+		"semplice_imagegrid_19.jpg": {
+			"width": 540,
+			"height": 810
+		},
+		"semplice_imagegrid_2.jpg": {
+			"width": 1140,
+			"height": 1708
+		},
+		"semplice_imagegrid_20.jpg": {
+			"width": 540,
+			"height": 360
+		},
+		"semplice_imagegrid_21.jpg": {
+			"width": 540,
+			"height": 360
+		},
+		"semplice_imagegrid_22.jpg": {
+			"width": 540,
+			"height": 675
+		},
+		"semplice_imagegrid_23.jpg": {
+			"width": 540,
+			"height": 359
+		},
+		"semplice_imagegrid_24.jpg": {
+			"width": 540,
+			"height": 809
+		},
+		"semplice_imagegrid_25.jpg": {
+			"width": 1140,
+			"height": 800
+		},
+		"semplice_imagegrid_26.jpg": {
+			"width": 1140,
+			"height": 1400
+		},
+		"semplice_imagegrid_27.jpg": {
+			"width": 1140,
+			"height": 800
+		},
+		"semplice_imagegrid_28.jpg": {
+			"width": 2340,
+			"height": 1400
+		},
+		"semplice_imagegrid_3.jpg": {
+			"width": 1140,
+			"height": 1562
+		},
+		"semplice_imagegrid_4.jpg": {
+			"width": 1140,
+			"height": 1656
+		},
+		"semplice_imagegrid_5.jpg": {
+			"width": 1540,
+			"height": 920
+		},
+		"semplice_imagegrid_6.jpg": {
+			"width": 740,
+			"height": 920
+		},
+		"semplice_imagegrid_7.jpg": {
+			"width": 740,
+			"height": 640
+		},
+		"semplice_imagegrid_8.jpg": {
+			"width": 740,
+			"height": 640
+		},
+		"semplice_imagegrid_9.jpg": {
+			"width": 740,
+			"height": 640
+		},
+		"semplice_overlap_1.jpg": {
+			"width": 1080,
+			"height": 1516
+		},
+		"semplice_overlap_2.jpg": {
+			"width": 1800,
+			"height": 946
+		},
+		"semplice_overlap_3.jpg": {
+			"width": 672,
+			"height": 1011
+		},
+		"semplice_profile_1.jpg": {
+			"width": 940,
+			"height": 1410
+		},
+		"semplice_profile_2.png": {
+			"width": 520,
+			"height": 520
+		},
+		"semplice_profile_3.jpg": {
+			"width": 940,
+			"height": 940
+		},
+		"semplice_profile_4.jpg": {
+			"width": 2340,
+			"height": 1606
+		},
+		"semplice_profile_5.jpg": {
+			"width": 940,
+			"height": 1130
+		},
+		"semplice_quotes_1.jpg": {
+			"width": 2880,
+			"height": 1896
+		},
+		"semplice_quotes_2.jpg": {
+			"width": 2880,
+			"height": 1896
+		},
+		"semplice_quotes_3.svg": {
+			"width": 1,
+			"height": 140
+		},
+		"semplice_quotes_4.svg": {
+			"width": 54,
+			"height": 40
+		},
+		"semplice_team_1.jpg": {
+			"width": 740,
+			"height": 740
+		},
+		"semplice_team_2.jpg": {
+			"width": 740,
+			"height": 740
+		},
+		"semplice_team_3.jpg": {
+			"width": 740,
+			"height": 740
+		},
+		"semplice_team_4.jpg": {
+			"width": 1140,
+			"height": 1440
+		},
+		"semplice_team_5.jpg": {
+			"width": 1140,
+			"height": 1440
+		},
+		"semplice_team_6.jpg": {
+			"width": 1140,
+			"height": 1440
+		},
+		"semplice_team_7.jpg": {
+			"width": 1140,
+			"height": 1440
+		},
+		"semplice_team_8.jpg": {
+			"width": 940,
+			"height": 940
+		},
+		"semplice_team_9.jpg": {
+			"width": 940,
+			"height": 940
+		},
+		"semplice_text_1.jpg": {
+			"width": 2340,
+			"height": 1154
+		},
+		"semplice_text_2.jpg": {
+			"width": 1340,
+			"height": 1186
+		},
+		"semplice_text_3.jpg": {
+			"width": 2880,
+			"height": 1896
+		},
+		"semplice_text_4.svg": {
+			"width": 72,
+			"height": 72
+		},
+		"semplice_text_5.svg": {
+			"width": 72,
+			"height": 72
+		},
+		"semplice_text_6.svg": {
+			"width": 72,
+			"height": 72
+		},
+		"semplice_text_7.png": {
+			"width": 2880,
+			"height": 1896
+		}
+	}
+}

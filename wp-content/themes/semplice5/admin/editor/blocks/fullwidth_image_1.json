@@ -1,0 +1,111 @@
+{
+	"order": {
+		"section_75sau1ibu": {
+			"row_89y95z2g4": {
+				"columns": {
+					"column_7j87hwuix": ["content_787ul9q22"]
+				}
+			},
+			"row_79lrj0kr0": {
+				"columns": {
+					"column_6ajw4hu4p": ["content_lus5d4y4d"]
+				}
+			}
+		}
+	},
+	"section_75sau1ibu": {
+		"options": {},
+		"layout": {
+			"data-column-mode-sm": "single",
+			"data-column-mode-xs": "single",
+			"data-layout": "fluid",
+			"data-gutter": "no",
+			"data-justify": "center"
+		},
+		"customHeight": {
+			"xl": {
+				"height": "15rem"
+			}
+		},
+		"styles": {
+			"xl": {
+				"padding-top": "5rem",
+				"background-color": "#ffffff"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"column_7j87hwuix": {
+		"width": {
+			"xl": "5",
+			"lg": "11",
+			"md": "11"
+		},
+		"options": {},
+		"layout": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_787ul9q22": {
+		"content": {
+			"xl": "<p style=\"text-align: center; font-size: 5.333rem; line-height: 5.333rem;\" data-mce-style=\"text-align: center; font-size: 5.333rem; line-height: 5.333rem;\" data-font-size-xl=\"5.333rem\" data-line-height-xl=\"5.333rem\" data-font-size-xs=\"4.000rem\" data-line-height-xs=\"4.000rem\"><span class=\"inter_bold\" style=\"letter-spacing: -0.167rem; color: rgb(50, 112, 173);\" data-mce-style=\"letter-spacing: -0.167rem; color: rgb(50, 112, 173);\" data-letter-spacing-xl=\"-0.167rem\">Plastic Dreams</span></p>"
+		},
+		"module": "text",
+		"options": {},
+		"styles": {
+			"xl": {
+				"padding-bottom": "5rem"
+			},
+			"xs": {
+				"padding-bottom": "1.6666666666666667rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"column_6ajw4hu4p": {
+		"width": {
+			"xl": 12
+		},
+		"options": {},
+		"layout": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_lus5d4y4d": {
+		"content": {
+			"xl": "semplice_fullwidth_image_1.jpg"
+		},
+		"module": "image",
+		"options": {},
+		"styles": {
+			"xl": {
+				"padding-top": "0rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	}
+}

@@ -1,0 +1,73 @@
+{
+	"order": {
+		"cover": {
+			"row_cover": {
+				"columns": {
+					"column_dj1xm7l65": ["content_6jxaliisk"]
+				}
+			}
+		}
+	},
+	"cover_visibility": "visible",
+	"cover": {
+		"options": {},
+		"layout": {
+			"data-height": "fullscreen",
+			"data-column-mode-sm": "single",
+			"data-column-mode-xs": "single",
+			"data-valign": "center",
+			"data-layout": "fluid",
+			"data-gutter": "no"
+		},
+		"customHeight": {
+			"xl": {
+				"height": "15rem"
+			}
+		},
+		"styles": {
+			"xl": {
+				"background-color": "#000000",
+				"background_type": "img",
+				"background-image": "81",
+				"background-size": "cover",
+				"background-position": "50% 50%",
+				"background-color": "#111111"
+			}
+		},
+		"motions": {
+			"active": [],
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_6jxaliisk": {
+		"content": {
+			"xl": "<p data-font-size-xl=\"7.22222rem\" data-line-height-xl=\"7.22222rem\" style=\"font-size: 7.22222rem; text-align: center;\" data-mce-style=\"font-size: 7.22222rem; text-align: center;\"><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: #ffffff;\">Page Headline</span></p>"
+		},
+		"module": "text",
+		"options": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": [],
+			"start": {},
+			"end": {}
+		}
+	},
+	"column_dj1xm7l65": {
+		"width": {
+			"xl": "12"
+		},
+		"options": {},
+		"layout": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": [],
+			"start": {},
+			"end": {}
+		}
+	}
+}

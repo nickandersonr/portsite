@@ -1,0 +1,78 @@
+{
+	"order": {
+		"cover": {
+			"row_cover": {
+				"columns": {
+					"column_m0iuad78w": ["content_emsle5eef"]
+				}
+			}
+		}
+	},
+	"cover_visibility": "visible",
+	"cover": {
+		"options": {},
+		"layout": {
+			"data-height": "fullscreen",
+			"data-column-mode-sm": "single",
+			"data-column-mode-xs": "single",
+			"data-valign": "bottom",
+			"data-layout": "fluid",
+			"data-gutter": "no"
+		},
+		"customHeight": {
+			"xl": {
+				"height": "15rem"
+			}
+		},
+		"styles": {
+			"xl": {
+				"background_type": "img",
+				"background-image": "11",
+				"background-size": "cover",
+				"background-position": "50% 50%",
+				"background-repeat": "no-repeat",
+				"background-color": "#111111"
+			}
+		},
+		"motions": {
+			"active": [],
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_emsle5eef": {
+		"content": {
+			"xl": "<p data-font-size-xl=\"font-size: 7.22222rem\" data-line-height-xl=\"font-size: 7.22222rem\" style=\"font-size: 7.22222rem; line-height: 7.22222rem; text-align: left;\" data-mce-style=\"font-size: 7.22222rem; line-height: 7.22222rem; text-align: left;\"><span style=\"color: #ffffff;\" data-mce-style=\"color: #ffffff;\">Page Headline</span></p>"
+		},
+		"module": "text",
+		"options": {},
+		"styles": {
+			"xl": {
+				"padding-right": "0rem",
+				"padding-bottom": "5.555555555555555rem",
+				"padding-left": "5.555555555555555rem"
+			}
+		},
+		"motions": {
+			"active": [],
+			"start": {},
+			"end": {}
+		}
+	},
+	"column_m0iuad78w": {
+		"width": {
+			"xl": "12"
+		},
+		"options": {},
+		"layout": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": [],
+			"start": {},
+			"end": {}
+		}
+	},
+	"unpublished_changes": false
+}

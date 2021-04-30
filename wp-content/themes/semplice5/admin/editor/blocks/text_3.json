@@ -1,0 +1,140 @@
+{
+	"order": {
+		"section_bs6k6fzky": {
+			"row_kr657aogs": {
+				"columns": {
+					"column_8z68ujx1i": ["content_0kq349d4n"]
+				}
+			},
+			"row_tir0mrets": {
+				"columns": {
+					"column_kbnfww089": ["content_eiucvbbyi"],
+					"column_j85rg6p5j": ["content_dzo8cclla"]
+				}
+			}
+		}
+	},
+	"section_bs6k6fzky": {
+		"options": {},
+		"layout": {
+			"data-column-mode-sm": "single",
+			"data-column-mode-xs": "single",
+			"data-justify": "space-between"
+		},
+		"customHeight": {
+			"xl": {
+				"height": "15rem"
+			}
+		},
+		"styles": {
+			"xl": {
+				"background-color": "#a5a5a6",
+				"padding-top": "6.666666666666667rem",
+				"padding-bottom": "6.666666666666667rem"
+			},
+			"xs": {
+				"padding-top": "4.444444444444445rem",
+				"padding-bottom": "4.444444444444445rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"column_8z68ujx1i": {
+		"width": {
+			"xl": 12
+		},
+		"options": {},
+		"layout": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_0kq349d4n": {
+		"content": {
+			"xl": "semplice_text_1.jpg"
+		},
+		"module": "image",
+		"options": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"column_kbnfww089": {
+		"width": {
+			"xl": "3"
+		},
+		"options": {},
+		"layout": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_eiucvbbyi": {
+		"content": {
+			"xl": "<p style=\"font-size: 0.778rem;\" data-mce-style=\"font-size: 0.778rem;\" data-font-size-xl=\"0.778rem\"><span class=\"inter_regular\">Hey there, this is the default text for a new paragraph. Feel free to edit this paragraph by clicking on the yellow edit icon.</span></p>"
+		},
+		"module": "text",
+		"options": {},
+		"styles": {
+			"xl": {
+				"padding-top": "1.6666666666666667rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"column_j85rg6p5j": {
+		"width": {
+			"xl": "6"
+		},
+		"options": {},
+		"layout": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_dzo8cclla": {
+		"content": {
+			"xl": "<p><span class=\"inter_regular\">Hey there, this is the default text for a new paragraph. Feel free to edit this paragraph by clicking on the yellow edit icon. After you are done just click on the yellow checkmark button on the top right. Have Fun!</span></p>"
+		},
+		"module": "text",
+		"options": {},
+		"styles": {
+			"xl": {
+				"padding-top": "1.6666666666666667rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	}
+}

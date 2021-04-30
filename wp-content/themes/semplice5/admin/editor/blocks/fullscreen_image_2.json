@@ -1,0 +1,80 @@
+{
+	"order": {
+		"section_y534zcuzi": {
+			"row_o8ovmf2pn": {
+				"columns": {
+					"column_3z4v8xodp": ["content_ifwwjo5c8"]
+				}
+			}
+		}
+	},
+	"section_y534zcuzi": {
+		"options": {},
+		"layout": {
+			"data-column-mode-sm": "single",
+			"data-column-mode-xs": "single",
+			"data-height": "fullscreen",
+			"data-valign": "center",
+			"data-justify": "left"
+		},
+		"customHeight": {
+			"xl": {
+				"height": "15rem"
+			}
+		},
+		"styles": {
+			"xl": {
+				"background_type": "img",
+				"background-size": "cover",
+				"background-image": "semplice_fullscreen_image_2.jpg"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"column_3z4v8xodp": {
+		"width": {
+			"xl": "9",
+			"lg": "8",
+			"md": "10"
+		},
+		"options": {},
+		"layout": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_ifwwjo5c8": {
+		"content": {
+			"xl": "<p style=\"font-size: 7.222rem; line-height: 7.222rem; text-align: left;\" data-mce-style=\"font-size: 7.222rem; line-height: 7.222rem; text-align: left;\" data-font-size-xl=\"7.222rem\" data-line-height-xl=\"7.222rem\" data-font-size-xs=\"3.667rem\" data-line-height-xs=\"3.667rem\" data-font-size-sm=\"5.889rem\" data-line-height-sm=\"5.889rem\"><span class=\"inter_bold\" style=\"color: rgb(255, 255, 255); letter-spacing: -0.194rem;\" data-mce-style=\"color: rgb(255, 255, 255); letter-spacing: -0.194rem;\" data-letter-spacing-xl=\"-0.194rem\" data-letter-spacing-xs=\"-0.056rem\">Shapes &amp; Drops</span></p>"
+		},
+		"module": "text",
+		"options": {},
+		"styles": {
+			"xl": {
+				"padding-top": "0rem"
+			},
+			"sm": {
+				"padding-top": "8.88888888888889rem",
+				"padding-bottom": "8.88888888888889rem"
+			},
+			"xs": {
+				"padding-top": "8.88888888888889rem",
+				"padding-bottom": "8.88888888888889rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	}
+}

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="40" viewBox="0 0 16 40">
+  <defs>
+    <style>
+      .semplice-page-search-icon {
+        fill-rule: evenodd;
+        fill: #777777;
+      }
+    </style>
+  </defs>
+  <path id="Form_1" data-name="Form 1" class="semplice-page-search-icon" d="M5.662,23.333a5.667,5.667,0,1,1,5.663-5.667A5.671,5.671,0,0,1,5.662,23.333Zm0-10.667a5,5,0,1,0,5,5A5,5,0,0,0,5.662,12.667ZM15.656,28a0.331,0.331,0,0,1-.236-0.1L9.2,21.673A0.333,0.333,0,1,1,9.666,21.2l6.226,6.229A0.333,0.333,0,0,1,15.656,28Z"/>
+</svg>

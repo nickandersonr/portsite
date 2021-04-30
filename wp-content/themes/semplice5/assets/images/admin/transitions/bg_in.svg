@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="1680px" height="999px" viewBox="0 0 1680 999" enable-background="new 0 0 1680 999" xml:space="preserve">
+<rect x="0" y="0" fill="#F4ACA6" width="1680" height="999"/>
+<rect x="0" y="0" fill="#F1D3D3" width="336" height="333"/>
+<polygon fill="#F1D3D3" points="672,333 336,333 336,0 "/>
+<polygon fill="#E6625E" points="672,0 336,0 672,333 1008,333 "/>
+<rect x="1344" y="166.5" fill="#E6625E" width="168" height="166.5"/>
+<polygon fill="#E6625E" points="1344,0 1008,0 840,166.5 1176,166.5 "/>
+<rect x="1344" y="0" fill="#F1D3D3" width="168" height="166.5"/>
+<polygon fill="#F1D3D3" points="1680,166.5 1512,0 1680,0 "/>
+<rect x="0" y="666" fill="#F1D3D3" width="336" height="333"/>
+<rect x="336" y="666" fill="#E13334" width="336" height="333"/>
+<rect x="672" y="666" fill="#E6625E" width="336" height="333"/>
+<polygon fill="#E13334" points="1008,999 1008,666 1344,666 "/>
+<rect x="1344" y="666" fill="#E6625E" width="336" height="333"/>
+<rect x="0" y="333" fill="#E6625E" width="336" height="333"/>
+<polygon fill="#E6625E" points="672,666 336,666 672,333 "/>
+<rect x="672" y="333" fill="#ED9191" width="336" height="333"/>
+<rect x="1008" y="333" fill="#E6625E" width="336" height="333"/>
+<rect x="1344" y="333" fill="#ED9191" width="336" height="333"/>
+<path fill="#E13334" d="M336.5,666C149.5,666,0,517,0,333.1S149.5,0.2,336.5,0.2V666z"/>
+<rect x="1008" y="499.5" fill="#F1D3D3" width="336" height="166.5"/>
+<rect x="672" y="666" fill="#F1D3D3" width="336" height="166.5"/>
+<circle fill="#E13334" cx="1344" cy="499.5" r="168"/>
+<circle fill="#ED9191" cx="1344" cy="499.5" r="85"/>
+<polygon fill="#ED9191" points="840,666 672,666 672,499.5 "/>
+<polygon fill="#ED9191" points="1008,666 840,666 840,499.5 "/>
+<polygon fill="#F1D3D3" points="1512,999 1344,999 1344,832.5 "/>
+<polygon fill="#F1D3D3" points="1680,999 1512,999 1512,832.5 "/>
+<rect x="336.5" y="832.5" fill="#ED9191" width="168" height="166.5"/>
+<rect x="168" y="832.5" fill="#F4ACA6" width="168" height="166.5"/>
+<polygon fill="#ED9191" points="336,832.5 168,666 336,666 "/>
+<circle fill="#F4ACA6" cx="170" cy="333.8" r="85"/>
+</svg>

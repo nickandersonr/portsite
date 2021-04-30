@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23">
+  <defs>
+    <style>
+      .cls-1 {
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="Form_3_copy" data-name="Form 3 copy" class="cls-1" d="M11.5,23A11.5,11.5,0,1,1,23,11.5,11.513,11.513,0,0,1,11.5,23Zm0-22A10.5,10.5,0,1,0,22,11.5,10.511,10.511,0,0,0,11.5,1Zm6,11H12v5.5a0.5,0.5,0,1,1-1,0V12H5.5a0.5,0.5,0,0,1,0-1H11V5.5a0.5,0.5,0,1,1,1,0V11h5.5A0.5,0.5,0,1,1,17.5,12Z"/>
+</svg>

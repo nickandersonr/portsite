@@ -1,0 +1,83 @@
+{
+	"featured": {
+		"variable_webfonts": {
+			"title": "Variable Webfonts",
+			"description": "Finally, you can use variable webfonts in Semplice! If bold feels too bold and regular feels too boring, you can now create the perfect in-between.",
+			"link": "https:\/\/help.semplice.com\/hc\/en-us\/articles\/360058172071",
+			"link_desc": "Read the variable webfonts guide",
+			"asset": {
+				"type": "image",
+				"link": "https:\/\/assets.semplice.com\/whats-new\/5-3-0\/var_fonts.gif"
+			}
+		},
+		"single_project": {
+			"title": "Single project module",
+			"description": "Want more control over the layout of your projects? Want to add unique hovers to your project thumbnails?  Want to create a specific layout you can\u2019t accomplish with the Portfolio Grid? Now you can. This is a big one from our Semplice family\u2019s wishlist.",
+			"asset": {
+				"type": "image",
+				"link": "https:\/\/assets.semplice.com\/whats-new\/5-3-0\/single_project.png"
+			}
+		}
+	},
+	"changelog": [{
+		"label": "added",
+		"text": "Support for Variable Webfonts"
+	}, {
+		"label": "added",
+		"text": "Single project module (with thumb hover) for easier custom grids"
+	}, {
+		"label": "added",
+		"text": "What's New popup for the admin panel"
+	}, {
+		"label": "added",
+		"text": "Option to exclude projects from the project panel & Next\/Prev module"
+	}, {
+		"label": "changed",
+		"text": "Youtube social profile now supports usernames or channel URLS"
+	}, {
+		"label": "changed",
+		"text": "If no thumbnail is defined for Project Panel or Next\/Prev, the default thumbnail is used"
+	}, {
+		"label": "changed",
+		"text": "Horizontal fullscreen grid (APG) now gets vertically centered before custom page transition"
+	}, {
+		"label": "fixed",
+		"text": "Ordering gallery images closed the edit popup"
+	}, {
+		"label": "fixed",
+		"text": "SVG images on CDN servers with timestamps are now supported"
+	}, {
+		"label": "fixed",
+		"text": "Image grids and APG are now updated properly when changing versions in the editor"
+	}, {
+		"label": "fixed",
+		"text": "PHP error in onboarding if WP_DEBUG is enabled"
+	}, {
+		"label": "fixed",
+		"text": "Removed outline that occurred after clicking the submit button on the Mailchimp module"
+	}, {
+		"label": "fixed",
+		"text": "If Opacity, column order or z-index are set to 0, the value is now applied properly"
+	}, {
+		"label": "fixed",
+		"text": "Gallery Grid caption fonts were overwritten by Customize > Typography"
+	}, {
+		"label": "fixed",
+		"text": "Navigation 'logo left, menu left' had a horizontal scroll on mobile when set to 'fluid'"
+	}, {
+		"label": "fixed",
+		"text": "Lazy load in the footer (Portfolio Grid) now correctly applies styles for project title and type"
+	}, {
+		"label": "fixed",
+		"text": "Gallery Slider caused scroll trigger to calculate wrong start point positions"
+	}, {
+		"label": "fixed",
+		"text": "Background color and image were mistakenly attached when animating a content module"
+	}, {
+		"label": "fixed",
+		"text": "Setting a border to 0 on mobile breakpoints now works properly"
+	}, {
+		"label": "fixed",
+		"text": "Back to top arrow width now gets saved correctly"
+	}]
+}

@@ -1,0 +1,102 @@
+{
+	"order": {
+		"section_cozq8m63r": {
+			"row_8syiruxr4": {
+				"columns": {
+					"column_kw8kdzgoy": ["content_rxpbvwan0"]
+				}
+			},
+			"row_qh4vo9ved": {
+				"columns": {
+					"column_ob9usc8nn": ["content_f23hhnwuo"]
+				}
+			}
+		}
+	},
+	"section_cozq8m63r": {
+		"options": {},
+		"layout": {
+			"data-column-mode-sm": "single",
+			"data-column-mode-xs": "single"
+		},
+		"customHeight": {
+			"xl": {
+				"height": "15rem"
+			}
+		},
+		"styles": {
+			"xl": {
+				"background-color": "#d4e0e7",
+				"padding-top": "6.666666666666667rem",
+				"padding-bottom": "6.666666666666667rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"column_kw8kdzgoy": {
+		"width": {
+			"xl": 12
+		},
+		"options": {},
+		"layout": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_rxpbvwan0": {
+		"content": {
+			"xl": "semplice_imagecaption_3.jpg"
+		},
+		"module": "image",
+		"options": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"column_ob9usc8nn": {
+		"width": {
+			"xl": "9"
+		},
+		"options": {},
+		"layout": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_f23hhnwuo": {
+		"content": {
+			"xl": "<p style=\"font-size: 0.778rem;\" data-mce-style=\"font-size: 0.778rem;\" data-font-size-xl=\"0.778rem\"><span class=\"inter_regular\" style=\"color: rgb(58, 114, 135);\" data-mce-style=\"color: #3a7287;\">Hey there, this is the default text for a new paragraph. Feel free to edit this paragraph by clicking on the yellow edit icon.</span></p>"
+		},
+		"module": "text",
+		"options": {},
+		"styles": {
+			"xl": {
+				"padding-top": "0.5555555555555556rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	}
+}

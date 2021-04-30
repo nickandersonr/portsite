@@ -1,0 +1,154 @@
+{
+	"order": {
+		"section_gq2vr9jc8": {
+			"row_kxo38fuye": {
+				"columns": {
+					"column_r9xbf7rcs": ["content_6w0idlpn6"]
+				}
+			},
+			"row_rsdyeul4h": {
+				"columns": {
+					"column_6bud81dae": ["content_rtzil1hjh"],
+					"column_a2c7eixqa": ["content_0n25ymm9e", "content_urdca0ah6"]
+				}
+			}
+		}
+	},
+	"section_gq2vr9jc8": {
+		"options": {},
+		"layout": {
+			"data-column-mode-sm": "single",
+			"data-column-mode-xs": "single"
+		},
+		"customHeight": {
+			"xl": {
+				"height": "15rem"
+			}
+		},
+		"styles": {
+			"xl": {
+				"background-color": "#414141",
+				"padding-top": "4.444444444444445rem",
+				"padding-bottom": "4.444444444444445rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"column_r9xbf7rcs": {
+		"width": {
+			"xl": 12
+		},
+		"options": {},
+		"layout": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_6w0idlpn6": {
+		"content": {
+			"xl": "<p style=\"font-size: 5.333rem; line-height: 5.333rem; text-align: left;\" data-mce-style=\"font-size: 5.333rem; line-height: 5.333rem; text-align: left;\" data-font-size-xl=\"5.333rem\" data-line-height-xl=\"5.333rem\" data-font-size-xs=\"2.333rem\" data-line-height-xs=\"2.333rem\" data-font-size-sm=\"4.000rem\" data-line-height-sm=\"4.000rem\"><span class=\"inter_bold\" style=\"letter-spacing: -0.222rem; color: rgb(255, 255, 255);\" data-mce-style=\"letter-spacing: -0.222rem; color: #ffffff;\" data-letter-spacing-xl=\"-0.222rem\" data-letter-spacing-xs=\"-0.083rem\">Victor Brady</span></p>"
+		},
+		"module": "text",
+		"options": {},
+		"styles": {
+			"xl": {
+				"padding-top": "0rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"column_6bud81dae": {
+		"width": {
+			"xl": "6"
+		},
+		"options": {},
+		"layout": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_rtzil1hjh": {
+		"content": {
+			"xl": "<p style=\"font-size: 1.444rem;\" data-mce-style=\"font-size: 1.444rem;\" data-font-size-xl=\"1.444rem\"><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\" class=\"inter_regular\">Hey there, this is the default text for a new paragraph. Feel free to edit this paragraph by clicking on the yellow edit icon. After you are done just click on the yellow checkmark button on the top right. Have Fun!</span></p>"
+		},
+		"module": "text",
+		"options": {},
+		"styles": {
+			"xl": {
+				"padding-top": "1.6666666666666667rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"column_a2c7eixqa": {
+		"width": {
+			"xl": "6"
+		},
+		"options": {},
+		"layout": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_0n25ymm9e": {
+		"content": {
+			"xl": "<p style=\"font-size: 1.111rem;\" data-mce-style=\"font-size: 1.111rem;\" data-font-size-xl=\"1.111rem\"><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\" class=\"inter_regular\">Hey there, this is the default text for a new paragraph. Feel free to edit this paragraph by clicking on the yellow edit icon. After you are done just click on the yellow checkmark button on the top right. Have Fun!</span></p>"
+		},
+		"module": "text",
+		"options": {},
+		"styles": {
+			"xl": {
+				"padding-top": "1.6666666666666667rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_urdca0ah6": {
+		"content": {
+			"xl": "semplice_profile_3.jpg"
+		},
+		"module": "image",
+		"options": {},
+		"styles": {
+			"xl": {
+				"padding-top": "1.6666666666666667rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	}
+}

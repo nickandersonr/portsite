@@ -1,0 +1,240 @@
+{
+	"order": {
+		"section_iuib0wq2h": {
+			"row_0b2v5v4s2": {
+				"columns": {
+					"column_xtuf5u4cm": ["content_rocnzrgk2", "content_nwthx1qud"],
+					"column_ea45bokoy": ["content_dj9pl7ypr", "content_k6gtxcvmf", "content_51pysjger", "content_xdcjc9cjd", "content_699h7jtim", "content_22we3g2km", "content_w8qduszo9", "content_np30au7p6", "content_i5ctmiocv"]
+				}
+			}
+		}
+	},
+	"section_iuib0wq2h": {
+		"options": {},
+		"layout": {
+			"data-column-mode-sm": "single",
+			"data-column-mode-xs": "single",
+			"data-justify": "space-between"
+		},
+		"customHeight": {
+			"xl": {
+				"height": "15rem"
+			}
+		},
+		"styles": {
+			"xl": {
+				"background-color": "#57a5ff",
+				"padding-top": "4.444444444444445rem",
+				"padding-bottom": "4.444444444444445rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"column_xtuf5u4cm": {
+		"width": {
+			"xl": "8"
+		},
+		"options": {},
+		"layout": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_rocnzrgk2": {
+		"content": {
+			"xl": "<p style=\"font-size: 6.111rem; line-height: 6rem;\" data-mce-style=\"font-size: 6.111rem; line-height: 6rem;\" data-font-size-xl=\"6.111rem\" data-line-height-xl=\"6.000rem\" data-font-size-md=\"4.778rem\" data-line-height-md=\"4.778rem\" data-font-size-xs=\"3.111rem\" data-line-height-xs=\"3.111rem\" data-font-size-sm=\"4.778rem\" data-line-height-sm=\"4.778rem\"><span class=\"inter_bold\" style=\"color: rgb(0, 75, 164);\" data-mce-style=\"color: rgb(0, 75, 164);\">Don’t wait for <span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">inspiration</span>. Go after it with a club.</span></p>"
+		},
+		"module": "text",
+		"options": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_nwthx1qud": {
+		"content": {
+			"xl": "<p style=\"font-size: 1.222rem;\" data-mce-style=\"font-size: 1.222rem;\" data-font-size-xl=\"1.222rem\"><span style=\"color: rgb(0, 75, 164);\" data-mce-style=\"color: rgb(0, 75, 164);\" class=\"inter_regular\">Hey there, this is the default text for a new paragraph. Feel free to edit this paragraph by clicking on the yellow edit icon. After you are done just click on the yellow checkmark button on the top right. Have Fun!</span></p>"
+		},
+		"module": "text",
+		"options": {},
+		"styles": {
+			"xl": {
+				"padding-top": "1.6666666666666667rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"column_ea45bokoy": {
+		"width": {
+			"xl": "3"
+		},
+		"options": {},
+		"layout": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_dj9pl7ypr": {
+		"content": {
+			"xl": "semplice_text_4.svg"
+		},
+		"module": "image",
+		"options": {},
+		"styles": {
+			"xl": {
+				"padding-top": "1.6666666666666667rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_k6gtxcvmf": {
+		"content": {
+			"xl": "<p style=\"font-size: 6.111rem; line-height: 6rem;\" data-mce-style=\"font-size: 6.111rem; line-height: 6rem;\" data-font-size-xl=\"6.111rem\" data-line-height-xl=\"6.000rem\" data-font-size-md=\"4.778rem\" data-line-height-md=\"4.778rem\" data-font-size-xs=\"4.778rem\" data-line-height-xs=\"4.778rem\" data-font-size-sm=\"4.778rem\" data-line-height-sm=\"4.778rem\"><span class=\"inter_bold\" style=\"color: rgb(0, 75, 164); letter-spacing: -0.222rem;\" data-mce-style=\"color: rgb(0, 75, 164); letter-spacing: -0.222rem;\" data-letter-spacing-xl=\"-0.222rem\">67</span></p>"
+		},
+		"module": "text",
+		"options": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_51pysjger": {
+		"content": {
+			"xl": "<p><span style=\"color: rgb(0, 75, 164);\" data-mce-style=\"color: rgb(0, 75, 164);\" class=\"inter_regular\">Awards earned</span></p>"
+		},
+		"module": "text",
+		"options": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_xdcjc9cjd": {
+		"content": {
+			"xl": "semplice_text_5.svg"
+		},
+		"module": "image",
+		"options": {},
+		"styles": {
+			"xl": {
+				"padding-top": "1.6666666666666667rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_699h7jtim": {
+		"content": {
+			"xl": "<p style=\"font-size: 6.111rem; line-height: 6.111rem;\" data-mce-style=\"font-size: 6.111rem; line-height: 6.111rem;\" data-font-size-xl=\"6.111rem\" data-line-height-xl=\"6.111rem\" data-font-size-md=\"4.778rem\" data-line-height-md=\"4.778rem\" data-font-size-xs=\"4.778rem\" data-line-height-xs=\"4.778rem\" data-font-size-sm=\"4.778rem\" data-line-height-sm=\"4.778rem\"><span data-mce-style=\"color: rgb(0, 75, 164); font-family: Inter-Bold, sans-serif; letter-spacing: -0.222rem;\" style=\"color: rgb(0, 75, 164); font-family: Inter-Bold, sans-serif; letter-spacing: -0.222rem;\" data-letter-spacing-xl=\"-0.222rem\"><strong>102</strong></span></p>"
+		},
+		"module": "text",
+		"options": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_22we3g2km": {
+		"content": {
+			"xl": "<p><span style=\"color: rgb(0, 75, 164);\" data-mce-style=\"color: rgb(0, 75, 164);\" class=\"inter_regular\">Team members</span></p>"
+		},
+		"module": "text",
+		"options": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_w8qduszo9": {
+		"content": {
+			"xl": "semplice_text_6.svg"
+		},
+		"module": "image",
+		"options": {},
+		"styles": {
+			"xl": {
+				"padding-top": "1.6666666666666667rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_np30au7p6": {
+		"content": {
+			"xl": "<p style=\"font-size: 6.111rem; line-height: 6.111rem;\" data-mce-style=\"font-size: 6.111rem; line-height: 6.111rem;\" data-font-size-xl=\"6.111rem\" data-line-height-xl=\"6.111rem\" data-font-size-md=\"4.778rem\" data-line-height-md=\"4.778rem\" data-font-size-xs=\"4.778rem\" data-line-height-xs=\"4.778rem\" data-font-size-sm=\"4.778rem\" data-line-height-sm=\"4.778rem\"><span data-mce-style=\"color: rgb(0, 75, 164); font-family: Inter-Bold, sans-serif; letter-spacing: -0.222rem;\" style=\"color: rgb(0, 75, 164); font-family: Inter-Bold, sans-serif; letter-spacing: -0.222rem;\" data-letter-spacing-xl=\"-0.222rem\"><strong>15%</strong></span></p>"
+		},
+		"module": "text",
+		"options": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_i5ctmiocv": {
+		"content": {
+			"xl": "<p><span style=\"color: rgb(0, 75, 164);\" data-mce-style=\"color: rgb(0, 75, 164);\" class=\"inter_regular\">Financial growth</span></p>"
+		},
+		"module": "text",
+		"options": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	}
+}

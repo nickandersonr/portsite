@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="44" viewBox="0 0 40 44">
+<defs>
+    <style>
+      .ep-posts-expand-icon {
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="Form_2" data-name="Form 2" class="ep-posts-expand-icon" d="M16,26L7,18.768l0.615-.762L16,24.738l8.382-6.732L25,18.768Z"/>
+</svg>

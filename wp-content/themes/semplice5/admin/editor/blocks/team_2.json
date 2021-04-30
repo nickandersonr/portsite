@@ -1,0 +1,312 @@
+{
+	"order": {
+		"section_l2i0cc3k1": {
+			"row_oberr7qh3": {
+				"columns": {
+					"column_cszh24ix3": ["content_j8iu5o4xq", "content_qmunbjhoc"]
+				}
+			},
+			"row_6wtfjmcnu": {
+				"columns": {
+					"column_uzjl2d4xj": ["content_7n3lst6el", "content_9v35hdarv", "content_e895ih4v9", "content_617vm26q0", "content_ipr6xgg1l", "content_c6z8ax790"],
+					"column_4qqzoii28": ["content_9f85b7bra", "content_tebe7lmrk", "content_ghierumzz", "content_6972opcmo", "content_doq78jjhv", "content_7qe5jujgd"]
+				}
+			}
+		}
+	},
+	"section_l2i0cc3k1": {
+		"options": {},
+		"layout": {
+			"data-column-mode-sm": "single",
+			"data-column-mode-xs": "single"
+		},
+		"customHeight": {
+			"xl": {
+				"height": "15rem"
+			}
+		},
+		"styles": {
+			"xl": {
+				"background-color": "#ffffff"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"column_cszh24ix3": {
+		"width": {
+			"xl": 12
+		},
+		"options": {},
+		"layout": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_j8iu5o4xq": {
+		"content": {
+			"xl": "<p style=\"font-size: 3.667rem; line-height: 4.222rem;\" data-mce-style=\"font-size: 3.667rem; line-height: 4.222rem;\" data-font-size-xl=\"4.778rem\" data-line-height-xl=\"4.778rem\" data-font-size-xs=\"2.000rem\" data-line-height-xs=\"2.000rem\" data-font-size-sm=\"3.667rem\" data-line-height-sm=\"4.222rem\"><span class=\"inter_bold\" style=\"letter-spacing: -0.139rem;\" data-mce-style=\"letter-spacing: -0.139rem;\" data-letter-spacing-xl=\"-0.139rem\" data-letter-spacing-xs=\"-0.028rem\">Meet the creators</span></p>"
+		},
+		"module": "text",
+		"options": {},
+		"styles": {
+			"xl": {
+				"padding-bottom": "0rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_qmunbjhoc": {
+		"content": {
+			"xl": "<p style=\"font-size: 3.667rem; line-height: 4.222rem;\" data-mce-style=\"font-size: 3.667rem; line-height: 4.222rem;\" data-font-size-xl=\"4.778rem\" data-line-height-xl=\"4.778rem\" data-font-size-xs=\"2.000rem\" data-line-height-xs=\"2.000rem\" data-font-size-sm=\"3.667rem\" data-line-height-sm=\"4.222rem\"><span class=\"inter_regular\" style=\"letter-spacing: -0.139rem; color: rgb(153, 153, 153);\" data-mce-style=\"letter-spacing: -0.139rem; color: rgb(153, 153, 153);\" data-letter-spacing-xl=\"-0.139rem\" data-letter-spacing-xs=\"-0.028rem\">The talented team</span></p>"
+		},
+		"module": "text",
+		"options": {},
+		"styles": {
+			"xl": {
+				"padding-bottom": "3.3333333333333335rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"column_uzjl2d4xj": {
+		"width": {
+			"xl": 6
+		},
+		"options": {},
+		"layout": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_7n3lst6el": {
+		"content": {
+			"xl": "semplice_team_4.jpg"
+		},
+		"module": "image",
+		"options": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_9v35hdarv": {
+		"content": {
+			"xl": "<p style=\"font-size: 1.444rem; line-height: 1.667rem;\" data-mce-style=\"font-size: 1.444rem; line-height: 1.667rem;\" data-font-size-xl=\"1.444rem\" data-line-height-xl=\"1.667rem\" data-font-size-md=\"1.222rem\" data-font-size-xs=\"1.222rem\"><span class=\"inter_bold\">Fumina Akimoto</span></p>"
+		},
+		"module": "text",
+		"options": {},
+		"styles": {
+			"xl": {
+				"padding-top": "0.5555555555555556rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_e895ih4v9": {
+		"content": {
+			"xl": "<p style=\"font-size: 1.222rem; line-height: 1.667rem;\" data-mce-style=\"font-size: 1.222rem; line-height: 1.667rem;\" data-font-size-xl=\"1.444rem\" data-line-height-xl=\"1.667rem\" data-font-size-md=\"1.222rem\" data-font-size-xs=\"1.222rem\"><span class=\"inter_regular\">Creative director</span></p>"
+		},
+		"module": "text",
+		"options": {},
+		"styles": {
+			"xl": {
+				"padding-bottom": "3.3333333333333335rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_617vm26q0": {
+		"content": {
+			"xl": "semplice_team_6.jpg"
+		},
+		"module": "image",
+		"options": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_ipr6xgg1l": {
+		"content": {
+			"xl": "<p style=\"font-size: 1.222rem; line-height: 1.667rem;\" data-mce-style=\"font-size: 1.222rem; line-height: 1.667rem;\" data-font-size-xl=\"1.444rem\" data-line-height-xl=\"1.667rem\" data-font-size-md=\"1.222rem\" data-font-size-xs=\"1.222rem\"><span class=\"inter_bold\">Jonathan Danielsen</span></p>"
+		},
+		"module": "text",
+		"options": {},
+		"styles": {
+			"xl": {
+				"padding-top": "0.5555555555555556rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_c6z8ax790": {
+		"content": {
+			"xl": "<p style=\"font-size: 1.444rem; line-height: 1.667rem;\" data-mce-style=\"font-size: 1.444rem; line-height: 1.667rem;\" data-font-size-xl=\"1.444rem\" data-line-height-xl=\"1.667rem\" data-font-size-md=\"1.222rem\" data-font-size-xs=\"1.222rem\"><span class=\"inter_regular\">Marketing</span></p>"
+		},
+		"module": "text",
+		"options": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"column_4qqzoii28": {
+		"width": {
+			"xl": 6
+		},
+		"options": {},
+		"layout": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_9f85b7bra": {
+		"content": {
+			"xl": "semplice_team_5.jpg"
+		},
+		"module": "image",
+		"options": {},
+		"styles": {
+			"xl": {
+				"padding-top": "3.3333333333333335rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_tebe7lmrk": {
+		"content": {
+			"xl": "<p style=\"font-size: 1.444rem; line-height: 1.667rem;\" data-mce-style=\"font-size: 1.444rem; line-height: 1.667rem;\" data-font-size-xl=\"1.444rem\" data-line-height-xl=\"1.667rem\" data-font-size-md=\"1.222rem\" data-font-size-xs=\"1.222rem\"><span class=\"inter_bold\">Jessica Albro</span></p>"
+		},
+		"module": "text",
+		"options": {},
+		"styles": {
+			"xl": {
+				"padding-top": "0.5555555555555556rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_ghierumzz": {
+		"content": {
+			"xl": "<p style=\"font-size: 1.444rem; line-height: 1.667rem;\" data-mce-style=\"font-size: 1.444rem; line-height: 1.667rem;\" data-font-size-xl=\"1.444rem\" data-line-height-xl=\"1.667rem\" data-font-size-md=\"1.222rem\" data-font-size-xs=\"1.222rem\"><span class=\"inter_regular\">Managing director</span></p>"
+		},
+		"module": "text",
+		"options": {},
+		"styles": {
+			"xl": {
+				"padding-bottom": "3.3333333333333335rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_6972opcmo": {
+		"content": {
+			"xl": "semplice_team_7.jpg"
+		},
+		"module": "image",
+		"options": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_doq78jjhv": {
+		"content": {
+			"xl": "<p style=\"font-size: 1.444rem; line-height: 1.667rem;\" data-mce-style=\"font-size: 1.444rem; line-height: 1.667rem;\" data-font-size-xl=\"1.444rem\" data-line-height-xl=\"1.667rem\" data-font-size-md=\"1.222rem\" data-font-size-xs=\"1.222rem\"><span class=\"inter_bold\">Beth Johnson</span></p>"
+		},
+		"module": "text",
+		"options": {},
+		"styles": {
+			"xl": {
+				"padding-top": "0.5555555555555556rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_7qe5jujgd": {
+		"content": {
+			"xl": "<p style=\"font-size: 1.444rem; line-height: 1.667rem;\" data-mce-style=\"font-size: 1.444rem; line-height: 1.667rem;\" data-font-size-xl=\"1.444rem\" data-line-height-xl=\"1.667rem\" data-font-size-md=\"1.222rem\" data-font-size-xs=\"1.222rem\"><span class=\"inter_regular\">Project manager</span></p>"
+		},
+		"module": "text",
+		"options": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	}
+}

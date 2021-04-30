@@ -1,0 +1,128 @@
+{
+	"order": {
+		"section_m12admbhk": {
+			"row_zmtcvmwt2": {
+				"columns": {
+					"column_bt36w8jo2": ["content_2tww3bkjv", "content_8fyxzggc5"],
+					"column_nnbva2d9x": ["content_ufd44zstx"]
+				}
+			}
+		}
+	},
+	"section_m12admbhk": {
+		"options": {},
+		"layout": {
+			"data-column-mode-sm": "single",
+			"data-column-mode-xs": "single",
+			"data-valign": "center"
+		},
+		"customHeight": {
+			"xl": {
+				"height": "15rem"
+			}
+		},
+		"styles": {
+			"xl": {
+				"padding-top": "6.666666666666667rem",
+				"padding-bottom": "6.666666666666667rem",
+				"background-color": "#ffffff"
+			},
+			"xs": {
+				"padding-top": "3.3333333333333335rem",
+				"padding-bottom": "3.3333333333333335rem"
+			},
+			"sm": {
+				"padding-top": "4.444444444444445rem",
+				"padding-bottom": "4.444444444444445rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"column_bt36w8jo2": {
+		"width": {
+			"xl": "6"
+		},
+		"options": {},
+		"layout": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_2tww3bkjv": {
+		"content": {
+			"xl": "<p style=\"font-size: 4.444rem; line-height: 4.444rem;\" data-mce-style=\"font-size: 4.444rem; line-height: 4.444rem;\" data-font-size-xl=\"5.778rem\" data-line-height-xl=\"5.778rem\" data-font-size-md=\"4.444rem\" data-line-height-md=\"4.444rem\" data-font-size-lg=\"5.333rem\" data-line-height-lg=\"5.333rem\" data-font-size-xs=\"3.556rem\" data-line-height-xs=\"3.556rem\"><span class=\"inter_bold\" style=\"letter-spacing: -0.139rem;\" data-mce-style=\"letter-spacing: -0.139rem;\" data-letter-spacing-xl=\"-0.139rem\">Hi there. Welcome to my website.</span></p>"
+		},
+		"module": "text",
+		"options": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_8fyxzggc5": {
+		"content": {
+			"xl": "<p><span class=\"inter_regular\">Hey there, this is the default text for a new paragraph. Feel free to edit this paragraph by clicking on the yellow edit icon. After you are done just click on the yellow checkmark button on the top right. Have Fun!</span></p>"
+		},
+		"module": "text",
+		"options": {},
+		"styles": {
+			"xl": {
+				"padding-top": "1.6666666666666667rem"
+			},
+			"sm": {
+				"padding-bottom": "1.6666666666666667rem"
+			},
+			"xs": {
+				"padding-bottom": "1.6666666666666667rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"column_nnbva2d9x": {
+		"width": {
+			"xl": "6"
+		},
+		"options": {},
+		"layout": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_ufd44zstx": {
+		"content": {
+			"xl": "semplice_profile_1.jpg"
+		},
+		"module": "image",
+		"options": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	}
+}

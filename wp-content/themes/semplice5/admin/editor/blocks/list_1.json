@@ -1,0 +1,184 @@
+{
+	"order": {
+		"section_aso9e5n7x": {
+			"row_qr7bmwmh2": {
+				"columns": {
+					"column_x8hmchpvr": ["content_89pgno4h5", "content_rl028mbqq"],
+					"column_g746encje": ["content_5fz2inrfg", "content_i4kb1djgh"],
+					"column_2g2snjzyx": ["content_stix3fozv", "content_yfnb25vvy"]
+				}
+			}
+		}
+	},
+	"section_aso9e5n7x": {
+		"options": {},
+		"layout": {
+			"data-column-mode-sm": "single",
+			"data-column-mode-xs": "single"
+		},
+		"customHeight": {
+			"xl": {
+				"height": "15rem"
+			}
+		},
+		"styles": {
+			"xl": {
+				"padding-top": "4.444444444444445rem",
+				"padding-bottom": "4.444444444444445rem",
+				"background-color": "#ffffff"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"column_x8hmchpvr": {
+		"width": {
+			"xl": 4
+		},
+		"options": {},
+		"layout": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_89pgno4h5": {
+		"content": {
+			"xl": "<p><span class=\"inter_regular\" style=\"color: rgb(255, 0, 0);\" data-mce-style=\"color: #ff0000;\">Services</span></p>"
+		},
+		"module": "text",
+		"options": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_rl028mbqq": {
+		"content": {
+			"xl": "<p style=\"font-size: 1.778rem; line-height: 2.222rem;\" data-mce-style=\"font-size: 1.778rem; line-height: 2.222rem;\" data-font-size-xl=\"2.000rem\" data-line-height-xl=\"2.222rem\" data-font-size-md=\"1.556rem\" data-line-height-md=\"1.667rem\" data-font-size-xs=\"1.778rem\"><span class=\"inter_bold\" style=\"letter-spacing: -0.056rem;\" data-mce-style=\"letter-spacing: -0.056rem;\" data-letter-spacing-xl=\"-0.056rem\">Brand Identity</span><br><span class=\"inter_bold\" style=\"letter-spacing: -0.056rem;\" data-mce-style=\"letter-spacing: -0.056rem;\" data-letter-spacing-xl=\"-0.056rem\">Brand Stretagy</span><br><span class=\"inter_bold\" style=\"letter-spacing: -0.056rem;\" data-mce-style=\"letter-spacing: -0.056rem;\" data-letter-spacing-xl=\"-0.056rem\">Web Design</span><br><span class=\"inter_bold\" style=\"letter-spacing: -0.056rem;\" data-mce-style=\"letter-spacing: -0.056rem;\" data-letter-spacing-xl=\"-0.056rem\">User Experience</span><br><span class=\"inter_bold\" style=\"letter-spacing: -0.056rem;\" data-mce-style=\"letter-spacing: -0.056rem;\" data-letter-spacing-xl=\"-0.056rem\">Editorial</span></p>"
+		},
+		"module": "text",
+		"options": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"column_g746encje": {
+		"width": {
+			"xl": 4
+		},
+		"options": {},
+		"layout": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_5fz2inrfg": {
+		"content": {
+			"xl": "<p><span class=\"inter_regular\" style=\"color: rgb(255, 0, 0);\" data-mce-style=\"color: rgb(255, 0, 0);\">Locations</span></p>"
+		},
+		"module": "text",
+		"options": {},
+		"styles": {
+			"xl": {},
+			"sm": {
+				"padding-top": "1.6666666666666667rem"
+			},
+			"xs": {
+				"padding-top": "1.6666666666666667rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_i4kb1djgh": {
+		"content": {
+			"xl": "<p style=\"font-size: 1.778rem; line-height: 2.222rem;\" data-mce-style=\"font-size: 1.778rem; line-height: 2.222rem;\" data-font-size-xl=\"2.000rem\" data-line-height-xl=\"2.222rem\" data-font-size-md=\"1.556rem\" data-line-height-md=\"1.667rem\" data-font-size-xs=\"1.778rem\"><span class=\"inter_bold\" style=\"letter-spacing: -0.056rem;\" data-mce-style=\"letter-spacing: -0.056rem;\" data-letter-spacing-xl=\"-0.056rem\">New York<br>Amsterdam<br>Berlin<br>Hongkong<br>London<br></span></p>"
+		},
+		"module": "text",
+		"options": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"column_2g2snjzyx": {
+		"width": {
+			"xl": 4
+		},
+		"options": {},
+		"layout": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_stix3fozv": {
+		"content": {
+			"xl": "<p><span class=\"inter_regular\" style=\"color: rgb(255, 0, 0);\" data-mce-style=\"color: rgb(255, 0, 0);\">Clients</span></p>"
+		},
+		"module": "text",
+		"options": {},
+		"styles": {
+			"xl": {},
+			"sm": {
+				"padding-top": "1.6666666666666667rem"
+			},
+			"xs": {
+				"padding-top": "1.6666666666666667rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_yfnb25vvy": {
+		"content": {
+			"xl": "<p style=\"font-size: 1.778rem; line-height: 2.222rem;\" data-mce-style=\"font-size: 1.778rem; line-height: 2.222rem;\" data-font-size-xl=\"2.000rem\" data-line-height-xl=\"2.222rem\" data-font-size-md=\"1.556rem\" data-line-height-md=\"1.667rem\" data-font-size-xs=\"1.778rem\"><span class=\"inter_bold\" style=\"letter-spacing: -0.056rem;\" data-mce-style=\"letter-spacing: -0.056rem;\" data-letter-spacing-xl=\"-0.056rem\">Abidas<br>Applez<br>Gncci<br>SpaceY<br></span></p>"
+		},
+		"module": "text",
+		"options": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	}
+}

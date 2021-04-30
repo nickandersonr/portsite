@@ -1,0 +1,245 @@
+{
+	"order": {
+		"section_5cel93yfk": {
+			"row_7ja91gqe7": {
+				"columns": {
+					"column_4rp87f7yg": ["content_4h05txsio", "content_kgpmlr550"],
+					"column_s3yhfv717": ["content_2osupowbx"]
+				}
+			},
+			"row_vlen48rdi": {
+				"columns": {
+					"column_49qixc7s7": ["content_etvc6cyf6"],
+					"column_5w7zy4lls": ["content_vhz09mqna"]
+				}
+			},
+			"row_paqdxaahy": {
+				"columns": {
+					"column_vufkiq196": ["content_wi8l7qrqo"]
+				}
+			}
+		}
+	},
+	"section_5cel93yfk": {
+		"options": {},
+		"layout": {
+			"data-column-mode-sm": "single",
+			"data-column-mode-xs": "single"
+		},
+		"customHeight": {
+			"xl": {
+				"height": "15rem"
+			}
+		},
+		"styles": {
+			"xl": {
+				"padding-top": "4.444444444444445rem",
+				"padding-bottom": "4.444444444444445rem",
+				"background-color": "#ffffff"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"column_4rp87f7yg": {
+		"width": {
+			"xl": "6"
+		},
+		"options": {},
+		"layout": {
+			"data-valign": "stretch"
+		},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_4h05txsio": {
+		"content": {
+			"xl": "semplice_imagegrid_25.jpg"
+		},
+		"module": "image",
+		"options": {},
+		"styles": {
+			"xl": {
+				"padding-bottom": "0rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_kgpmlr550": {
+		"content": {
+			"xl": "<p style=\"text-align: center; font-size: 3rem;\" data-mce-style=\"text-align: center; font-size: 3rem;\" data-font-size-xl=\"3.000rem\"><span class=\"inter_bold\" style=\"letter-spacing: -0.167rem;\" data-mce-style=\"letter-spacing: -0.167rem;\" data-letter-spacing-xl=\"-0.167rem\">Moodboard</span></p>"
+		},
+		"module": "text",
+		"options": {},
+		"styles": {
+			"xl": {
+				"padding-bottom": "0rem",
+				"padding-top": "5.277777777777778rem"
+			},
+			"md": {
+				"padding-top": "3.3333333333333335rem"
+			},
+			"sm": {
+				"padding-bottom": "5rem"
+			},
+			"xs": {
+				"padding-bottom": "5rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"column_s3yhfv717": {
+		"width": {
+			"xl": "6"
+		},
+		"options": {},
+		"layout": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_2osupowbx": {
+		"content": {
+			"xl": "semplice_imagegrid_26.jpg"
+		},
+		"module": "image",
+		"options": {},
+		"styles": {
+			"xl": {},
+			"sm": {
+				"padding-bottom": "1.6666666666666667rem"
+			},
+			"xs": {
+				"padding-bottom": "1.6666666666666667rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"column_49qixc7s7": {
+		"width": {
+			"xl": "6"
+		},
+		"options": {},
+		"layout": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_etvc6cyf6": {
+		"content": {
+			"xl": "semplice_imagegrid_27.jpg"
+		},
+		"module": "image",
+		"options": {},
+		"styles": {
+			"xl": {
+				"padding-bottom": "1.6666666666666667rem",
+				"padding-top": "0rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"column_5w7zy4lls": {
+		"width": {
+			"xl": "6"
+		},
+		"options": {},
+		"layout": {
+			"data-valign": "center"
+		},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_vhz09mqna": {
+		"content": {
+			"xl": "<p style=\"text-align: center;\" data-mce-style=\"text-align: center;\"><span class=\"inter_regular\">Hey there, this is the default text for a new paragraph. Feel free to edit this paragraph by clicking on the yellow edit icon. After you are done just click on the yellow checkmark button on the top right. Have Fun!</span></p>"
+		},
+		"module": "text",
+		"options": {},
+		"styles": {
+			"xl": {},
+			"sm": {
+				"padding-bottom": "1.6666666666666667rem"
+			},
+			"xs": {
+				"padding-bottom": "1.6666666666666667rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"column_vufkiq196": {
+		"width": {
+			"xl": 12
+		},
+		"options": {},
+		"layout": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_wi8l7qrqo": {
+		"content": {
+			"xl": "semplice_imagegrid_28.jpg"
+		},
+		"module": "image",
+		"options": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	}
+}

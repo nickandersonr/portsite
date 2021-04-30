@@ -1,0 +1,106 @@
+{
+	"order": {
+		"section_3adx9avoa": {
+			"row_gfz3h36y6": {
+				"columns": {
+					"column_x5p3to1eu": ["content_o4dcluyjp", "content_exhqyf38f"]
+				}
+			}
+		}
+	},
+	"section_3adx9avoa": {
+		"options": {},
+		"layout": {
+			"data-column-mode-sm": "single",
+			"data-column-mode-xs": "single",
+			"data-justify": "center",
+			"data-height": "dynamic"
+		},
+		"customHeight": {
+			"xl": {
+				"height": "15rem"
+			}
+		},
+		"styles": {
+			"xl": {
+				"background-color": "#303a43",
+				"background_type": "img",
+				"background-image": "semplice_overlap_3.jpg",
+				"background-size": "auto",
+				"background-repeat": "no-repeat",
+				"background-position": "50% 50%",
+				"padding-top": "15.555555555555555rem",
+				"padding-bottom": "15.555555555555555rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"column_x5p3to1eu": {
+		"width": {
+			"xl": 12
+		},
+		"options": {},
+		"layout": {},
+		"styles": {
+			"xl": {
+				"background_type": "img"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_o4dcluyjp": {
+		"content": {
+			"xl": "<p style=\"text-align: center; font-size: 8rem; line-height: 8rem;\" data-mce-style=\"text-align: center; font-size: 8rem; line-height: 8rem;\" data-font-size-xl=\"14.889rem\" data-line-height-xl=\"13.889rem\" data-font-size-sm=\"8.000rem\" data-line-height-sm=\"8.000rem\" data-font-size-xs=\"5.333rem\" data-line-height-xs=\"5.333rem\" data-font-size-md=\"12.111rem\" data-line-height-md=\"12.111rem\"><span style=\"color: rgb(255, 255, 255); letter-spacing: -0.156rem;\" data-mce-style=\"color: #ffffff; letter-spacing: -0.156rem;\" class=\"inter_bold\" data-letter-spacing-xl=\"-0.389rem\" data-letter-spacing-sm=\"-0.156rem\">Speed</span></p>"
+		},
+		"module": "text",
+		"options": {},
+		"styles": {
+			"xl": {
+				"padding-top": "0rem",
+				"padding-bottom": "0rem",
+				"z-index": "2"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_exhqyf38f": {
+		"content": {
+			"xl": ""
+		},
+		"module": "button",
+		"options": {
+			"label": "I LIKE IT",
+			"font_family": "inter_bold",
+			"font-size": "0.7777777777777778rem",
+			"color": "#000000",
+			"background-color": "#ffffff",
+			"letter-spacing": "0.16666666666666666rem",
+			"padding-right": "2.7777777777777777rem",
+			"padding-left": "2.7777777777777777rem",
+			"padding-top": "0.8888888888888888rem",
+			"padding-bottom": "0.8888888888888888rem"
+		},
+		"styles": {
+			"xl": {
+				"padding-top": "4.444444444444445rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	}
+}

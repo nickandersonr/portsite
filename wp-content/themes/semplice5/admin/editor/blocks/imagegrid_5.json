@@ -1,0 +1,345 @@
+{
+	"order": {
+		"section_1xfe5w2qu": {
+			"row_v90vomzjs": {
+				"columns": {
+					"column_6uerm3jy7": ["content_td59u6an3", "content_hxk0q7it0"],
+					"column_4w8d4sbgq": ["content_xghid3eri", "content_9tezrswap"],
+					"column_3ezgqly3a": ["content_wkr1gh5p8", "content_lyjp3fdgt"],
+					"column_npq7i766h": ["content_fmm0taov6", "content_fc4xtdjr9"]
+				}
+			},
+			"row_5z70yfiya": {
+				"columns": {
+					"column_qnpf7z0lp": ["content_tikvzy4kw"]
+				}
+			},
+			"row_ebsro6mwy": {
+				"columns": {
+					"column_vi3rokczy": ["content_jdelp69xo"]
+				}
+			}
+		}
+	},
+	"section_1xfe5w2qu": {
+		"options": {},
+		"layout": {
+			"data-column-mode-sm": "single",
+			"data-column-mode-xs": "single",
+			"data-justify": "center"
+		},
+		"customHeight": {
+			"xl": {
+				"height": "15rem"
+			}
+		},
+		"styles": {
+			"xl": {
+				"padding-top": "4.444444444444445rem",
+				"padding-bottom": "4.444444444444445rem",
+				"background-color": "#ffffff"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"column_6uerm3jy7": {
+		"width": {
+			"xl": 3,
+			"md": "3",
+			"lg": "3"
+		},
+		"options": {},
+		"layout": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_td59u6an3": {
+		"content": {
+			"xl": "semplice_imagegrid_17.jpg"
+		},
+		"module": "image",
+		"options": {
+			"width": "grid-width"
+		},
+		"styles": {
+			"xl": {
+				"padding-bottom": "1.6666666666666667rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_hxk0q7it0": {
+		"content": {
+			"xl": "semplice_imagegrid_21.jpg"
+		},
+		"module": "image",
+		"options": {
+			"width": "grid-width"
+		},
+		"styles": {
+			"xl": {
+				"padding-bottom": "1.6666666666666667rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"column_4w8d4sbgq": {
+		"width": {
+			"xl": 3,
+			"md": "3",
+			"lg": "3"
+		},
+		"options": {},
+		"layout": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_xghid3eri": {
+		"content": {
+			"xl": "semplice_imagegrid_18.jpg"
+		},
+		"module": "image",
+		"options": {
+			"width": "grid-width"
+		},
+		"styles": {
+			"xl": {
+				"padding-bottom": "1.6666666666666667rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_9tezrswap": {
+		"content": {
+			"xl": "semplice_imagegrid_22.jpg"
+		},
+		"module": "image",
+		"options": {
+			"width": "grid-width"
+		},
+		"styles": {
+			"xl": {
+				"padding-bottom": "1.6666666666666667rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"column_3ezgqly3a": {
+		"width": {
+			"xl": 3,
+			"md": "3",
+			"lg": "3"
+		},
+		"options": {},
+		"layout": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_wkr1gh5p8": {
+		"content": {
+			"xl": "semplice_imagegrid_19.jpg"
+		},
+		"module": "image",
+		"options": {
+			"width": "grid-width"
+		},
+		"styles": {
+			"xl": {
+				"padding-bottom": "1.6666666666666667rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_lyjp3fdgt": {
+		"content": {
+			"xl": "semplice_imagegrid_23.jpg"
+		},
+		"module": "image",
+		"options": {
+			"width": "grid-width"
+		},
+		"styles": {
+			"xl": {
+				"padding-bottom": "1.6666666666666667rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"column_npq7i766h": {
+		"width": {
+			"xl": 3,
+			"lg": "3",
+			"md": "3"
+		},
+		"options": {},
+		"layout": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_fmm0taov6": {
+		"content": {
+			"xl": "semplice_imagegrid_20.jpg"
+		},
+		"module": "image",
+		"options": {
+			"width": "grid-width"
+		},
+		"styles": {
+			"xl": {
+				"padding-top": "0rem",
+				"padding-bottom": "1.6666666666666667rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_fc4xtdjr9": {
+		"content": {
+			"xl": "semplice_imagegrid_24.jpg"
+		},
+		"module": "image",
+		"options": {
+			"width": "grid-width"
+		},
+		"styles": {
+			"xl": {
+				"padding-top": "0rem",
+				"padding-bottom": "1.6666666666666667rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"column_qnpf7z0lp": {
+		"width": {
+			"xl": 12
+		},
+		"options": {},
+		"layout": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_tikvzy4kw": {
+		"content": {
+			"xl": "<p style=\"text-align: center; font-size: 8rem; line-height: 8rem;\" data-mce-style=\"text-align: center; font-size: 8rem; line-height: 8rem;\" data-font-size-xl=\"8.000rem\" data-line-height-xl=\"8.000rem\" data-font-size-xs=\"4.000rem\" data-font-size-sm=\"6.000rem\" data-line-height-sm=\"6.000rem\" data-line-height-xs=\"4.000rem\" data-font-size-md=\"6.556rem\" data-line-height-md=\"6.556rem\"><span class=\"inter_bold\" style=\"letter-spacing: -0.222rem;\" data-mce-style=\"letter-spacing: -0.222rem;\" data-letter-spacing-xl=\"-0.222rem\">Sand</span></p>"
+		},
+		"module": "text",
+		"options": {},
+		"styles": {
+			"xl": {
+				"padding-bottom": "1.6666666666666667rem"
+			},
+			"xs": {
+				"padding-bottom": "1.1111111111111112rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"column_vi3rokczy": {
+		"width": {
+			"xl": "6",
+			"md": "8"
+		},
+		"options": {},
+		"layout": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_jdelp69xo": {
+		"content": {
+			"xl": "<p style=\"text-align: center;\" data-mce-style=\"text-align: center;\"><span class=\"inter_regular\">Hey there, this is the default text for a new paragraph. Feel free to edit this paragraph by clicking on the yellow edit icon. After you are done just click on the yellow checkmark button on the top right. Have Fun!</span></p>"
+		},
+		"module": "text",
+		"options": {},
+		"styles": {
+			"xl": {
+				"padding-bottom": "3.3333333333333335rem"
+			},
+			"sm": {
+				"padding-bottom": "1.6666666666666667rem"
+			},
+			"xs": {
+				"padding-bottom": "1.6666666666666667rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	}
+}

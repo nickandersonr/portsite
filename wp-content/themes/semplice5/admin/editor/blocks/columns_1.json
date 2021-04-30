@@ -1,0 +1,293 @@
+{
+	"order": {
+		"section_a5e1rpi0r": {
+			"row_g0vsl8mo6": {
+				"columns": {
+					"column_16r0jhdt9": ["content_eckzsu4bs"]
+				}
+			},
+			"row_rzmto3gnm": {
+				"columns": {
+					"column_oi2w4syq7": ["content_74nzwhtlf", "content_wnqgdo2bz"],
+					"column_k4ua824ki": ["content_xi4io7ijn", "content_erd2pshj4"],
+					"column_obegp31x0": ["content_bw43srpul", "content_cdxqyqdqv"],
+					"column_s67ucxoq0": ["content_ydbmar5z1", "content_nheva9j1q"]
+				}
+			}
+		}
+	},
+	"section_a5e1rpi0r": {
+		"options": {},
+		"layout": {
+			"data-column-mode-sm": "single",
+			"data-column-mode-xs": "single"
+		},
+		"customHeight": {
+			"xl": {
+				"height": "15rem"
+			}
+		},
+		"styles": {
+			"xl": {
+				"background-color": "#ffffff",
+				"padding-top": "6.666666666666667rem",
+				"padding-bottom": "6.666666666666667rem"
+			},
+			"xs": {
+				"padding-top": "4.444444444444445rem",
+				"padding-bottom": "4.444444444444445rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"column_16r0jhdt9": {
+		"width": {
+			"xl": "12"
+		},
+		"options": {},
+		"layout": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_eckzsu4bs": {
+		"content": {
+			"xl": "<p style=\"text-align: center; font-size: 3.111rem; line-height: 3.111rem;\" data-mce-style=\"text-align: center; font-size: 3.111rem; line-height: 3.111rem;\" data-font-size-xl=\"3.111rem\" data-line-height-xl=\"3.111rem\"><span class=\"inter_regular\" style=\"letter-spacing: -0.083rem;\" data-mce-style=\"letter-spacing: -0.083rem;\" data-letter-spacing-xl=\"-0.083rem\">Art &amp; nature</span></p>"
+		},
+		"module": "text",
+		"options": {},
+		"styles": {
+			"xl": {
+				"padding-bottom": "4.444444444444445rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"column_oi2w4syq7": {
+		"width": {
+			"xl": "3"
+		},
+		"options": {},
+		"layout": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_74nzwhtlf": {
+		"content": {
+			"xl": "semplice_columns_1.jpg"
+		},
+		"module": "image",
+		"options": {
+			"width": "grid-width"
+		},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_wnqgdo2bz": {
+		"content": {
+			"xl": "<p>After you are done just click on the yellow checkmark button on the top right. Have Fun!</p>"
+		},
+		"module": "text",
+		"options": {},
+		"styles": {
+			"xl": {
+				"padding-top": "1.6666666666666667rem"
+			},
+			"sm": {
+				"padding-bottom": "3.3333333333333335rem"
+			},
+			"xs": {
+				"padding-bottom": "3.3333333333333335rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"column_k4ua824ki": {
+		"width": {
+			"xl": "3"
+		},
+		"options": {},
+		"layout": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_xi4io7ijn": {
+		"content": {
+			"xl": "semplice_columns_2.jpg"
+		},
+		"module": "image",
+		"options": {
+			"width": "grid-width"
+		},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_erd2pshj4": {
+		"content": {
+			"xl": "<p><span class=\"inter_regular\">Hey there, this is the default text for a new paragraph. Feel free to edit this paragraph by clicking on the yellow edit icon.</span></p>"
+		},
+		"module": "text",
+		"options": {},
+		"styles": {
+			"xl": {
+				"padding-top": "1.6666666666666667rem"
+			},
+			"sm": {
+				"padding-bottom": "3.3333333333333335rem"
+			},
+			"xs": {
+				"padding-bottom": "3.3333333333333335rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"column_obegp31x0": {
+		"width": {
+			"xl": "3"
+		},
+		"options": {},
+		"layout": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_bw43srpul": {
+		"content": {
+			"xl": "semplice_columns_3.jpg"
+		},
+		"module": "image",
+		"options": {
+			"width": "grid-width"
+		},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_cdxqyqdqv": {
+		"content": {
+			"xl": "<p><span class=\"inter_regular\">After you are done just click on the yellow checkmark button on the top right. Have Fun!</span></p>"
+		},
+		"module": "text",
+		"options": {},
+		"styles": {
+			"xl": {
+				"padding-top": "1.6666666666666667rem"
+			},
+			"sm": {
+				"padding-bottom": "3.3333333333333335rem"
+			},
+			"xs": {
+				"padding-bottom": "3.3333333333333335rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"column_s67ucxoq0": {
+		"width": {
+			"xl": "3"
+		},
+		"options": {},
+		"layout": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_ydbmar5z1": {
+		"content": {
+			"xl": "semplice_columns_4.jpg"
+		},
+		"module": "image",
+		"options": {
+			"width": "grid-width"
+		},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_nheva9j1q": {
+		"content": {
+			"xl": "<p><span class=\"inter_regular\">Hey there, this is the default text for a new paragraph. Feel free to edit this paragraph by clicking on the yellow edit icon.</span></p>"
+		},
+		"module": "text",
+		"options": {},
+		"styles": {
+			"xl": {
+				"padding-top": "1.6666666666666667rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	}
+}

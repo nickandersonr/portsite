@@ -1,0 +1,173 @@
+{
+	"order": {
+		"section_dcw4evhsp": {
+			"row_q27d5lm3p": {
+				"columns": {
+					"column_bqt9qwawq": ["content_hllcg4hpk", "content_z9bxfryk4", "content_hjvi8ekjc", "content_art8zvneh"],
+					"column_7o8l9a173": ["content_h8jjc2pgd", "content_c4a5y30uq"]
+				}
+			}
+		}
+	},
+	"section_dcw4evhsp": {
+		"options": {},
+		"layout": {
+			"data-column-mode-sm": "single",
+			"data-column-mode-xs": "single"
+		},
+		"customHeight": {
+			"xl": {
+				"height": "15rem"
+			}
+		},
+		"styles": {
+			"xl": {
+				"background-color": "#546431",
+				"padding-bottom": "4.444444444444445rem",
+				"padding-top": "4.444444444444445rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"column_bqt9qwawq": {
+		"width": {
+			"xl": 6
+		},
+		"options": {},
+		"layout": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_hllcg4hpk": {
+		"content": {
+			"xl": "<p style=\"font-size: 3.111rem;\" data-mce-style=\"font-size: 3.111rem;\" data-font-size-xl=\"3.111rem\"><span class=\"inter_bold\" style=\"letter-spacing: -0.056rem; color: rgb(255, 255, 255);\" data-mce-style=\"letter-spacing: -0.056rem; color: #ffffff;\" data-letter-spacing-xl=\"-0.056rem\">Fruits</span></p>"
+		},
+		"module": "text",
+		"options": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_z9bxfryk4": {
+		"content": {
+			"xl": "<p><span class=\"inter_regular\" style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: #ffffff;\">Hey there, this is the default text for a new paragraph. Feel free to edit this paragraph by clicking on the yellow edit icon. After you are done just click on the yellow checkmark button on the top right. Have Fun!</span></p>"
+		},
+		"module": "text",
+		"options": {},
+		"styles": {
+			"xl": {
+				"padding-bottom": "3.3333333333333335rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_hjvi8ekjc": {
+		"content": {
+			"xl": "semplice_imagegrid_1.jpg"
+		},
+		"module": "image",
+		"options": {},
+		"styles": {
+			"xl": {
+				"padding-top": "1.6666666666666667rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_art8zvneh": {
+		"content": {
+			"xl": "semplice_imagegrid_3.jpg"
+		},
+		"module": "image",
+		"options": {},
+		"styles": {
+			"xl": {
+				"padding-top": "1.6666666666666667rem",
+				"padding-bottom": "1.6666666666666667rem"
+			},
+			"sm": {
+				"padding-bottom": "0rem"
+			},
+			"xs": {
+				"padding-bottom": "0rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"column_7o8l9a173": {
+		"width": {
+			"xl": 6
+		},
+		"options": {},
+		"layout": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_h8jjc2pgd": {
+		"content": {
+			"xl": "semplice_imagegrid_2.jpg"
+		},
+		"module": "image",
+		"options": {},
+		"styles": {
+			"xl": {
+				"padding-top": "1.6666666666666667rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_c4a5y30uq": {
+		"content": {
+			"xl": "semplice_imagegrid_4.jpg"
+		},
+		"module": "image",
+		"options": {},
+		"styles": {
+			"xl": {
+				"padding-top": "1.6666666666666667rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	}
+}

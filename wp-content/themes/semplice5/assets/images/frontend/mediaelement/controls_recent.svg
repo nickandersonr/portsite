@@ -1,0 +1,17 @@
+<svg id="pause" xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000">
+  <defs>
+    <style>
+      .video-player-ui {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <path id="play" class="video-player-ui" d="M2,6l14,7c-0.008-.008,2,0.9,2,2h0c0,1.1-1.991,2-2,2L2,24a2,2,0,0,1-2-2V8A2,2,0,0,1,2,6Z"/>
+  <rect id="Abgerundetes_Rechteck_2" data-name="Abgerundetes Rechteck 2" class="video-player-ui" x="20" y="6" width="4" height="18" rx="2" ry="2"/>
+  <rect id="Abgerundetes_Rechteck_2_Kopie" data-name="Abgerundetes Rechteck 2 Kopie" class="video-player-ui" x="30" y="6" width="4" height="18" rx="2" ry="2"/>
+  <path id="Form_3" data-name="Form 3" class="video-player-ui" d="M50.461,8A1.539,1.539,0,0,1,52,9.539V20.461A1.539,1.539,0,0,1,50.461,22H39.539A1.539,1.539,0,0,1,38,20.461V9.539A1.539,1.539,0,0,1,39.539,8H50.461m0-2H39.539A3.543,3.543,0,0,0,36,9.539V20.461A3.543,3.543,0,0,0,39.539,24H50.461A3.543,3.543,0,0,0,54,20.461V9.539A3.543,3.543,0,0,0,50.461,6h0Z"/>
+  <path id="Form_1" data-name="Form 1" class="video-player-ui" d="M62.309,7.5l-3.8,2.861H55.04A1.047,1.047,0,0,0,54,11.407V18.7a1.047,1.047,0,0,0,1.041,1.046H58.51l3.8,2.861a1.035,1.035,0,0,0,1.665-.837V8.337A1.038,1.038,0,0,0,62.309,7.5Zm5.1,1.709a1.22,1.22,0,0,0-1.717,0,1.237,1.237,0,0,0,0,1.727,5.834,5.834,0,0,1,0,8.215,1.237,1.237,0,0,0,0,1.727,1.189,1.189,0,0,0,1.7-.018A8.238,8.238,0,0,0,67.409,9.209ZM68.762,6.47a1.237,1.237,0,0,0,0,1.727,9.723,9.723,0,0,1,0,13.71,1.237,1.237,0,0,0,0,1.727,1.189,1.189,0,0,0,1.7.017,12.175,12.175,0,0,0,0-17.163A1.184,1.184,0,0,0,68.762,6.47Z"/>
+  <path id="Form_1_Kopie" data-name="Form 1 Kopie" class="video-player-ui" d="M82.309,7.5l-3.8,2.861H75.04A1.047,1.047,0,0,0,74,11.407V18.7a1.047,1.047,0,0,0,1.041,1.046H78.51l3.8,2.861a1.035,1.035,0,0,0,1.665-.837V8.337A1.038,1.038,0,0,0,82.309,7.5Z"/>
+  <path id="Abgerundetes_Rechteck_3" data-name="Abgerundetes Rechteck 3" class="video-player-ui" d="M87.879,11.465l5.657,5.657a1,1,0,1,1-1.414,1.414l-5.657-5.657A1,1,0,0,1,87.879,11.465Z"/>
+  <path id="Abgerundetes_Rechteck_3_Kopie" data-name="Abgerundetes Rechteck 3 Kopie" class="video-player-ui" d="M92.121,11.465l-5.657,5.657a1,1,0,1,0,1.414,1.414l5.657-5.657A1,1,0,0,0,92.121,11.465Z"/>
+</svg>

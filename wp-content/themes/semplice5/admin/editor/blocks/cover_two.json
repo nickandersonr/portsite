@@ -1,0 +1,107 @@
+{
+	"order": {
+		"cover": {
+			"row_cover": {
+				"columns": {
+					"column_0z50yy1nm": ["content_g3k56pn4s", "content_p8roz49hy", "content_2y4l8yf1o"]
+				}
+			}
+		}
+	},
+	"cover_visibility": "visible",
+	"cover": {
+		"options": {},
+		"layout": {
+			"data-height": "fullscreen",
+			"data-column-mode-sm": "single",
+			"data-column-mode-xs": "single",
+			"data-valign": "center",
+			"data-layout": "fluid",
+			"data-gutter": "no"
+		},
+		"customHeight": {
+			"xl": {
+				"height": "15rem"
+			}
+		},
+		"styles": {
+			"xl": {
+				"background_type": "img",
+				"background-image": "81",
+				"background-size": "cover",
+				"background-position": "50% 50%",
+				"background-color": "#111111"
+			}
+		},
+		"motions": {
+			"active": [],
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_g3k56pn4s": {
+		"content": {
+			"xl": "<p data-font-size-xl=\"7.22222rem\" data-line-height-xl=\"7.22222rem\" style=\"font-size: 7.22222rem; text-align: center; line-height: 7.22222rem;\" data-mce-style=\"font-size: 7.22222rem; text-align: center; line-height: 7.22222rem;\"><span style=\"color: #ffffff;\" data-mce-style=\"color: #ffffff;\">Page Headline</span></p>"
+		},
+		"module": "text",
+		"options": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": [],
+			"start": {},
+			"end": {}
+		}
+	},
+	"column_0z50yy1nm": {
+		"width": {
+			"xl": "12"
+		},
+		"options": {},
+		"layout": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": [],
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_p8roz49hy": {
+		"content": {
+			"xl": "<p data-font-size-xl=\"2.22222rem\" data-line-height-xl=\"2.22222rem\" style=\"font-size: 2.22222rem; text-align: center; line-height: 2.22222rem;\" data-mce-style=\"font-size: 2.22222rem; text-align: center; line-height: 2.22222rem;\"><span style=\"color: #ffffff;\" data-mce-style=\"color: #ffffff;\">Page description goes here</span></p>"
+		},
+		"module": "text",
+		"options": {},
+		"styles": {
+			"xl": {
+				"padding-top": "1.1111111111111112rem"
+			}
+		},
+		"motions": {
+			"active": [],
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_2y4l8yf1o": {
+		"content": {
+			"xl": ""
+		},
+		"module": "button",
+		"options": {},
+		"styles": {
+			"xl": {
+				"padding-top": "1.6666666666666667rem"
+			}
+		},
+		"motions": {
+			"active": [],
+			"start": {},
+			"end": {}
+		}
+	},
+	"unpublished_changes": false
+}

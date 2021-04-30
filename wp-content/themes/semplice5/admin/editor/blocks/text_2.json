@@ -1,0 +1,139 @@
+{
+	"order": {
+		"section_9gymaxyvr": {
+			"row_n4n4j2wx2": {
+				"columns": {
+					"column_1sfafqq7q": ["content_xz5ckqs51"],
+					"column_5o6lj6qb0": ["content_09pmvqqox"],
+					"column_s7sv1ajep": ["content_wfo2l79j3"]
+				}
+			}
+		}
+	},
+	"section_9gymaxyvr": {
+		"options": {},
+		"layout": {
+			"data-column-mode-sm": "multi",
+			"data-column-mode-xs": "multi"
+		},
+		"customHeight": {
+			"xl": {
+				"height": "15rem"
+			}
+		},
+		"styles": {
+			"xl": {
+				"background-color": "#fedcc4",
+				"padding-top": "6.666666666666667rem",
+				"padding-bottom": "6.666666666666667rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"column_1sfafqq7q": {
+		"width": {
+			"xl": "3"
+		},
+		"options": {},
+		"layout": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_xz5ckqs51": {
+		"content": {
+			"xl": "<p style=\"font-size: 1.222rem; line-height: 1.222rem;\" data-mce-style=\"font-size: 1.222rem; line-height: 1.222rem;\" data-font-size-xl=\"1.778rem\" data-line-height-xl=\"1.778rem\" data-font-size-xs=\"1.222rem\" data-line-height-xs=\"1.222rem\"><span class=\"inter_regular\" style=\"letter-spacing: -0.056rem; color: rgb(0, 75, 164);\" data-mce-style=\"letter-spacing: -0.056rem; color: rgb(0, 75, 164);\" data-letter-spacing-xl=\"-0.056rem\">Key results</span></p>"
+		},
+		"module": "text",
+		"options": {},
+		"styles": {
+			"xl": {
+				"padding-top": "0.5555555555555556rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"column_5o6lj6qb0": {
+		"width": {
+			"xl": "5"
+		},
+		"options": {},
+		"layout": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_09pmvqqox": {
+		"content": {
+			"xl": "<p style=\"font-size: 1.778rem; line-height: 4.333rem; text-align: right;\" data-mce-style=\"font-size: 1.778rem; line-height: 4.333rem; text-align: right;\" data-font-size-xl=\"6.111rem\" data-line-height-xl=\"7.222rem\" data-font-size-xs=\"1.778rem\" data-line-height-xs=\"4.333rem\" data-font-size-sm=\"4.000rem\" data-line-height-sm=\"5.556rem\"><span class=\"inter_bold\" style=\"color: rgb(0, 75, 164); letter-spacing: 0rem;\" data-mce-style=\"color: rgb(0, 75, 164); letter-spacing: 0rem;\" data-letter-spacing-xl=\"-0.222rem\" data-letter-spacing-xs=\"0.000rem\">6.7k</span></p><p style=\"font-size: 1.778rem; line-height: 4.333rem; text-align: right;\" data-mce-style=\"font-size: 1.778rem; line-height: 4.333rem; text-align: right;\" data-font-size-xl=\"6.111rem\" data-line-height-xl=\"7.222rem\" data-font-size-xs=\"1.778rem\" data-line-height-xs=\"4.333rem\" data-font-size-sm=\"4.000rem\" data-line-height-sm=\"5.556rem\"><span class=\"inter_bold\" style=\"color: rgb(0, 75, 164); letter-spacing: 0rem;\" data-mce-style=\"color: rgb(0, 75, 164); letter-spacing: 0rem;\" data-letter-spacing-xl=\"-0.222rem\" data-letter-spacing-xs=\"0.000rem\">2:09</span></p><p style=\"font-size: 1.778rem; line-height: 4.333rem; text-align: right;\" data-mce-style=\"font-size: 1.778rem; line-height: 4.333rem; text-align: right;\" data-font-size-xl=\"6.111rem\" data-line-height-xl=\"7.222rem\" data-font-size-xs=\"1.778rem\" data-line-height-xs=\"4.333rem\" data-font-size-sm=\"4.000rem\" data-line-height-sm=\"5.556rem\"><span class=\"inter_bold\" style=\"color: rgb(0, 75, 164); letter-spacing: 0rem;\" data-mce-style=\"color: rgb(0, 75, 164); letter-spacing: 0rem;\" data-letter-spacing-xl=\"-0.222rem\" data-letter-spacing-xs=\"0.000rem\">15%</span></p><p style=\"font-size: 1.778rem; line-height: 4.333rem; text-align: right;\" data-mce-style=\"font-size: 1.778rem; line-height: 4.333rem; text-align: right;\" data-font-size-xl=\"6.111rem\" data-line-height-xl=\"7.222rem\" data-font-size-xs=\"1.778rem\" data-line-height-xs=\"4.333rem\" data-font-size-sm=\"4.000rem\" data-line-height-sm=\"5.556rem\"><span class=\"inter_bold\" style=\"color: rgb(0, 75, 164); letter-spacing: 0rem;\" data-mce-style=\"color: rgb(0, 75, 164); letter-spacing: 0rem;\" data-letter-spacing-xl=\"-0.222rem\" data-letter-spacing-xs=\"0.000rem\">18.5k</span></p>"
+		},
+		"module": "text",
+		"options": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"column_s7sv1ajep": {
+		"width": {
+			"xl": "4"
+		},
+		"options": {},
+		"layout": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_wfo2l79j3": {
+		"content": {
+			"xl": "<p style=\"line-height: 4.333rem; font-size: 0.667rem;\" data-mce-style=\"line-height: 4.333rem; font-size: 0.667rem;\" data-line-height-xl=\"7.222rem\" data-line-height-sm=\"5.556rem\" data-line-height-xs=\"4.333rem\" data-font-size-xs=\"0.667rem\"><span class=\"inter_regular\" style=\"color: rgb(0, 75, 164);\" data-mce-style=\"color: rgb(0, 75, 164);\">Visitors</span></p><p style=\"line-height: 4.333rem; font-size: 0.667rem;\" data-mce-style=\"line-height: 4.333rem; font-size: 0.667rem;\" data-line-height-xl=\"7.222rem\" data-line-height-sm=\"5.556rem\" data-line-height-xs=\"4.333rem\" data-font-size-xs=\"0.667rem\"><span class=\"inter_regular\" style=\"color: rgb(0, 75, 164);\" data-mce-style=\"color: rgb(0, 75, 164);\">Avg. time online</span></p><p style=\"line-height: 4.333rem; font-size: 0.667rem;\" data-mce-style=\"line-height: 4.333rem; font-size: 0.667rem;\" data-line-height-xl=\"7.222rem\" data-line-height-sm=\"5.556rem\" data-line-height-xs=\"4.333rem\" data-font-size-xs=\"0.667rem\"><span class=\"inter_regular\" style=\"color: rgb(0, 75, 164);\" data-mce-style=\"color: rgb(0, 75, 164);\">Financial growth</span></p><p style=\"line-height: 4.333rem; font-size: 0.667rem;\" data-mce-style=\"line-height: 4.333rem; font-size: 0.667rem;\" data-line-height-xl=\"7.222rem\" data-line-height-sm=\"5.556rem\" data-line-height-xs=\"4.333rem\" data-font-size-xs=\"0.667rem\"><span class=\"inter_regular\" style=\"color: rgb(0, 75, 164);\" data-mce-style=\"color: rgb(0, 75, 164);\">Engagements</span></p>"
+		},
+		"module": "text",
+		"options": {},
+		"styles": {
+			"xl": {
+				"padding-top": "0.5555555555555556rem",
+				"padding-left": "1.6666666666666667rem"
+			},
+			"xs": {
+				"padding-top": "0rem",
+				"padding-left": "0rem"
+			},
+			"sm": {
+				"padding-left": "0rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	}
+}

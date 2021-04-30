@@ -1,0 +1,672 @@
+{
+	"fade-in": {
+		"initial": {
+			"opacity": 0
+		},
+		"timeline": [{
+			"effects": {
+				"opacity": 1
+			},
+			"duration": "1000",
+			"delay": "0",
+			"ease": "Circ.easeInOut",
+			"label": "Fade In"
+		}],
+		"name": "Fade In"
+	},
+	"fade-in-left": {
+		"initial": {
+			"opacity": 0,
+			"translateX": "-3.3333333333333335rem",
+			"translateY": 0
+		},
+		"timeline": [{
+			"effects": {
+				"opacity": 1,
+				"translateX": "0rem",
+				"translateY": 0
+			},
+			"duration": "1000",
+			"delay": "0",
+			"ease": "Power3.easeInOut",
+			"label": "Move Right + Fade In"
+		}],
+		"name": "Fade in left "
+	},
+	"fade-in-right": {
+		"initial": {
+			"opacity": 0,
+			"translateX": "3.3333333333333335rem",
+			"translateY": 0
+		},
+		"timeline": [{
+			"effects": {
+				"opacity": 1,
+				"translateX": "0rem",
+				"translateY": 0
+			},
+			"duration": "1000",
+			"delay": "0",
+			"ease": "Power3.easeInOut",
+			"label": "Move Right + Fade In"
+		}],
+		"name": "Fade in right"
+	},
+	"fade-in-bottom": {
+		"initial": {
+			"opacity": 0,
+			"translateX": "0rem",
+			"translateY": "3.3333333333333335rem"
+		},
+		"timeline": [{
+			"effects": {
+				"opacity": 1,
+				"translateX": "0rem",
+				"translateY": 0
+			},
+			"duration": "1000",
+			"delay": "0",
+			"ease": "Expo.easeInOut",
+			"label": "Move Up + Fade In"
+		}],
+		"name": "Fade in bottom"
+	},
+	"scale-in-completely": {
+		"initial": {
+			"scaleX": 0,
+			"scaleY": 0
+		},
+		"timeline": [{
+			"effects": {
+				"scaleX": 1,
+				"scaleY": 1
+			},
+			"duration": 900,
+			"delay": "0",
+			"ease": "Expo.easeInOut",
+			"label": "Scale all"
+		}],
+		"name": "Scale in completely"
+	},
+	"scale-and-fade-in": {
+		"initial": {
+			"opacity": 0,
+			"scaleX": 0.5,
+			"scaleY": 0.5
+		},
+		"timeline": [{
+			"effects": {
+				"scaleX": 1,
+				"scaleY": 1,
+				"opacity": 1
+			},
+			"duration": 900,
+			"delay": "0",
+			"ease": "Expo.easeInOut",
+			"label": "Scale + Fade In"
+		}],
+		"name": "Scale and fade in"
+	},
+	"scale-and-rotate-in": {
+		"initial": {
+			"rotate": -270,
+			"scaleX": 0.5,
+			"scaleY": 0.5
+		},
+		"timeline": [{
+			"effects": {
+				"rotate": "0",
+				"scaleX": 1,
+				"scaleY": 1
+			},
+			"ease": "Power2.easeInOut",
+			"duration": "1000",
+			"label": "Scale, Rotate"
+		}],
+		"loop": "no",
+		"name": "Scale and Rotate In"
+	},
+	"drop-in": {
+		"initial": {
+			"opacity": 0,
+			"translateX": "0rem",
+			"translateY": "-6.666666666666667rem",
+			"scaleX": 1.2,
+			"scaleY": 1.2
+		},
+		"timeline": [{
+			"effects": {
+				"scaleX": 1,
+				"scaleY": 1,
+				"opacity": 1,
+				"translateX": "0rem",
+				"translateY": "0rem"
+			},
+			"duration": "1200",
+			"delay": "0",
+			"ease": "Power4.easeInOut",
+			"label": "Fade In, Move Down, Scale Down"
+		}],
+		"name": "Drop in"
+	},
+	"roll-in": {
+		"initial": {
+			"opacity": 0,
+			"translateX": "-6.666666666666667rem",
+			"translateY": "-6.666666666666667rem",
+			"rotate": -90,
+			"scaleX": 1,
+			"scaleY": 1
+		},
+		"timeline": [{
+			"effects": {
+				"scaleX": 1,
+				"scaleY": 1,
+				"opacity": 1,
+				"translateX": "0rem",
+				"translateY": "0rem",
+				"rotate": "0"
+			},
+			"duration": "1200",
+			"delay": "0",
+			"ease": "Power4.easeInOut",
+			"label": "Roll in"
+		}],
+		"name": "Roll in"
+	},
+	"tilt-in": {
+		"initial": {
+			"opacity": 0,
+			"translateX": "0rem",
+			"translateY": "-5rem",
+			"rotateX": "0",
+			"rotateY": -60,
+			"skewX": 0,
+			"skewY": -30
+		},
+		"timeline": [{
+			"effects": {
+				"opacity": 1,
+				"skewX": 0,
+				"skewY": "0",
+				"translateX": "0rem",
+				"translateY": "0rem",
+				"rotateX": 0,
+				"rotateY": "0"
+			},
+			"duration": "1200",
+			"delay": "0",
+			"ease": "Power4.easeInOut",
+			"label": "Move Down, Skew Y, 3D-Rotate Y"
+		}],
+		"name": "Tilt in"
+	},
+	"grow": {
+		"initial": {
+			"scaleX": 1,
+			"scaleY": 1
+		},
+		"timeline": [{
+			"effects": {
+				"scaleX": 1.2,
+				"scaleY": 1.2
+			},
+			"duration": "400",
+			"ease": "Circ.easeInOut",
+			"label": "Scale Up"
+		}],
+		"name": "Grow"
+	},
+	"lift": {
+		"initial": {
+			"translateX": 0,
+			"translateY": 0
+		},
+		"timeline": [{
+			"effects": {
+				"translateX": 0,
+				"translateY": "-2.2222222222222223rem"
+			},
+			"ease": "Power3.easeInOut",
+			"duration": "400",
+			"label": "Move up"
+		}],
+		"name": "Lift"
+	},
+	"dip-down": {
+		"initial": {
+			"translateX": "0rem",
+			"translateY": "0rem"
+		},
+		"timeline": [{
+			"effects": {
+				"translateX": "0rem",
+				"translateY": "2.2222222222222223rem"
+			},
+			"ease": "Power2.easeInOut",
+			"duration": "400",
+			"label": "Move down"
+		}, {
+			"effects": {
+				"translateX": "0rem",
+				"translateY": "0rem"
+			},
+			"duration": "600",
+			"ease": "Sine.easeInOut",
+			"label": "Return"
+		}],
+		"loop": "no",
+		"repeat": 1,
+		"name": "Dip down"
+	},
+	"skew-forward": {
+		"initial": {
+			"skewX": 0,
+			"skewY": 0
+		},
+		"timeline": [{
+			"effects": {
+				"skewX": -20,
+				"skewY": 0
+			},
+			"ease": "Expo.easeInOut",
+			"duration": "300",
+			"label": "Skew forward"
+		}],
+		"name": "Skew Forward"
+	},
+	"spin": {
+		"initial": {
+			"rotate": 0
+		},
+		"timeline": [{
+			"effects": {
+				"rotate": 360
+			},
+			"ease": "Expo.easeInOut",
+			"duration": "1200",
+			"label": "Rotate 360"
+		}],
+		"name": "360 Spin"
+	},
+	"rotating": {
+		"initial": {
+			"rotate": "0"
+		},
+		"timeline": [{
+			"effects": {
+				"rotate": "360"
+			},
+			"ease": "none",
+			"duration": "18000",
+			"label": "Rotate 360"
+		}],
+		"loop": "yes",
+		"name": "Rotating (loop)"
+	},
+	"pulsing": {
+		"initial": {
+			"scaleX": 1,
+			"scaleY": 1
+		},
+		"timeline": [{
+			"effects": {
+				"scaleX": 1.1,
+				"scaleY": 1.1
+			},
+			"ease": "Sine.easeInOut",
+			"duration": "800"
+		}, {
+			"effects": {
+				"scaleX": 1,
+				"scaleY": 1
+			},
+			"duration": "800",
+			"ease": "Sine.easeInOut",
+			"label": "Return"
+		}],
+		"loop": "yes",
+		"repeat": 1,
+		"name": "Pulsing"
+	},
+	"shadow-and-scale": {
+		"initial": {
+			"box-shadow-color": "#000000",
+			"box-shadow-h-length": "0.1111111111111111rem",
+			"box-shadow-v-length": "0.2222222222222222rem",
+			"box-shadow-blur-radius": "0.2222222222222222rem",
+			"box-shadow-spread-radius": 0,
+			"box-shadow-opacity": 0,
+			"scaleX": 1,
+			"scaleY": 1
+		},
+		"timeline": [{
+			"effects": {
+				"scaleX": 1.05,
+				"scaleY": 1.05,
+				"box-shadow-color": "#000000",
+				"box-shadow-h-length": "0.7777777777777778rem",
+				"box-shadow-v-length": "1rem",
+				"box-shadow-blur-radius": "0.8888888888888888rem",
+				"box-shadow-spread-radius": 0,
+				"box-shadow-opacity": 0.25
+			},
+			"label": "Add Drop Shadow, Scale Up",
+			"duration": "200",
+			"delay": "0"
+		}],
+		"loop": "no",
+		"name": "Shadow and scale"
+	},
+	"focus-in": {
+		"initial": {
+			"filter_blur": "12"
+		},
+		"timeline": [{
+			"effects": {
+				"filter_blur": "0"
+			},
+			"duration": "500",
+			"ease": "Circ.easeInOut",
+			"label": "Blur"
+		}],
+		"repeat": "1",
+		"name": "Focus in"
+	},
+	"grow-border": {
+		"initial": {
+			"border-color": "#ffd300",
+			"border-width": 0
+		},
+		"timeline": [{
+			"effects": {
+				"border-color": "#ffd300",
+				"border-width": "3rem"
+			},
+			"label": "Add Border",
+			"duration": "200",
+			"ease": "Power3.easeInOut",
+			"delay": "0"
+		}],
+		"name": "Grow Border"
+	},
+	"flip-horizontal": {
+		"initial": {
+			"rotateX": 0,
+			"rotateY": 0
+		},
+		"timeline": [{
+			"effects": {
+				"rotateX": "0",
+				"rotateY": "180"
+			},
+			"ease": "Power4.easeInOut",
+			"duration": "1000",
+			"label": "3D Rotate Y"
+		}],
+		"name": "3D Flip Horizontal"
+	},
+	"flip-vertical": {
+		"initial": {
+			"rotateX": 0,
+			"rotateY": 0
+		},
+		"timeline": [{
+			"effects": {
+				"rotateX": "180",
+				"rotateY": "0"
+			},
+			"ease": "Power4.easeInOut",
+			"duration": "1000",
+			"label": "3D Rotate X"
+		}],
+		"name": "3D Flip Vertical"
+	},
+	"slightly-floating": {
+		"initial": {
+			"translateX": "0rem",
+			"translateY": "0rem"
+		},
+		"timeline": [{
+			"effects": {
+				"translateX": "0rem",
+				"translateY": "1.1111111111111112rem"
+			},
+			"ease": "Power1.easeInOut",
+			"duration": "3500",
+			"label": "Move down"
+		}, {
+			"effects": {
+				"translateX": "0rem",
+				"translateY": "0rem"
+			},
+			"duration": "3500",
+			"ease": "Power1.easeInOut",
+			"label": "Return"
+		}],
+		"loop": "yes",
+		"name": "Slightly floating"
+	},
+	"pop-in": {
+		"initial": {
+			"scaleX": 0,
+			"scaleY": 0
+		},
+		"timeline": [{
+			"effects": {
+				"scaleX": 1.2,
+				"scaleY": 1.2
+			},
+			"duration": "400",
+			"delay": "0",
+			"ease": "Expo.easeInOut",
+			"label": "Scale 120%"
+		}, {
+			"effects": {
+				"scaleX": 1,
+				"scaleY": 1
+			},
+			"ease": "Sine.easeInOut",
+			"duration": "300",
+			"label": "Scale 100%"
+		}],
+		"name": "Pop In"
+	},
+	"floating-in-space": {
+		"initial": {
+			"translateX": "0rem",
+			"translateY": "0rem"
+		},
+		"timeline": [{
+			"effects": {
+				"translateX": "1.8888888888888888rem",
+				"translateY": "1.5rem"
+			},
+			"ease": "Power1.easeInOut",
+			"duration": "4000",
+			"label": "Move, 4000"
+		}, {
+			"effects": {
+				"translateX": "-2.8333333333333335rem",
+				"translateY": "4.222222222222222rem"
+			},
+			"ease": "Power1.easeInOut",
+			"duration": "5000",
+			"label": "Move, 5000"
+		}, {
+			"effects": {
+				"translateX": "1.4444444444444444rem",
+				"translateY": "3.5555555555555554rem"
+			},
+			"label": "Move, 3500",
+			"delay": "0",
+			"duration": "3500",
+			"ease": "Power1.easeInOut"
+		}, {
+			"effects": {
+				"translateX": "1.2222222222222223rem",
+				"translateY": "-1.7222222222222223rem"
+			},
+			"label": "Move, 6000",
+			"ease": "Power1.easeInOut",
+			"duration": "6000"
+		}, {
+			"effects": {
+				"translateX": "0.3333333333333333rem",
+				"translateY": "4.277777777777778rem"
+			},
+			"label": "Move, 3500",
+			"ease": "Power1.easeInOut",
+			"duration": "3500"
+		}, {
+			"effects": {
+				"translateX": "-2.7777777777777777rem",
+				"translateY": "-0.8888888888888888rem"
+			},
+			"label": "Move, 5000",
+			"ease": "Power1.easeInOut",
+			"duration": "5000"
+		}, {
+			"effects": {
+				"translateX": "0rem",
+				"translateY": "0rem"
+			},
+			"label": "Move, 4000",
+			"ease": "Power1.easeInOut",
+			"duration": "4000"
+		}],
+		"loop": "yes",
+		"name": "Floating in space"
+	},
+	"pacman": {
+		"initial": {
+			"translateX": "0rem",
+			"translateY": "0rem"
+		},
+		"timeline": [{
+			"effects": {
+				"translateX": "10rem",
+				"translateY": "0rem"
+			},
+			"label": "Move right",
+			"ease": "none"
+		}, {
+			"effects": {
+				"translateX": "10rem",
+				"translateY": "10rem"
+			},
+			"label": "Move down",
+			"ease": "none"
+		}, {
+			"effects": {
+				"translateX": "0rem",
+				"translateY": "10rem"
+			},
+			"label": "Move left",
+			"ease": "none"
+		}, {
+			"effects": {
+				"translateX": "0rem",
+				"translateY": "0rem",
+				"border-color": "#000000",
+				"border-width": 0
+			},
+			"label": "Move up",
+			"ease": "none"
+		}],
+		"loop": "yes",
+		"repeat": 1,
+		"name": "Pacman"
+	},
+	"extra-extra": {
+		"initial": {
+			"rotate": "-720",
+			"scaleX": 0.05,
+			"scaleY": 0.05
+		},
+		"timeline": [{
+			"effects": {
+				"rotate": "364",
+				"scaleX": 1,
+				"scaleY": 1
+			},
+			"ease": "Power2.easeInOut",
+			"duration": "1200",
+			"label": "Scale, Rotate, Blur"
+		}, {
+			"effects": {
+				"rotate": "358"
+			},
+			"duration": "1000",
+			"ease": "Sine.easeInOut"
+		}, {
+			"effects": {
+				"rotate": "360"
+			},
+			"duration": "1600",
+			"ease": "Sine.easeInOut"
+		}],
+		"loop": "no",
+		"name": "Extra Extra"
+	},
+	"fade-in-color": {
+		"initial": {
+			"filter_grayscale": "100"
+		},
+		"timeline": [{
+			"effects": {
+				"filter_grayscale": "0"
+			},
+			"ease": "Power1.easeInOut",
+			"duration": "400",
+			"label": "Grayscale to 0",
+			"delay": "0"
+		}],
+		"name": "Fade in Color"
+	},
+	"invert-colors": {
+		"initial": {
+			"filter_invert": 0
+		},
+		"timeline": [{
+			"effects": {
+				"filter_invert": "100"
+			},
+			"label": "Invert Color",
+			"duration": "200",
+			"ease": "none"
+		}],
+		"loop": "no",
+		"repeat": 1,
+		"name": "Invert Colors"
+	},
+	"shifting-gradient": {
+		"initial": {
+			"gradient_applyto": "background",
+			"gradient_angle": "90",
+			"gradient_color_1": "#6c8ded",
+			"gradient_color_1_opacity": 1,
+			"gradient_color_1_progress": 0,
+			"gradient_color_2": "#ff1313",
+			"gradient_color_2_opacity": 1,
+			"gradient_color_2_progress": 100
+		},
+		"timeline": [{
+			"effects": {
+				"gradient_applyto": "background",
+				"gradient_angle": 270,
+				"gradient_color_1": "#ff1313",
+				"gradient_color_1_opacity": 1,
+				"gradient_color_1_progress": "0",
+				"gradient_color_2": "#6c8ded",
+				"gradient_color_2_opacity": 1,
+				"gradient_color_2_progress": "100"
+			},
+			"ease": "none",
+			"duration": "3000",
+			"label": "Rotate Gradient"
+		}],
+		"loop": "yes",
+		"name": "Shifting gradient"
+	}
+}

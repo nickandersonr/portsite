@@ -1,0 +1,265 @@
+{
+	"order": {
+		"section_1h2howxdn": {
+			"row_qphvwook2": {
+				"columns": {
+					"column_j79m37rvg": ["content_4c1zcfyxj"]
+				}
+			},
+			"row_ns8c83mtr": {
+				"columns": {
+					"column_bwro8wy9b": ["content_g1rsxa49w", "content_5nz1azldf", "content_iq08xwc5w"],
+					"column_s1l501st5": ["content_ktmxq3sd6", "content_jgumtn02j", "content_5gicory8a"],
+					"column_gdaq5v5dm": ["content_je0022yr9", "content_jf6xq1btu", "content_8po2qw5ru"]
+				}
+			}
+		}
+	},
+	"section_1h2howxdn": {
+		"options": {},
+		"layout": {
+			"data-column-mode-sm": "single",
+			"data-column-mode-xs": "single"
+		},
+		"customHeight": {
+			"xl": {
+				"height": "15rem"
+			}
+		},
+		"styles": {
+			"xl": {
+				"padding-top": "4.444444444444445rem",
+				"padding-bottom": "4.444444444444445rem",
+				"background-color": "#ffffff"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"column_j79m37rvg": {
+		"width": {
+			"xl": 12
+		},
+		"options": {},
+		"layout": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_4c1zcfyxj": {
+		"content": {
+			"xl": "<p style=\"font-size: 3.778rem; line-height: 3.778rem;\" data-mce-style=\"font-size: 3.778rem; line-height: 3.778rem;\" data-font-size-xl=\"4.778rem\" data-line-height-xl=\"4.778rem\" data-font-size-xs=\"3.778rem\" data-line-height-xs=\"3.778rem\"><span class=\"inter_bold\" style=\"letter-spacing: -0.139rem;\" data-mce-style=\"letter-spacing: -0.139rem;\" data-letter-spacing-xl=\"-0.139rem\">Meet the creators</span></p>"
+		},
+		"module": "text",
+		"options": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"column_bwro8wy9b": {
+		"width": {
+			"xl": 4
+		},
+		"options": {},
+		"layout": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_g1rsxa49w": {
+		"content": {
+			"xl": "semplice_team_1.jpg"
+		},
+		"module": "image",
+		"options": {},
+		"styles": {
+			"xl": {
+				"padding-top": "3.3333333333333335rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_5nz1azldf": {
+		"content": {
+			"xl": "<p style=\"font-size: 1.222rem; line-height: 1.667rem;\" data-mce-style=\"font-size: 1.222rem; line-height: 1.667rem;\" data-font-size-xl=\"1.444rem\" data-line-height-xl=\"1.667rem\" data-font-size-md=\"1.222rem\" data-font-size-xs=\"1.222rem\"><span class=\"inter_bold\">Jonathan Danielsen</span></p>"
+		},
+		"module": "text",
+		"options": {},
+		"styles": {
+			"xl": {
+				"padding-top": "0.5555555555555556rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_iq08xwc5w": {
+		"content": {
+			"xl": "<p style=\"font-size: 1.222rem; line-height: 1.667rem;\" data-mce-style=\"font-size: 1.222rem; line-height: 1.667rem;\" data-font-size-xl=\"1.444rem\" data-line-height-xl=\"1.667rem\" data-font-size-md=\"1.222rem\" data-font-size-xs=\"1.222rem\"><span class=\"inter_regular\">Creative director</span></p>"
+		},
+		"module": "text",
+		"options": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"column_s1l501st5": {
+		"width": {
+			"xl": 4
+		},
+		"options": {},
+		"layout": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_ktmxq3sd6": {
+		"content": {
+			"xl": "semplice_team_2.jpg"
+		},
+		"module": "image",
+		"options": {},
+		"styles": {
+			"xl": {
+				"padding-right": "0rem",
+				"padding-top": "3.3333333333333335rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_jgumtn02j": {
+		"content": {
+			"xl": "<p style=\"font-size: 1.222rem; line-height: 1.667rem;\" data-mce-style=\"font-size: 1.222rem; line-height: 1.667rem;\" data-font-size-xl=\"1.444rem\" data-line-height-xl=\"1.667rem\" data-font-size-md=\"1.222rem\" data-font-size-xs=\"1.222rem\"><span class=\"inter_bold\">Emilie Schmidt</span></p>"
+		},
+		"module": "text",
+		"options": {},
+		"styles": {
+			"xl": {
+				"padding-top": "0.5555555555555556rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_5gicory8a": {
+		"content": {
+			"xl": "<p style=\"font-size: 1.222rem; line-height: 1.667rem;\" data-mce-style=\"font-size: 1.222rem; line-height: 1.667rem;\" data-font-size-xl=\"1.444rem\" data-line-height-xl=\"1.667rem\" data-font-size-md=\"1.222rem\" data-font-size-xs=\"1.222rem\"><span class=\"inter_regular\">Designer</span></p>"
+		},
+		"module": "text",
+		"options": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"column_gdaq5v5dm": {
+		"width": {
+			"xl": 4
+		},
+		"options": {},
+		"layout": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_je0022yr9": {
+		"content": {
+			"xl": "semplice_team_3.jpg"
+		},
+		"module": "image",
+		"options": {},
+		"styles": {
+			"xl": {
+				"padding-top": "3.3333333333333335rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_jf6xq1btu": {
+		"content": {
+			"xl": "<p style=\"font-size: 1.222rem; line-height: 1.667rem;\" data-mce-style=\"font-size: 1.222rem; line-height: 1.667rem;\" data-font-size-xl=\"1.444rem\" data-line-height-xl=\"1.667rem\" data-font-size-md=\"1.222rem\" data-font-size-xs=\"1.222rem\"><span class=\"inter_bold\">Patrick Jeppesen</span></p>"
+		},
+		"module": "text",
+		"options": {},
+		"styles": {
+			"xl": {
+				"padding-top": "0.5555555555555556rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_8po2qw5ru": {
+		"content": {
+			"xl": "<p style=\"font-size: 1.222rem; line-height: 1.667rem;\" data-mce-style=\"font-size: 1.222rem; line-height: 1.667rem;\" data-font-size-xl=\"1.444rem\" data-line-height-xl=\"1.667rem\" data-font-size-md=\"1.222rem\" data-font-size-xs=\"1.222rem\"><span class=\"inter_regular\">Project manager</span></p>"
+		},
+		"module": "text",
+		"options": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	}
+}

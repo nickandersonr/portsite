@@ -1,0 +1,171 @@
+{
+	"order": {
+		"section_3crspgcsb": {
+			"row_ugjjnr9ne": {
+				"columns": {
+					"column_e8vvprygf": ["content_yyta8llkk"]
+				}
+			},
+			"row_5qdpj1wjl": {
+				"columns": {
+					"column_3qqulmn4y": ["content_gsu67jxnk"],
+					"column_eu90f1ut7": [],
+					"column_ety01vjiu": ["content_nx4qtgo8o", "content_mcuvyg5gl"]
+				}
+			}
+		}
+	},
+	"section_3crspgcsb": {
+		"options": {},
+		"layout": {
+			"data-column-mode-sm": "single",
+			"data-column-mode-xs": "single"
+		},
+		"customHeight": {
+			"xl": {
+				"height": "15rem"
+			}
+		},
+		"styles": {
+			"xl": {
+				"background-color": "#000000",
+				"padding-top": "4.444444444444445rem",
+				"padding-bottom": "4.444444444444445rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"column_e8vvprygf": {
+		"width": {
+			"xl": "10"
+		},
+		"options": {},
+		"layout": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_yyta8llkk": {
+		"content": {
+			"xl": "<p style=\"font-size: 5.333rem; line-height: 5.333rem; text-align: left;\" data-mce-style=\"font-size: 5.333rem; line-height: 5.333rem; text-align: left;\" data-font-size-xl=\"5.333rem\" data-line-height-xl=\"5.333rem\" data-font-size-xs=\"2.333rem\" data-line-height-xs=\"2.333rem\" data-font-size-sm=\"4.000rem\" data-line-height-sm=\"4.000rem\"><span class=\"inter_bold\" style=\"letter-spacing: -0.222rem; color: rgb(255, 255, 255);\" data-mce-style=\"letter-spacing: -0.222rem; color: rgb(255, 255, 255);\" data-letter-spacing-xl=\"-0.222rem\" data-letter-spacing-xs=\"-0.083rem\">Welcome to my website.</span></p>"
+		},
+		"module": "text",
+		"options": {},
+		"styles": {
+			"xl": {
+				"padding-top": "0rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"column_3qqulmn4y": {
+		"width": {
+			"xl": "6"
+		},
+		"options": {},
+		"layout": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_gsu67jxnk": {
+		"content": {
+			"xl": "semplice_profile_5.jpg"
+		},
+		"module": "image",
+		"options": {},
+		"styles": {
+			"xl": {
+				"padding-top": "3.3333333333333335rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"column_eu90f1ut7": {
+		"width": {
+			"xl": "1"
+		},
+		"options": {},
+		"layout": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		},
+		"type": "spacer"
+	},
+	"column_ety01vjiu": {
+		"width": {
+			"xl": "5"
+		},
+		"options": {},
+		"layout": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_nx4qtgo8o": {
+		"content": {
+			"xl": "<p style=\"font-size: 1.444rem;\" data-mce-style=\"font-size: 1.444rem;\" data-font-size-xl=\"1.444rem\"><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\" class=\"inter_regular\">Hey there, this is the default text for a new paragraph. Feel free to edit this paragraph by clicking on the yellow edit icon. After you are done just click on the yellow checkmark button on the top right. Have Fun!</span></p>"
+		},
+		"module": "text",
+		"options": {},
+		"styles": {
+			"xl": {
+				"padding-top": "2.7777777777777777rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_mcuvyg5gl": {
+		"content": {
+			"xl": "<p style=\"font-size: 1.111rem;\" data-mce-style=\"font-size: 1.111rem;\" data-font-size-xl=\"1.111rem\"><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\" class=\"inter_regular\">Hey there, this is the default text for a new paragraph. Feel free to edit this paragraph by clicking on the yellow edit icon. After you are done just click on the yellow checkmark button on the top right. Have Fun!</span></p>"
+		},
+		"module": "text",
+		"options": {},
+		"styles": {
+			"xl": {
+				"padding-top": "1.6666666666666667rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	}
+}

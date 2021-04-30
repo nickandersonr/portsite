@@ -1,0 +1,123 @@
+{
+	"order": {
+		"section_l46hyllkz": {
+			"row_fxyj7lewg": {
+				"columns": {
+					"column_gb71qrhoh": ["content_8ptcut53y", "content_8l6054nol"]
+				}
+			}
+		}
+	},
+	"section_l46hyllkz": {
+		"options": {},
+		"layout": {
+			"data-column-mode-sm": "single",
+			"data-column-mode-xs": "single",
+			"data-valign": "stretch",
+			"data-height": "fullscreen",
+			"data-justify": "center"
+		},
+		"customHeight": {
+			"xl": {
+				"height": "15rem"
+			}
+		},
+		"styles": {
+			"xl": {
+				"padding-top": "4.444444444444445rem",
+				"padding-bottom": "4.444444444444445rem",
+				"background-color": "#000000",
+				"background_type": "img",
+				"background-position": "50% 0%",
+				"background-size": "cover",
+				"background-image": "semplice_header_1.jpg"
+			},
+			"sm": {
+				"padding-top": "0rem"
+			},
+			"xs": {
+				"padding-top": "0rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"column_gb71qrhoh": {
+		"width": {
+			"xl": "8"
+		},
+		"options": {},
+		"layout": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_8ptcut53y": {
+		"content": {
+			"xl": "<p style=\"font-size: 4.778rem; line-height: 4.778rem; text-align: center;\" data-mce-style=\"font-size: 4.778rem; line-height: 4.778rem; text-align: center;\" data-font-size-xl=\"6.556rem\" data-line-height-xl=\"6.556rem\" data-font-size-lg=\"5.667rem\" data-line-height-lg=\"6.000rem\" data-font-size-md=\"4.556rem\" data-line-height-md=\"4.556rem\" data-font-size-xs=\"4.778rem\" data-line-height-xs=\"4.778rem\" data-font-size-sm=\"4.778rem\" data-line-height-sm=\"4.778rem\"><span class=\"inter_bold\" style=\"letter-spacing: -0.139rem; color: rgb(255, 255, 255);\" data-mce-style=\"letter-spacing: -0.139rem; color: rgb(255, 255, 255);\" data-letter-spacing-xl=\"-0.139rem\">Landing page</span></p>"
+		},
+		"module": "text",
+		"options": {},
+		"styles": {
+			"xl": {
+				"padding-left": "0rem",
+				"padding-top": "4.444444444444445rem"
+			},
+			"sm": {
+				"padding-top": "3.3333333333333335rem",
+				"padding-left": "0rem"
+			},
+			"xs": {
+				"padding-top": "3.3333333333333335rem",
+				"padding-left": "0rem"
+			},
+			"md": {
+				"padding-left": "2.2222222222222223rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_8l6054nol": {
+		"content": {
+			"xl": "<p style=\"text-align: center;\" data-mce-style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">Hey there, this is the default text for a new paragraph. Feel free to edit this paragraph by clicking on the yellow edit icon. After you are done just click on the yellow checkmark button on the top right. Have Fun!</span></p>"
+		},
+		"module": "text",
+		"options": {},
+		"styles": {
+			"xl": {
+				"padding-top": "1.6666666666666667rem",
+				"padding-right": "0rem",
+				"padding-left": "0rem"
+			},
+			"xs": {
+				"padding-left": "0rem",
+				"padding-bottom": "10rem"
+			},
+			"md": {
+				"padding-right": "0rem",
+				"padding-left": "0rem"
+			},
+			"sm": {
+				"padding-left": "0rem",
+				"padding-bottom": "10rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	}
+}

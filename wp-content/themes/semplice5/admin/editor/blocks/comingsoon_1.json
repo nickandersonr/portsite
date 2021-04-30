@@ -1,0 +1,151 @@
+{
+	"order": {
+		"section_ooqyh34s9": {
+			"row_064jylp1i": {
+				"columns": {
+					"column_avmtv7h2i": ["content_nh0d6nksa"]
+				}
+			},
+			"row_35oow5581": {
+				"columns": {
+					"column_vohotqbc3": ["content_80aldt2iw", "content_t0jastson"]
+				}
+			}
+		}
+	},
+	"section_ooqyh34s9": {
+		"options": {},
+		"layout": {
+			"data-column-mode-sm": "single",
+			"data-column-mode-xs": "single",
+			"data-height": "fullscreen",
+			"data-valign": "center"
+		},
+		"customHeight": {
+			"xl": {
+				"height": "15rem"
+			}
+		},
+		"styles": {
+			"xl": {
+				"background_type": "img",
+				"background-image": "semplice_comingsoon_1.jpg"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"column_avmtv7h2i": {
+		"width": {
+			"xl": "9",
+			"md": "11"
+		},
+		"options": {},
+		"layout": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_nh0d6nksa": {
+		"content": {
+			"xl": "<p style=\"font-size: 4rem; line-height: 4rem;\" data-mce-style=\"font-size: 4rem; line-height: 4rem;\" data-font-size-xl=\"7.111rem\" data-line-height-xl=\"7.111rem\" data-font-size-xs=\"4.000rem\" data-line-height-xs=\"4.000rem\"><span class=\"inter_bold\" style=\"letter-spacing: -0.222rem; color: rgb(255, 255, 255);\" data-mce-style=\"letter-spacing: -0.222rem; color: rgb(255, 255, 255);\" data-letter-spacing-xl=\"-0.222rem\">New site coming soon.</span></p>"
+		},
+		"module": "text",
+		"options": {},
+		"styles": {
+			"xl": {
+				"padding-top": "3.3333333333333335rem"
+			},
+			"sm": {
+				"padding-bottom": "4.444444444444445rem"
+			},
+			"xs": {
+				"padding-bottom": "1.6666666666666667rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"column_vohotqbc3": {
+		"width": {
+			"xl": "8"
+		},
+		"options": {},
+		"layout": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_80aldt2iw": {
+		"content": {
+			"xl": "<p><span class=\"inter_regular\" style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: #ffffff;\">Find my work on <a data-mce-href=\"https://dribbble.com/lugotype\" href=\"https://dribbble.com/lugotype\" target=\"_blank\" rel=\"noopener\" style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: #ffffff;\"><span style=\"text-decoration: underline;\" data-mce-style=\"text-decoration: underline;\">Dribbble</span></a> and <a data-mce-href=\"https://www.instagram.com/lugotype/\" href=\"https://www.instagram.com/lugotype/\" target=\"_blank\" rel=\"noopener\" style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: #ffffff;\"><span style=\"text-decoration: underline;\" data-mce-style=\"text-decoration: underline;\">Instagram</span></a>, or subscribe to stay updated.</span></p>"
+		},
+		"module": "text",
+		"options": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_t0jastson": {
+		"content": {
+			"xl": ""
+		},
+		"module": "mailchimp",
+		"options": {
+			"fname": "disabled",
+			"placeholder_email": "",
+			"input_color": "#ffffff",
+			"input_bg_color": "transparent",
+			"input_holder_color": "#ffffff",
+			"input_width": "16.666666666666668rem",
+			"input_font_family": "inter_regular",
+			"input_font_size": "0.7777777777777778rem",
+			"input_border_width": "0.1111111111111111rem",
+			"input_border_color": "#ffffff",
+			"input_border_radius": "0rem",
+			"submit_font_family": "inter_bold",
+			"submit_font_size": "0.7777777777777778rem",
+			"submit_label": "SUBSCRIBE",
+			"submit_letter_spacing": "0.1111111111111111rem",
+			"submit_bg_color": "#ffffff",
+			"submit_mouseover_letter_spacing": "0.1111111111111111rem",
+			"submit_border_mouseover_color": "transparent",
+			"input_bg_mouseover_color": "transparent",
+			"input_holder_mouseover_color": "#ffffff",
+			"input_mouseover_color": "#ffffff",
+			"input_border_mouseover_color": "#ffffff"
+		},
+		"styles": {
+			"xl": {
+				"padding-top": "1.6666666666666667rem",
+				"padding-bottom": "3.3333333333333335rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	}
+}

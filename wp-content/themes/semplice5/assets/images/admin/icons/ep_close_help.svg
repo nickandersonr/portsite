@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .ep-close-help-icon {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <path id="Form_2" data-name="Form 2" class="ep-close-help-icon" d="M16.354,15.646l-0.707.707-8-8,0.707-.707Zm-0.707-8,0.707,0.707-8,8-0.707-.707Z"/>
+</svg>

@@ -1,0 +1,158 @@
+{
+	"order": {
+		"section_ed8m6atq7": {
+			"row_g11gpt7as": {
+				"columns": {
+					"column_7ix9bayw6": ["content_tz4uypeff"],
+					"column_ur983or1s": [],
+					"column_xhg1wgpq5": ["content_p9pwc2en4", "content_ho0ts3ace", "content_kxin58xl0"]
+				}
+			}
+		}
+	},
+	"section_ed8m6atq7": {
+		"options": {},
+		"layout": {
+			"data-column-mode-sm": "single",
+			"data-column-mode-xs": "single",
+			"data-valign": "center",
+			"data-justify": "right"
+		},
+		"customHeight": {
+			"xl": {
+				"height": "15rem"
+			}
+		},
+		"styles": {
+			"xl": {
+				"background_type": "img",
+				"background-image": "semplice_text_7.png",
+				"background-size": "cover",
+				"background-position": "50% 50%",
+				"padding-top": "6.666666666666667rem",
+				"padding-bottom": "6.666666666666667rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"column_7ix9bayw6": {
+		"width": {
+			"xl": "7"
+		},
+		"options": {},
+		"layout": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_tz4uypeff": {
+		"content": {
+			"xl": "semplice_text_2.jpg"
+		},
+		"module": "image",
+		"options": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"column_ur983or1s": {
+		"width": {
+			"xl": "1"
+		},
+		"options": {},
+		"layout": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		},
+		"type": "spacer"
+	},
+	"column_xhg1wgpq5": {
+		"width": {
+			"xl": "4"
+		},
+		"options": {},
+		"layout": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_p9pwc2en4": {
+		"content": {
+			"xl": "<p><span class=\"inter_regular\" style=\"color: rgb(0, 0, 0);\" data-mce-style=\"color: #000000;\">Meet our product</span></p>"
+		},
+		"module": "text",
+		"options": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_ho0ts3ace": {
+		"content": {
+			"xl": "<p style=\"font-size: 3.444rem; line-height: 3.444rem;\" data-mce-style=\"font-size: 3.444rem; line-height: 3.444rem;\" data-font-size-xl=\"3.444rem\" data-line-height-xl=\"3.444rem\"><span class=\"inter_bold\" style=\"letter-spacing: -0.083rem; color: rgb(0, 0, 0);\" data-mce-style=\"letter-spacing: -0.083rem; color: #000000;\" data-letter-spacing-xl=\"-0.083rem\">Design &amp; craft</span></p>"
+		},
+		"module": "text",
+		"options": {},
+		"styles": {
+			"xl": {
+				"padding-top": "1.1111111111111112rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_kxin58xl0": {
+		"content": {
+			"xl": "<p><span class=\"inter_regular\" style=\"color: rgb(0, 0, 0);\" data-mce-style=\"color: #000000;\">Hey there, this is the default text for a new paragraph. Feel free to edit this paragraph by clicking on the yellow edit icon. After you are done just click on the yellow checkmark button on the top right.</span></p>"
+		},
+		"module": "text",
+		"options": {},
+		"styles": {
+			"xl": {
+				"padding-top": "5.555555555555555rem"
+			},
+			"sm": {
+				"padding-top": "1.6666666666666667rem"
+			},
+			"xs": {
+				"padding-top": "1.6666666666666667rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	}
+}

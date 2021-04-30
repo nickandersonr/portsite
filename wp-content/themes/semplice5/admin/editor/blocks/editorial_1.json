@@ -1,0 +1,156 @@
+{
+	"order": {
+		"section_d9mafc0hj": {
+			"row_x280yxuxh": {
+				"columns": {
+					"column_4dj5cxd9n": ["content_nt95z61ve", "content_zlbmu1jme", "content_srv9uzdoc"],
+					"column_aabz3y2xu": ["content_0nng60h7p"]
+				}
+			}
+		}
+	},
+	"section_d9mafc0hj": {
+		"options": {},
+		"layout": {
+			"data-column-mode-sm": "single",
+			"data-column-mode-xs": "single",
+			"data-valign": "center"
+		},
+		"customHeight": {
+			"xl": {
+				"height": "15rem"
+			}
+		},
+		"styles": {
+			"xl": {
+				"padding-top": "4.444444444444445rem",
+				"padding-bottom": "4.444444444444445rem",
+				"background-color": "#ffffff"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"column_4dj5cxd9n": {
+		"width": {
+			"xl": "6"
+		},
+		"options": {},
+		"layout": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_nt95z61ve": {
+		"content": {
+			"xl": "<p style=\"font-size: 5.667rem; line-height: 5.667rem;\" data-mce-style=\"font-size: 5.667rem; line-height: 5.667rem;\" data-font-size-xl=\"6.556rem\" data-line-height-xl=\"6.556rem\" data-font-size-lg=\"5.667rem\" data-line-height-lg=\"5.667rem\" data-font-size-md=\"4.556rem\" data-line-height-md=\"4.556rem\" data-font-size-xs=\"4.222rem\" data-line-height-xs=\"4.222rem\"><span class=\"inter_bold\" style=\"letter-spacing: -0.139rem;\" data-mce-style=\"letter-spacing: -0.139rem;\" data-letter-spacing-xl=\"-0.139rem\">Editorial layout</span></p>"
+		},
+		"module": "text",
+		"options": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_zlbmu1jme": {
+		"content": {
+			"xl": "<p>Hey there, this is the default text for a new paragraph. Feel free to edit this paragraph by clicking on the yellow edit icon. After you are done just click on the yellow checkmark button on the top right. Have Fun!</p>"
+		},
+		"module": "text",
+		"options": {},
+		"styles": {
+			"xl": {
+				"padding-top": "1.6666666666666667rem",
+				"padding-right": "3.3333333333333335rem"
+			},
+			"xs": {
+				"padding-right": "0rem"
+			},
+			"md": {
+				"padding-right": "1.6666666666666667rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_srv9uzdoc": {
+		"content": {
+			"xl": ""
+		},
+		"module": "button",
+		"options": {
+			"width": "auto",
+			"align": "left",
+			"background-color": "#020202",
+			"font_family": "inter_bold",
+			"color": "#ffffff",
+			"padding-right": "2.2222222222222223rem",
+			"padding-bottom": "0.6666666666666666rem",
+			"padding-left": "2.2222222222222223rem",
+			"padding-top": "0.6666666666666666rem",
+			"hover-color": "#000000",
+			"hover-background-color": "#ffd300"
+		},
+		"styles": {
+			"xl": {
+				"padding-top": "1.6666666666666667rem"
+			},
+			"sm": {
+				"padding-bottom": "3.3333333333333335rem"
+			},
+			"xs": {
+				"padding-bottom": "3.3333333333333335rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"column_aabz3y2xu": {
+		"width": {
+			"xl": "6"
+		},
+		"options": {},
+		"layout": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_0nng60h7p": {
+		"content": {
+			"xl": "semplice_editorial_1.jpg"
+		},
+		"module": "image",
+		"options": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	}
+}

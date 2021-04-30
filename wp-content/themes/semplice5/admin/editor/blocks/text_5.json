@@ -1,0 +1,134 @@
+{
+	"order": {
+		"section_y5fbjt8hh": {
+			"row_ax45taupy": {
+				"columns": {
+					"column_lk3b9tc57": ["content_m9sulbd3d", "content_nz6tnb798", "content_v008h3xdz", "content_9qlhafhcz"]
+				}
+			}
+		}
+	},
+	"section_y5fbjt8hh": {
+		"options": {},
+		"layout": {
+			"data-column-mode-sm": "single",
+			"data-column-mode-xs": "single"
+		},
+		"customHeight": {
+			"xl": {
+				"height": "15rem"
+			}
+		},
+		"styles": {
+			"xl": {
+				"background_type": "img",
+				"background-image": "semplice_text_3.jpg",
+				"padding-top": "8.88888888888889rem",
+				"padding-bottom": "8.88888888888889rem",
+				"background-size": "cover",
+				"background-position": "50% 50%",
+				"background-repeat": "no-repeat"
+			},
+			"xs": {
+				"padding-top": "5.555555555555555rem",
+				"padding-bottom": "5.555555555555555rem"
+			},
+			"sm": {
+				"padding-top": "4.888888888888889rem",
+				"padding-bottom": "5.555555555555555rem"
+			},
+			"md": {
+				"padding-top": "6.666666666666667rem",
+				"padding-bottom": "6.666666666666667rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"column_lk3b9tc57": {
+		"width": {
+			"xl": "12"
+		},
+		"options": {},
+		"layout": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_m9sulbd3d": {
+		"content": {
+			"xl": "<p style=\"font-size: 3.556rem; line-height: 3.556rem; text-align: right;\" data-mce-style=\"font-size: 3.556rem; line-height: 3.556rem; text-align: right;\" data-font-size-xl=\"8.000rem\" data-line-height-xl=\"8.000rem\" data-font-size-md=\"4.778rem\" data-line-height-md=\"4.778rem\" data-font-size-xs=\"2.000rem\" data-line-height-xs=\"2.000rem\" data-font-size-sm=\"3.556rem\" data-line-height-sm=\"3.556rem\" data-font-size-lg=\"7.111rem\" data-line-height-lg=\"7.111rem\"><span class=\"inter_bold\" style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">Hello there,</span></p>"
+		},
+		"module": "text",
+		"options": {},
+		"styles": {
+			"xl": {
+				"padding-top": "0rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_nz6tnb798": {
+		"content": {
+			"xl": "<p style=\"font-size: 3.556rem; line-height: 3.556rem; text-align: left;\" data-mce-style=\"font-size: 3.556rem; line-height: 3.556rem; text-align: left;\" data-font-size-xl=\"8.000rem\" data-line-height-xl=\"8.000rem\" data-font-size-md=\"4.778rem\" data-line-height-md=\"4.778rem\" data-font-size-xs=\"2.000rem\" data-line-height-xs=\"2.000rem\" data-font-size-sm=\"3.556rem\" data-line-height-sm=\"3.556rem\" data-font-size-lg=\"7.111rem\" data-line-height-lg=\"7.111rem\"><span class=\"inter_bold\" style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">this is my</span></p>"
+		},
+		"module": "text",
+		"options": {},
+		"styles": {
+			"xl": {
+				"padding-top": "1.6666666666666667rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_v008h3xdz": {
+		"content": {
+			"xl": "<p style=\"font-size: 3.556rem; line-height: 3.556rem; text-align: right;\" data-mce-style=\"font-size: 3.556rem; line-height: 3.556rem; text-align: right;\" data-font-size-xl=\"8.000rem\" data-line-height-xl=\"8.000rem\" data-font-size-md=\"4.778rem\" data-line-height-md=\"4.778rem\" data-font-size-xs=\"2.000rem\" data-line-height-xs=\"2.000rem\" data-font-size-sm=\"3.556rem\" data-line-height-sm=\"3.556rem\" data-font-size-lg=\"7.111rem\" data-line-height-lg=\"7.111rem\"><span class=\"inter_bold\" style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">graphic design</span></p>"
+		},
+		"module": "text",
+		"options": {},
+		"styles": {
+			"xl": {
+				"padding-top": "1.6666666666666667rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_9qlhafhcz": {
+		"content": {
+			"xl": "<p style=\"font-size: 3.556rem; line-height: 3.556rem; text-align: left;\" data-mce-style=\"font-size: 3.556rem; line-height: 3.556rem; text-align: left;\" data-font-size-xl=\"8.000rem\" data-line-height-xl=\"8.000rem\" data-font-size-md=\"4.778rem\" data-line-height-md=\"4.778rem\" data-font-size-xs=\"2.000rem\" data-line-height-xs=\"2.000rem\" data-font-size-sm=\"3.556rem\" data-line-height-sm=\"3.556rem\" data-font-size-lg=\"7.111rem\" data-line-height-lg=\"7.111rem\"><span class=\"inter_bold\" style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">portfolio.</span></p>"
+		},
+		"module": "text",
+		"options": {},
+		"styles": {
+			"xl": {
+				"padding-top": "1.6666666666666667rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	}
+}

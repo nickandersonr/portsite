@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 31 31">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #aaa;
+      }
+    </style>
+  </defs>
+  <rect id="Rechteck_1" data-name="Rechteck 1" class="cls-1" x="6" width="7" height="6"/>
+  <rect id="Rechteck_2" data-name="Rechteck 2" class="cls-1" x="19" width="7" height="6"/>
+  <rect id="Rechteck_3" data-name="Rechteck 3" class="cls-1" x="26" y="6" width="5" height="7"/>
+  <rect id="Rechteck_4" data-name="Rechteck 4" class="cls-1" y="6" width="6" height="7"/>
+  <rect id="Rechteck_5" data-name="Rechteck 5" class="cls-1" x="6" y="13" width="7" height="6"/>
+  <rect id="Rechteck_6" data-name="Rechteck 6" class="cls-1" x="13" y="6" width="6" height="7"/>
+  <rect id="Rechteck_7" data-name="Rechteck 7" class="cls-1" x="19" y="13" width="7" height="6"/>
+  <rect id="Rechteck_8" data-name="Rechteck 8" class="cls-1" x="26" y="19" width="5" height="6"/>
+  <rect id="Rechteck_9" data-name="Rechteck 9" class="cls-1" x="19" y="25" width="7" height="6"/>
+  <rect id="Rechteck_10" data-name="Rechteck 10" class="cls-1" x="13" y="19" width="6" height="6"/>
+  <rect id="Rechteck_11" data-name="Rechteck 11" class="cls-1" x="6" y="25" width="7" height="6"/>
+  <rect id="Rechteck_12" data-name="Rechteck 12" class="cls-1" y="19" width="6" height="6"/>
+</svg>

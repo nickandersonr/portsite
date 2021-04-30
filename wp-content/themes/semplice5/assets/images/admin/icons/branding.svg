@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="17" height="24" viewBox="0 0 17 24">
+  <defs>
+    <style>
+      .semplice-ps-1 {
+        fill: #009a00;
+      }
+
+      .semplice-ps-2 {
+        fill: #134ae5;
+      }
+
+      .semplice-ps-3 {
+        fill: #ff0026;
+      }
+
+      .semplice-ps-4 {
+        fill: #eebf33;
+      }
+    </style>
+  </defs>
+  <circle cx="8.5" cy="6.5" r="2.5" class="semplice-ps-1"/>
+  <circle cx="14.5" cy="12.5" r="2.5" class="semplice-ps-2"/>
+  <circle cx="8.5" cy="18.5" r="2.5" class="semplice-ps-3"/>
+  <circle cx="2.5" cy="12.5" r="2.5" class="semplice-ps-4"/>
+</svg>

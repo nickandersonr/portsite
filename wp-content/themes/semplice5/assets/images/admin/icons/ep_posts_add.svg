@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="63" height="44" viewBox="0 0 63 44">
+<defs>
+    <style>
+      .ep-posts-add-icon {
+        fill: #000000;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="Form_1" data-name="Form 1" class="ep-posts-add-icon" d="M31.5,34A11.5,11.5,0,1,1,43,22.5,11.513,11.513,0,0,1,31.5,34Zm0-22A10.5,10.5,0,1,0,42,22.5,10.512,10.512,0,0,0,31.5,12Zm0,17a0.5,0.5,0,0,1-.5-0.5v-12a0.5,0.5,0,0,1,1,0v12A0.5,0.5,0,0,1,31.5,29Zm6-6h-12a0.5,0.5,0,0,1,0-1h12A0.5,0.5,0,0,1,37.5,23Z"/>
+</svg>

@@ -1,0 +1,23 @@
+<svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 60 60" style="enable-background:new 0 0 60 60;" xml:space="preserve">
+<style type="text/css">
+	.motions-icon-0{fill:#000000;}
+	.motions-icon-1{fill-rule:evenodd;clip-rule:evenodd;fill:#585857;}
+	.motions-icon-2{fill-rule:evenodd;clip-rule:evenodd;fill:#9E9D9C;}
+	.motions-icon-3{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+</style>
+<g>
+	<circle id="Ellipse_1_Kopie" class="motions-icon-0" cx="22.03" cy="30" r="7.97"/>
+	<path id="Form_1_Kopie_2" class="motions-icon-1" d="M22.03,23.35c3.67,0,6.65,2.98,6.65,6.65s-2.98,6.65-6.65,6.65s-6.65-2.98-6.65-6.65
+		C15.38,26.33,18.36,23.36,22.03,23.35 M22.03,22.03c-4.4,0-7.97,3.57-7.97,7.97s3.57,7.97,7.97,7.97S30,34.4,30,30
+		S26.43,22.03,22.03,22.03L22.03,22.03z"/>
+	<circle class="motions-icon-0" cx="30" cy="30" r="7.97"/>
+	<path id="Form_1_Kopie" class="motions-icon-2" d="M30,23.35c3.67,0,6.65,2.98,6.65,6.65s-2.98,6.65-6.65,6.65s-6.65-2.98-6.65-6.65
+		C23.36,26.33,26.33,23.36,30,23.35 M30,22.03c-4.4,0-7.97,3.57-7.97,7.97s3.57,7.97,7.97,7.97s7.97-3.57,7.97-7.97
+		S34.4,22.03,30,22.03L30,22.03z"/>
+	<circle id="Ellipse_1_Kopie_2" class="motions-icon-0" cx="37.97" cy="30" r="7.97"/>
+	<path id="Form_1" class="motions-icon-3" d="M37.97,23.35c3.67,0,6.65,2.98,6.65,6.65s-2.98,6.65-6.65,6.65c-3.67,0-6.65-2.98-6.65-6.65
+		C31.33,26.33,34.31,23.36,37.97,23.35 M37.97,22.03C33.57,22.03,30,25.6,30,30s3.57,7.97,7.97,7.97s7.97-3.57,7.97-7.97
+		S42.38,22.03,37.97,22.03L37.97,22.03z"/>
+</g>
+</svg>

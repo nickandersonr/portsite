@@ -1,0 +1,148 @@
+{
+	"order": {
+		"section_mask4hhuh": {
+			"row_tboej9vkk": {
+				"columns": {
+					"column_763vlo7se": ["content_v7d0m5xf4", "content_il21gnxik"]
+				}
+			},
+			"row_1o0in7l7z": {
+				"columns": {
+					"column_6p4frutxl": ["content_zj4kig1o0", "content_fhkdq7rxn"]
+				}
+			}
+		}
+	},
+	"section_mask4hhuh": {
+		"options": {},
+		"layout": {
+			"data-column-mode-sm": "single",
+			"data-column-mode-xs": "single",
+			"data-justify": "center"
+		},
+		"customHeight": {
+			"xl": {
+				"height": "15rem"
+			}
+		},
+		"styles": {
+			"xl": {
+				"padding-top": "4.444444444444445rem",
+				"padding-bottom": "4.444444444444445rem",
+				"background-color": "#ffffff"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"column_763vlo7se": {
+		"width": {
+			"xl": "7",
+			"md": "10",
+			"lg": "8"
+		},
+		"options": {},
+		"layout": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_v7d0m5xf4": {
+		"content": {
+			"xl": "<p style=\"text-align: center; font-size: 8rem; line-height: 8rem;\" data-mce-style=\"text-align: center; font-size: 8rem; line-height: 8rem;\" data-font-size-xl=\"8.000rem\" data-line-height-xl=\"8.000rem\" data-font-size-xs=\"4.000rem\" data-font-size-sm=\"6.000rem\" data-line-height-sm=\"6.000rem\" data-line-height-xs=\"4.000rem\" data-font-size-md=\"6.556rem\" data-line-height-md=\"6.556rem\"><span class=\"inter_bold\" style=\"letter-spacing: -0.222rem;\" data-mce-style=\"letter-spacing: -0.222rem;\" data-letter-spacing-xl=\"-0.222rem\">Chairs</span></p>"
+		},
+		"module": "text",
+		"options": {},
+		"styles": {
+			"xl": {
+				"padding-bottom": "1.6666666666666667rem"
+			},
+			"xs": {
+				"padding-bottom": "1.1111111111111112rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_il21gnxik": {
+		"content": {
+			"xl": "<p style=\"text-align: center;\" data-mce-style=\"text-align: center;\"><span class=\"inter_regular\">Hey there, this is the default text for a new paragraph. Feel free to edit this paragraph by clicking on the yellow edit icon. After you are done just click on the yellow checkmark button on the top right. Have Fun!</span></p>"
+		},
+		"module": "text",
+		"options": {},
+		"styles": {
+			"xl": {
+				"padding-bottom": "3.3333333333333335rem"
+			},
+			"sm": {
+				"padding-bottom": "1.6666666666666667rem"
+			},
+			"xs": {
+				"padding-bottom": "1.6666666666666667rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"column_6p4frutxl": {
+		"width": {
+			"xl": "12"
+		},
+		"options": {},
+		"layout": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_zj4kig1o0": {
+		"content": {
+			"xl": "semplice_imagegrid_15.jpg"
+		},
+		"module": "image",
+		"options": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_fhkdq7rxn": {
+		"content": {
+			"xl": "semplice_imagegrid_16.jpg"
+		},
+		"module": "image",
+		"options": {},
+		"styles": {
+			"xl": {
+				"padding-top": "1.6666666666666667rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	}
+}

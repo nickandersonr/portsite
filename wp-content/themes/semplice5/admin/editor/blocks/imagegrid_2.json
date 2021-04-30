@@ -1,0 +1,262 @@
+{
+	"order": {
+		"section_3piabooho": {
+			"row_m58qhmhj6": {
+				"columns": {
+					"column_urzy4ko3g": ["content_t4ceozteh", "content_v2w3cxt06"]
+				}
+			},
+			"row_m3vpwmzv2": {
+				"columns": {
+					"column_qdbdmit6u": ["content_mb4snewsu"],
+					"column_e83s3v0jz": ["content_rvpgapm0h"]
+				}
+			},
+			"row_i7hgubmh5": {
+				"columns": {
+					"column_2ffvub4r9": ["content_o9o5nl3ej"],
+					"column_5zflmfrzm": ["content_j63cxugnt"],
+					"column_lj0lwsk26": ["content_zk9dz91ee"]
+				}
+			}
+		}
+	},
+	"section_3piabooho": {
+		"options": {},
+		"layout": {
+			"data-column-mode-sm": "single",
+			"data-column-mode-xs": "single",
+			"data-justify": "center"
+		},
+		"customHeight": {
+			"xl": {
+				"height": "15rem"
+			}
+		},
+		"styles": {
+			"xl": {
+				"padding-top": "4.444444444444445rem",
+				"padding-bottom": "4.444444444444445rem",
+				"background-color": "#ffffff"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"column_urzy4ko3g": {
+		"width": {
+			"xl": "7",
+			"md": "9"
+		},
+		"options": {},
+		"layout": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_t4ceozteh": {
+		"content": {
+			"xl": "<p style=\"text-align: center; font-size: 4.667rem; line-height: 8rem;\" data-mce-style=\"text-align: center; font-size: 4.667rem; line-height: 8rem;\" data-font-size-xl=\"8.000rem\" data-line-height-xl=\"8.000rem\" data-font-size-xs=\"4.667rem\"><span class=\"inter_bold\" style=\"letter-spacing: -0.111rem;\" data-mce-style=\"letter-spacing: -0.111rem;\" data-letter-spacing-xl=\"-0.111rem\">Sleep</span></p>"
+		},
+		"module": "text",
+		"options": {},
+		"styles": {
+			"xl": {
+				"padding-bottom": "1.6666666666666667rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_v2w3cxt06": {
+		"content": {
+			"xl": "<p style=\"text-align: center;\" data-mce-style=\"text-align: center;\"><span class=\"inter_regular\">Sand &amp; Such is a magazine dedicated to sleep and everything around. The moments before and after, rituals, snoozing, slumbering, drifting, breakfasts, brunches, the night, the morning, insomnia, dreams and snores ... <span style=\"text-decoration: underline;\" data-mce-style=\"text-decoration: underline;\"><span style=\"color: rgb(0, 0, 0);\" data-mce-style=\"color: #000000;\"><a data-mce-href=\"https://sandandsuch.com\" href=\"https://sandandsuch.com\" target=\"_blank\" rel=\"noopener\" data-mce-selected=\"1\" style=\"color: rgb(0, 0, 0); text-decoration: underline;\" data-mce-style=\"color: #000000; text-decoration: underline;\">read more﻿</a></span></span></span></p>"
+		},
+		"module": "text",
+		"options": {},
+		"styles": {
+			"xl": {
+				"padding-bottom": "3.3333333333333335rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"column_qdbdmit6u": {
+		"width": {
+			"xl": "8"
+		},
+		"options": {},
+		"layout": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_mb4snewsu": {
+		"content": {
+			"xl": "semplice_imagegrid_5.jpg"
+		},
+		"module": "image",
+		"options": {},
+		"styles": {
+			"xl": {
+				"padding-bottom": "1.6666666666666667rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"column_e83s3v0jz": {
+		"width": {
+			"xl": "4"
+		},
+		"options": {},
+		"layout": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_rvpgapm0h": {
+		"content": {
+			"xl": "semplice_imagegrid_6.jpg"
+		},
+		"module": "image",
+		"options": {},
+		"styles": {
+			"xl": {
+				"padding-bottom": "1.6666666666666667rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"column_2ffvub4r9": {
+		"width": {
+			"xl": 4
+		},
+		"options": {},
+		"layout": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_o9o5nl3ej": {
+		"content": {
+			"xl": "semplice_imagegrid_7.jpg"
+		},
+		"module": "image",
+		"options": {},
+		"styles": {
+			"xl": {
+				"padding-top": "0rem",
+				"padding-bottom": "1.6666666666666667rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"column_5zflmfrzm": {
+		"width": {
+			"xl": 4
+		},
+		"options": {},
+		"layout": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_j63cxugnt": {
+		"content": {
+			"xl": "semplice_imagegrid_8.jpg"
+		},
+		"module": "image",
+		"options": {},
+		"styles": {
+			"xl": {
+				"padding-top": "0rem",
+				"padding-bottom": "1.6666666666666667rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"column_lj0lwsk26": {
+		"width": {
+			"xl": 4
+		},
+		"options": {},
+		"layout": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_zk9dz91ee": {
+		"content": {
+			"xl": "semplice_imagegrid_9.jpg"
+		},
+		"module": "image",
+		"options": {},
+		"styles": {
+			"xl": {
+				"padding-top": "0rem",
+				"padding-bottom": "1.6666666666666667rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	}
+}

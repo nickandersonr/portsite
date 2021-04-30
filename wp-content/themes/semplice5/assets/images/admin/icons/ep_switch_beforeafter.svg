@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <defs>
+    <style>
+      .before-after-icon {
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="Form_2" data-name="Form 2" class="before-after-icon" d="M29,13V27H12V13H29m1-1H11V28H30V12h0Z"/>
+  <rect id="Rechteck_1" data-name="Rechteck 1" x="20" y="10" width="1" height="20"/>
+  <path id="Form_3" data-name="Form 3" class="before-after-icon" d="M18.458,18.9a0.95,0.95,0,0,1,1.456,0l0.364,0.407V25H13Zm0,0a0.95,0.95,0,0,1,1.456,0l2.467,2.758L22.947,21a0.994,0.994,0,0,1,1.5,0L28,25H13ZM14.374,24.38l4.533-5.059h0a0.352,0.352,0,0,1,.558,0l2.925,3.27L23.4,21.416a0.394,0.394,0,0,1,.6,0h0l2.638,2.96H14.374ZM25.535,17.5a1.441,1.441,0,1,0-1.415-1.441A1.428,1.428,0,0,0,25.535,17.5Zm0,0.617a2.059,2.059,0,1,0-2.022-2.058A2.04,2.04,0,0,0,25.535,18.122Z"/>
+</svg>

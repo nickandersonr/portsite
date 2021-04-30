@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+<defs>
+    <style>
+      .upload-button-image {
+        fill: #aaa;
+      }
+    </style>
+  </defs>
+  <rect id="Rechteck_1" data-name="Rechteck 1" class="upload-button-image" y="24" width="50" height="2"/>
+  <rect id="Rechteck_2" data-name="Rechteck 2" class="upload-button-image" x="24" width="2" height="50"/>
+</svg>

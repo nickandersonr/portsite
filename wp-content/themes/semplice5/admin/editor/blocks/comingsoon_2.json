@@ -1,0 +1,150 @@
+{
+	"order": {
+		"section_54lqf43zl": {
+			"row_37v96358i": {
+				"columns": {
+					"column_3zd81z975": ["content_igletlkqp", "content_22jy3m6yt", "content_p02yn2j9l"]
+				}
+			}
+		}
+	},
+	"section_54lqf43zl": {
+		"options": {},
+		"layout": {
+			"data-column-mode-sm": "single",
+			"data-column-mode-xs": "single",
+			"data-height": "fullscreen",
+			"data-valign": "center",
+			"data-justify": "center"
+		},
+		"customHeight": {
+			"xl": {
+				"height": "15rem"
+			}
+		},
+		"styles": {
+			"xl": {
+				"background_type": "img",
+				"background-image": "semplice_comingsoon_2.png",
+				"background-size": "cover",
+				"background-position": "50% 0%"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"column_3zd81z975": {
+		"width": {
+			"xl": "10",
+			"md": "11"
+		},
+		"options": {},
+		"layout": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_igletlkqp": {
+		"content": {
+			"xl": "<p style=\"font-size: 7.111rem; line-height: 7.111rem; text-align: center;\" data-mce-style=\"font-size: 7.111rem; line-height: 7.111rem; text-align: center;\" data-font-size-xl=\"7.111rem\" data-line-height-xl=\"7.111rem\" data-font-size-xs=\"4.000rem\" data-line-height-xs=\"4.000rem\"><span class=\"inter_bold\" style=\"letter-spacing: -0.222rem; color: rgb(255, 255, 255);\" data-mce-style=\"letter-spacing: -0.222rem; color: rgb(255, 255, 255);\" data-letter-spacing-xl=\"-0.222rem\">Let’s stay in touch.</span></p>"
+		},
+		"module": "text",
+		"options": {},
+		"styles": {
+			"xl": {
+				"padding-top": "3.3333333333333335rem"
+			},
+			"sm": {
+				"padding-bottom": "0rem",
+				"padding-top": "6.666666666666667rem"
+			},
+			"xs": {
+				"padding-bottom": "0rem",
+				"padding-top": "5.555555555555555rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_22jy3m6yt": {
+		"content": {
+			"xl": "<p style=\"text-align: center;\" data-mce-style=\"text-align: center;\"><span class=\"inter_regular\" style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">Sign up to my email newsletter for the latest news!</span></p>"
+		},
+		"module": "text",
+		"options": {},
+		"styles": {
+			"xl": {
+				"padding-top": "3.3333333333333335rem"
+			},
+			"xs": {
+				"padding-top": "1.6666666666666667rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_p02yn2j9l": {
+		"content": {
+			"xl": ""
+		},
+		"module": "mailchimp",
+		"options": {
+			"fname": "enabled",
+			"placeholder_email": "Email",
+			"input_color": "#020202",
+			"input_bg_color": "#ffffff",
+			"input_holder_color": "#c6c6c6",
+			"input_width": "12.222222222222221rem",
+			"input_font_family": "inter_regular",
+			"input_font_size": "0.7777777777777778rem",
+			"input_border_width": "0rem",
+			"input_border_color": "#ffffff",
+			"input_border_radius": "0rem",
+			"submit_font_family": "inter_bold",
+			"submit_font_size": "0.7777777777777778rem",
+			"submit_label": "SIGN UP",
+			"submit_letter_spacing": "0.1111111111111111rem",
+			"submit_bg_color": "#ffd300",
+			"submit_mouseover_letter_spacing": "0.1111111111111111rem",
+			"submit_border_mouseover_color": "transparent",
+			"input_bg_mouseover_color": "#f2f2f2",
+			"input_holder_mouseover_color": "#ffffff",
+			"input_mouseover_color": "#000000",
+			"input_border_mouseover_color": "#ffffff",
+			"spacing": "0.1111111111111111rem",
+			"alignment": "center",
+			"placeholder_name": "Name"
+		},
+		"styles": {
+			"xl": {
+				"padding-top": "1.6666666666666667rem",
+				"padding-bottom": "3.3333333333333335rem"
+			},
+			"sm": {
+				"padding-bottom": "6.666666666666667rem"
+			},
+			"xs": {
+				"padding-bottom": "5.555555555555555rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	}
+}

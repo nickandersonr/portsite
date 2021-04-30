@@ -1,0 +1,195 @@
+{
+	"order": {
+		"section_xpgzyv48o": {
+			"row_uu87tt20m": {
+				"columns": {
+					"column_feiuynyqb": ["content_7wpftkfoo"],
+					"column_za4t3wjmd": ["content_ddozn6zk0"]
+				}
+			},
+			"row_r0o8mfdk1": {
+				"columns": {
+					"column_0f94j2h2k": ["content_7xnpfa3wr"],
+					"column_numqjxr4s": ["content_n8trr764x"]
+				}
+			}
+		}
+	},
+	"section_xpgzyv48o": {
+		"options": {},
+		"layout": {
+			"data-column-mode-sm": "single",
+			"data-column-mode-xs": "single",
+			"data-layout": "fluid",
+			"data-gutter": "no",
+			"data-valign": "center"
+		},
+		"customHeight": {
+			"xl": {
+				"height": "15rem"
+			}
+		},
+		"styles": {
+			"xl": {
+				"background-color": "#000000"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"column_feiuynyqb": {
+		"width": {
+			"xl": "8"
+		},
+		"options": {},
+		"layout": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_7wpftkfoo": {
+		"content": {
+			"xl": "semplice_fluidgrid_19.jpg"
+		},
+		"module": "image",
+		"options": {
+			"width": "grid-width"
+		},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"column_za4t3wjmd": {
+		"width": {
+			"xl": "4"
+		},
+		"options": {},
+		"layout": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_ddozn6zk0": {
+		"content": {
+			"xl": "<p style=\"text-align: center; font-size: 3.778rem; line-height: 3.778rem;\" data-mce-style=\"text-align: center; font-size: 3.778rem; line-height: 3.778rem;\" data-font-size-xl=\"6.000rem\" data-line-height-xl=\"6.000rem\" data-font-size-lg=\"4.000rem\" data-line-height-lg=\"4.000rem\" data-font-size-md=\"3.222rem\" data-line-height-md=\"3.222rem\" data-font-size-xs=\"3.778rem\" data-line-height-xs=\"3.778rem\"><span style=\"color: rgb(255, 255, 255); letter-spacing: -0.111rem;\" data-mce-style=\"color: rgb(255, 255, 255); letter-spacing: -0.111rem;\" class=\"inter_bold\" data-letter-spacing-xl=\"-0.111rem\">Space</span></p>"
+		},
+		"module": "text",
+		"options": {},
+		"styles": {
+			"xl": {},
+			"sm": {
+				"padding-bottom": "4.444444444444445rem",
+				"padding-top": "0.5555555555555556rem"
+			},
+			"xs": {
+				"padding-bottom": "4.444444444444445rem",
+				"padding-top": "0.5555555555555556rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"column_0f94j2h2k": {
+		"width": {
+			"xl": "4"
+		},
+		"options": {},
+		"layout": {},
+		"styles": {
+			"xl": {},
+			"sm": {
+				"order": "1"
+			},
+			"xs": {
+				"order": "1"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_7xnpfa3wr": {
+		"content": {
+			"xl": "<p style=\"text-align: center; font-size: 3.778rem; line-height: 3.778rem;\" data-mce-style=\"text-align: center; font-size: 3.778rem; line-height: 3.778rem;\" data-font-size-xl=\"6.000rem\" data-line-height-xl=\"6.000rem\" data-font-size-lg=\"4.000rem\" data-line-height-lg=\"4.000rem\" data-font-size-md=\"3.222rem\" data-line-height-md=\"3.222rem\" data-font-size-xs=\"3.778rem\" data-line-height-xs=\"3.778rem\"><span style=\"color: rgb(255, 255, 255); letter-spacing: -0.111rem;\" data-mce-style=\"color: rgb(255, 255, 255); letter-spacing: -0.111rem;\" class=\"inter_bold\" data-letter-spacing-xl=\"-0.111rem\">Space</span></p>"
+		},
+		"module": "text",
+		"options": {},
+		"styles": {
+			"xl": {},
+			"sm": {
+				"padding-bottom": "4.444444444444445rem",
+				"padding-top": "0.5555555555555556rem"
+			},
+			"xs": {
+				"padding-bottom": "4.444444444444445rem",
+				"padding-top": "0.5555555555555556rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"column_numqjxr4s": {
+		"width": {
+			"xl": "8"
+		},
+		"options": {},
+		"layout": {},
+		"styles": {
+			"xl": {},
+			"sm": {
+				"order": "0"
+			},
+			"xs": {
+				"order": "0"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_n8trr764x": {
+		"content": {
+			"xl": "semplice_fluidgrid_20.jpg"
+		},
+		"module": "image",
+		"options": {
+			"width": "grid-width"
+		},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	}
+}

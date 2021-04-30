@@ -1,0 +1,42 @@
+{
+	"order": {
+		"cover": {
+			"row_cover": {
+				"columns": {}
+			}
+		}
+	},
+	"cover_visibility": "visible",
+	"cover": {
+		"options": {},
+		"layout": {
+			"data-height": "fullscreen",
+			"data-column-mode-sm": "single",
+			"data-column-mode-xs": "single",
+			"data-layout": "fluid",
+			"data-gutter": "no",
+			"data-valign": "center"
+		},
+		"customHeight": {
+			"xl": {
+				"height": "15rem"
+			}
+		},
+		"styles": {
+			"xl": {
+				"background_type": "img",
+				"background-image": "87",
+				"background-size": "cover",
+				"background-position": "50% 50%",
+				"background-repeat": "no-repeat",
+				"background-color": "#111111"
+			}
+		},
+		"motions": {
+			"active": [],
+			"start": {},
+			"end": {}
+		}
+	},
+	"unpublished_changes": false
+}

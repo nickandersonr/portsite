@@ -1,0 +1,273 @@
+{
+	"order": {
+		"section_ny1wfsoe9": {
+			"row_i2h1c52tu": {
+				"columns": {
+					"column_nzce21ept": ["content_ixitgcwy0", "content_zl01ykv36"]
+				}
+			},
+			"row_bzgu5k4m6": {
+				"columns": {
+					"column_l1guh7iyh": ["content_zxobce3yq"],
+					"column_jvgqlglii": ["content_ke77s2g49"]
+				}
+			},
+			"row_j81euhgja": {
+				"columns": {
+					"column_8q4xg9mc6": ["content_z0an8ygaa"],
+					"column_ehgnrhie0": ["content_5bzue2nei"]
+				}
+			},
+			"row_9dxeolo69": {
+				"columns": {
+					"column_4m74up48r": ["content_0yym78cto"]
+				}
+			}
+		}
+	},
+	"section_ny1wfsoe9": {
+		"options": {},
+		"layout": {
+			"data-column-mode-sm": "single",
+			"data-column-mode-xs": "single",
+			"data-justify": "center"
+		},
+		"customHeight": {
+			"xl": {
+				"height": "15rem"
+			}
+		},
+		"styles": {
+			"xl": {
+				"padding-top": "4.444444444444445rem",
+				"padding-bottom": "4.444444444444445rem",
+				"background-color": "#ffffff"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"column_nzce21ept": {
+		"width": {
+			"xl": "7",
+			"md": "10",
+			"lg": "8"
+		},
+		"options": {},
+		"layout": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_ixitgcwy0": {
+		"content": {
+			"xl": "<p style=\"text-align: center; font-size: 6.556rem; line-height: 6.556rem;\" data-mce-style=\"text-align: center; font-size: 6.556rem; line-height: 6.556rem;\" data-font-size-xl=\"8.000rem\" data-line-height-xl=\"8.000rem\" data-font-size-xs=\"4.000rem\" data-font-size-sm=\"6.000rem\" data-line-height-sm=\"6.000rem\" data-line-height-xs=\"4.000rem\" data-font-size-md=\"6.556rem\" data-line-height-md=\"6.556rem\"><span class=\"inter_bold\" style=\"letter-spacing: -0.222rem;\" data-mce-style=\"letter-spacing: -0.222rem;\" data-letter-spacing-xl=\"-0.222rem\">Concrete</span></p>"
+		},
+		"module": "text",
+		"options": {},
+		"styles": {
+			"xl": {
+				"padding-bottom": "1.6666666666666667rem"
+			},
+			"xs": {
+				"padding-bottom": "1.1111111111111112rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_zl01ykv36": {
+		"content": {
+			"xl": "<p style=\"text-align: center;\" data-mce-style=\"text-align: center;\"><span class=\"inter_regular\">Hey there, this is the default text for a new paragraph. Feel free to edit this paragraph by clicking on the yellow edit icon. After you are done just click on the yellow checkmark button on the top right. Have Fun!</span></p>"
+		},
+		"module": "text",
+		"options": {},
+		"styles": {
+			"xl": {
+				"padding-bottom": "3.3333333333333335rem"
+			},
+			"sm": {
+				"padding-bottom": "1.6666666666666667rem"
+			},
+			"xs": {
+				"padding-bottom": "1.6666666666666667rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"column_l1guh7iyh": {
+		"width": {
+			"xl": "8"
+		},
+		"options": {},
+		"layout": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_zxobce3yq": {
+		"content": {
+			"xl": "semplice_imagegrid_10.jpg"
+		},
+		"module": "image",
+		"options": {},
+		"styles": {
+			"xl": {
+				"padding-bottom": "1.6666666666666667rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"column_jvgqlglii": {
+		"width": {
+			"xl": "4"
+		},
+		"options": {},
+		"layout": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_ke77s2g49": {
+		"content": {
+			"xl": "semplice_imagegrid_11.jpg"
+		},
+		"module": "image",
+		"options": {},
+		"styles": {
+			"xl": {
+				"padding-bottom": "1.6666666666666667rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"column_8q4xg9mc6": {
+		"width": {
+			"xl": "4"
+		},
+		"options": {},
+		"layout": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_z0an8ygaa": {
+		"content": {
+			"xl": "semplice_imagegrid_12.jpg"
+		},
+		"module": "image",
+		"options": {},
+		"styles": {
+			"xl": {
+				"padding-top": "0rem",
+				"padding-bottom": "1.6666666666666667rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"column_ehgnrhie0": {
+		"width": {
+			"xl": "8"
+		},
+		"options": {},
+		"layout": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_5bzue2nei": {
+		"content": {
+			"xl": "semplice_imagegrid_13.jpg"
+		},
+		"module": "image",
+		"options": {},
+		"styles": {
+			"xl": {
+				"padding-top": "0rem",
+				"padding-bottom": "1.6666666666666667rem"
+			}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"column_4m74up48r": {
+		"width": {
+			"xl": "12"
+		},
+		"options": {},
+		"layout": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	},
+	"content_0yym78cto": {
+		"content": {
+			"xl": "semplice_imagegrid_14.jpg"
+		},
+		"module": "image",
+		"options": {},
+		"styles": {
+			"xl": {}
+		},
+		"motions": {
+			"active": {},
+			"start": {},
+			"end": {}
+		}
+	}
+}

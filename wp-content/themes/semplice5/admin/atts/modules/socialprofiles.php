@@ -1,0 +1,121 @@
+<?php
+
+// -----------------------------------------
+// semplice
+// admin/atts/modules/socialprofiles.php
+// -----------------------------------------
+
+$socialprofiles = array(
+	'profile-options' => array(
+		'title'  	 => 'Social Profiles',
+		'break'		 => '1',
+		'data-hide-mobile' => true,
+		'profiles' => array(
+			'data-input-type' 	=> 'button',
+			'title'		 		=> 'Profiles',
+			'hide-title' 		=> true,
+			'button-title'		=> 'Manage Profiles',
+			'size'		 		=> 'span4',
+			'class'				=> 'semplice-button white-button expand-options admin-click-handler',
+			'data-expand-options' => 'socialprofiles',
+		),
+	),
+	'grid-options' => array(
+		'title'  	 => 'Grid Options',
+		'hide-title' => true,
+		'break'		 => '2',
+		'data-hide-mobile' => true,
+		'distributed' => array(
+			'data-input-type' 	=> 'switch',
+			'switch-type'		=> 'twoway',
+			'title'		 		=> 'Distributed',
+			'size'		 		=> 'span2',
+			'class'				=> 'editor-listen',
+			'data-handler'		=> 'socialProfiles',
+			'default' 	 		=> 'default',
+			'switch-values' => array(
+				'default' 		=> 'Default',
+				'evenly'		=> 'Evenly',
+			),
+		),
+		'align' => array(
+			'data-input-type' 	=> 'select-box',
+			'title'		 		=> 'Alignment',
+			'size'		 		=> 'span2',
+			'class'				=> 'editor-listen',
+			'data-handler'		=> 'socialProfiles',
+			'default' 	 		=> 'center',
+			'help'				=> 'Padding only works if you set \'Distributed\' to \'Default\'.',
+			'select-box-values' => array(
+				'left' 		=> 'Left',
+				'center'	=> 'Center',
+				'right'		=> 'Right',
+			),
+		),
+	),
+	'icon-options' => array(
+		'title'  	 => 'Icons',
+		'break'		 => '4',
+		'data-hide-mobile' => true,
+		'icon_color' => array(
+			'title'				=> 'Link',
+			'size'				=> 'span1',
+			'data-input-type'	=> 'color',
+			'default'			=> '#000000',
+			'class'				=> 'color-picker admin-listen-handler',
+			'data-handler' 		=> 'colorPicker',
+			'data-picker'		=> 'socialProfiles',
+			'data-target'		=> '.social-profile svg',
+			'data-css-attribute'=> 'fill',
+		),
+		'icon_color_hover' => array(
+			'title'				=> 'Hover',
+			'size'				=> 'span1',
+			'data-input-type'	=> 'color',
+			'default'			=> '#000000',
+			'class'				=> 'color-picker admin-listen-handler',
+			'data-handler' 		=> 'colorPicker',
+			'data-picker'		=> 'socialProfiles',
+			'data-target'		=> '.social-profile svg',
+			'data-css-attribute'=> 'fill',
+		),
+		'icon_scale' => array(
+			'title'				=> 'Scale',
+			'size'				=> 'span1',
+			'data-input-type' 	=> 'range-slider',
+			'data-css-attribute'=> 'height',
+			'data-target'		=> '.social-profile svg',
+			'data-style-option' => true,
+			'data-has-unit'		=> true,
+			'default'			=> 26,
+			'min'				=> 0,
+			'max'				=> 9999,
+			'class' 	 		=> 'editor-listen',
+			'data-handler'		=> 'socialProfiles',
+			'data-range-slider' => 'socialProfiles',
+		),
+		'icon_padding' => array(
+			'title'				=> 'Padding',
+			'size'				=> 'span1',
+			'data-input-type' 	=> 'range-slider',
+			'data-css-attribute'=> 'padding',
+			'data-target'		=> '.social-profile a',
+			'data-style-option' => true,
+			'data-has-unit'		=> true,
+			'default'			=> 10,
+			'min'				=> 0,
+			'max'				=> 9999,
+			'style-class'		=> 'ov-share-icons',
+			'class' 	 		=> 'editor-listen',
+			'data-handler'		=> 'socialProfiles',
+			'data-range-slider' => 'socialProfiles',
+			'help'				=> 'Padding only works if you set \'Distributed\' to \'Default\'.',
+		),
+	),
+	'icon_options_responsive_lg' => get_sp_responsive('lg'),
+	'icon_options_responsive_md' => get_sp_responsive('md'),
+	'icon_options_responsive_sm' => get_sp_responsive('sm'),
+	'icon_options_responsive_xs' => get_sp_responsive('xs'),
+);
+
+?>
